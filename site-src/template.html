@@ -1,0 +1,331 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>SCOOT 2.0 — Speech Communication Online Open Training</title>
+<meta name="description" content="A living, daily-updated guide to high-quality learning resources and the latest technology in speech communication. Built in the spirit of ISCA's SCOOT project.">
+<style>
+:root{
+  --blue:#14346e; --blue-2:#1d4ea3; --teal:#0e7c86; --ink:#1c2330; --muted:#5b6577;
+  --bg:#f6f8fb; --card:#ffffff; --line:#dde4ee; --chip:#eef2f9; --gold:#b8860b;
+  --radius:10px; --shadow:0 1px 3px rgba(20,52,110,.08),0 4px 14px rgba(20,52,110,.06);
+}
+@media (prefers-color-scheme: dark){
+  :root{ --blue:#8db2ff; --blue-2:#a9c4ff; --teal:#5ad0da; --ink:#e8ecf4; --muted:#9aa4b8;
+    --bg:#12161f; --card:#1a2030; --line:#2a3348; --chip:#232c42; --gold:#e0b34d;
+    --shadow:0 1px 3px rgba(0,0,0,.4); }
+}
+*{box-sizing:border-box}
+body{margin:0;font:16px/1.55 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif;color:var(--ink);background:var(--bg)}
+a{color:var(--blue-2);text-decoration:none} a:hover{text-decoration:underline}
+header{background:linear-gradient(135deg,var(--blue) 0%,#0d2350 100%);color:#fff;padding:34px 20px 20px}
+@media (prefers-color-scheme: dark){ header{background:linear-gradient(135deg,#0d2350,#091733)} }
+.wrap{max-width:1080px;margin:0 auto;padding:0 4px}
+h1{margin:0;font-size:34px;letter-spacing:.5px}
+h1 .v{color:#ffd97a;font-weight:600}
+.tagline{margin:6px 0 2px;font-size:17px;color:#dbe6ff}
+.hmeta{font-size:13px;color:#a9bce4;margin-top:10px}
+.hmeta b{color:#ffd97a;font-weight:600}
+.banner{background:#fff7e0;border-bottom:1px solid #ecd9a0;color:#6b5310;font-size:13.5px;padding:7px 20px;text-align:center}
+@media (prefers-color-scheme: dark){ .banner{background:#3a3013;border-color:#5b4a1a;color:#e6cf8a} }
+nav{position:sticky;top:0;z-index:5;background:var(--card);border-bottom:1px solid var(--line);box-shadow:var(--shadow)}
+nav .wrap{display:flex;gap:2px;overflow-x:auto;padding:0 4px}
+nav button{appearance:none;border:0;background:none;font:inherit;font-size:14.5px;padding:12px 13px;cursor:pointer;color:var(--muted);border-bottom:3px solid transparent;white-space:nowrap}
+nav button.active{color:var(--blue-2);border-bottom-color:var(--blue-2);font-weight:600}
+main{max-width:1080px;margin:22px auto 60px;padding:0 20px}
+.controls{display:flex;gap:10px;flex-wrap:wrap;align-items:center;margin:0 0 18px}
+.controls input[type=search]{flex:1;min-width:220px;padding:9px 12px;font:inherit;border:1px solid var(--line);border-radius:8px;background:var(--card);color:var(--ink)}
+.controls select{padding:8px 10px;font:inherit;border:1px solid var(--line);border-radius:8px;background:var(--card);color:var(--ink)}
+.controls label{font-size:14px;color:var(--muted);display:flex;gap:6px;align-items:center}
+.blurb{color:var(--muted);margin:0 0 16px;max-width:820px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(320px,1fr));gap:14px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:14px 16px;box-shadow:var(--shadow);display:flex;flex-direction:column;gap:7px}
+.card h3{margin:0;font-size:16.5px;line-height:1.35}
+.badges{display:flex;gap:6px;flex-wrap:wrap}
+.badge{font-size:11.5px;padding:2px 8px;border-radius:20px;background:var(--chip);color:var(--muted);border:1px solid var(--line)}
+.badge.level-intro{color:#116329;border-color:#a7d4b4} .badge.level-advanced{color:#8a3b00;border-color:#e5c39a}
+.badge.cost-paid,.badge.cost-freemium{color:var(--gold)}
+.card .org{font-size:13px;color:var(--muted)}
+.card .desc{font-size:14px;margin:0}
+.card .why{font-size:13px;color:var(--teal);margin:0;font-style:italic}
+.topics{display:flex;gap:5px;flex-wrap:wrap;margin-top:auto;padding-top:4px}
+.topic{font-size:11px;color:var(--blue-2);background:var(--chip);padding:1px 7px;border-radius:4px}
+.count{font-size:13px;color:var(--muted);margin:4px 0 14px}
+.empty{color:var(--muted);font-style:italic;padding:30px 0}
+.paper{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:12px 16px;margin-bottom:10px}
+.paper h3{margin:0 0 4px;font-size:15.5px;line-height:1.4}
+.paper .pmeta{font-size:12.5px;color:var(--muted)}
+.paper details{margin-top:6px} .paper summary{cursor:pointer;font-size:13px;color:var(--blue-2)}
+.paper .abs{font-size:13.5px;color:var(--muted);margin:6px 0 0}
+.cols{display:grid;grid-template-columns:1fr;gap:26px}
+@media(min-width:900px){ .cols{grid-template-columns:3fr 2fr} }
+h2{font-size:21px;margin:26px 0 12px;color:var(--blue-2)}
+h2:first-child{margin-top:0}
+table{width:100%;border-collapse:collapse;background:var(--card);border:1px solid var(--line);border-radius:var(--radius);overflow:hidden;font-size:14px}
+th,td{text-align:left;padding:8px 12px;border-bottom:1px solid var(--line)} th{background:var(--chip);font-size:12.5px;text-transform:uppercase;letter-spacing:.4px;color:var(--muted)}
+tr:last-child td{border-bottom:0}
+.path{background:var(--card);border:1px solid var(--line);border-left:4px solid var(--teal);border-radius:var(--radius);padding:14px 18px;margin-bottom:14px}
+.path h3{margin:0 0 6px;font-size:16.5px}
+.path p{margin:0;font-size:14.5px;color:var(--muted)}
+.about p{max-width:820px}
+.quote{border-left:4px solid var(--gold);padding:8px 16px;background:var(--card);border-radius:0 8px 8px 0;font-style:italic;color:var(--muted);max-width:780px}
+.chlog li{font-size:14px;margin-bottom:6px}
+.chlog .d{color:var(--muted);font-size:12.5px;margin-right:8px;font-variant-numeric:tabular-nums}
+footer{border-top:1px solid var(--line);color:var(--muted);font-size:13px;padding:18px 20px;text-align:center}
+.pill-btn{display:inline-block;background:var(--blue-2);color:#fff;padding:8px 16px;border-radius:8px;font-size:14px}
+.pill-btn:hover{text-decoration:none;opacity:.92}
+@media (prefers-color-scheme: dark){ .pill-btn{color:#0d1526} }
+</style>
+</head>
+<body>
+<div class="banner">Prototype — not (yet) an official ISCA publication. Built in the spirit of ISCA's <a href="https://isca-speech.org/SCOOT" target="_blank" rel="noopener">SCOOT</a> project. Curated and maintained daily by an AI agent under human supervision.</div>
+<header>
+  <div class="wrap">
+    <h1>SCOOT <span class="v">2.0</span></h1>
+    <p class="tagline">Speech Communication Online Open Training — a living guide to learning speech, from phonetics to speech LLMs.</p>
+    <p class="hmeta" id="hmeta"></p>
+  </div>
+</header>
+<nav><div class="wrap" id="tabs"></div></nav>
+<main id="main"></main>
+<footer>
+  “SCOOT will never be finished.” — the original SCOOT, and still true.<br>
+  Maintained by an AI curator; suggestions from the community are reviewed and applied daily. See <b>About &amp; Contribute</b>.
+</footer>
+<script id="scoot-data" type="application/json">"__SCOOT_DATA__"</script>
+<script>
+const DATA = JSON.parse(document.getElementById('scoot-data').textContent);
+const R = DATA.resources, ED = DATA.editorial, L = DATA.latest, CH = DATA.changelog;
+
+// ---------- helpers (all text goes through textContent — never innerHTML with data) ----------
+const el = (tag, cls, text) => { const n = document.createElement(tag); if (cls) n.className = cls; if (text != null) n.textContent = text; return n; };
+const link = (href, text, cls) => { const a = el('a', cls, text); a.href = href; a.target = '_blank'; a.rel = 'noopener'; return a; };
+const fmtDate = (iso) => iso ? iso.slice(0, 10) : '';
+const fmtNum = (n) => n >= 1e6 ? (n / 1e6).toFixed(1) + 'M' : n >= 1e3 ? (n / 1e3).toFixed(1) + 'k' : String(n);
+
+// ---------- category model ----------
+const catMeta = {}; (ED.categories || []).forEach((c) => catMeta[c.key] = c);
+const catKeys = [];
+R.entries.forEach((e) => { if (!catKeys.includes(e.category)) catKeys.push(e.category); });
+catKeys.sort((a, b) => (catMeta[a]?.order ?? 99) - (catMeta[b]?.order ?? 99));
+const catLabel = (k) => catMeta[k]?.label || (R.gaps || []).find((g) => 'gap:' + g.key === k)?.title || k;
+
+// ---------- header meta ----------
+document.getElementById('hmeta').append(
+  Object.assign(el('span'), { innerHTML: '' }),
+);
+{
+  const h = document.getElementById('hmeta');
+  h.append(el('b', null, R.entries.length + ' curated resources'));
+  h.append(document.createTextNode(' across ' + catKeys.length + ' areas · latest research auto-updated '));
+  h.append(el('b', null, fmtDate(L.fetched_at)));
+  h.append(document.createTextNode(' · every entry link-verified'));
+}
+
+// ---------- tabs ----------
+const TABS = [
+  { id: 'start', label: 'Start Here' },
+  ...catKeys.map((k) => ({ id: 'cat:' + k, label: catLabel(k) })),
+  { id: 'latest', label: '🛰 Latest (daily)' },
+  { id: 'about', label: 'About & Contribute' },
+];
+const nav = document.getElementById('tabs');
+TABS.forEach((t) => {
+  const b = el('button', null, t.label);
+  b.onclick = () => { location.hash = t.id; };
+  b.dataset.tab = t.id;
+  nav.append(b);
+});
+
+const state = { q: '', level: '', freeOnly: false };
+
+function route() {
+  const id = decodeURIComponent(location.hash.slice(1)) || 'start';
+  const valid = TABS.some((t) => t.id === id) ? id : 'start';
+  nav.querySelectorAll('button').forEach((b) => b.classList.toggle('active', b.dataset.tab === valid));
+  const main = document.getElementById('main');
+  main.textContent = '';
+  if (valid === 'start') renderStart(main);
+  else if (valid === 'latest') renderLatest(main);
+  else if (valid === 'about') renderAbout(main);
+  else renderCategory(main, valid.slice(4));
+  window.scrollTo(0, 0);
+}
+window.addEventListener('hashchange', route);
+
+// ---------- resource cards ----------
+function card(e) {
+  const c = el('div', 'card');
+  const h = el('h3'); h.append(link(e.url, e.title)); c.append(h);
+  const b = el('div', 'badges');
+  if (e.type) b.append(el('span', 'badge', e.type));
+  if (e.level) b.append(el('span', 'badge level-' + e.level, e.level));
+  if (e.cost && e.cost !== 'free') b.append(el('span', 'badge cost-' + e.cost, e.cost));
+  if (e.year) b.append(el('span', 'badge', e.year));
+  c.append(b);
+  if (e.org) c.append(el('div', 'org', e.org));
+  c.append(el('p', 'desc', e.description));
+  if (e.why) c.append(el('p', 'why', '→ ' + e.why));
+  if (e.topics?.length) {
+    const t = el('div', 'topics');
+    e.topics.slice(0, 6).forEach((x) => t.append(el('span', 'topic', x)));
+    c.append(t);
+  }
+  return c;
+}
+
+function matches(e) {
+  if (state.level && e.level !== state.level) return false;
+  if (state.freeOnly && e.cost !== 'free') return false;
+  if (state.q) {
+    const hay = (e.title + ' ' + e.org + ' ' + e.description + ' ' + (e.topics || []).join(' ') + ' ' + e.type).toLowerCase();
+    if (!state.q.toLowerCase().split(/\s+/).every((w) => hay.includes(w))) return false;
+  }
+  return true;
+}
+
+function controls(onchange) {
+  const c = el('div', 'controls');
+  const q = Object.assign(el('input'), { type: 'search', placeholder: 'Search title, topic, description…', value: state.q });
+  q.oninput = () => { state.q = q.value; onchange(); };
+  const lv = el('select');
+  [['', 'All levels'], ['intro', 'Intro'], ['intermediate', 'Intermediate'], ['advanced', 'Advanced']]
+    .forEach(([v, t]) => { const o = el('option', null, t); o.value = v; if (state.level === v) o.selected = true; lv.append(o); });
+  lv.onchange = () => { state.level = lv.value; onchange(); };
+  const lab = el('label');
+  const ck = Object.assign(el('input'), { type: 'checkbox', checked: state.freeOnly });
+  ck.onchange = () => { state.freeOnly = ck.checked; onchange(); };
+  lab.append(ck, document.createTextNode('free only'));
+  c.append(q, lv, lab);
+  return c;
+}
+
+function renderCategory(main, key) {
+  const meta = catMeta[key];
+  if (meta?.blurb) main.append(el('p', 'blurb', meta.blurb));
+  const count = el('div', 'count');
+  const grid = el('div', 'grid');
+  const draw = () => {
+    grid.textContent = '';
+    const hits = R.entries.filter((e) => e.category === key && matches(e));
+    hits.forEach((e) => grid.append(card(e)));
+    count.textContent = hits.length + ' resource' + (hits.length === 1 ? '' : 's');
+    if (!hits.length) grid.append(el('div', 'empty', 'No matches — clear the search/filters above.'));
+  };
+  main.append(controls(draw), count, grid);
+  draw();
+}
+
+// ---------- start here ----------
+function renderStart(main) {
+  (ED.start_intro || []).forEach((p) => main.append(el('p', 'blurb', p)));
+  (ED.pathways || []).forEach((p) => {
+    const d = el('div', 'path');
+    d.append(el('h3', null, p.title));
+    d.append(el('p', null, p.body));
+    if (p.goto) {
+      const nav2 = el('p'); nav2.style.marginTop = '8px';
+      p.goto.forEach((g, i) => {
+        const a = el('a', null, g.label + ' →'); a.href = '#' + g.tab;
+        if (i) nav2.append(document.createTextNode('   ·   '));
+        nav2.append(a);
+      });
+      d.append(nav2);
+    }
+    main.append(d);
+  });
+  main.append(el('h2', null, 'Search everything'));
+  const count = el('div', 'count');
+  const grid = el('div', 'grid');
+  const draw = () => {
+    grid.textContent = '';
+    const hits = R.entries.filter(matches);
+    (state.q || state.level || state.freeOnly ? hits : []).forEach((e) => grid.append(card(e)));
+    count.textContent = state.q || state.level || state.freeOnly
+      ? hits.length + ' matches across all areas'
+      : R.entries.length + ' resources indexed — type to search across every area at once.';
+  };
+  main.append(controls(draw), count, grid);
+  draw();
+}
+
+// ---------- latest ----------
+function renderLatest(main) {
+  main.append(el('p', 'blurb',
+    'Auto-updated daily. New speech/audio papers from arXiv (eess.AS + cs.SD, last ' +
+    (L.paper_window_days || 10) + ' days), community-highlighted papers, and trending open models. Last update: ' + fmtDate(L.fetched_at) + '.'));
+  const cols = el('div', 'cols');
+  const left = el('div'), right = el('div');
+  cols.append(left, right); main.append(cols);
+
+  left.append(el('h2', null, 'New on arXiv'));
+  (L.papers || []).forEach((p) => {
+    const d = el('div', 'paper');
+    const h = el('h3'); h.append(link(p.id, p.title)); d.append(h);
+    d.append(el('div', 'pmeta', (p.authors || []).slice(0, 4).join(', ') + ((p.authors || []).length > 4 ? ' et al.' : '') + ' · ' + fmtDate(p.published) + ' · ' + (p.cats || []).join(', ')));
+    if (p.abstract) {
+      const det = el('details'); det.append(el('summary', null, 'abstract'), el('p', 'abs', p.abstract)); d.append(det);
+    }
+    left.append(d);
+  });
+  if (!(L.papers || []).length) left.append(el('div', 'empty', 'No papers fetched yet — run scripts/update_daily.mjs.'));
+
+  if ((L.community_picks || []).length) {
+    right.append(el('h2', null, 'Community highlights'));
+    L.community_picks.forEach((p) => {
+      const d = el('div', 'paper');
+      const h = el('h3'); h.append(link(p.url, p.title)); d.append(h);
+      d.append(el('div', 'pmeta', '▲ ' + p.upvotes + ' · ' + fmtDate(p.published)));
+      right.append(d);
+    });
+  }
+  right.append(el('h2', null, 'Trending open models'));
+  const tbl = el('table');
+  const thead = el('thead'); const trh = el('tr');
+  ['Model', 'Task', '♥', 'Downloads'].forEach((t) => trh.append(el('th', null, t)));
+  thead.append(trh); tbl.append(thead);
+  const tb = el('tbody');
+  (L.models || []).forEach((m) => {
+    const tr = el('tr');
+    const td1 = el('td'); td1.append(link(m.url, m.id)); tr.append(td1);
+    tr.append(el('td', null, (m.pipeline || '').replace('automatic-speech-recognition', 'ASR').replace('text-to-speech', 'TTS').replace('audio-text-to-text', 'audio-LLM')));
+    tr.append(el('td', null, fmtNum(m.likes)));
+    tr.append(el('td', null, fmtNum(m.downloads)));
+    tb.append(tr);
+  });
+  tbl.append(tb); right.append(tbl);
+}
+
+// ---------- about ----------
+function renderAbout(main) {
+  main.className = 'about';
+  main.append(el('h2', null, 'Mission'));
+  main.append(el('div', 'quote', '“' + (ED.mission_quote || '') + '”  — the original SCOOT'));
+  (ED.about || []).forEach((p) => main.append(el('p', null, p)));
+
+  main.append(el('h2', null, 'How this site stays alive'));
+  (ED.how_it_works || []).forEach((p) => main.append(el('p', null, p)));
+
+  main.append(el('h2', null, 'Suggest a change'));
+  (ED.contribute || []).forEach((p) => main.append(el('p', null, p)));
+  if (ED.contact_email) {
+    const p = el('p');
+    p.append(link('mailto:' + ED.contact_email + '?subject=' + encodeURIComponent('[SCOOT] suggestion'), '✉ Email a suggestion', 'pill-btn'));
+    main.append(p);
+  }
+
+  main.append(el('h2', null, 'Changelog'));
+  const ul = el('ul', 'chlog');
+  (CH.entries || []).slice().reverse().forEach((c) => {
+    const li = el('li');
+    li.append(el('span', 'd', c.date), document.createTextNode(c.change + (c.source ? '  (' + c.source + ')' : '')));
+    ul.append(li);
+  });
+  main.append(ul);
+}
+
+route();
+</script>
+</body>
+</html>

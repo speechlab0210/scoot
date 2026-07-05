@@ -1,0 +1,14 @@
+{
+  "entries": [
+    {
+      "date": "2026-07-06",
+      "change": "SCOOT 2.0 prototype launched: curated catalog seeded (all entries link-verified), daily auto-update pipeline for arXiv papers and trending models, community suggestion loop defined.",
+      "source": "initial build"
+    },
+    {
+      "date": "2026-07-06",
+      "change": "Deployed publicly on GitHub Pages. Catalog at launch: 122 entries across 10 areas (two Chinese-language course entries deferred — English-language resources prioritized at launch).",
+      "source": "editorial decision"
+    }
+  ]
+}

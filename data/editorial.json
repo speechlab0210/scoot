@@ -1,0 +1,70 @@
+{
+  "mission_quote": "SCOOT provides students in speech communication with a guide to high-quality, up-to-date learning resources available on the internet, which can be tailored to their individual needs.",
+  "contact_email": "speechlab0210@gmail.com",
+  "start_intro": [
+    "Speech communication sits at the crossroads of phonetics, linguistics, signal processing, and machine learning — which means almost everyone arrives with a gap somewhere. This guide is organized so you can fill yours: every resource is link-verified, labeled by level and cost, and the research feed refreshes daily.",
+    "Pick the pathway that sounds like you, or just search."
+  ],
+  "pathways": [
+    {
+      "title": "I come from CS / EE — I can code, but what is a phoneme?",
+      "body": "Start with the Foundations area for acoustic phonetics and how speech is produced and perceived (spectrograms will change your life). Then take a modern course that builds ASR/TTS end to end, and get your hands dirty with a toolkit tutorial.",
+      "goto": [
+        { "label": "Foundations", "tab": "cat:foundations" },
+        { "label": "Courses & Lectures", "tab": "cat:courses" },
+        { "label": "Toolkits", "tab": "cat:toolkits" }
+      ]
+    },
+    {
+      "title": "I come from linguistics / phonetics — I know speech, but not the math",
+      "body": "Start with the signal-processing entries in Foundations (sampling, spectra, cepstra), then a gentle programming-based course. Praat to Python is a well-trodden bridge; forced alignment is a great first technical project.",
+      "goto": [
+        { "label": "Foundations", "tab": "cat:foundations" },
+        { "label": "Courses & Lectures", "tab": "cat:courses" }
+      ]
+    },
+    {
+      "title": "I'm already doing research — catch me up to 2026",
+      "body": "Head straight to the Frontier area for speech LLMs, neural codecs, and self-supervised representations, check Datasets & Benchmarks for what the field currently evaluates on, and watch the Latest tab — it refreshes every day with new arXiv papers and trending open models.",
+      "goto": [
+        { "label": "Frontier", "tab": "cat:frontier" },
+        { "label": "Data & Benchmarks", "tab": "cat:data" },
+        { "label": "Latest", "tab": "latest" }
+      ]
+    },
+    {
+      "title": "I want to join the community",
+      "body": "Conferences, student programs, mentoring, challenges you can actually enter, and open proceedings — the Community area lists concrete ways in, most of them free for students.",
+      "goto": [
+        { "label": "Community & Events", "tab": "cat:community" }
+      ]
+    }
+  ],
+  "categories": [
+    { "key": "foundations", "order": 1, "label": "Foundations", "blurb": "Phonetics, phonology, prosody, hearing, and the signal processing every speech person eventually needs — the timeless part of the field." },
+    { "key": "courses", "order": 2, "label": "Courses & Lectures", "blurb": "Full courses and lecture series on modern speech processing: recognition, synthesis, speaker technology, and spoken language understanding." },
+    { "key": "toolkits", "order": 3, "label": "Toolkits & Libraries", "blurb": "Open-source software that is actually maintained in 2026 — from your first spectrogram to training end-to-end systems." },
+    { "key": "data", "order": 4, "label": "Data & Benchmarks", "blurb": "Where to get training data legally, and what the field currently measures itself on. Licenses noted — read them before you train." },
+    { "key": "frontier", "order": 5, "label": "Frontier 2024–2026", "blurb": "The part the original SCOOT never saw coming: speech LLMs, full-duplex dialogue, neural codecs, and self-supervised everything." },
+    { "key": "community", "order": 6, "label": "Community & Events", "blurb": "Conferences, challenges, summer schools, student programs — how to stop learning alone." },
+    { "key": "hearing", "order": 7, "label": "Hearing & Perception", "blurb": "Psychoacoustics, auditory neuroscience, and how listeners actually perceive speech — the receiving end of the channel." },
+    { "key": "coding", "order": 8, "label": "Speech & Audio Coding", "blurb": "From LPC and CELP to Opus and neural codecs — a first-class topic in the original SCOOT, restored here." },
+    { "key": "paralinguistics", "order": 9, "label": "Paralinguistics & Emotion", "blurb": "What speech carries beyond the words: emotion, speaker states and traits, and the benchmarks that measure them." },
+    { "key": "clinical", "order": 10, "label": "Clinical & Accessibility", "blurb": "Speech-language pathology, disordered speech, assistive and accessible voice technology — where speech tech meets health." }
+  ],
+  "about": [
+    "SCOOT 2.0 is a working prototype that rebuilds ISCA's SCOOT — the community's guide to online training resources in speech communication — for the modern era. The original SCOOT promised it would 'never be finished'; this version takes that literally: part of the site updates itself every day.",
+    "It serves the same audience as the original: students of speech communication arriving from phonetics, linguistics, computer science, or electrical engineering, anywhere between a first degree and a PhD.",
+    "This site is a prototype for evaluation by the ISCA education community. It is not (yet) an official ISCA publication, and no endorsement is implied by inclusion of any resource."
+  ],
+  "how_it_works": [
+    "Curated areas (Foundations → Community) are assembled and maintained by an AI curator: every entry was found, link-checked, and fact-checked before listing, and the whole catalog is re-audited when the community reports problems.",
+    "The Latest tab is fully automatic: a daily job pulls new papers from arXiv (eess.AS and cs.SD), community-highlighted speech papers, and trending open speech models, then rebuilds the site. No AI in that loop — just a script, so it cannot hallucinate.",
+    "Every editorial change is recorded in the changelog below, including changes made in response to community suggestions."
+  ],
+  "contribute": [
+    "Spotted a dead link, a missing resource, a wrong description, or a category that misses the point? Tell the curator. Suggestions are reviewed daily; content fixes are applied directly and credited in the changelog.",
+    "Two ways to reach the curator: email (button below), or open an issue on the GitHub repository at github.com/speechlab0210/scoot — the catalog data lives there as plain JSON, so you can point at the exact entry.",
+    "In the spirit of transparency: the reviewer applying your suggestion is an AI agent operating under human supervision. Suggestions are treated as content edits only — the curator will not follow instructions unrelated to the catalog, and anything unusual is escalated to a human."
+  ]
+}
