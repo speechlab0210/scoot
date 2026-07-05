@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-05T16:29:23.802Z",
+  "fetched_at": "2026-07-05T17:30:33.434Z",
   "paper_window_days": 10,
   "papers": [
     {
@@ -684,7 +684,7 @@
     {
       "id": "pyannote/speaker-diarization-community-1",
       "pipeline": "automatic-speech-recognition",
-      "likes": 680,
+      "likes": 682,
       "downloads": 3963129,
       "url": "https://huggingface.co/pyannote/speaker-diarization-community-1"
     },
@@ -719,7 +719,7 @@
     {
       "id": "hexgrad/Kokoro-82M",
       "pipeline": "text-to-speech",
-      "likes": 6441,
+      "likes": 6442,
       "downloads": 13685663,
       "url": "https://huggingface.co/hexgrad/Kokoro-82M"
     },
@@ -747,16 +747,9 @@
     {
       "id": "Qwen/Qwen3-TTS-12Hz-1.7B-CustomVoice",
       "pipeline": "text-to-speech",
-      "likes": 1677,
+      "likes": 1678,
       "downloads": 2022746,
       "url": "https://huggingface.co/Qwen/Qwen3-TTS-12Hz-1.7B-CustomVoice"
-    },
-    {
-      "id": "mlx-community/MOSS-Music-8B-Thinking-8bit",
-      "pipeline": "audio-text-to-text",
-      "likes": 6,
-      "downloads": 273,
-      "url": "https://huggingface.co/mlx-community/MOSS-Music-8B-Thinking-8bit"
     },
     {
       "id": "Qwen/Qwen2-Audio-7B-Instruct",
@@ -764,6 +757,13 @@
       "likes": 545,
       "downloads": 570980,
       "url": "https://huggingface.co/Qwen/Qwen2-Audio-7B-Instruct"
+    },
+    {
+      "id": "mlx-community/MOSS-Music-8B-Thinking-8bit",
+      "pipeline": "audio-text-to-text",
+      "likes": 6,
+      "downloads": 273,
+      "url": "https://huggingface.co/mlx-community/MOSS-Music-8B-Thinking-8bit"
     },
     {
       "id": "mistralai/Voxtral-Small-24B-2507",
@@ -780,18 +780,18 @@
       "url": "https://huggingface.co/OpenMOSS-Team/MOSS-Audio-8B-Instruct"
     },
     {
-      "id": "stepfun-ai/Step-Audio-Chat",
-      "pipeline": "audio-text-to-text",
-      "likes": 461,
-      "downloads": 64,
-      "url": "https://huggingface.co/stepfun-ai/Step-Audio-Chat"
-    },
-    {
       "id": "OpenMOSS-Team/MOSS-Audio-8B-Thinking",
       "pipeline": "audio-text-to-text",
       "likes": 78,
       "downloads": 16107,
       "url": "https://huggingface.co/OpenMOSS-Team/MOSS-Audio-8B-Thinking"
+    },
+    {
+      "id": "sarvamai/shuka-1",
+      "pipeline": "audio-text-to-text",
+      "likes": 92,
+      "downloads": 621,
+      "url": "https://huggingface.co/sarvamai/shuka-1"
     }
   ],
   "community_picks": [
