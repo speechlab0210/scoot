@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-05T17:30:33.434Z",
+  "fetched_at": "2026-07-05T22:40:01.236Z",
   "paper_window_days": 10,
   "papers": [
     {
@@ -670,28 +670,28 @@
     {
       "id": "nvidia/nemotron-3.5-asr-streaming-0.6b",
       "pipeline": "automatic-speech-recognition",
-      "likes": 779,
+      "likes": 781,
       "downloads": 161460,
       "url": "https://huggingface.co/nvidia/nemotron-3.5-asr-streaming-0.6b"
     },
     {
       "id": "pyannote/speaker-diarization-3.1",
       "pipeline": "automatic-speech-recognition",
-      "likes": 2593,
+      "likes": 2595,
       "downloads": 8266914,
       "url": "https://huggingface.co/pyannote/speaker-diarization-3.1"
     },
     {
       "id": "pyannote/speaker-diarization-community-1",
       "pipeline": "automatic-speech-recognition",
-      "likes": 682,
+      "likes": 683,
       "downloads": 3963129,
       "url": "https://huggingface.co/pyannote/speaker-diarization-community-1"
     },
     {
       "id": "nvidia/parakeet-tdt-0.6b-v3",
       "pipeline": "automatic-speech-recognition",
-      "likes": 971,
+      "likes": 972,
       "downloads": 115638,
       "url": "https://huggingface.co/nvidia/parakeet-tdt-0.6b-v3"
     },
@@ -712,23 +712,16 @@
     {
       "id": "bosonai/higgs-tts-3-4b",
       "pipeline": "text-to-speech",
-      "likes": 595,
+      "likes": 596,
       "downloads": 113708,
       "url": "https://huggingface.co/bosonai/higgs-tts-3-4b"
     },
     {
       "id": "hexgrad/Kokoro-82M",
       "pipeline": "text-to-speech",
-      "likes": 6442,
+      "likes": 6445,
       "downloads": 13685663,
       "url": "https://huggingface.co/hexgrad/Kokoro-82M"
-    },
-    {
-      "id": "k2-fsa/OmniVoice",
-      "pipeline": "text-to-speech",
-      "likes": 1119,
-      "downloads": 883580,
-      "url": "https://huggingface.co/k2-fsa/OmniVoice"
     },
     {
       "id": "prathoshap/vagdhenu",
@@ -736,6 +729,13 @@
       "likes": 27,
       "downloads": 1065,
       "url": "https://huggingface.co/prathoshap/vagdhenu"
+    },
+    {
+      "id": "k2-fsa/OmniVoice",
+      "pipeline": "text-to-speech",
+      "likes": 1120,
+      "downloads": 883580,
+      "url": "https://huggingface.co/k2-fsa/OmniVoice"
     },
     {
       "id": "ZzWater/ViiTorVoice-NAR",
@@ -747,7 +747,7 @@
     {
       "id": "Qwen/Qwen3-TTS-12Hz-1.7B-CustomVoice",
       "pipeline": "text-to-speech",
-      "likes": 1678,
+      "likes": 1679,
       "downloads": 2022746,
       "url": "https://huggingface.co/Qwen/Qwen3-TTS-12Hz-1.7B-CustomVoice"
     },
@@ -804,13 +804,13 @@
     {
       "title": "WARP: Weight-Space Analysis for Recovering Training Data Portfolios",
       "url": "https://huggingface.co/papers/2607.01686",
-      "upvotes": 5,
+      "upvotes": 6,
       "published": "2026-07-01T20:00:00.000Z"
     },
     {
       "title": "AutoMem: Automated Learning of Memory as a Cognitive Skill",
       "url": "https://huggingface.co/papers/2607.01224",
-      "upvotes": 13,
+      "upvotes": 14,
       "published": "2026-06-30T20:00:00.000Z"
     },
     {
@@ -822,7 +822,7 @@
     {
       "title": "Logit-Contribution Scoring Identifies Non-Literal Retrieval Heads",
       "url": "https://huggingface.co/papers/2607.01002",
-      "upvotes": 14,
+      "upvotes": 15,
       "published": "2026-06-30T20:00:00.000Z"
     },
     {
