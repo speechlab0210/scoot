@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-05T22:40:01.236Z",
+  "fetched_at": "2026-07-06T22:40:02.656Z",
   "paper_window_days": 10,
   "papers": [
     {
@@ -670,189 +670,189 @@
     {
       "id": "nvidia/nemotron-3.5-asr-streaming-0.6b",
       "pipeline": "automatic-speech-recognition",
-      "likes": 781,
-      "downloads": 161460,
+      "likes": 791,
+      "downloads": 183962,
       "url": "https://huggingface.co/nvidia/nemotron-3.5-asr-streaming-0.6b"
     },
     {
       "id": "pyannote/speaker-diarization-3.1",
       "pipeline": "automatic-speech-recognition",
-      "likes": 2595,
-      "downloads": 8266914,
+      "likes": 2607,
+      "downloads": 8354654,
       "url": "https://huggingface.co/pyannote/speaker-diarization-3.1"
     },
     {
       "id": "pyannote/speaker-diarization-community-1",
       "pipeline": "automatic-speech-recognition",
-      "likes": 683,
-      "downloads": 3963129,
+      "likes": 688,
+      "downloads": 4012557,
       "url": "https://huggingface.co/pyannote/speaker-diarization-community-1"
     },
     {
       "id": "nvidia/parakeet-tdt-0.6b-v3",
       "pipeline": "automatic-speech-recognition",
-      "likes": 972,
-      "downloads": 115638,
+      "likes": 975,
+      "downloads": 116522,
       "url": "https://huggingface.co/nvidia/parakeet-tdt-0.6b-v3"
     },
     {
-      "id": "openai/whisper-large-v3",
+      "id": "openai/whisper-large-v3-turbo",
       "pipeline": "automatic-speech-recognition",
-      "likes": 5910,
-      "downloads": 5799742,
-      "url": "https://huggingface.co/openai/whisper-large-v3"
+      "likes": 3137,
+      "downloads": 7013700,
+      "url": "https://huggingface.co/openai/whisper-large-v3-turbo"
     },
     {
-      "id": "Qwen/Qwen3-ASR-1.7B-hf",
+      "id": "ggerganov/whisper.cpp",
       "pipeline": "automatic-speech-recognition",
-      "likes": 28,
-      "downloads": 8081,
-      "url": "https://huggingface.co/Qwen/Qwen3-ASR-1.7B-hf"
+      "likes": 1490,
+      "downloads": 0,
+      "url": "https://huggingface.co/ggerganov/whisper.cpp"
     },
     {
       "id": "bosonai/higgs-tts-3-4b",
       "pipeline": "text-to-speech",
-      "likes": 596,
-      "downloads": 113708,
+      "likes": 604,
+      "downloads": 124816,
       "url": "https://huggingface.co/bosonai/higgs-tts-3-4b"
     },
     {
       "id": "hexgrad/Kokoro-82M",
       "pipeline": "text-to-speech",
-      "likes": 6445,
-      "downloads": 13685663,
+      "likes": 6449,
+      "downloads": 13552639,
       "url": "https://huggingface.co/hexgrad/Kokoro-82M"
-    },
-    {
-      "id": "prathoshap/vagdhenu",
-      "pipeline": "text-to-speech",
-      "likes": 27,
-      "downloads": 1065,
-      "url": "https://huggingface.co/prathoshap/vagdhenu"
     },
     {
       "id": "k2-fsa/OmniVoice",
       "pipeline": "text-to-speech",
-      "likes": 1120,
-      "downloads": 883580,
+      "likes": 1124,
+      "downloads": 894683,
       "url": "https://huggingface.co/k2-fsa/OmniVoice"
     },
     {
       "id": "ZzWater/ViiTorVoice-NAR",
       "pipeline": "text-to-speech",
-      "likes": 128,
-      "downloads": 250,
+      "likes": 131,
+      "downloads": 323,
       "url": "https://huggingface.co/ZzWater/ViiTorVoice-NAR"
+    },
+    {
+      "id": "prathoshap/vagdhenu",
+      "pipeline": "text-to-speech",
+      "likes": 28,
+      "downloads": 1186,
+      "url": "https://huggingface.co/prathoshap/vagdhenu"
     },
     {
       "id": "Qwen/Qwen3-TTS-12Hz-1.7B-CustomVoice",
       "pipeline": "text-to-speech",
-      "likes": 1679,
-      "downloads": 2022746,
+      "likes": 1681,
+      "downloads": 2077619,
       "url": "https://huggingface.co/Qwen/Qwen3-TTS-12Hz-1.7B-CustomVoice"
     },
     {
       "id": "Qwen/Qwen2-Audio-7B-Instruct",
       "pipeline": "audio-text-to-text",
       "likes": 545,
-      "downloads": 570980,
+      "downloads": 570519,
       "url": "https://huggingface.co/Qwen/Qwen2-Audio-7B-Instruct"
     },
     {
       "id": "mlx-community/MOSS-Music-8B-Thinking-8bit",
       "pipeline": "audio-text-to-text",
       "likes": 6,
-      "downloads": 273,
+      "downloads": 305,
       "url": "https://huggingface.co/mlx-community/MOSS-Music-8B-Thinking-8bit"
     },
     {
       "id": "mistralai/Voxtral-Small-24B-2507",
       "pipeline": "audio-text-to-text",
       "likes": 505,
-      "downloads": 124639,
+      "downloads": 135990,
       "url": "https://huggingface.co/mistralai/Voxtral-Small-24B-2507"
     },
     {
       "id": "OpenMOSS-Team/MOSS-Audio-8B-Instruct",
       "pipeline": "audio-text-to-text",
       "likes": 47,
-      "downloads": 16084,
+      "downloads": 17141,
       "url": "https://huggingface.co/OpenMOSS-Team/MOSS-Audio-8B-Instruct"
     },
     {
       "id": "OpenMOSS-Team/MOSS-Audio-8B-Thinking",
       "pipeline": "audio-text-to-text",
       "likes": 78,
-      "downloads": 16107,
+      "downloads": 17007,
       "url": "https://huggingface.co/OpenMOSS-Team/MOSS-Audio-8B-Thinking"
     },
     {
-      "id": "sarvamai/shuka-1",
+      "id": "OpenMOSS-Team/MOSS-Music-8B-Instruct",
       "pipeline": "audio-text-to-text",
-      "likes": 92,
-      "downloads": 621,
-      "url": "https://huggingface.co/sarvamai/shuka-1"
+      "likes": 23,
+      "downloads": 1331,
+      "url": "https://huggingface.co/OpenMOSS-Team/MOSS-Music-8B-Instruct"
     }
   ],
   "community_picks": [
     {
-      "title": "Parameter-Efficient Quantum-Inspired Fast Weight Programmers for Traffic-Matrix Forecasting",
-      "url": "https://huggingface.co/papers/2606.27821",
-      "upvotes": 3,
-      "published": "2026-06-25T20:00:00.000Z"
-    },
-    {
-      "title": "WARP: Weight-Space Analysis for Recovering Training Data Portfolios",
-      "url": "https://huggingface.co/papers/2607.01686",
-      "upvotes": 6,
-      "published": "2026-07-01T20:00:00.000Z"
-    },
-    {
-      "title": "AutoMem: Automated Learning of Memory as a Cognitive Skill",
-      "url": "https://huggingface.co/papers/2607.01224",
-      "upvotes": 14,
-      "published": "2026-06-30T20:00:00.000Z"
-    },
-    {
-      "title": "DuoMem: Towards Capable On-Device Memory Agents via Dual-Space Distillation",
-      "url": "https://huggingface.co/papers/2606.29961",
-      "upvotes": 6,
-      "published": "2026-06-28T20:00:00.000Z"
-    },
-    {
-      "title": "Logit-Contribution Scoring Identifies Non-Literal Retrieval Heads",
-      "url": "https://huggingface.co/papers/2607.01002",
-      "upvotes": 15,
-      "published": "2026-06-30T20:00:00.000Z"
-    },
-    {
-      "title": "Transferability for General Reasoning: An Automated Curriculum for Multi-Domain RLVR",
-      "url": "https://huggingface.co/papers/2606.25178",
-      "upvotes": 3,
-      "published": "2026-06-26T20:00:00.000Z"
-    },
-    {
-      "title": "Breaking Failure Cascades: Step-Aware Reinforcement Learning for Medical Multimodal Reasoning",
-      "url": "https://huggingface.co/papers/2606.31825",
-      "upvotes": 19,
+      "title": "Teaching LLMs to Recommend and Defer in Underrepresented Epilepsy Care",
+      "url": "https://huggingface.co/papers/2606.31036",
+      "upvotes": 1,
       "published": "2026-06-29T20:00:00.000Z"
     },
     {
-      "title": "EvoPolicyGym: Evaluating Autonomous Policy Evolution in Interactive Environments",
-      "url": "https://huggingface.co/papers/2607.02440",
-      "upvotes": 43,
+      "title": "Measuring the Gap Between Human and LLM Research Ideas",
+      "url": "https://huggingface.co/papers/2607.01233",
+      "upvotes": 4,
+      "published": "2026-06-30T20:00:00.000Z"
+    },
+    {
+      "title": "AnyBokeh: Physics-Guided Any-to-Any Bokeh Editing with Optical Fingerprint Transfer",
+      "url": "https://huggingface.co/papers/2606.31959",
+      "upvotes": 2,
+      "published": "2026-06-30T13:01:28.000Z"
+    },
+    {
+      "title": "Interpretation-Oriented Cloud Removal via Observation-Anchored Residual Flow with Geo-Contextual Alignment",
+      "url": "https://huggingface.co/papers/2607.02471",
+      "upvotes": 4,
       "published": "2026-07-01T20:00:00.000Z"
     },
     {
-      "title": "AgenticSTS: A Bounded-Memory Testbed for Long-Horizon LLM Agents",
-      "url": "https://huggingface.co/papers/2607.02255",
-      "upvotes": 46,
+      "title": "OrbitQuant: Data-Agnostic Quantization for Image and Video Diffusion Transformers",
+      "url": "https://huggingface.co/papers/2607.02461",
+      "upvotes": 27,
       "published": "2026-07-01T20:00:00.000Z"
     },
     {
-      "title": "From SRA to Self-Flow: Data Augmentation or Self-Supervision?",
-      "url": "https://huggingface.co/papers/2607.02508",
-      "upvotes": 10,
+      "title": "MultAttnAttrib: Training-Free Multimodal Attribution in Long Document Question Answering",
+      "url": "https://huggingface.co/papers/2607.01420",
+      "upvotes": 5,
+      "published": "2026-06-30T20:00:00.000Z"
+    },
+    {
+      "title": "Securing the AI Agent: A Unified Framework for Multi-Layer Agent Red Teaming",
+      "url": "https://huggingface.co/papers/2606.31227",
+      "upvotes": 8,
+      "published": "2026-06-29T20:00:00.000Z"
+    },
+    {
+      "title": "AGE: Adaptive-masking for Graph Embedding in Graph Retrieval-Augmented Generation",
+      "url": "https://huggingface.co/papers/2607.00052",
+      "upvotes": 3,
+      "published": "2026-06-29T20:00:00.000Z"
+    },
+    {
+      "title": "The Mirage of Optimizing Training Policies: Monotonic Inference Policies as the Real Objective for LLM Reinforcement Learning",
+      "url": "https://huggingface.co/papers/2606.29526",
+      "upvotes": 141,
+      "published": "2026-06-27T20:00:00.000Z"
+    },
+    {
+      "title": "Embodied.cpp: A Portable Inference Runtime of Embodied AI Models on Heterogeneous Robots",
+      "url": "https://huggingface.co/papers/2607.02501",
+      "upvotes": 36,
       "published": "2026-07-01T20:00:00.000Z"
     }
   ],
