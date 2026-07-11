@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-10T22:40:01.949Z",
+  "fetched_at": "2026-07-11T22:40:02.028Z",
   "paper_window_days": 10,
   "papers": [
     {
@@ -678,189 +678,189 @@
     {
       "id": "CohereLabs/cohere-transcribe-arabic-07-2026",
       "pipeline": "automatic-speech-recognition",
-      "likes": 78,
-      "downloads": 5948,
+      "likes": 89,
+      "downloads": 7687,
       "url": "https://huggingface.co/CohereLabs/cohere-transcribe-arabic-07-2026"
     },
     {
       "id": "nvidia/nemotron-3.5-asr-streaming-0.6b",
       "pipeline": "automatic-speech-recognition",
-      "likes": 816,
-      "downloads": 243657,
+      "likes": 819,
+      "downloads": 261646,
       "url": "https://huggingface.co/nvidia/nemotron-3.5-asr-streaming-0.6b"
     },
     {
       "id": "pyannote/speaker-diarization-3.1",
       "pipeline": "automatic-speech-recognition",
-      "likes": 2658,
-      "downloads": 8543550,
+      "likes": 2667,
+      "downloads": 8468457,
       "url": "https://huggingface.co/pyannote/speaker-diarization-3.1"
     },
     {
       "id": "pyannote/speaker-diarization-community-1",
       "pipeline": "automatic-speech-recognition",
-      "likes": 722,
-      "downloads": 4300860,
+      "likes": 729,
+      "downloads": 4282323,
       "url": "https://huggingface.co/pyannote/speaker-diarization-community-1"
-    },
-    {
-      "id": "openai/whisper-large-v3-turbo",
-      "pipeline": "automatic-speech-recognition",
-      "likes": 3154,
-      "downloads": 7778310,
-      "url": "https://huggingface.co/openai/whisper-large-v3-turbo"
     },
     {
       "id": "openai/whisper-large-v3",
       "pipeline": "automatic-speech-recognition",
-      "likes": 5931,
-      "downloads": 6069917,
+      "likes": 5934,
+      "downloads": 6060431,
       "url": "https://huggingface.co/openai/whisper-large-v3"
+    },
+    {
+      "id": "nvidia/parakeet-tdt-0.6b-v3",
+      "pipeline": "automatic-speech-recognition",
+      "likes": 991,
+      "downloads": 99959,
+      "url": "https://huggingface.co/nvidia/parakeet-tdt-0.6b-v3"
     },
     {
       "id": "nineninesix/gepard-1.0",
       "pipeline": "text-to-speech",
-      "likes": 72,
-      "downloads": 1771,
+      "likes": 83,
+      "downloads": 2152,
       "url": "https://huggingface.co/nineninesix/gepard-1.0"
     },
     {
       "id": "hexgrad/Kokoro-82M",
       "pipeline": "text-to-speech",
-      "likes": 6498,
-      "downloads": 11906536,
+      "likes": 6508,
+      "downloads": 11507187,
       "url": "https://huggingface.co/hexgrad/Kokoro-82M"
     },
     {
       "id": "k2-fsa/OmniVoice",
       "pipeline": "text-to-speech",
-      "likes": 1147,
-      "downloads": 990038,
+      "likes": 1151,
+      "downloads": 982724,
       "url": "https://huggingface.co/k2-fsa/OmniVoice"
     },
     {
       "id": "bosonai/higgs-tts-3-4b",
       "pipeline": "text-to-speech",
-      "likes": 621,
-      "downloads": 176511,
+      "likes": 624,
+      "downloads": 186833,
       "url": "https://huggingface.co/bosonai/higgs-tts-3-4b"
     },
     {
       "id": "Qwen/Qwen3-TTS-12Hz-1.7B-CustomVoice",
       "pipeline": "text-to-speech",
-      "likes": 1691,
-      "downloads": 2262916,
+      "likes": 1697,
+      "downloads": 2288560,
       "url": "https://huggingface.co/Qwen/Qwen3-TTS-12Hz-1.7B-CustomVoice"
     },
     {
-      "id": "fishaudio/s2-pro",
+      "id": "ResembleAI/chatterbox",
       "pipeline": "text-to-speech",
-      "likes": 1085,
-      "downloads": 436564,
-      "url": "https://huggingface.co/fishaudio/s2-pro"
+      "likes": 1682,
+      "downloads": 2651971,
+      "url": "https://huggingface.co/ResembleAI/chatterbox"
     },
     {
       "id": "OpenMOSS-Team/MOSS-Transcribe-Diarize",
       "pipeline": "audio-text-to-text",
-      "likes": 97,
-      "downloads": 5919,
+      "likes": 109,
+      "downloads": 12817,
       "url": "https://huggingface.co/OpenMOSS-Team/MOSS-Transcribe-Diarize"
     },
     {
       "id": "OpenMOSS-Team/MOSS-Music-8B-Thinking",
       "pipeline": "audio-text-to-text",
-      "likes": 37,
-      "downloads": 213,
+      "likes": 38,
+      "downloads": 211,
       "url": "https://huggingface.co/OpenMOSS-Team/MOSS-Music-8B-Thinking"
-    },
-    {
-      "id": "mistralai/Voxtral-Small-24B-2507",
-      "pipeline": "audio-text-to-text",
-      "likes": 507,
-      "downloads": 180279,
-      "url": "https://huggingface.co/mistralai/Voxtral-Small-24B-2507"
     },
     {
       "id": "OpenMOSS-Team/MOSS-Music-8B-Instruct",
       "pipeline": "audio-text-to-text",
       "likes": 25,
-      "downloads": 1330,
+      "downloads": 1317,
       "url": "https://huggingface.co/OpenMOSS-Team/MOSS-Music-8B-Instruct"
     },
     {
-      "id": "Qwen/Qwen2-Audio-7B-Instruct",
+      "id": "mistralai/Voxtral-Small-24B-2507",
       "pipeline": "audio-text-to-text",
-      "likes": 546,
-      "downloads": 602178,
-      "url": "https://huggingface.co/Qwen/Qwen2-Audio-7B-Instruct"
+      "likes": 508,
+      "downloads": 187801,
+      "url": "https://huggingface.co/mistralai/Voxtral-Small-24B-2507"
     },
     {
       "id": "microsoft/VibeVoice-ASR-HF",
       "pipeline": "audio-text-to-text",
       "likes": 158,
-      "downloads": 498247,
+      "downloads": 480737,
       "url": "https://huggingface.co/microsoft/VibeVoice-ASR-HF"
+    },
+    {
+      "id": "cstr/MOSS-Audio-4B-Instruct-GGUF",
+      "pipeline": "audio-text-to-text",
+      "likes": 3,
+      "downloads": 516,
+      "url": "https://huggingface.co/cstr/MOSS-Audio-4B-Instruct-GGUF"
     }
   ],
   "community_picks": [
     {
       "title": "Remember When It Matters: Proactive Memory Agent for Long-Horizon Agents",
       "url": "https://huggingface.co/papers/2607.08716",
-      "upvotes": 2,
+      "upvotes": 7,
       "published": "2026-07-08T20:00:00.000Z"
     },
     {
       "title": "PAST-TIDE: Prototype-Anchored Statement Tuning with Topic-Invariant Normalization for Stance Detection",
       "url": "https://huggingface.co/papers/2607.04690",
-      "upvotes": 0,
+      "upvotes": 1,
       "published": "2026-07-05T20:00:00.000Z"
     },
     {
       "title": "SAM-MT: Real-Time Interactive Multi-Target Video Segmentation",
       "url": "https://huggingface.co/papers/2607.08688",
-      "upvotes": 0,
+      "upvotes": 3,
       "published": "2026-07-08T20:00:00.000Z"
     },
     {
       "title": "A Sparse and Truncated State Vector Simulator for Peaked Circuits",
       "url": "https://huggingface.co/papers/2607.07816",
-      "upvotes": 1,
+      "upvotes": 4,
       "published": "2026-07-07T20:00:00.000Z"
     },
     {
       "title": "DrugGen 2: A disease-aware language model for enhancing drug discovery",
       "url": "https://huggingface.co/papers/2607.08404",
-      "upvotes": 12,
+      "upvotes": 16,
       "published": "2026-07-08T20:00:00.000Z"
     },
     {
       "title": "Enhancing In-context Panoramic Generation via Geometric-aware Pretraining",
       "url": "https://huggingface.co/papers/2607.08765",
-      "upvotes": 14,
+      "upvotes": 16,
       "published": "2026-07-08T20:00:00.000Z"
     },
     {
       "title": "A Quantized Native Runtime for On-Device Semantic Audio Generation",
       "url": "https://huggingface.co/papers/2607.08526",
-      "upvotes": 1,
+      "upvotes": 3,
       "published": "2026-07-08T20:00:00.000Z"
     },
     {
       "title": "UniClawBench: A Universal Benchmark for Proactive Agents on Real-World Tasks",
       "url": "https://huggingface.co/papers/2607.08768",
-      "upvotes": 22,
+      "upvotes": 26,
       "published": "2026-07-08T20:00:00.000Z"
     },
     {
       "title": "Video-Oasis: Rethinking Evaluation of Video Understanding",
       "url": "https://huggingface.co/papers/2603.29616",
-      "upvotes": 43,
+      "upvotes": 48,
       "published": "2026-07-01T20:00:00.000Z"
     },
     {
       "title": "Can Dialects Be Steered Like Languages? Sparse Neurons and Distributed Directions in Arabic LLMs",
       "url": "https://huggingface.co/papers/2607.03936",
-      "upvotes": 0,
+      "upvotes": 3,
       "published": "2026-07-03T20:00:00.000Z"
     }
   ],
