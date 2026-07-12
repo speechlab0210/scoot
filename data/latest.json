@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-11T22:40:02.028Z",
+  "fetched_at": "2026-07-12T22:40:02.082Z",
   "paper_window_days": 10,
   "papers": [
     {
@@ -678,127 +678,127 @@
     {
       "id": "CohereLabs/cohere-transcribe-arabic-07-2026",
       "pipeline": "automatic-speech-recognition",
-      "likes": 89,
-      "downloads": 7687,
+      "likes": 95,
+      "downloads": 9860,
       "url": "https://huggingface.co/CohereLabs/cohere-transcribe-arabic-07-2026"
-    },
-    {
-      "id": "nvidia/nemotron-3.5-asr-streaming-0.6b",
-      "pipeline": "automatic-speech-recognition",
-      "likes": 819,
-      "downloads": 261646,
-      "url": "https://huggingface.co/nvidia/nemotron-3.5-asr-streaming-0.6b"
     },
     {
       "id": "pyannote/speaker-diarization-3.1",
       "pipeline": "automatic-speech-recognition",
-      "likes": 2667,
-      "downloads": 8468457,
+      "likes": 2678,
+      "downloads": 8379723,
       "url": "https://huggingface.co/pyannote/speaker-diarization-3.1"
+    },
+    {
+      "id": "nvidia/nemotron-3.5-asr-streaming-0.6b",
+      "pipeline": "automatic-speech-recognition",
+      "likes": 821,
+      "downloads": 275995,
+      "url": "https://huggingface.co/nvidia/nemotron-3.5-asr-streaming-0.6b"
     },
     {
       "id": "pyannote/speaker-diarization-community-1",
       "pipeline": "automatic-speech-recognition",
-      "likes": 729,
-      "downloads": 4282323,
+      "likes": 732,
+      "downloads": 4259585,
       "url": "https://huggingface.co/pyannote/speaker-diarization-community-1"
     },
     {
       "id": "openai/whisper-large-v3",
       "pipeline": "automatic-speech-recognition",
-      "likes": 5934,
-      "downloads": 6060431,
+      "likes": 5935,
+      "downloads": 5963543,
       "url": "https://huggingface.co/openai/whisper-large-v3"
     },
     {
       "id": "nvidia/parakeet-tdt-0.6b-v3",
       "pipeline": "automatic-speech-recognition",
-      "likes": 991,
-      "downloads": 99959,
+      "likes": 992,
+      "downloads": 100356,
       "url": "https://huggingface.co/nvidia/parakeet-tdt-0.6b-v3"
     },
     {
       "id": "nineninesix/gepard-1.0",
       "pipeline": "text-to-speech",
-      "likes": 83,
-      "downloads": 2152,
+      "likes": 85,
+      "downloads": 2263,
       "url": "https://huggingface.co/nineninesix/gepard-1.0"
     },
     {
       "id": "hexgrad/Kokoro-82M",
       "pipeline": "text-to-speech",
-      "likes": 6508,
-      "downloads": 11507187,
+      "likes": 6518,
+      "downloads": 11255770,
       "url": "https://huggingface.co/hexgrad/Kokoro-82M"
     },
     {
       "id": "k2-fsa/OmniVoice",
       "pipeline": "text-to-speech",
-      "likes": 1151,
-      "downloads": 982724,
+      "likes": 1154,
+      "downloads": 968339,
       "url": "https://huggingface.co/k2-fsa/OmniVoice"
     },
     {
       "id": "bosonai/higgs-tts-3-4b",
       "pipeline": "text-to-speech",
-      "likes": 624,
-      "downloads": 186833,
+      "likes": 629,
+      "downloads": 199068,
       "url": "https://huggingface.co/bosonai/higgs-tts-3-4b"
     },
     {
       "id": "Qwen/Qwen3-TTS-12Hz-1.7B-CustomVoice",
       "pipeline": "text-to-speech",
-      "likes": 1697,
-      "downloads": 2288560,
+      "likes": 1701,
+      "downloads": 2326798,
       "url": "https://huggingface.co/Qwen/Qwen3-TTS-12Hz-1.7B-CustomVoice"
     },
     {
-      "id": "ResembleAI/chatterbox",
+      "id": "fishaudio/s2-pro",
       "pipeline": "text-to-speech",
-      "likes": 1682,
-      "downloads": 2651971,
-      "url": "https://huggingface.co/ResembleAI/chatterbox"
+      "likes": 1087,
+      "downloads": 418893,
+      "url": "https://huggingface.co/fishaudio/s2-pro"
     },
     {
       "id": "OpenMOSS-Team/MOSS-Transcribe-Diarize",
       "pipeline": "audio-text-to-text",
-      "likes": 109,
-      "downloads": 12817,
+      "likes": 126,
+      "downloads": 14491,
       "url": "https://huggingface.co/OpenMOSS-Team/MOSS-Transcribe-Diarize"
     },
     {
       "id": "OpenMOSS-Team/MOSS-Music-8B-Thinking",
       "pipeline": "audio-text-to-text",
       "likes": 38,
-      "downloads": 211,
+      "downloads": 212,
       "url": "https://huggingface.co/OpenMOSS-Team/MOSS-Music-8B-Thinking"
     },
     {
       "id": "OpenMOSS-Team/MOSS-Music-8B-Instruct",
       "pipeline": "audio-text-to-text",
       "likes": 25,
-      "downloads": 1317,
+      "downloads": 1324,
       "url": "https://huggingface.co/OpenMOSS-Team/MOSS-Music-8B-Instruct"
     },
     {
       "id": "mistralai/Voxtral-Small-24B-2507",
       "pipeline": "audio-text-to-text",
       "likes": 508,
-      "downloads": 187801,
+      "downloads": 192388,
       "url": "https://huggingface.co/mistralai/Voxtral-Small-24B-2507"
     },
     {
       "id": "microsoft/VibeVoice-ASR-HF",
       "pipeline": "audio-text-to-text",
       "likes": 158,
-      "downloads": 480737,
+      "downloads": 469915,
       "url": "https://huggingface.co/microsoft/VibeVoice-ASR-HF"
     },
     {
       "id": "cstr/MOSS-Audio-4B-Instruct-GGUF",
       "pipeline": "audio-text-to-text",
       "likes": 3,
-      "downloads": 516,
+      "downloads": 512,
       "url": "https://huggingface.co/cstr/MOSS-Audio-4B-Instruct-GGUF"
     }
   ],
@@ -806,7 +806,7 @@
     {
       "title": "Remember When It Matters: Proactive Memory Agent for Long-Horizon Agents",
       "url": "https://huggingface.co/papers/2607.08716",
-      "upvotes": 7,
+      "upvotes": 10,
       "published": "2026-07-08T20:00:00.000Z"
     },
     {
@@ -818,13 +818,13 @@
     {
       "title": "SAM-MT: Real-Time Interactive Multi-Target Video Segmentation",
       "url": "https://huggingface.co/papers/2607.08688",
-      "upvotes": 3,
+      "upvotes": 5,
       "published": "2026-07-08T20:00:00.000Z"
     },
     {
       "title": "A Sparse and Truncated State Vector Simulator for Peaked Circuits",
       "url": "https://huggingface.co/papers/2607.07816",
-      "upvotes": 4,
+      "upvotes": 5,
       "published": "2026-07-07T20:00:00.000Z"
     },
     {
@@ -836,7 +836,7 @@
     {
       "title": "Enhancing In-context Panoramic Generation via Geometric-aware Pretraining",
       "url": "https://huggingface.co/papers/2607.08765",
-      "upvotes": 16,
+      "upvotes": 17,
       "published": "2026-07-08T20:00:00.000Z"
     },
     {
@@ -848,13 +848,13 @@
     {
       "title": "UniClawBench: A Universal Benchmark for Proactive Agents on Real-World Tasks",
       "url": "https://huggingface.co/papers/2607.08768",
-      "upvotes": 26,
+      "upvotes": 27,
       "published": "2026-07-08T20:00:00.000Z"
     },
     {
       "title": "Video-Oasis: Rethinking Evaluation of Video Understanding",
       "url": "https://huggingface.co/papers/2603.29616",
-      "upvotes": 48,
+      "upvotes": 52,
       "published": "2026-07-01T20:00:00.000Z"
     },
     {
