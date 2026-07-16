@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-14T22:40:02.542Z",
+  "fetched_at": "2026-07-16T01:57:55.644Z",
   "paper_window_days": 10,
   "papers": [
     {
@@ -657,35 +657,35 @@
     {
       "id": "CohereLabs/cohere-transcribe-arabic-07-2026",
       "pipeline": "automatic-speech-recognition",
-      "likes": 106,
+      "likes": 112,
       "downloads": 14140,
       "url": "https://huggingface.co/CohereLabs/cohere-transcribe-arabic-07-2026"
     },
     {
       "id": "ai-sage/GigaAM-Multilingual",
       "pipeline": "automatic-speech-recognition",
-      "likes": 34,
+      "likes": 42,
       "downloads": 0,
       "url": "https://huggingface.co/ai-sage/GigaAM-Multilingual"
     },
     {
       "id": "pyannote/speaker-diarization-3.1",
       "pipeline": "automatic-speech-recognition",
-      "likes": 2700,
-      "downloads": 8448276,
+      "likes": 2718,
+      "downloads": 8436370,
       "url": "https://huggingface.co/pyannote/speaker-diarization-3.1"
     },
     {
       "id": "pyannote/speaker-diarization-community-1",
       "pipeline": "automatic-speech-recognition",
-      "likes": 749,
+      "likes": 763,
       "downloads": 4349585,
       "url": "https://huggingface.co/pyannote/speaker-diarization-community-1"
     },
     {
       "id": "nvidia/nemotron-3.5-asr-streaming-0.6b",
       "pipeline": "automatic-speech-recognition",
-      "likes": 828,
+      "likes": 830,
       "downloads": 315307,
       "url": "https://huggingface.co/nvidia/nemotron-3.5-asr-streaming-0.6b"
     },
@@ -699,58 +699,51 @@
     {
       "id": "nineninesix/gepard-1.0",
       "pipeline": "text-to-speech",
-      "likes": 101,
+      "likes": 106,
       "downloads": 5872,
       "url": "https://huggingface.co/nineninesix/gepard-1.0"
     },
     {
       "id": "hexgrad/Kokoro-82M",
       "pipeline": "text-to-speech",
-      "likes": 6528,
+      "likes": 6531,
       "downloads": 10853337,
       "url": "https://huggingface.co/hexgrad/Kokoro-82M"
     },
     {
       "id": "k2-fsa/OmniVoice",
       "pipeline": "text-to-speech",
-      "likes": 1167,
+      "likes": 1172,
       "downloads": 940929,
       "url": "https://huggingface.co/k2-fsa/OmniVoice"
     },
     {
       "id": "bosonai/higgs-tts-3-4b",
       "pipeline": "text-to-speech",
-      "likes": 641,
+      "likes": 643,
       "downloads": 225105,
       "url": "https://huggingface.co/bosonai/higgs-tts-3-4b"
     },
     {
       "id": "Qwen/Qwen3-TTS-12Hz-1.7B-CustomVoice",
       "pipeline": "text-to-speech",
-      "likes": 1706,
+      "likes": 1708,
       "downloads": 2376593,
       "url": "https://huggingface.co/Qwen/Qwen3-TTS-12Hz-1.7B-CustomVoice"
     },
     {
-      "id": "prathoshap/vagdhenu",
+      "id": "fishaudio/s2-pro",
       "pipeline": "text-to-speech",
-      "likes": 42,
-      "downloads": 2823,
-      "url": "https://huggingface.co/prathoshap/vagdhenu"
+      "likes": 1094,
+      "downloads": 364597,
+      "url": "https://huggingface.co/fishaudio/s2-pro"
     },
     {
       "id": "OpenMOSS-Team/MOSS-Transcribe-Diarize",
       "pipeline": "audio-text-to-text",
-      "likes": 188,
+      "likes": 215,
       "downloads": 65109,
       "url": "https://huggingface.co/OpenMOSS-Team/MOSS-Transcribe-Diarize"
-    },
-    {
-      "id": "OpenMOSS-Team/MOSS-Music-8B-Thinking",
-      "pipeline": "audio-text-to-text",
-      "likes": 38,
-      "downloads": 228,
-      "url": "https://huggingface.co/OpenMOSS-Team/MOSS-Music-8B-Thinking"
     },
     {
       "id": "OpenMOSS-Team/MOSS-Music-8B-Instruct",
@@ -760,6 +753,20 @@
       "url": "https://huggingface.co/OpenMOSS-Team/MOSS-Music-8B-Instruct"
     },
     {
+      "id": "microsoft/VibeVoice-ASR-HF",
+      "pipeline": "audio-text-to-text",
+      "likes": 160,
+      "downloads": 455971,
+      "url": "https://huggingface.co/microsoft/VibeVoice-ASR-HF"
+    },
+    {
+      "id": "OpenMOSS-Team/MOSS-Music-8B-Thinking",
+      "pipeline": "audio-text-to-text",
+      "likes": 38,
+      "downloads": 228,
+      "url": "https://huggingface.co/OpenMOSS-Team/MOSS-Music-8B-Thinking"
+    },
+    {
       "id": "cstr/MOSS-Audio-4B-Instruct-GGUF",
       "pipeline": "audio-text-to-text",
       "likes": 4,
@@ -767,81 +774,76 @@
       "url": "https://huggingface.co/cstr/MOSS-Audio-4B-Instruct-GGUF"
     },
     {
-      "id": "mistralai/Voxtral-Small-24B-2507",
+      "id": "Lewfkrad/Nemotron-Labs-Audex-30B-A3B-NVFP4",
       "pipeline": "audio-text-to-text",
-      "likes": 509,
-      "downloads": 207702,
-      "url": "https://huggingface.co/mistralai/Voxtral-Small-24B-2507"
-    },
-    {
-      "id": "nvidia/audio-flamingo-3-hf",
-      "pipeline": "audio-text-to-text",
-      "likes": 189,
-      "downloads": 280303,
-      "url": "https://huggingface.co/nvidia/audio-flamingo-3-hf"
+      "likes": 3,
+      "downloads": 23,
+      "url": "https://huggingface.co/Lewfkrad/Nemotron-Labs-Audex-30B-A3B-NVFP4"
     }
   ],
   "community_picks": [
     {
-      "title": "MET: Theory-Grounded and Culture-Aware Multilingual Moral Reasoning",
-      "url": "https://huggingface.co/papers/2607.11736",
-      "upvotes": 4,
-      "published": "2026-07-13T11:59:25.000Z"
-    },
-    {
-      "title": "A Theory of Contrastive Learning with Natural Images",
-      "url": "https://huggingface.co/papers/2607.07470",
+      "title": "MAGIC: Transition-Aware Generation of Navigable Multi-Scene Game Worlds with Large Language Models",
+      "url": "https://huggingface.co/papers/2607.11594",
       "upvotes": 1,
-      "published": "2026-07-08T10:32:44.000Z"
+      "published": "2026-07-12T20:00:00.000Z"
     },
     {
-      "title": "Xiaomi-Robotics-U0: Unified Embodied Synthesis with World Foundation Model",
-      "url": "https://huggingface.co/papers/2607.11643",
+      "title": "What LLM Forecasters Know but Don't Say: Probing Internal Representations for Calibration and Faithfulness",
+      "url": "https://huggingface.co/papers/2607.08046",
       "upvotes": 3,
-      "published": "2026-07-13T10:57:58.000Z"
+      "published": "2026-07-08T20:00:00.000Z"
     },
     {
-      "title": "Proxy Exploration and Reusable Guidance: A Modular LLM Post-Training Paradigm via Proxy-Guided Update Signals",
-      "url": "https://huggingface.co/papers/2607.11505",
-      "upvotes": 7,
-      "published": "2026-07-13T08:56:21.000Z"
+      "title": "SynthDocBench: Controlled Benchmark for Long-Context Visual Document Understanding",
+      "url": "https://huggingface.co/papers/2607.10400",
+      "upvotes": 55,
+      "published": "2026-07-10T20:00:00.000Z"
     },
     {
-      "title": "Metacognition in LLMs: Foundations, Progress, and Opportunities",
-      "url": "https://huggingface.co/papers/2607.11881",
-      "upvotes": 12,
-      "published": "2026-07-13T13:58:37.000Z"
+      "title": "MonkeyOCRv2: A Visual-Text Foundation Model for Document AI",
+      "url": "https://huggingface.co/papers/2607.11562",
+      "upvotes": 6,
+      "published": "2026-07-13T09:43:39.000Z"
     },
     {
-      "title": "ABot-AgentOS: A General Robotic Agent OS with Lifelong Multi-modal Memory",
-      "url": "https://huggingface.co/papers/2607.10350",
-      "upvotes": 68,
-      "published": "2026-07-11T11:24:43.000Z"
+      "title": "Let RGB Be the Language of Vision",
+      "url": "https://huggingface.co/papers/2607.12450",
+      "upvotes": 3,
+      "published": "2026-07-13T20:00:00.000Z"
     },
     {
-      "title": "LightMem-Ego: Your AI Memory for Everyday Life",
-      "url": "https://huggingface.co/papers/2607.11487",
-      "upvotes": 33,
-      "published": "2026-07-13T08:40:17.000Z"
+      "title": "MuScriptor: An Open Model for Multi-Instrument Music Transcription",
+      "url": "https://huggingface.co/papers/2607.08168",
+      "upvotes": 5,
+      "published": "2026-07-08T20:00:00.000Z"
     },
     {
-      "title": "MedPMC: A Systematic Framework for Scaling High-Fidelity Medical Multimodal Data for Foundation Models",
-      "url": "https://huggingface.co/papers/2607.07673",
+      "title": "Towards Autonomous and Auditable Medical Imaging Model Development",
+      "url": "https://huggingface.co/papers/2607.10522",
       "upvotes": 4,
-      "published": "2026-07-07T20:00:00.000Z"
+      "published": "2026-07-11T20:00:00.000Z"
     },
     {
-      "title": "VaseMuseum: Digital Intelligent Museum for Ancient Greek Pottery",
-      "url": "https://huggingface.co/papers/2607.06374",
-      "upvotes": 2,
-      "published": "2026-07-06T20:00:00.000Z"
+      "title": "Blind-Spots-Bench: Evaluating Blind Spots in Multimodal Models",
+      "url": "https://huggingface.co/papers/2607.08317",
+      "upvotes": 22,
+      "published": "2026-07-08T20:00:00.000Z"
     },
     {
-      "title": "KronQ: LLM Quantization via Kronecker-Factored Hessian",
-      "url": "https://huggingface.co/papers/2607.07964",
-      "upvotes": 19,
-      "published": "2026-07-07T20:00:00.000Z"
+      "title": "Read It Back: Pretrained MLLMs Are Zero-Shot Reward Models for Text-to-Image Generation",
+      "url": "https://huggingface.co/papers/2607.11886",
+      "upvotes": 44,
+      "published": "2026-07-12T20:00:00.000Z"
+    },
+    {
+      "title": "Know Before Fix: QA-Driven Repository Knowledge Acquisition for Software Issue Resolution",
+      "url": "https://huggingface.co/papers/2607.11111",
+      "upvotes": 6,
+      "published": "2026-07-12T20:00:00.000Z"
     }
   ],
-  "warnings": []
+  "warnings": [
+    "arxiv: The operation was aborted due to timeout (kept previous)"
+  ]
 }
