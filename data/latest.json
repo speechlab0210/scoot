@@ -1,7 +1,156 @@
 {
-  "fetched_at": "2026-07-16T22:40:02.940Z",
+  "fetched_at": "2026-07-17T22:40:02.533Z",
   "paper_window_days": 10,
   "papers": [
+    {
+      "id": "https://arxiv.org/abs/2607.15265v1",
+      "title": "SceneBind: Binding What and Where Across Vision, Audio and Language",
+      "authors": [
+        "Mingfei Chen",
+        "Zijun Cui",
+        "Ruoke Zhang",
+        "Hyeonggon Ryu",
+        "Eli Shlizerman"
+      ],
+      "abstract": "We present SceneBind, an omni-modal representation of realistic scenes with joint semantic and 3D spatial understanding across vision, audio and language. Existing omni-modal encoders excel at instance-level semantics (i.e., what is present), but often lack explicit spatial structure (i.e., where it is). SceneBind addresses this gap by representing each scene as a semantic-spatial entity, combining a global semantic embedding with object-centric semantic-spatial slots. This representation explicitly captures object-level semantics, spatial attributes, and uncertainty. We further propose Sce...",
+      "published": "2026-07-16T17:55:15Z",
+      "cats": [
+        "cs.CV",
+        "cs.AI",
+        "cs.MM",
+        "cs.SD"
+      ]
+    },
+    {
+      "id": "https://arxiv.org/abs/2607.15243v1",
+      "title": "What does the model actually see? Evaluation protocols and input availability in data-driven prediction of room acoustic parameters",
+      "authors": [
+        "Akın Oktav"
+      ],
+      "abstract": "Machine-learnt models are increasingly used to predict ISO 3382-1 room acoustic parameters from sparse measurements, with reported coefficients of determination frequently above 0.85. This paper shows that such figures are often determined by the evaluation protocol rather than by the model. Using a multi-condition measurement campaign in a 264-seat conference hall and a 180-seat concert hall, three model families were evaluated under a factorial protocol ablation: validation splits either row-based or grouped by receiver position, and input features either including measured-at-test quanti...",
+      "published": "2026-07-16T17:42:54Z",
+      "cats": [
+        "eess.AS",
+        "cs.SD"
+      ]
+    },
+    {
+      "id": "https://arxiv.org/abs/2607.15198v1",
+      "title": "SLT 2026 REAL-TSE Challenge: Real-world Target Speaker Extraction from Conversational Recordings",
+      "authors": [
+        "Shuai Wang",
+        "Zihan Qian",
+        "Ke Zhang",
+        "Jiangyu Han",
+        "Zikai Liu",
+        "Xiaoyang Yu",
+        "Haoyu Li",
+        "Marc Delcroix"
+      ],
+      "abstract": "We introduce the REAL-TSE Challenge, an IEEE SLT 2026 satellite challenge on target speaker extraction~(TSE) from real conversational recordings. Given a multi-speaker mixture and one or more enrollment utterances from a target speaker, participating systems must recover only the target speech. Unlike simulated read-speech benchmarks, REAL-TSE evaluates Mandarin and English recordings that contain natural overlap, reverberation, noise, channel mismatch, and conversational dynamics. The challenge defines two complementary tracks: an Online track for low-latency streaming extraction and an Of...",
+      "published": "2026-07-16T16:57:05Z",
+      "cats": [
+        "eess.AS",
+        "cs.SD"
+      ]
+    },
+    {
+      "id": "https://arxiv.org/abs/2607.14846v1",
+      "title": "RW-Voice-EQ Bench: A Real World Benchmark for Evaluating Voice AI Systems",
+      "authors": [
+        "David Ayllon",
+        "Alice Baird",
+        "Jeffrey Brooks",
+        "Franc Camps-Febrer",
+        "Jakub Piotr Cłapa",
+        "Theo Lebryk",
+        "Jens Madsen",
+        "Olya Ossipova"
+      ],
+      "abstract": "Current voice AI benchmarks typically evaluate isolated capabilities such as speech intelligibility, word error rate, or text-based dialogue quality, but they rarely test whether systems harness the acoustic information that distinguishes spoken language from its textual representation. To this end, we introduce the Real World Voice EQ Bench, a multidimensional benchmark for evaluating voice AI across text-to-speech (TTS), speech-to-speech (STS), speech understanding (SU), and automatic speech recognition (ASR). Our evaluations indicate that performance is highly dimension-specific. For TTS...",
+      "published": "2026-07-16T11:15:16Z",
+      "cats": [
+        "cs.SD",
+        "cs.AI"
+      ]
+    },
+    {
+      "id": "https://arxiv.org/abs/2607.14753v1",
+      "title": "Large Audio Language Models for Spoofing-Aware Speaker Verification",
+      "authors": [
+        "Sofya Savelyeva",
+        "Mariia Perunova",
+        "Evgeny Kushnir",
+        "Artem Dvirniak",
+        "Dmitrii Korzh",
+        "Oleg Y. Rogov"
+      ],
+      "abstract": "Recent advances in text-to-speech and voice cloning make high-quality spoofing inexpensive and scalable, threatening voice authentication systems, especially automatic speaker verification (ASV). Existing defenses mainly address this threat through binary countermeasures (CMs) for deepfake detection or spoofing-aware speaker verification (SASV), where current systems are dominated by modular ASV-CM fusion and cascaded pipelines. Although large audio language models (LALMs) have shown promise on related audio tasks, including CM and ASV, their use for SASV remains unexplored, despite their c...",
+      "published": "2026-07-16T09:38:45Z",
+      "cats": [
+        "cs.SD",
+        "cs.AI"
+      ]
+    },
+    {
+      "id": "https://arxiv.org/abs/2607.14749v1",
+      "title": "WanSong v1.0 Technical Report",
+      "authors": [
+        "Binghui Chen",
+        "Pandeng Li",
+        "Yu Liu",
+        "Jingren Zhou"
+      ],
+      "abstract": "Music generation foundation models have recently attracted significant industry attention. However, achieving efficient generation and high-fidelity long-form audio while supporting controllability remains challenging. To address these needs, we present \\textbf{WanSong}, a simple yet powerful approach for long-form, commercial-grade song generation. Unlike autoregressive (AR) and cascaded multi-stage pipelines (\\eg, AR followed by diffusion), \\textbf{WanSong} is a pure diffusion-based model that directly generates high-fidelity, multilingual songs up to 5 minutes and outputs dual stems (voc...",
+      "published": "2026-07-16T09:34:59Z",
+      "cats": [
+        "eess.AS",
+        "cs.CV"
+      ]
+    },
+    {
+      "id": "https://arxiv.org/abs/2607.14537v1",
+      "title": "MIDI-RAE-JEPA: Hierarchical Representation Learning and Generation for Symbolic Music",
+      "authors": [
+        "Scott H. Hawley"
+      ],
+      "abstract": "Rich internal representations of musical structure are essential for music understanding tasks such as machine-assisted music co-writing, yet self-supervised approaches for symbolic music representation remain underexplored, particularly those that encode the hierarchical multiscale nature of musical structures. We present MIDI-RAE-JEPA, combining a pitch- and time-shift equivariance objective with LeJEPA and a Swin Transformer V2 encoder to learn such hierarchical representations of symbolic music encoded as piano roll images. The time-shift equivariance objective encourages the model to i...",
+      "published": "2026-07-16T03:42:35Z",
+      "cats": [
+        "cs.SD",
+        "cs.LG",
+        "eess.AS"
+      ]
+    },
+    {
+      "id": "https://arxiv.org/abs/2607.14474v1",
+      "title": "Can Tokens Compete? Token Representations against Supervised CNN Backbones for BirdCLEF+ 2026",
+      "authors": [
+        "Anthony Miyaguchi",
+        "Murilo Gustineli",
+        "Adrian Cheung"
+      ],
+      "abstract": "This paper details the DS@GT ARC team's approach to BirdCLEF+ 2026, multi-label detection of animal vocalizations in soundscapes from the Pantanal wetlands. The 2026 edition adds about an hour of labeled soundscapes, shifting the task toward supervised pipelines fit to the labeled set. First, we build a competitive supervised baseline that ensembles a frozen Perch v2 backbone, a trained HGNetV2-B0 sound-event-detection network, and a non-bird prototypical head, reaching a private leaderboard score of 0.936 at rank 1894 within a 90-minute CPU budget. Second, we ask whether token-based repres...",
+      "published": "2026-07-16T01:37:39Z",
+      "cats": [
+        "cs.SD",
+        "cs.AI",
+        "cs.LG"
+      ]
+    },
+    {
+      "id": "https://arxiv.org/abs/2607.14310v1",
+      "title": "Dialogs: a studio-quality expressive conversational Russian speech corpus for dialog assistants",
+      "authors": [
+        "Ilya Shigabeev",
+        "Ilya Latyshev"
+      ],
+      "abstract": "We introduce Dialogs, a studio-quality Russian conversational speech corpus for dialog assistants. The dataset contains 20.6 hours of face-to-face acted dialogs recorded in a professional studio (44.1 kHz stereo) and segmented into 11,796 utterances across 3 speakers. Unlike read-speech resources, Dialogs captures turn-taking rhythm and expressive prosody, and provides per-utterance style/emotion labels spanning 12 categories. We validate corpus quality with crowd MOS tests, showing comparable audio quality and intelligibility to strong Russian studio baselines while achieving higher rating...",
+      "published": "2026-07-15T19:16:31Z",
+      "cats": [
+        "eess.AS"
+      ]
+    },
     {
       "id": "https://arxiv.org/abs/2607.14072v1",
       "title": "MetaPerch: Learning from metadata for bioacoustics foundation models",
@@ -14,6 +163,26 @@
       "published": "2026-07-15T17:42:41Z",
       "cats": [
         "cs.LG",
+        "cs.SD"
+      ]
+    },
+    {
+      "id": "https://arxiv.org/abs/2607.14189v1",
+      "title": "MultiRef-Compass: Towards Comprehensive Evaluation of Multi-Reference-to-Audio-Video Generation",
+      "authors": [
+        "Xiaohan Zhang",
+        "Yuqing Wen",
+        "Junlin Chen",
+        "Yuqi Tang",
+        "Yiting He",
+        "Lizhuo Shao",
+        "Weiming Zhu",
+        "Tengfei Liu"
+      ],
+      "abstract": "Multi-reference-to-audio-video (MR2AV) generation aims to generate coherent audio-video content conditioned on multiple references and textual instructions. Existing benchmarks mainly focus on text-driven generation, single-reference subject preservation, or isolated audio-video alignment, leaving the emerging MR2AV setting largely unexplored. Compared with these settings, MR2AV requires models to jointly reason over multiple references while generating synchronized visual and audio content. Models must not only preserve each reference faithfully but also correctly bind and compose multiple...",
+      "published": "2026-07-15T16:02:45Z",
+      "cats": [
+        "cs.CV",
         "cs.SD"
       ]
     },
@@ -204,8 +373,8 @@
       ]
     },
     {
-      "id": "https://arxiv.org/abs/2607.13278v1",
-      "title": "Adapting a Diffusion-Based Music Synthesis Model to Human Voice Conversion",
+      "id": "https://arxiv.org/abs/2607.13278v2",
+      "title": "Adapting Diffusion-Based Music Synthesis to Speech and Singing Voice Conversion",
       "authors": [
         "Ben Maman",
         "Frank Zalkow",
@@ -282,6 +451,19 @@
       "cats": [
         "eess.AS",
         "eess.SP"
+      ]
+    },
+    {
+      "id": "https://arxiv.org/abs/2607.14148v1",
+      "title": "ITGPT: A Transformer Based Architecture for the Generation of Dance Dance Revolution and In the Groove Charts",
+      "authors": [
+        "Miguel O'Malley"
+      ],
+      "abstract": "Dance Dance Revolution and In the Groove are rhythm games consisting of songs and accompanying choreography, referred to as charts. Players press arrows on a device referred to as a dance pad in time with steps determined by the song's chart. The process of manual chart generation is timestaking and difficult, motivating interest in automation. We propose ITGPT, a new transformer based architecture for the generation of DDR/ITG charts, and demonstrate significant improvements to generation accuracy and computational cost in comparison to predecessor work.",
+      "published": "2026-07-14T13:05:53Z",
+      "cats": [
+        "cs.SD",
+        "cs.LG"
       ]
     },
     {
@@ -411,8 +593,8 @@
       "cats": [
         "cs.CV",
         "cs.AI",
-        "cs.MM",
-        "cs.SD"
+        "cs.CR",
+        "cs.MM"
       ]
     },
     {
@@ -456,372 +638,196 @@
       "cats": [
         "eess.AS"
       ]
-    },
-    {
-      "id": "https://arxiv.org/abs/2607.12468v1",
-      "title": "An Omnilingual-ASR-Based Speech-LLM System for the 2nd MLC-SLM Challenge",
-      "authors": [
-        "Shuming Fang",
-        "Shuifei Zeng"
-      ],
-      "abstract": "We describe our submission to Task 1 of the 2nd MLCSLM Challenge: a cascaded diarization-then-recognition system that combines DiariZen-Large-s80 (WavLM-Large) segmentation, CAM++ embedding-based two-speaker clustering, and a LoRA-adapted omniASR LLM 7B v2 recognizer, with no oracle segmentation or speaker labels at test time. On the official Development set (150 conversations, 21 language/accent categories) the system attains a macro tcpMER of 29.27%, versus 79.15% for the official baseline; on the Evaluation set it scores 50.23%. We also analyze two engineering choices that substantially ...",
-      "published": "2026-07-14T07:52:39Z",
-      "cats": [
-        "cs.SD",
-        "cs.AI"
-      ]
-    },
-    {
-      "id": "https://arxiv.org/abs/2607.12417v1",
-      "title": "PolarBM: Complex-valued Boltzmann Machine for Modeling Audio Signals in Polar and Log-polar Coordinates",
-      "authors": [
-        "Toru Nakashika",
-        "Kohei Yatabe"
-      ],
-      "abstract": "Although vast amounts of data, such as audio signal spectra, are naturally represented using complex numbers, conventional machine learning methods often simplify complex-domain problems by employing frameworks designed for real-valued variables. While this simplification offers computational benefits, it discards structural information regarding the inherent relationship between amplitude and phase. In this paper, we propose a novel Boltzmann machine (BM), named PolarBM, capable of naturally handling complex-valued variables in the polar coordinate (i.e., an amplitude-phase representation)...",
-      "published": "2026-07-14T06:45:48Z",
-      "cats": [
-        "cs.LG",
-        "cs.SD",
-        "eess.AS"
-      ]
-    },
-    {
-      "id": "https://arxiv.org/abs/2607.12329v1",
-      "title": "Real-time Generation of Listener Nodding via Prediction of Kinematic Parameters for Avatar Dialogue Systems",
-      "authors": [
-        "Kazushi Kato",
-        "Koji Inoue",
-        "Taiga Mori",
-        "Divesh Lala",
-        "Tatsuya Kawahara"
-      ],
-      "abstract": "In human dialogue, we achieve smooth communication by expressing nonverbal cues such as eye contact, nodding, and facial expressions with precise timing. It is expected for conversational avatars to express these cues appropriately to realize natural and human-like interactions. This study focuses on nodding, which is crucial for demonstrating active listening and encouraging further user utterances. We propose a model that predicts both timing and kinematic parameters representing the motion features of listener nodding in real time. The proposed model consists of a timing prediction modul...",
-      "published": "2026-07-14T04:18:06Z",
-      "cats": [
-        "cs.HC",
-        "cs.SD"
-      ]
-    },
-    {
-      "id": "https://arxiv.org/abs/2607.12290v1",
-      "title": "The Sound of Absence: Audio-Language Embedding Models Struggle with Negation",
-      "authors": [
-        "Chun-Yi Kuan",
-        "Hung-yi Lee"
-      ],
-      "abstract": "Audio-language embedding models such as CLAP are widely evaluated on matching present sound events, but rarely on negation. We show this affirmation-only evaluation hides a key limitation: these models fail to encode negated sound concepts, mapping affirmative and negated captions to nearly identical representations. To expose this blind spot, we introduce NegEval-Audio, a framework that converts existing datasets into two negation-aware tasks, Retrieval-Neg and Multiple-Choice Negation (MCQ-Neg), to probe whether models distinguish present from absent events. On AudioCaps and Clotho, perfo...",
-      "published": "2026-07-14T02:55:00Z",
-      "cats": [
-        "eess.AS",
-        "cs.AI",
-        "cs.CL",
-        "cs.LG"
-      ]
-    },
-    {
-      "id": "https://arxiv.org/abs/2607.11801v1",
-      "title": "Encoder-Side Neuron Identification and Amplification for Acoustic Perception in Large Audio-Language Models",
-      "authors": [
-        "Yu-Han Huang",
-        "Chih-Kai Yang",
-        "Ke-Han Lu",
-        "An-Yu Cheng",
-        "Hung-yi Lee"
-      ],
-      "abstract": "Large audio-language models (LALMs) often underperform on fine-grained, non-semantic attributes of speech, such as a speaker's emotion, despite strong performance on speech content. Improving this without the cost of retraining calls for an effective inference-time intervention, yet most existing methods intervene only after the audio encoder and operate at a relatively coarse granularity. The encoder itself, where acoustic information is first extracted from the waveform, remains largely unexplored, especially at the level of individual neurons. We introduce IAAN, Identifying and Amplifyin...",
-      "published": "2026-07-13T16:53:08Z",
-      "cats": [
-        "cs.SD",
-        "cs.AI"
-      ]
-    },
-    {
-      "id": "https://arxiv.org/abs/2607.11792v1",
-      "title": "Casting Everything to Online API Services? A Survey of Integrating Localized Speech Recognition Models in Robotic Systems",
-      "authors": [
-        "Sheng Li",
-        "Jing Li",
-        "Felix Schijve",
-        "Jun Hu",
-        "Emilia Barakova"
-      ],
-      "abstract": "Automatic speech recognition (ASR) has become a critical component of modern robotic systems because it is one of the most natural and intuitive ways for humans to interact with robots. A commonly used method is to directly use API services online. But is that all we can do? This article provides an overview of how ASR technologies are integrated into various intelligent robots and machines. We discuss the evolution of speech recognition from established approaches to state-of-the-art deep learning models, such as OpenAI's Whisper. We also list large-scale datasets and open source toolkits ...",
-      "published": "2026-07-13T16:45:19Z",
-      "cats": [
-        "cs.RO",
-        "eess.AS"
-      ]
-    },
-    {
-      "id": "https://arxiv.org/abs/2607.11772v1",
-      "title": "Synchronized Three-Dimensional Vocal-Tract Motion for Speech Synchronization via Joint-Embedding Predictive Architecture Alignment",
-      "authors": [
-        "Sheng Li",
-        "Takahiro Shinozaki"
-      ],
-      "abstract": "Modern neural speech systems can generate intelligible waveforms, but they usually hide the physical speech-production state that produced the sound. Conversely, biomechanical vocal-tract models expose articulatory structure, contact behavior, airflow routing, and geometric constraints, but direct physical waveform synthesis remains less robust than modern neural vocoders. A duration-preserving acoustic carrier supplies the listening waveform, while a corrected three-dimensional vocal-tract model supplies synchronized jaw, lip, tongue, velum, laryngeal, oral-airflow, and nasal-airflow motio...",
-      "published": "2026-07-13T16:31:18Z",
-      "cats": [
-        "eess.AS"
-      ]
-    },
-    {
-      "id": "https://arxiv.org/abs/2607.11738v1",
-      "title": "Qwen-Audio-VAE Technical Report",
-      "authors": [
-        "Ziyue Jiang",
-        "Dake Guo",
-        "Zekai Zhang",
-        "Hangrui Hu",
-        "Ting He",
-        "Xinfa Zhu",
-        "Xiong Wang",
-        "Yongqi Wang"
-      ],
-      "abstract": "We introduce \\textbf{Qwen-Audio-VAE}, a suite of low-bitrate, fast-encoding continuous audio autoencoders designed for scalable general audio generation. The model is built around a simple but important principle: an audio VAE should not only reconstruct diverse audio with high fidelity, but also produce compact latent representations fast enough to support large-scale text-to-audio training. Qwen-Audio-VAE combines a causal encoder-decoder, window Transformer blocks, and multi-discriminator training to achieve a strong balance between reconstruction quality and compression rate. The model ...",
-      "published": "2026-07-13T16:00:03Z",
-      "cats": [
-        "eess.AS"
-      ]
-    },
-    {
-      "id": "https://arxiv.org/abs/2607.11706v1",
-      "title": "VoxENES 2026: Benchmarking Generalization of Speech Spoofing Detectors Against LLM-Era TTS and Voice Conversion",
-      "authors": [
-        "Aastha Sharma",
-        "Guangjing Wang"
-      ],
-      "abstract": "Modern LLM-driven text-to-speech (TTS) and voice conversion (VC) systems produce synthetic speech that differs from the generators represented in many legacy spoofing benchmarks. This mismatch creates a temporal generalization gap that can overestimate detector robustness under real-world post-processing conditions. We bridge this gap by introducing VoxENES 2026, a bilingual (English and Spanish) benchmark of 53,628 audio samples generated using 10 contemporary speech synthesis methods and evaluated under 10 standardized post-processing conditions. Using VoxENES 2026, we benchmark eight pre...",
-      "published": "2026-07-13T15:35:29Z",
-      "cats": [
-        "cs.SD",
-        "cs.AI"
-      ]
-    },
-    {
-      "id": "https://arxiv.org/abs/2607.11699v1",
-      "title": "Qwen-Music Technical Report",
-      "authors": [
-        "Jin Xu",
-        "Kangdi Wang",
-        "Ruibin Yuan",
-        "Shun Lei",
-        "Xiong Wang",
-        "Xize Cheng",
-        "Xueyao Zhang",
-        "Yang Zhang"
-      ],
-      "abstract": "In this report, we introduce Qwen-Music, a powerful music generation model capable of producing highly musical and high-fidelity songs with complete vocal singing. Qwen-Music supports two core tasks: Text to Music Generation, which create entirely new songs from text descriptions, lyrics, and musical attributes, and Cover Song Generation, which reinterprets existing songs with different styles and vocal characteristics. Architecturally, Qwen-Music integrates three core components: Qwen-Music-Tokenizer, Qwen-Music-LLM, and Qwen-Music-Render. Qwen-Music-Tokenizer compresses audio into a 25 Hz...",
-      "published": "2026-07-13T15:31:45Z",
-      "cats": [
-        "cs.SD"
-      ]
-    },
-    {
-      "id": "https://arxiv.org/abs/2607.11630v1",
-      "title": "Teaching Speech Enhancement Models to Sing: Domain Adaptation from Speech Enhancement to Singing Voice Separation",
-      "authors": [
-        "Paul A. Bereuter",
-        "Mark D. Plumbley",
-        "Alois Sontacchi"
-      ],
-      "abstract": "State-of-the-art speech enhancement models benefit from large-scale labeled datasets, whereas singing voice separation models suffer from limited available training data. To address this limitation, we formulate singing voice separation as domain adaptation from speech enhancement to singing voice separation. We investigate two fine-tuning strategies: full fine-tuning and parameter-efficient fine-tuning using Low-Rank Adaptation (LoRA) on a discriminative and a generative model. Models with either adaptation strategy outperform the same architectures trained from scratch by 0.29-1.8 dB in S...",
-      "published": "2026-07-13T14:48:09Z",
-      "cats": [
-        "cs.SD",
-        "eess.AS"
-      ]
     }
   ],
   "models": [
     {
       "id": "ai-sage/GigaAM-Multilingual",
       "pipeline": "automatic-speech-recognition",
-      "likes": 48,
-      "downloads": 1541,
+      "likes": 52,
+      "downloads": 2399,
       "url": "https://huggingface.co/ai-sage/GigaAM-Multilingual"
+    },
+    {
+      "id": "nvidia/nemotron-3.5-asr-streaming-0.6b",
+      "pipeline": "automatic-speech-recognition",
+      "likes": 856,
+      "downloads": 473430,
+      "url": "https://huggingface.co/nvidia/nemotron-3.5-asr-streaming-0.6b"
     },
     {
       "id": "CohereLabs/cohere-transcribe-arabic-07-2026",
       "pipeline": "automatic-speech-recognition",
-      "likes": 115,
-      "downloads": 17227,
+      "likes": 118,
+      "downloads": 19797,
       "url": "https://huggingface.co/CohereLabs/cohere-transcribe-arabic-07-2026"
     },
     {
       "id": "pyannote/speaker-diarization-3.1",
       "pipeline": "automatic-speech-recognition",
-      "likes": 2736,
-      "downloads": 8298766,
+      "likes": 2749,
+      "downloads": 8475096,
       "url": "https://huggingface.co/pyannote/speaker-diarization-3.1"
     },
     {
       "id": "pyannote/speaker-diarization-community-1",
       "pipeline": "automatic-speech-recognition",
-      "likes": 774,
-      "downloads": 4354894,
+      "likes": 785,
+      "downloads": 4476210,
       "url": "https://huggingface.co/pyannote/speaker-diarization-community-1"
-    },
-    {
-      "id": "nvidia/nemotron-3.5-asr-streaming-0.6b",
-      "pipeline": "automatic-speech-recognition",
-      "likes": 840,
-      "downloads": 390550,
-      "url": "https://huggingface.co/nvidia/nemotron-3.5-asr-streaming-0.6b"
     },
     {
       "id": "openai/whisper-large-v3",
       "pipeline": "automatic-speech-recognition",
-      "likes": 5948,
-      "downloads": 5780598,
+      "likes": 5954,
+      "downloads": 5939035,
       "url": "https://huggingface.co/openai/whisper-large-v3"
-    },
-    {
-      "id": "nineninesix/gepard-1.0",
-      "pipeline": "text-to-speech",
-      "likes": 107,
-      "downloads": 7534,
-      "url": "https://huggingface.co/nineninesix/gepard-1.0"
     },
     {
       "id": "hexgrad/Kokoro-82M",
       "pipeline": "text-to-speech",
-      "likes": 6537,
-      "downloads": 10323776,
+      "likes": 6547,
+      "downloads": 10134354,
       "url": "https://huggingface.co/hexgrad/Kokoro-82M"
+    },
+    {
+      "id": "nineninesix/gepard-1.0",
+      "pipeline": "text-to-speech",
+      "likes": 110,
+      "downloads": 8253,
+      "url": "https://huggingface.co/nineninesix/gepard-1.0"
+    },
+    {
+      "id": "Qwen/Qwen3-TTS-12Hz-1.7B-CustomVoice",
+      "pipeline": "text-to-speech",
+      "likes": 1737,
+      "downloads": 2432960,
+      "url": "https://huggingface.co/Qwen/Qwen3-TTS-12Hz-1.7B-CustomVoice"
     },
     {
       "id": "k2-fsa/OmniVoice",
       "pipeline": "text-to-speech",
-      "likes": 1175,
-      "downloads": 901315,
+      "likes": 1178,
+      "downloads": 893572,
       "url": "https://huggingface.co/k2-fsa/OmniVoice"
     },
     {
       "id": "bosonai/higgs-tts-3-4b",
       "pipeline": "text-to-speech",
-      "likes": 644,
-      "downloads": 266199,
+      "likes": 648,
+      "downloads": 290473,
       "url": "https://huggingface.co/bosonai/higgs-tts-3-4b"
     },
     {
-      "id": "Qwen/Qwen3-TTS-12Hz-1.7B-CustomVoice",
+      "id": "pnnbao-ump/VieNeu-TTS-v3-Turbo",
       "pipeline": "text-to-speech",
-      "likes": 1712,
-      "downloads": 2357234,
-      "url": "https://huggingface.co/Qwen/Qwen3-TTS-12Hz-1.7B-CustomVoice"
-    },
-    {
-      "id": "fishaudio/s2-pro",
-      "pipeline": "text-to-speech",
-      "likes": 1094,
-      "downloads": 300166,
-      "url": "https://huggingface.co/fishaudio/s2-pro"
+      "likes": 37,
+      "downloads": 278699,
+      "url": "https://huggingface.co/pnnbao-ump/VieNeu-TTS-v3-Turbo"
     },
     {
       "id": "OpenMOSS-Team/MOSS-Transcribe-Diarize",
       "pipeline": "audio-text-to-text",
-      "likes": 231,
-      "downloads": 75105,
+      "likes": 248,
+      "downloads": 83160,
       "url": "https://huggingface.co/OpenMOSS-Team/MOSS-Transcribe-Diarize"
     },
     {
-      "id": "microsoft/VibeVoice-ASR-HF",
+      "id": "Qwen/Qwen2-Audio-7B-Instruct",
       "pipeline": "audio-text-to-text",
-      "likes": 161,
-      "downloads": 413699,
-      "url": "https://huggingface.co/microsoft/VibeVoice-ASR-HF"
+      "likes": 550,
+      "downloads": 646156,
+      "url": "https://huggingface.co/Qwen/Qwen2-Audio-7B-Instruct"
     },
     {
-      "id": "OpenMOSS-Team/MOSS-Audio-4B-Instruct",
+      "id": "mistralai/Voxtral-Small-24B-2507",
       "pipeline": "audio-text-to-text",
-      "likes": 76,
-      "downloads": 130472,
-      "url": "https://huggingface.co/OpenMOSS-Team/MOSS-Audio-4B-Instruct"
-    },
-    {
-      "id": "OpenMOSS-Team/MOSS-Music-8B-Instruct",
-      "pipeline": "audio-text-to-text",
-      "likes": 27,
-      "downloads": 1178,
-      "url": "https://huggingface.co/OpenMOSS-Team/MOSS-Music-8B-Instruct"
+      "likes": 511,
+      "downloads": 233464,
+      "url": "https://huggingface.co/mistralai/Voxtral-Small-24B-2507"
     },
     {
       "id": "Lewfkrad/Nemotron-Labs-Audex-30B-A3B-NVFP4",
       "pipeline": "audio-text-to-text",
       "likes": 3,
-      "downloads": 26,
+      "downloads": 28,
       "url": "https://huggingface.co/Lewfkrad/Nemotron-Labs-Audex-30B-A3B-NVFP4"
     },
     {
-      "id": "Qwen/Qwen2-Audio-7B-Instruct",
+      "id": "mispeech/GLAP",
       "pipeline": "audio-text-to-text",
-      "likes": 549,
-      "downloads": 615313,
-      "url": "https://huggingface.co/Qwen/Qwen2-Audio-7B-Instruct"
+      "likes": 10,
+      "downloads": 428,
+      "url": "https://huggingface.co/mispeech/GLAP"
+    },
+    {
+      "id": "nvidia/audio-flamingo-3-hf",
+      "pipeline": "audio-text-to-text",
+      "likes": 189,
+      "downloads": 260118,
+      "url": "https://huggingface.co/nvidia/audio-flamingo-3-hf"
     }
   ],
   "community_picks": [
     {
-      "title": "Length Penalties Make Chain-of-Thought Less Monitorable",
-      "url": "https://huggingface.co/papers/2607.09786",
-      "upvotes": 3,
-      "published": "2026-07-07T20:00:00.000Z"
-    },
-    {
-      "title": "SPEAR: A Simulator for Photorealistic Embodied AI Research",
-      "url": "https://huggingface.co/papers/2607.06701",
-      "upvotes": 2,
-      "published": "2026-07-07T14:20:33.000Z"
-    },
-    {
-      "title": "Self in Space: Benchmarking Self-Awareness and Spatial Cognition in UAV Embodied Intelligence",
-      "url": "https://huggingface.co/papers/2607.12477",
-      "upvotes": 3,
-      "published": "2026-07-13T20:00:00.000Z"
-    },
-    {
-      "title": "Discrete Diffusion Models: A Unified Framework from Tokenization to Generation",
-      "url": "https://huggingface.co/papers/2607.13431",
-      "upvotes": 7,
-      "published": "2026-07-14T20:00:00.000Z"
-    },
-    {
-      "title": "AffectFlow-DINO: Uncertainty-Aware Multi-Task Affect Estimation via Conditional Rectified Flow",
-      "url": "https://huggingface.co/papers/2607.13250",
+      "title": "Chat2Scenic: An Iterative RAG-Based Framework for Scenario Generation in Autonomous Driving",
+      "url": "https://huggingface.co/papers/2607.14387",
       "upvotes": 1,
-      "published": "2026-07-13T20:00:00.000Z"
-    },
-    {
-      "title": "From Controlled to the Wild: Evaluation of Pentesting Agents for the Real-World",
-      "url": "https://huggingface.co/papers/2605.10834",
-      "upvotes": 3,
-      "published": "2026-07-13T20:00:00.000Z"
-    },
-    {
-      "title": "Self-Improvements in Modern Agentic Systems: A Survey",
-      "url": "https://huggingface.co/papers/2607.13104",
-      "upvotes": 13,
-      "published": "2026-07-13T20:00:00.000Z"
-    },
-    {
-      "title": "Registers Matter for Pixel-Space Diffusion Transformers",
-      "url": "https://huggingface.co/papers/2605.16147",
-      "upvotes": 16,
-      "published": "2026-07-05T20:00:00.000Z"
-    },
-    {
-      "title": "AgentCompass: A Unified Evaluation Infrastructure for Agent Capabilities",
-      "url": "https://huggingface.co/papers/2607.13705",
-      "upvotes": 9,
       "published": "2026-07-14T20:00:00.000Z"
     },
     {
-      "title": "Boogu-Image-0.1: Boosting Open-Source Unified Multimodal Understanding and Generation",
-      "url": "https://huggingface.co/papers/2607.13125",
-      "upvotes": 107,
-      "published": "2026-07-13T20:00:00.000Z"
+      "title": "Hierarchical Denoising For Multi-Step Visual Reasoning",
+      "url": "https://huggingface.co/papers/2607.15278",
+      "upvotes": 1,
+      "published": "2026-07-15T20:00:00.000Z"
+    },
+    {
+      "title": "RxBrain: Embodied Cognition Foundation Model with Joint Language-Visual Reasoning and Imagination",
+      "url": "https://huggingface.co/papers/2607.14187",
+      "upvotes": 3,
+      "published": "2026-07-14T20:00:00.000Z"
+    },
+    {
+      "title": "SUFLECA: Scaling Up Feature Learning for CAD-to-image Alignment",
+      "url": "https://huggingface.co/papers/2607.15058",
+      "upvotes": 3,
+      "published": "2026-07-15T20:00:00.000Z"
+    },
+    {
+      "title": "AsySplat: Efficient Asymmetric 3D Gaussian Splatting for Long-Sequence Scene Modeling",
+      "url": "https://huggingface.co/papers/2607.10995",
+      "upvotes": 4,
+      "published": "2026-07-12T20:00:00.000Z"
+    },
+    {
+      "title": "LongStraw: Long-Context RL Beyond 2M Tokens under a Fixed GPU Budget",
+      "url": "https://huggingface.co/papers/2607.14952",
+      "upvotes": 40,
+      "published": "2026-07-15T20:00:00.000Z"
+    },
+    {
+      "title": "VIABench: A Comprehensive Video Benchmark Collected from Blind Individuals for Visual Impairment Assistance",
+      "url": "https://huggingface.co/papers/2607.14660",
+      "upvotes": 7,
+      "published": "2026-07-15T20:00:00.000Z"
+    },
+    {
+      "title": "GRASP: GRanularity-Aware Search Policy for Agentic RAG",
+      "url": "https://huggingface.co/papers/2607.10463",
+      "upvotes": 4,
+      "published": "2026-07-10T20:00:00.000Z"
+    },
+    {
+      "title": "Spectral Rewiring for Exploration, Purification, and Model Merging",
+      "url": "https://huggingface.co/papers/2607.03065",
+      "upvotes": 18,
+      "published": "2026-07-02T20:00:00.000Z"
+    },
+    {
+      "title": "Partition, Prompt, Aggregate: Statistical Self-Consistency in Language Models",
+      "url": "https://huggingface.co/papers/2607.15277",
+      "upvotes": 4,
+      "published": "2026-07-15T20:00:00.000Z"
     }
   ],
   "warnings": []
