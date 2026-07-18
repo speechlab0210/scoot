@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-17T22:40:02.533Z",
+  "fetched_at": "2026-07-18T22:40:02.608Z",
   "paper_window_days": 10,
   "papers": [
     {
@@ -644,190 +644,190 @@
     {
       "id": "ai-sage/GigaAM-Multilingual",
       "pipeline": "automatic-speech-recognition",
-      "likes": 52,
-      "downloads": 2399,
+      "likes": 56,
+      "downloads": 2752,
       "url": "https://huggingface.co/ai-sage/GigaAM-Multilingual"
     },
     {
       "id": "nvidia/nemotron-3.5-asr-streaming-0.6b",
       "pipeline": "automatic-speech-recognition",
-      "likes": 856,
-      "downloads": 473430,
+      "likes": 871,
+      "downloads": 520729,
       "url": "https://huggingface.co/nvidia/nemotron-3.5-asr-streaming-0.6b"
-    },
-    {
-      "id": "CohereLabs/cohere-transcribe-arabic-07-2026",
-      "pipeline": "automatic-speech-recognition",
-      "likes": 118,
-      "downloads": 19797,
-      "url": "https://huggingface.co/CohereLabs/cohere-transcribe-arabic-07-2026"
     },
     {
       "id": "pyannote/speaker-diarization-3.1",
       "pipeline": "automatic-speech-recognition",
-      "likes": 2749,
-      "downloads": 8475096,
+      "likes": 2759,
+      "downloads": 8447621,
       "url": "https://huggingface.co/pyannote/speaker-diarization-3.1"
+    },
+    {
+      "id": "CohereLabs/cohere-transcribe-arabic-07-2026",
+      "pipeline": "automatic-speech-recognition",
+      "likes": 121,
+      "downloads": 20663,
+      "url": "https://huggingface.co/CohereLabs/cohere-transcribe-arabic-07-2026"
     },
     {
       "id": "pyannote/speaker-diarization-community-1",
       "pipeline": "automatic-speech-recognition",
-      "likes": 785,
-      "downloads": 4476210,
+      "likes": 788,
+      "downloads": 4520348,
       "url": "https://huggingface.co/pyannote/speaker-diarization-community-1"
     },
     {
       "id": "openai/whisper-large-v3",
       "pipeline": "automatic-speech-recognition",
-      "likes": 5954,
-      "downloads": 5939035,
+      "likes": 5958,
+      "downloads": 5926854,
       "url": "https://huggingface.co/openai/whisper-large-v3"
+    },
+    {
+      "id": "Qwen/Qwen3-TTS-12Hz-1.7B-CustomVoice",
+      "pipeline": "text-to-speech",
+      "likes": 1754,
+      "downloads": 2471302,
+      "url": "https://huggingface.co/Qwen/Qwen3-TTS-12Hz-1.7B-CustomVoice"
     },
     {
       "id": "hexgrad/Kokoro-82M",
       "pipeline": "text-to-speech",
-      "likes": 6547,
-      "downloads": 10134354,
+      "likes": 6552,
+      "downloads": 10027090,
       "url": "https://huggingface.co/hexgrad/Kokoro-82M"
     },
     {
       "id": "nineninesix/gepard-1.0",
       "pipeline": "text-to-speech",
-      "likes": 110,
-      "downloads": 8253,
+      "likes": 113,
+      "downloads": 8482,
       "url": "https://huggingface.co/nineninesix/gepard-1.0"
-    },
-    {
-      "id": "Qwen/Qwen3-TTS-12Hz-1.7B-CustomVoice",
-      "pipeline": "text-to-speech",
-      "likes": 1737,
-      "downloads": 2432960,
-      "url": "https://huggingface.co/Qwen/Qwen3-TTS-12Hz-1.7B-CustomVoice"
-    },
-    {
-      "id": "k2-fsa/OmniVoice",
-      "pipeline": "text-to-speech",
-      "likes": 1178,
-      "downloads": 893572,
-      "url": "https://huggingface.co/k2-fsa/OmniVoice"
     },
     {
       "id": "bosonai/higgs-tts-3-4b",
       "pipeline": "text-to-speech",
-      "likes": 648,
-      "downloads": 290473,
+      "likes": 654,
+      "downloads": 303789,
       "url": "https://huggingface.co/bosonai/higgs-tts-3-4b"
     },
     {
-      "id": "pnnbao-ump/VieNeu-TTS-v3-Turbo",
+      "id": "k2-fsa/OmniVoice",
       "pipeline": "text-to-speech",
-      "likes": 37,
-      "downloads": 278699,
-      "url": "https://huggingface.co/pnnbao-ump/VieNeu-TTS-v3-Turbo"
+      "likes": 1179,
+      "downloads": 879531,
+      "url": "https://huggingface.co/k2-fsa/OmniVoice"
+    },
+    {
+      "id": "fishaudio/s2-pro",
+      "pipeline": "text-to-speech",
+      "likes": 1098,
+      "downloads": 249539,
+      "url": "https://huggingface.co/fishaudio/s2-pro"
     },
     {
       "id": "OpenMOSS-Team/MOSS-Transcribe-Diarize",
       "pipeline": "audio-text-to-text",
-      "likes": 248,
-      "downloads": 83160,
+      "likes": 258,
+      "downloads": 86385,
       "url": "https://huggingface.co/OpenMOSS-Team/MOSS-Transcribe-Diarize"
     },
     {
       "id": "Qwen/Qwen2-Audio-7B-Instruct",
       "pipeline": "audio-text-to-text",
       "likes": 550,
-      "downloads": 646156,
+      "downloads": 655873,
       "url": "https://huggingface.co/Qwen/Qwen2-Audio-7B-Instruct"
+    },
+    {
+      "id": "mispeech/GLAP",
+      "pipeline": "audio-text-to-text",
+      "likes": 11,
+      "downloads": 441,
+      "url": "https://huggingface.co/mispeech/GLAP"
     },
     {
       "id": "mistralai/Voxtral-Small-24B-2507",
       "pipeline": "audio-text-to-text",
       "likes": 511,
-      "downloads": 233464,
+      "downloads": 231935,
       "url": "https://huggingface.co/mistralai/Voxtral-Small-24B-2507"
     },
     {
-      "id": "Lewfkrad/Nemotron-Labs-Audex-30B-A3B-NVFP4",
+      "id": "microsoft/VibeVoice-ASR-HF",
       "pipeline": "audio-text-to-text",
-      "likes": 3,
-      "downloads": 28,
-      "url": "https://huggingface.co/Lewfkrad/Nemotron-Labs-Audex-30B-A3B-NVFP4"
+      "likes": 162,
+      "downloads": 376591,
+      "url": "https://huggingface.co/microsoft/VibeVoice-ASR-HF"
     },
     {
-      "id": "mispeech/GLAP",
+      "id": "OpenMOSS-Team/MOSS-Audio-4B-Instruct",
       "pipeline": "audio-text-to-text",
-      "likes": 10,
-      "downloads": 428,
-      "url": "https://huggingface.co/mispeech/GLAP"
-    },
-    {
-      "id": "nvidia/audio-flamingo-3-hf",
-      "pipeline": "audio-text-to-text",
-      "likes": 189,
-      "downloads": 260118,
-      "url": "https://huggingface.co/nvidia/audio-flamingo-3-hf"
+      "likes": 77,
+      "downloads": 145995,
+      "url": "https://huggingface.co/OpenMOSS-Team/MOSS-Audio-4B-Instruct"
     }
   ],
   "community_picks": [
     {
+      "title": "On Locality and Length Generalization in Visual Reasoning",
+      "url": "https://huggingface.co/papers/2607.09061",
+      "upvotes": 1,
+      "published": "2026-07-09T20:00:00.000Z"
+    },
+    {
+      "title": "Rethinking the Evaluation of Harness Evolution for Agents",
+      "url": "https://huggingface.co/papers/2607.12227",
+      "upvotes": 4,
+      "published": "2026-07-13T20:00:00.000Z"
+    },
+    {
       "title": "Chat2Scenic: An Iterative RAG-Based Framework for Scenario Generation in Autonomous Driving",
       "url": "https://huggingface.co/papers/2607.14387",
-      "upvotes": 1,
+      "upvotes": 4,
       "published": "2026-07-14T20:00:00.000Z"
     },
     {
       "title": "Hierarchical Denoising For Multi-Step Visual Reasoning",
       "url": "https://huggingface.co/papers/2607.15278",
-      "upvotes": 1,
+      "upvotes": 3,
       "published": "2026-07-15T20:00:00.000Z"
     },
     {
       "title": "RxBrain: Embodied Cognition Foundation Model with Joint Language-Visual Reasoning and Imagination",
       "url": "https://huggingface.co/papers/2607.14187",
-      "upvotes": 3,
+      "upvotes": 20,
       "published": "2026-07-14T20:00:00.000Z"
     },
     {
       "title": "SUFLECA: Scaling Up Feature Learning for CAD-to-image Alignment",
       "url": "https://huggingface.co/papers/2607.15058",
-      "upvotes": 3,
+      "upvotes": 6,
       "published": "2026-07-15T20:00:00.000Z"
     },
     {
       "title": "AsySplat: Efficient Asymmetric 3D Gaussian Splatting for Long-Sequence Scene Modeling",
       "url": "https://huggingface.co/papers/2607.10995",
-      "upvotes": 4,
+      "upvotes": 6,
       "published": "2026-07-12T20:00:00.000Z"
     },
     {
       "title": "LongStraw: Long-Context RL Beyond 2M Tokens under a Fixed GPU Budget",
       "url": "https://huggingface.co/papers/2607.14952",
-      "upvotes": 40,
+      "upvotes": 171,
       "published": "2026-07-15T20:00:00.000Z"
     },
     {
       "title": "VIABench: A Comprehensive Video Benchmark Collected from Blind Individuals for Visual Impairment Assistance",
       "url": "https://huggingface.co/papers/2607.14660",
-      "upvotes": 7,
+      "upvotes": 8,
       "published": "2026-07-15T20:00:00.000Z"
     },
     {
       "title": "GRASP: GRanularity-Aware Search Policy for Agentic RAG",
       "url": "https://huggingface.co/papers/2607.10463",
-      "upvotes": 4,
+      "upvotes": 5,
       "published": "2026-07-10T20:00:00.000Z"
-    },
-    {
-      "title": "Spectral Rewiring for Exploration, Purification, and Model Merging",
-      "url": "https://huggingface.co/papers/2607.03065",
-      "upvotes": 18,
-      "published": "2026-07-02T20:00:00.000Z"
-    },
-    {
-      "title": "Partition, Prompt, Aggregate: Statistical Self-Consistency in Language Models",
-      "url": "https://huggingface.co/papers/2607.15277",
-      "upvotes": 4,
-      "published": "2026-07-15T20:00:00.000Z"
     }
   ],
   "warnings": []
