@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-18T22:40:02.608Z",
+  "fetched_at": "2026-07-19T22:40:02.794Z",
   "paper_window_days": 10,
   "papers": [
     {
@@ -642,129 +642,129 @@
   ],
   "models": [
     {
+      "id": "nvidia/nemotron-3.5-asr-streaming-0.6b",
+      "pipeline": "automatic-speech-recognition",
+      "likes": 881,
+      "downloads": 546643,
+      "url": "https://huggingface.co/nvidia/nemotron-3.5-asr-streaming-0.6b"
+    },
+    {
       "id": "ai-sage/GigaAM-Multilingual",
       "pipeline": "automatic-speech-recognition",
-      "likes": 56,
-      "downloads": 2752,
+      "likes": 57,
+      "downloads": 2878,
       "url": "https://huggingface.co/ai-sage/GigaAM-Multilingual"
     },
     {
-      "id": "nvidia/nemotron-3.5-asr-streaming-0.6b",
+      "id": "pyannote/speaker-diarization-community-1",
       "pipeline": "automatic-speech-recognition",
-      "likes": 871,
-      "downloads": 520729,
-      "url": "https://huggingface.co/nvidia/nemotron-3.5-asr-streaming-0.6b"
+      "likes": 793,
+      "downloads": 4516777,
+      "url": "https://huggingface.co/pyannote/speaker-diarization-community-1"
     },
     {
       "id": "pyannote/speaker-diarization-3.1",
       "pipeline": "automatic-speech-recognition",
-      "likes": 2759,
-      "downloads": 8447621,
+      "likes": 2767,
+      "downloads": 8289659,
       "url": "https://huggingface.co/pyannote/speaker-diarization-3.1"
     },
     {
       "id": "CohereLabs/cohere-transcribe-arabic-07-2026",
       "pipeline": "automatic-speech-recognition",
       "likes": 121,
-      "downloads": 20663,
+      "downloads": 22023,
       "url": "https://huggingface.co/CohereLabs/cohere-transcribe-arabic-07-2026"
-    },
-    {
-      "id": "pyannote/speaker-diarization-community-1",
-      "pipeline": "automatic-speech-recognition",
-      "likes": 788,
-      "downloads": 4520348,
-      "url": "https://huggingface.co/pyannote/speaker-diarization-community-1"
     },
     {
       "id": "openai/whisper-large-v3",
       "pipeline": "automatic-speech-recognition",
-      "likes": 5958,
-      "downloads": 5926854,
+      "likes": 5960,
+      "downloads": 5846236,
       "url": "https://huggingface.co/openai/whisper-large-v3"
     },
     {
       "id": "Qwen/Qwen3-TTS-12Hz-1.7B-CustomVoice",
       "pipeline": "text-to-speech",
-      "likes": 1754,
-      "downloads": 2471302,
+      "likes": 1759,
+      "downloads": 2440785,
       "url": "https://huggingface.co/Qwen/Qwen3-TTS-12Hz-1.7B-CustomVoice"
-    },
-    {
-      "id": "hexgrad/Kokoro-82M",
-      "pipeline": "text-to-speech",
-      "likes": 6552,
-      "downloads": 10027090,
-      "url": "https://huggingface.co/hexgrad/Kokoro-82M"
     },
     {
       "id": "nineninesix/gepard-1.0",
       "pipeline": "text-to-speech",
-      "likes": 113,
-      "downloads": 8482,
+      "likes": 114,
+      "downloads": 8524,
       "url": "https://huggingface.co/nineninesix/gepard-1.0"
+    },
+    {
+      "id": "hexgrad/Kokoro-82M",
+      "pipeline": "text-to-speech",
+      "likes": 6553,
+      "downloads": 9918250,
+      "url": "https://huggingface.co/hexgrad/Kokoro-82M"
     },
     {
       "id": "bosonai/higgs-tts-3-4b",
       "pipeline": "text-to-speech",
-      "likes": 654,
-      "downloads": 303789,
+      "likes": 655,
+      "downloads": 311177,
       "url": "https://huggingface.co/bosonai/higgs-tts-3-4b"
     },
     {
       "id": "k2-fsa/OmniVoice",
       "pipeline": "text-to-speech",
       "likes": 1179,
-      "downloads": 879531,
+      "downloads": 858488,
       "url": "https://huggingface.co/k2-fsa/OmniVoice"
     },
     {
       "id": "fishaudio/s2-pro",
       "pipeline": "text-to-speech",
-      "likes": 1098,
-      "downloads": 249539,
+      "likes": 1100,
+      "downloads": 237670,
       "url": "https://huggingface.co/fishaudio/s2-pro"
     },
     {
       "id": "OpenMOSS-Team/MOSS-Transcribe-Diarize",
       "pipeline": "audio-text-to-text",
-      "likes": 258,
-      "downloads": 86385,
+      "likes": 277,
+      "downloads": 87533,
       "url": "https://huggingface.co/OpenMOSS-Team/MOSS-Transcribe-Diarize"
     },
     {
       "id": "Qwen/Qwen2-Audio-7B-Instruct",
       "pipeline": "audio-text-to-text",
       "likes": 550,
-      "downloads": 655873,
+      "downloads": 646749,
       "url": "https://huggingface.co/Qwen/Qwen2-Audio-7B-Instruct"
     },
     {
       "id": "mispeech/GLAP",
       "pipeline": "audio-text-to-text",
       "likes": 11,
-      "downloads": 441,
+      "downloads": 450,
       "url": "https://huggingface.co/mispeech/GLAP"
     },
     {
       "id": "mistralai/Voxtral-Small-24B-2507",
       "pipeline": "audio-text-to-text",
       "likes": 511,
-      "downloads": 231935,
+      "downloads": 224592,
       "url": "https://huggingface.co/mistralai/Voxtral-Small-24B-2507"
     },
     {
       "id": "microsoft/VibeVoice-ASR-HF",
       "pipeline": "audio-text-to-text",
       "likes": 162,
-      "downloads": 376591,
+      "downloads": 351027,
       "url": "https://huggingface.co/microsoft/VibeVoice-ASR-HF"
     },
     {
       "id": "OpenMOSS-Team/MOSS-Audio-4B-Instruct",
       "pipeline": "audio-text-to-text",
       "likes": 77,
-      "downloads": 145995,
+      "downloads": 147007,
       "url": "https://huggingface.co/OpenMOSS-Team/MOSS-Audio-4B-Instruct"
     }
   ],
@@ -772,13 +772,13 @@
     {
       "title": "On Locality and Length Generalization in Visual Reasoning",
       "url": "https://huggingface.co/papers/2607.09061",
-      "upvotes": 1,
+      "upvotes": 2,
       "published": "2026-07-09T20:00:00.000Z"
     },
     {
       "title": "Rethinking the Evaluation of Harness Evolution for Agents",
       "url": "https://huggingface.co/papers/2607.12227",
-      "upvotes": 4,
+      "upvotes": 6,
       "published": "2026-07-13T20:00:00.000Z"
     },
     {
@@ -796,25 +796,25 @@
     {
       "title": "RxBrain: Embodied Cognition Foundation Model with Joint Language-Visual Reasoning and Imagination",
       "url": "https://huggingface.co/papers/2607.14187",
-      "upvotes": 20,
+      "upvotes": 23,
       "published": "2026-07-14T20:00:00.000Z"
     },
     {
       "title": "SUFLECA: Scaling Up Feature Learning for CAD-to-image Alignment",
       "url": "https://huggingface.co/papers/2607.15058",
-      "upvotes": 6,
+      "upvotes": 7,
       "published": "2026-07-15T20:00:00.000Z"
     },
     {
       "title": "AsySplat: Efficient Asymmetric 3D Gaussian Splatting for Long-Sequence Scene Modeling",
       "url": "https://huggingface.co/papers/2607.10995",
-      "upvotes": 6,
+      "upvotes": 7,
       "published": "2026-07-12T20:00:00.000Z"
     },
     {
       "title": "LongStraw: Long-Context RL Beyond 2M Tokens under a Fixed GPU Budget",
       "url": "https://huggingface.co/papers/2607.14952",
-      "upvotes": 171,
+      "upvotes": 175,
       "published": "2026-07-15T20:00:00.000Z"
     },
     {
