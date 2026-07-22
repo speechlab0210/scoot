@@ -1,7 +1,136 @@
 {
-  "fetched_at": "2026-07-21T22:40:02.326Z",
+  "fetched_at": "2026-07-22T22:40:02.356Z",
   "paper_window_days": 10,
   "papers": [
+    {
+      "id": "https://arxiv.org/abs/2607.19212v1",
+      "title": "Teleportation Game: Quantum Teleportation in Multi-Agent Systems for Interactive Music",
+      "authors": [
+        "Eduardo Reck Miranda",
+        "Scott Yeiichi Oshiro"
+      ],
+      "abstract": "This paper introduces an interactive music system with quantum musical agents that communicate by teleporting quantum states to one another. Human performers interact in real time with agents whose melodic and rhythmic behaviours are encoded as quantum states using Single Qubit Probability Amplitude Modulation (SQPAM) and structured through Quantum Phase Estimation (QPE). Up to three agents are combined within a single quantum circuit, with directed communication via quantum teleportation. We are interested in supporting ambiguous, transformative interactions reminiscent of free Jazz improv...",
+      "published": "2026-07-21T15:42:20Z",
+      "cats": [
+        "cs.SD"
+      ]
+    },
+    {
+      "id": "https://arxiv.org/abs/2607.18922v1",
+      "title": "Towards a reproducible cross-venue method for quantifying crowd noise in stadiums",
+      "authors": [
+        "Alejandro Osses",
+        "Bente Ackermans",
+        "Helmer Nuijens",
+        "Rick Scholte"
+      ],
+      "abstract": "Public claims about the loudest stadium have been based on an instantaneous peak dB(A) reading measured at a single point, as popularised by the Guinness World Records \"loudest crowd roar\" category. The current record dates from 2014, where a maximum level of 142.2 dB(A) was registered. While compelling, those measurements lack standardisation, omitting relevant information such as the specific instrument that was used, the usage of time weighting, and the number of measurement positions that were tested. This lack of information does not allow a well-founded scientific comparison across sp...",
+      "published": "2026-07-21T10:05:30Z",
+      "cats": [
+        "eess.AS"
+      ]
+    },
+    {
+      "id": "https://arxiv.org/abs/2607.18718v1",
+      "title": "Summary of DCASE 2026 Task 5: Audio-Dependent Question Answering",
+      "authors": [
+        "Haolin He",
+        "Renhe Sun",
+        "Zheqi Dai",
+        "Xingjian Du",
+        "Chunyat Wu",
+        "Zining Liang",
+        "Zhengxi Liu",
+        "Jiahe Lei"
+      ],
+      "abstract": "DCASE~2026 Task~5 introduces Audio-Dependent Question Answering (ADQA), which tests whether large audio-language models answer from the audio rather than from textual priors. An Audio-Dependency Filtering (ADF) pipeline combines silent-audio probing, per-option perplexity, a large language model (LLM) commonsense check, and human review to remove items solvable from text alone. The 3000 items that pass form the ADQA-Bench evaluation set, spanning music, speech, and environmental audio. The inaugural edition draws 14 teams and 36 submissions across two tracks defined by total parameter count...",
+      "published": "2026-07-21T05:17:31Z",
+      "cats": [
+        "eess.AS"
+      ]
+    },
+    {
+      "id": "https://arxiv.org/abs/2607.18704v1",
+      "title": "What the Waveform Knows: Transparent-first Speech and Audio Intelligence with Caption Studio",
+      "authors": [
+        "Cheng Siong Chin",
+        "Jianhua Zhang",
+        "Mohan Venkateshkumar"
+      ],
+      "abstract": "Caption Studio is a transparency-first speech and audio intelligence platform that transforms spoken audio and video into structured, searchable content through automated transcription, speaker diarization, speech analytics, signal-level audio analysis, and subtitle generation. The system is built on a FastAPI backend with a real-time dashboard and adopts a three-layer architecture comprising (i) a transcription and diarization core based on Whisper-class automatic speech recognition and pyannote speaker diarization, (ii) an audio intelligence layer that extracts acoustic and linguistic fea...",
+      "published": "2026-07-21T04:56:00Z",
+      "cats": [
+        "cs.SD",
+        "cs.AI"
+      ]
+    },
+    {
+      "id": "https://arxiv.org/abs/2607.18666v1",
+      "title": "Fusion Embedding: A Unified Embedding Space for Text, Image, Video, and Audio",
+      "authors": [
+        "Abdul Basit Tonmoy",
+        "Kazi Fardinul Hoque",
+        "Md. Shahrier Islam Arham",
+        "Arman Luthra"
+      ],
+      "abstract": "A single embedding space that covers text, images, video, and audio lets one index serve every query a user can pose. Embedding models built on vision-language backbones now lead text/image/video retrieval benchmarks but lack audio entirely, while audio-text retrieval is led by specialist systems that serve no other modality. We present the Fusion Embedding family, which adds audio to a frozen vision-language embedding base whose parameters are never updated: generation 1 (fusion-embedding-1) trains only a 16.4M-parameter connector between a frozen audio tower and the frozen base, and gener...",
+      "published": "2026-07-21T03:25:34Z",
+      "cats": [
+        "cs.CL",
+        "cs.SD"
+      ]
+    },
+    {
+      "id": "https://arxiv.org/abs/2607.18658v1",
+      "title": "Towards Array-Invariant Speech Enhancement via Geometry-Aware Dynamic Convolution",
+      "authors": [
+        "Zhenglong Liu",
+        "Wangyou Zhang",
+        "Chenda Li",
+        "Yanmin Qian"
+      ],
+      "abstract": "Multi-channel speech enhancement (SE) systems exhibit superior performance over single-channel methods but are constrained to fixed microphone array configurations. This restricts their real-world deployment across devices with diverse array geometries. While recent array-agnostic SE methods address variable microphone numbers and permutations, they largely fail to exploit explicit array geometry priors when available, missing a crucial cue for optimal spatial filtering. A Geometry-Aware Dynamic Convolution (Geo-DConv) framework is proposed, which explicitly leverages microphone coordinates...",
+      "published": "2026-07-21T03:02:57Z",
+      "cats": [
+        "eess.AS",
+        "cs.SD"
+      ]
+    },
+    {
+      "id": "https://arxiv.org/abs/2607.18629v1",
+      "title": "CS-ETS: Chaos-Inspired Samba-Based EMG-To-Speech Synthesis with Nonlinear Chaotic Losses",
+      "authors": [
+        "Sajid Fardin Dipto",
+        "Tarikul Islam Tamiti",
+        "David Vergano",
+        "Luke Baja-Ricketts",
+        "Anomadarshi Barua"
+      ],
+      "abstract": "We propose a chaos-inspired new architecture for EMG-to-Speech (ETS) synthesis called CS-ETS, which combines a Samba-based encoder with two novel chaos-inspired loss functions -- Lyapunov Exponent Regularization (LER) and Multi-Scale Detrended Fluctuation Analysis (MSDFA). LER is designed based on Lyapunov exponents to capture nonlinear fluctuations and sensitivity to initial conditions. MSDFA exploits detrended fluctuation analysis to quantify fractal-like, long-range temporal chaotic correlation. CS-ETS surpasses prior work with a 40.79\\% lower parameter count (32M vs 54.1M) and introduce...",
+      "published": "2026-07-21T01:54:51Z",
+      "cats": [
+        "cs.SD",
+        "eess.SP"
+      ]
+    },
+    {
+      "id": "https://arxiv.org/abs/2607.18614v1",
+      "title": "End-to-End Markov State Sequence Learning for Auditory Attention Decoding",
+      "authors": [
+        "Yushan Yashengjiang",
+        "Jie Zhang",
+        "Miao Sun",
+        "Huadong Liang",
+        "Xin Li",
+        "Zhen-hua Ling"
+      ],
+      "abstract": "Auditory attention decoding (AAD) identifies the speaker a listener attends to from neural responses like electroencephalography (EEG), making it a key algorithm in neuro-steered hearing aids. However, most neural AAD models are trained as independent short-window classifiers, despite auditory attention being a temporally persistent cognitive state and short-window EEG--audio evidence often being noisy and ambiguous. We propose an end-to-end Markov AAD framework based on conditional random field (CRF) that trains window-level neural emissions under a two-state attention prior. The framework...",
+      "published": "2026-07-21T01:33:59Z",
+      "cats": [
+        "cs.SD",
+        "cs.HC"
+      ]
+    },
     {
       "id": "https://arxiv.org/abs/2607.18190v1",
       "title": "Audio Cross Verification Using Dual Alignment Likelihood Ratio Test",
@@ -34,7 +163,7 @@
       ]
     },
     {
-      "id": "https://arxiv.org/abs/2607.17900v1",
+      "id": "https://arxiv.org/abs/2607.17900v2",
       "title": "Harness TTS: Towards Context-Aware Expressive Speech Synthesis with Harness Layer",
       "authors": [
         "Shengfan Shen",
@@ -86,6 +215,24 @@
       "cats": [
         "cs.SD",
         "cs.AI"
+      ]
+    },
+    {
+      "id": "https://arxiv.org/abs/2607.18345v1",
+      "title": "Addressing Limited Data in Auditory Attention Decoding with Diffusion Generative Models",
+      "authors": [
+        "David Rannaleet",
+        "Victor Gunnarsson",
+        "Bo Bernhardsson",
+        "Martin A. Skoglund",
+        "Emina Alickovic"
+      ],
+      "abstract": "Limited training data constrains deep learning models for Auditory Attention Decoding (AAD) in hearing aids (HAs). AAD uses electroencephalogram (EEG) data to decode listener's attention, enabling real-time tracking of specific sound sources. However, achieving high AAD performance with short time windows typical in HAs (<=1s) is challenging due to the scarcity of real-world speech-evoked EEG data. To address this issue, we investigate diffusion probabilistic models (DPMs) for generating synthetic speech-evoked EEG data. DPMs learn the underlying complex data structure through a denoising p...",
+      "published": "2026-07-20T07:47:20Z",
+      "cats": [
+        "cs.SD",
+        "cs.AI",
+        "cs.LG"
       ]
     },
     {
@@ -165,6 +312,20 @@
       "abstract": "This paper describes TalTech's submissions to the Beyond Transcription Challenge (BeTraC), which requires generating SOAP notes directly from long doctor-patient conversation recordings, without intermediate transcription. After screening open-weight speech LLMs for long-audio robustness, we adapted Voxtral Mini (lightweight track) and Voxtral Small (heavyweight track) with LoRA supervised fine-tuning followed by DAPO reinforcement learning that uses the challenge metric, Open Medical Concept F1, as its reward. Our systems ranked first in both tracks, and an independent LLM-as-a-judge evalu...",
       "published": "2026-07-19T12:49:35Z",
       "cats": [
+        "cs.CL",
+        "eess.AS"
+      ]
+    },
+    {
+      "id": "https://arxiv.org/abs/2607.18662v1",
+      "title": "Staged Depth-Pruning Distillation of a Flow-Matching Text-to-Speech Teacher: A Compact Hindi Speech Synthesizer",
+      "authors": [
+        "Sivateja Trikutam"
+      ],
+      "abstract": "We present a practical recipe for building a compact Hindi text-to-speech (TTS) model by distilling a large flow-matching teacher (IndicF5, 337M-parameter DiT) under a severe data budget (~17.6 hours). Training a small model from scratch on this much data fails outright. Instead we warm-start the student from the teacher by pruning depth only: keeping the teacher's width, text dimension, attention heads, and mel/text I/O fixed so all non-block tensors copy one-to-one, and retaining an evenly-spaced subset of transformer blocks. We first measure how much depth the teacher tolerates (it remai...",
+      "published": "2026-07-19T11:20:25Z",
+      "cats": [
+        "cs.SD",
         "cs.CL",
         "eess.AS"
       ]
@@ -382,6 +543,23 @@
       ]
     },
     {
+      "id": "https://arxiv.org/abs/2607.18317v1",
+      "title": "A Situational Speech Synthesizer for Yoruba: System Design, Phonological Rule Architecture, and Orthographic Extensions for Contour",
+      "authors": [
+        "Kola Tubosun",
+        "Adedayo Oluokun",
+        "Hafiz Adewuyi",
+        "Dadepo Aderemi"
+      ],
+      "abstract": "We present TTSYoruba, a rule-based concatenative diphone speech synthesizer for Yoruba, deployed at online as part of the YorubaName.com open dictionary of Yoruba personal names. The system takes tone-marked Yoruba text as input and produces audio output by applying a hand-crafted phonological rule system to a recorded inventory of 651 diphone units spanning five tonal variants of every consonant-vowel combination in the language. We describe the phonological architecture of the system in detail, including our complete tonal file-selection logic, our treatment of the three-way nasal disambi...",
+      "published": "2026-07-17T20:13:41Z",
+      "cats": [
+        "cs.SD",
+        "cs.CL",
+        "eess.AS"
+      ]
+    },
+    {
       "id": "https://arxiv.org/abs/2607.16107v1",
       "title": "Audio-Visual Flamingo: Open Audio-Visual Intelligence for Long and Complex Videos",
       "authors": [
@@ -477,376 +655,196 @@
         "cs.CR",
         "cs.LG"
       ]
-    },
-    {
-      "id": "https://arxiv.org/abs/2607.15694v1",
-      "title": "A Geometry-Limited Identification Floor and Its Consequences for Voice-Clone Attribution in Professional Voice Actors",
-      "authors": [
-        "Shuhei Kato"
-      ],
-      "abstract": "A voice actor's voice is their asset, and AI cloning directly threatens it. The natural defense flags the enrolled actor whose embedding similarity to a suspect recording crosses a threshold. We show it fails where it is most needed: trained voices crowd the embedding space, and each actor performs many styles. On 1,168 Japanese voice actors (56,568 segments, ~63 h), a misidentification floor survives calibration, score normalization, and discriminative re-ranking (linear and nonlinear, including PLDA): the residual is a limit of the embedding geometry, not of the back-ends we evaluate. The...",
-      "published": "2026-07-17T07:13:11Z",
-      "cats": [
-        "eess.AS",
-        "cs.SD"
-      ]
-    },
-    {
-      "id": "https://arxiv.org/abs/2607.15634v1",
-      "title": "StemFX: Learning Mixing Style Representations via Autoregressive FX Chain Prediction on Source-Separated Stems",
-      "authors": [
-        "Yuan-Chiao Cheng",
-        "Jui-Te Wu",
-        "Brian Chen",
-        "Yen-Tung Yeh",
-        "Yu-Hua Chen",
-        "Yi-Hsuan Yang"
-      ],
-      "abstract": "Audio mixing style encompasses the artistic and technical decisions a mix engineer makes, including level balancing, spatialization, and the choice, ordering, and parameterization of audio effects (FX) on each stem. FX chains are a key determinant of this style, yet existing approaches to modeling them remain limited. Some operate on stereo mixtures without explicit per-stem FX chain modeling, others fix the number or type of effects per track, and many require differentiable effect implementations or scarce multitrack datasets. We present StemFX, a framework that learns mixing style repres...",
-      "published": "2026-07-17T05:21:42Z",
-      "cats": [
-        "cs.SD"
-      ]
-    },
-    {
-      "id": "https://arxiv.org/abs/2607.15478v1",
-      "title": "A Study of Parallelizable Alternatives to Dynamic Time Warping for Aligning Long Sequences",
-      "authors": [
-        "Daniel Yang",
-        "Thaxter Shaw",
-        "TJ Tsai"
-      ],
-      "abstract": "This article investigates several parallelizable alternatives to DTW for estimating the alignment between two long sequences. Whereas most previous work has focused on reducing the total computation and/or memory costs of DTW, our focus is instead on reducing wall clock time by utilizing common hardware like GPUs that are optimized for parallel processing. We propose and study four different parallelizable alignment algorithms: the first three algorithms compute approximations of DTW by breaking the pairwise cost matrix into rectangular regions and processing the regions in parallel, and th...",
-      "published": "2026-07-16T21:52:57Z",
-      "cats": [
-        "cs.DS",
-        "cs.SD",
-        "eess.AS"
-      ]
-    },
-    {
-      "id": "https://arxiv.org/abs/2607.15475v1",
-      "title": "Segmental DTW: A Parallelizable Alternative to Dynamic Time Warping",
-      "authors": [
-        "TJ Tsai"
-      ],
-      "abstract": "In this work we explore parallelizable alternatives to DTW for globally aligning two feature sequences. One of the main practical limitations of DTW is its quadratic computation and memory cost. Previous works have sought to reduce the computational cost in various ways, such as imposing bands in the cost matrix or using a multiresolution approach. In this work, we utilize the fact that computation is an abundant resource and focus instead on exploring alternatives that approximate the inherently sequential DTW algorithm with one that is parallelizable. We describe two variations of an algo...",
-      "published": "2026-07-16T21:44:04Z",
-      "cats": [
-        "cs.SD",
-        "eess.AS"
-      ]
-    },
-    {
-      "id": "https://arxiv.org/abs/2607.15443v1",
-      "title": "Estimating the Reliability of Dynamic Time Warping Alignments Using Circumstantial Evidence",
-      "authors": [
-        "Aanya Pratapneni",
-        "Alice Yuan",
-        "TJ Tsai"
-      ],
-      "abstract": "Recent works have explored ways to handle uncertainty in dynamic time warping (DTW) alignment paths through the use of differentiable variants of DTW like Soft-DTW. In this paper, we approach the issue of uncertainty in DTW alignment paths in a different way. Given a DTW alignment path, we propose a metric that indicates how reliable a local segment of the alignment path is. The intuition for our metric is based on the idea of circumstantial evidence. If DTW has found a very prominent path, then if we re-run the alignment with relaxed boundary conditions, it will still pick the same path. I...",
-      "published": "2026-07-16T20:29:28Z",
-      "cats": [
-        "cs.SD",
-        "eess.AS"
-      ]
-    },
-    {
-      "id": "https://arxiv.org/abs/2607.15265v1",
-      "title": "SceneBind: Binding What and Where Across Vision, Audio and Language",
-      "authors": [
-        "Mingfei Chen",
-        "Zijun Cui",
-        "Ruoke Zhang",
-        "Hyeonggon Ryu",
-        "Eli Shlizerman"
-      ],
-      "abstract": "We present SceneBind, an omni-modal representation of realistic scenes with joint semantic and 3D spatial understanding across vision, audio and language. Existing omni-modal encoders excel at instance-level semantics (i.e., what is present), but often lack explicit spatial structure (i.e., where it is). SceneBind addresses this gap by representing each scene as a semantic-spatial entity, combining a global semantic embedding with object-centric semantic-spatial slots. This representation explicitly captures object-level semantics, spatial attributes, and uncertainty. We further propose Sce...",
-      "published": "2026-07-16T17:55:15Z",
-      "cats": [
-        "cs.CV",
-        "cs.AI",
-        "cs.MM",
-        "cs.SD"
-      ]
-    },
-    {
-      "id": "https://arxiv.org/abs/2607.15243v1",
-      "title": "What does the model actually see? Evaluation protocols and input availability in data-driven prediction of room acoustic parameters",
-      "authors": [
-        "Akın Oktav"
-      ],
-      "abstract": "Machine-learnt models are increasingly used to predict ISO 3382-1 room acoustic parameters from sparse measurements, with reported coefficients of determination frequently above 0.85. This paper shows that such figures are often determined by the evaluation protocol rather than by the model. Using a multi-condition measurement campaign in a 264-seat conference hall and a 180-seat concert hall, three model families were evaluated under a factorial protocol ablation: validation splits either row-based or grouped by receiver position, and input features either including measured-at-test quanti...",
-      "published": "2026-07-16T17:42:54Z",
-      "cats": [
-        "eess.AS",
-        "cs.SD"
-      ]
-    },
-    {
-      "id": "https://arxiv.org/abs/2607.15198v1",
-      "title": "SLT 2026 REAL-TSE Challenge: Real-world Target Speaker Extraction from Conversational Recordings",
-      "authors": [
-        "Shuai Wang",
-        "Zihan Qian",
-        "Ke Zhang",
-        "Jiangyu Han",
-        "Zikai Liu",
-        "Xiaoyang Yu",
-        "Haoyu Li",
-        "Marc Delcroix"
-      ],
-      "abstract": "We introduce the REAL-TSE Challenge, an IEEE SLT 2026 satellite challenge on target speaker extraction~(TSE) from real conversational recordings. Given a multi-speaker mixture and one or more enrollment utterances from a target speaker, participating systems must recover only the target speech. Unlike simulated read-speech benchmarks, REAL-TSE evaluates Mandarin and English recordings that contain natural overlap, reverberation, noise, channel mismatch, and conversational dynamics. The challenge defines two complementary tracks: an Online track for low-latency streaming extraction and an Of...",
-      "published": "2026-07-16T16:57:05Z",
-      "cats": [
-        "eess.AS",
-        "cs.SD"
-      ]
-    },
-    {
-      "id": "https://arxiv.org/abs/2607.14846v1",
-      "title": "RW-Voice-EQ Bench: A Real World Benchmark for Evaluating Voice AI Systems",
-      "authors": [
-        "David Ayllon",
-        "Alice Baird",
-        "Jeffrey Brooks",
-        "Franc Camps-Febrer",
-        "Jakub Piotr Cłapa",
-        "Theo Lebryk",
-        "Jens Madsen",
-        "Olya Ossipova"
-      ],
-      "abstract": "Current voice AI benchmarks typically evaluate isolated capabilities such as speech intelligibility, word error rate, or text-based dialogue quality, but they rarely test whether systems harness the acoustic information that distinguishes spoken language from its textual representation. To this end, we introduce the Real World Voice EQ Bench, a multidimensional benchmark for evaluating voice AI across text-to-speech (TTS), speech-to-speech (STS), speech understanding (SU), and automatic speech recognition (ASR). Our evaluations indicate that performance is highly dimension-specific. For TTS...",
-      "published": "2026-07-16T11:15:16Z",
-      "cats": [
-        "cs.SD",
-        "cs.AI"
-      ]
-    },
-    {
-      "id": "https://arxiv.org/abs/2607.14753v1",
-      "title": "Large Audio Language Models for Spoofing-Aware Speaker Verification",
-      "authors": [
-        "Sofya Savelyeva",
-        "Mariia Perunova",
-        "Evgeny Kushnir",
-        "Artem Dvirniak",
-        "Dmitrii Korzh",
-        "Oleg Y. Rogov"
-      ],
-      "abstract": "Recent advances in text-to-speech and voice cloning make high-quality spoofing inexpensive and scalable, threatening voice authentication systems, especially automatic speaker verification (ASV). Existing defenses mainly address this threat through binary countermeasures (CMs) for deepfake detection or spoofing-aware speaker verification (SASV), where current systems are dominated by modular ASV-CM fusion and cascaded pipelines. Although large audio language models (LALMs) have shown promise on related audio tasks, including CM and ASV, their use for SASV remains unexplored, despite their c...",
-      "published": "2026-07-16T09:38:45Z",
-      "cats": [
-        "cs.SD",
-        "cs.AI"
-      ]
-    },
-    {
-      "id": "https://arxiv.org/abs/2607.14749v1",
-      "title": "WanSong v1.0 Technical Report",
-      "authors": [
-        "Binghui Chen",
-        "Pandeng Li",
-        "Yu Liu",
-        "Jingren Zhou"
-      ],
-      "abstract": "Music generation foundation models have recently attracted significant industry attention. However, achieving efficient generation and high-fidelity long-form audio while supporting controllability remains challenging. To address these needs, we present \\textbf{WanSong}, a simple yet powerful approach for long-form, commercial-grade song generation. Unlike autoregressive (AR) and cascaded multi-stage pipelines (\\eg, AR followed by diffusion), \\textbf{WanSong} is a pure diffusion-based model that directly generates high-fidelity, multilingual songs up to 5 minutes and outputs dual stems (voc...",
-      "published": "2026-07-16T09:34:59Z",
-      "cats": [
-        "eess.AS",
-        "cs.CV"
-      ]
     }
   ],
   "models": [
     {
       "id": "nvidia/nemotron-3.5-asr-streaming-0.6b",
       "pipeline": "automatic-speech-recognition",
-      "likes": 900,
+      "likes": 914,
       "downloads": 590230,
       "url": "https://huggingface.co/nvidia/nemotron-3.5-asr-streaming-0.6b"
     },
     {
       "id": "pyannote/speaker-diarization-3.1",
       "pipeline": "automatic-speech-recognition",
-      "likes": 2797,
-      "downloads": 8181757,
+      "likes": 2808,
+      "downloads": 8566450,
       "url": "https://huggingface.co/pyannote/speaker-diarization-3.1"
     },
     {
       "id": "pyannote/speaker-diarization-community-1",
       "pipeline": "automatic-speech-recognition",
-      "likes": 807,
+      "likes": 818,
       "downloads": 4646543,
       "url": "https://huggingface.co/pyannote/speaker-diarization-community-1"
     },
     {
       "id": "ai-sage/GigaAM-Multilingual",
       "pipeline": "automatic-speech-recognition",
-      "likes": 63,
+      "likes": 65,
       "downloads": 3113,
       "url": "https://huggingface.co/ai-sage/GigaAM-Multilingual"
     },
     {
-      "id": "CohereLabs/cohere-transcribe-arabic-07-2026",
+      "id": "openai/whisper-large-v3",
       "pipeline": "automatic-speech-recognition",
-      "likes": 125,
-      "downloads": 23509,
-      "url": "https://huggingface.co/CohereLabs/cohere-transcribe-arabic-07-2026"
+      "likes": 5971,
+      "downloads": 6093121,
+      "url": "https://huggingface.co/openai/whisper-large-v3"
     },
     {
       "id": "CohereLabs/cohere-transcribe-03-2026",
       "pipeline": "automatic-speech-recognition",
-      "likes": 1055,
+      "likes": 1056,
       "downloads": 1071800,
       "url": "https://huggingface.co/CohereLabs/cohere-transcribe-03-2026"
     },
     {
       "id": "Qwen/Qwen3-TTS-12Hz-1.7B-CustomVoice",
       "pipeline": "text-to-speech",
-      "likes": 1780,
+      "likes": 1784,
       "downloads": 2388780,
       "url": "https://huggingface.co/Qwen/Qwen3-TTS-12Hz-1.7B-CustomVoice"
     },
     {
       "id": "hexgrad/Kokoro-82M",
       "pipeline": "text-to-speech",
-      "likes": 6564,
-      "downloads": 9767206,
+      "likes": 6567,
+      "downloads": 10270414,
       "url": "https://huggingface.co/hexgrad/Kokoro-82M"
-    },
-    {
-      "id": "nineninesix/gepard-1.0",
-      "pipeline": "text-to-speech",
-      "likes": 123,
-      "downloads": 8660,
-      "url": "https://huggingface.co/nineninesix/gepard-1.0"
-    },
-    {
-      "id": "bosonai/higgs-tts-3-4b",
-      "pipeline": "text-to-speech",
-      "likes": 661,
-      "downloads": 333168,
-      "url": "https://huggingface.co/bosonai/higgs-tts-3-4b"
     },
     {
       "id": "k2-fsa/OmniVoice",
       "pipeline": "text-to-speech",
-      "likes": 1188,
+      "likes": 1192,
       "downloads": 795201,
       "url": "https://huggingface.co/k2-fsa/OmniVoice"
     },
     {
-      "id": "openbmb/VoxCPM2",
+      "id": "bosonai/higgs-tts-3-4b",
       "pipeline": "text-to-speech",
-      "likes": 1488,
-      "downloads": 952550,
-      "url": "https://huggingface.co/openbmb/VoxCPM2"
+      "likes": 664,
+      "downloads": 333168,
+      "url": "https://huggingface.co/bosonai/higgs-tts-3-4b"
+    },
+    {
+      "id": "nineninesix/gepard-1.0",
+      "pipeline": "text-to-speech",
+      "likes": 125,
+      "downloads": 8660,
+      "url": "https://huggingface.co/nineninesix/gepard-1.0"
+    },
+    {
+      "id": "ResembleAI/chatterbox",
+      "pipeline": "text-to-speech",
+      "likes": 1699,
+      "downloads": 2476812,
+      "url": "https://huggingface.co/ResembleAI/chatterbox"
     },
     {
       "id": "OpenMOSS-Team/MOSS-Transcribe-Diarize",
       "pipeline": "audio-text-to-text",
-      "likes": 299,
+      "likes": 308,
       "downloads": 92265,
       "url": "https://huggingface.co/OpenMOSS-Team/MOSS-Transcribe-Diarize"
     },
     {
       "id": "microsoft/VibeVoice-ASR-HF",
       "pipeline": "audio-text-to-text",
-      "likes": 164,
+      "likes": 166,
       "downloads": 324912,
       "url": "https://huggingface.co/microsoft/VibeVoice-ASR-HF"
     },
     {
-      "id": "mistralai/Voxtral-Small-24B-2507",
-      "pipeline": "audio-text-to-text",
-      "likes": 512,
-      "downloads": 212621,
-      "url": "https://huggingface.co/mistralai/Voxtral-Small-24B-2507"
-    },
-    {
       "id": "OpenMOSS-Team/MOSS-Audio-4B-Instruct",
       "pipeline": "audio-text-to-text",
-      "likes": 77,
+      "likes": 78,
       "downloads": 151762,
       "url": "https://huggingface.co/OpenMOSS-Team/MOSS-Audio-4B-Instruct"
     },
     {
       "id": "Qwen/Qwen2-Audio-7B-Instruct",
       "pipeline": "audio-text-to-text",
-      "likes": 550,
-      "downloads": 672254,
+      "likes": 551,
+      "downloads": 708007,
       "url": "https://huggingface.co/Qwen/Qwen2-Audio-7B-Instruct"
     },
     {
-      "id": "mispeech/GLAP",
+      "id": "mistralai/Voxtral-Small-24B-2507",
       "pipeline": "audio-text-to-text",
-      "likes": 11,
-      "downloads": 440,
-      "url": "https://huggingface.co/mispeech/GLAP"
+      "likes": 513,
+      "downloads": 212621,
+      "url": "https://huggingface.co/mistralai/Voxtral-Small-24B-2507"
+    },
+    {
+      "id": "Qwen/Qwen2-Audio-7B",
+      "pipeline": "audio-text-to-text",
+      "likes": 174,
+      "downloads": 39323,
+      "url": "https://huggingface.co/Qwen/Qwen2-Audio-7B"
     }
   ],
   "community_picks": [
     {
-      "title": "Coercion and Deception in AI-to-AI Management: An Agentic Benchmark of Unprompted Escalation",
-      "url": "https://huggingface.co/papers/2607.15434",
-      "upvotes": 2,
-      "published": "2026-07-19T20:00:00.000Z"
-    },
-    {
-      "title": "Masked Diffusion Language Models are Strong and Steerable Text-Based World Models for Agentic RL",
-      "url": "https://huggingface.co/papers/2607.16204",
-      "upvotes": 3,
-      "published": "2026-05-06T20:00:00.000Z"
-    },
-    {
-      "title": "UI2App: Benchmarking Visual Interaction Inference in Executable Web Application Generation",
-      "url": "https://huggingface.co/papers/2607.06306",
-      "upvotes": 2,
-      "published": "2026-07-06T20:00:00.000Z"
-    },
-    {
-      "title": "ReViV: Reconstructing the Viewer and the View in 4D from Monocular Egocentric Video",
-      "url": "https://huggingface.co/papers/2607.17790",
-      "upvotes": 2,
-      "published": "2026-07-19T20:00:00.000Z"
-    },
-    {
-      "title": "Do Language Models Dream of Binding Molecules? Benchmarking LLMs under Spatial Constraints",
-      "url": "https://huggingface.co/papers/2607.18144",
-      "upvotes": 12,
-      "published": "2026-07-19T20:00:00.000Z"
-    },
-    {
-      "title": "Open-AoE: An Open Egocentric Manipulation Dataset and Toolchain for Embodied Learning",
-      "url": "https://huggingface.co/papers/2607.14183",
-      "upvotes": 24,
-      "published": "2026-07-14T20:00:00.000Z"
-    },
-    {
-      "title": "Diagnosing and Calibrating Tool-Call Boundary Drift in Multi-Teacher On-Policy Distillation",
-      "url": "https://huggingface.co/papers/2607.07050",
-      "upvotes": 3,
-      "published": "2026-07-14T20:00:00.000Z"
-    },
-    {
-      "title": "ShotPlan: Cinematic Video Generation with Learnable Planning Token",
-      "url": "https://huggingface.co/papers/2607.17675",
-      "upvotes": 3,
-      "published": "2026-07-19T20:00:00.000Z"
-    },
-    {
-      "title": "The Geometry of Semantic Space: A Continuous Geometric Framework for the Transformer Architecture",
-      "url": "https://huggingface.co/papers/2607.17146",
+      "title": "AutoIndex: Learning Representation Programs for Retrieval",
+      "url": "https://huggingface.co/papers/2607.18603",
       "upvotes": 4,
-      "published": "2026-07-18T20:00:00.000Z"
+      "published": "2026-07-20T20:00:00.000Z"
     },
     {
-      "title": "GigaChat Audio: Time-aware Large Audio Language Model",
-      "url": "https://huggingface.co/papers/2607.10387",
-      "upvotes": 30,
-      "published": "2026-07-10T20:00:00.000Z"
+      "title": "Subliminal Clocks: Latent Time Modelling in Diffusion Language Models",
+      "url": "https://huggingface.co/papers/2607.01774",
+      "upvotes": 32,
+      "published": "2026-07-19T20:00:00.000Z"
+    },
+    {
+      "title": "Transcription Policy as a Latent Variable: Activating Controllable Verbatim ASR with Word-Level Timing",
+      "url": "https://huggingface.co/papers/2607.18934",
+      "upvotes": 4,
+      "published": "2026-07-20T20:00:00.000Z"
+    },
+    {
+      "title": "Computational Humor with Multimodal LLMs: Methods, Datasets, Evaluation, and Challenges",
+      "url": "https://huggingface.co/papers/2607.19011",
+      "upvotes": 1,
+      "published": "2026-07-20T20:00:00.000Z"
+    },
+    {
+      "title": "Where Should Optimizer State Live? Tiered State Allocation for Memory-Efficient Mixture-of-Experts Training",
+      "url": "https://huggingface.co/papers/2607.19058",
+      "upvotes": 4,
+      "published": "2026-07-20T20:00:00.000Z"
+    },
+    {
+      "title": "Generative World Renderer at the Speed of Play",
+      "url": "https://huggingface.co/papers/2607.18703",
+      "upvotes": 64,
+      "published": "2026-07-21T00:54:24.000Z"
+    },
+    {
+      "title": "AgentDebugX: An Open-Source Toolkit for Failure Observability, Attribution, and Recovery in LLM Agents",
+      "url": "https://huggingface.co/papers/2607.18754",
+      "upvotes": 17,
+      "published": "2026-07-20T20:00:00.000Z"
+    },
+    {
+      "title": "Text Template Tokens Are Implicit Semantic Registers in Diffusion Transformers",
+      "url": "https://huggingface.co/papers/2607.19139",
+      "upvotes": 66,
+      "published": "2026-07-20T20:00:00.000Z"
+    },
+    {
+      "title": "ISO: An RLVR-Native Optimization Stack",
+      "url": "https://huggingface.co/papers/2607.19331",
+      "upvotes": 4,
+      "published": "2026-07-21T13:51:36.000Z"
+    },
+    {
+      "title": "ABot-World-0: Infinite Interactive World Rollout on a Single Desktop GPU",
+      "url": "https://huggingface.co/papers/2607.19191",
+      "upvotes": 165,
+      "published": "2026-07-21T11:26:50.000Z"
     }
   ],
   "warnings": []
