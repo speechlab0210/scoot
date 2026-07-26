@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-25T22:40:02.008Z",
+  "fetched_at": "2026-07-26T22:40:02.481Z",
   "paper_window_days": 10,
   "papers": [
     {
@@ -662,107 +662,114 @@
     {
       "id": "nvidia/nemotron-3.5-asr-streaming-0.6b",
       "pipeline": "automatic-speech-recognition",
-      "likes": 942,
-      "downloads": 840691,
+      "likes": 945,
+      "downloads": 884001,
       "url": "https://huggingface.co/nvidia/nemotron-3.5-asr-streaming-0.6b"
     },
     {
       "id": "microsoft/VibeVoice-ASR-BitNet",
       "pipeline": "automatic-speech-recognition",
-      "likes": 41,
-      "downloads": 368,
+      "likes": 51,
+      "downloads": 665,
       "url": "https://huggingface.co/microsoft/VibeVoice-ASR-BitNet"
     },
     {
       "id": "pyannote/speaker-diarization-3.1",
       "pipeline": "automatic-speech-recognition",
-      "likes": 2843,
-      "downloads": 8627408,
+      "likes": 2847,
+      "downloads": 8656906,
       "url": "https://huggingface.co/pyannote/speaker-diarization-3.1"
     },
     {
       "id": "pyannote/speaker-diarization-community-1",
       "pipeline": "automatic-speech-recognition",
-      "likes": 850,
-      "downloads": 5182486,
+      "likes": 852,
+      "downloads": 5237692,
       "url": "https://huggingface.co/pyannote/speaker-diarization-community-1"
     },
     {
       "id": "Trelis/tiron",
       "pipeline": "automatic-speech-recognition",
-      "likes": 20,
-      "downloads": 523,
+      "likes": 21,
+      "downloads": 674,
       "url": "https://huggingface.co/Trelis/tiron"
     },
     {
-      "id": "microsoft/VibeVoice-ASR",
+      "id": "openai/whisper-large-v3",
       "pipeline": "automatic-speech-recognition",
-      "likes": 1235,
-      "downloads": 686045,
-      "url": "https://huggingface.co/microsoft/VibeVoice-ASR"
+      "likes": 5987,
+      "downloads": 6004606,
+      "url": "https://huggingface.co/openai/whisper-large-v3"
     },
     {
       "id": "owensong/Inflect-Micro-v2",
       "pipeline": "text-to-speech",
-      "likes": 80,
-      "downloads": 47,
+      "likes": 172,
+      "downloads": 298,
       "url": "https://huggingface.co/owensong/Inflect-Micro-v2"
-    },
-    {
-      "id": "Qwen/Qwen3-TTS-12Hz-1.7B-CustomVoice",
-      "pipeline": "text-to-speech",
-      "likes": 1816,
-      "downloads": 2490717,
-      "url": "https://huggingface.co/Qwen/Qwen3-TTS-12Hz-1.7B-CustomVoice"
     },
     {
       "id": "owensong/Inflect-Nano-v2",
       "pipeline": "text-to-speech",
-      "likes": 50,
-      "downloads": 42,
+      "likes": 72,
+      "downloads": 252,
       "url": "https://huggingface.co/owensong/Inflect-Nano-v2"
+    },
+    {
+      "id": "Qwen/Qwen3-TTS-12Hz-1.7B-CustomVoice",
+      "pipeline": "text-to-speech",
+      "likes": 1823,
+      "downloads": 2487040,
+      "url": "https://huggingface.co/Qwen/Qwen3-TTS-12Hz-1.7B-CustomVoice"
+    },
+    {
+      "id": "k2-fsa/OmniVoice",
+      "pipeline": "text-to-speech",
+      "likes": 1209,
+      "downloads": 834165,
+      "url": "https://huggingface.co/k2-fsa/OmniVoice"
+    },
+    {
+      "id": "hexgrad/Kokoro-82M",
+      "pipeline": "text-to-speech",
+      "likes": 6588,
+      "downloads": 10417369,
+      "url": "https://huggingface.co/hexgrad/Kokoro-82M"
     },
     {
       "id": "neuphonic/neutts-2e",
       "pipeline": "text-to-speech",
       "likes": 26,
-      "downloads": 4479,
+      "downloads": 4812,
       "url": "https://huggingface.co/neuphonic/neutts-2e"
-    },
-    {
-      "id": "hexgrad/Kokoro-82M",
-      "pipeline": "text-to-speech",
-      "likes": 6585,
-      "downloads": 10293277,
-      "url": "https://huggingface.co/hexgrad/Kokoro-82M"
-    },
-    {
-      "id": "k2-fsa/OmniVoice",
-      "pipeline": "text-to-speech",
-      "likes": 1201,
-      "downloads": 829350,
-      "url": "https://huggingface.co/k2-fsa/OmniVoice"
     },
     {
       "id": "OpenMOSS-Team/MOSS-Transcribe-Diarize",
       "pipeline": "audio-text-to-text",
-      "likes": 327,
-      "downloads": 120771,
+      "likes": 329,
+      "downloads": 123481,
       "url": "https://huggingface.co/OpenMOSS-Team/MOSS-Transcribe-Diarize"
     },
     {
       "id": "microsoft/VibeVoice-ASR-HF",
       "pipeline": "audio-text-to-text",
       "likes": 167,
-      "downloads": 250811,
+      "downloads": 237613,
       "url": "https://huggingface.co/microsoft/VibeVoice-ASR-HF"
     },
     {
       "id": "mistralai/Voxtral-Small-24B-2507",
       "pipeline": "audio-text-to-text",
-      "likes": 513,
-      "downloads": 235140,
+      "likes": 514,
+      "downloads": 240970,
       "url": "https://huggingface.co/mistralai/Voxtral-Small-24B-2507"
+    },
+    {
+      "id": "Qwen/Qwen2-Audio-7B",
+      "pipeline": "audio-text-to-text",
+      "likes": 175,
+      "downloads": 42518,
+      "url": "https://huggingface.co/Qwen/Qwen2-Audio-7B"
     },
     {
       "id": "stepfun-ai/Step-Audio-R1.1",
@@ -772,17 +779,10 @@
       "url": "https://huggingface.co/stepfun-ai/Step-Audio-R1.1"
     },
     {
-      "id": "Qwen/Qwen2-Audio-7B",
-      "pipeline": "audio-text-to-text",
-      "likes": 174,
-      "downloads": 41796,
-      "url": "https://huggingface.co/Qwen/Qwen2-Audio-7B"
-    },
-    {
       "id": "Qwen/Qwen2-Audio-7B-Instruct",
       "pipeline": "audio-text-to-text",
       "likes": 551,
-      "downloads": 714706,
+      "downloads": 700848,
       "url": "https://huggingface.co/Qwen/Qwen2-Audio-7B-Instruct"
     }
   ],
@@ -790,31 +790,31 @@
     {
       "title": "OpenForgeRL: Train Harness-native Agents in Any Environment",
       "url": "https://huggingface.co/papers/2607.21557",
-      "upvotes": 5,
+      "upvotes": 6,
       "published": "2026-07-22T20:00:00.000Z"
     },
     {
       "title": "SANA-Video 2.0: Hybrid Linear Attention with Attention Residuals for Efficient Video Generation",
       "url": "https://huggingface.co/papers/2607.21553",
-      "upvotes": 19,
+      "upvotes": 27,
       "published": "2026-07-22T20:00:00.000Z"
     },
     {
       "title": "FinanceComplexQA: Benchmarking Agentic Reasoning on Industrial-grade Financial Documents",
       "url": "https://huggingface.co/papers/2607.19238",
-      "upvotes": 5,
+      "upvotes": 6,
       "published": "2026-07-20T20:00:00.000Z"
     },
     {
       "title": "Self-Supervised Learning of Structured Dynamics from Videos",
       "url": "https://huggingface.co/papers/2607.21576",
-      "upvotes": 16,
+      "upvotes": 18,
       "published": "2026-07-22T20:00:00.000Z"
     },
     {
       "title": "K12-KGraph: A Curriculum-Aligned Knowledge Graph for Benchmarking and Training Educational LLMs",
       "url": "https://huggingface.co/papers/2605.09635",
-      "upvotes": 55,
+      "upvotes": 57,
       "published": "2026-07-22T20:00:00.000Z"
     },
     {
@@ -826,13 +826,13 @@
     {
       "title": "LLMs Get Lost in Evolving User Intent",
       "url": "https://huggingface.co/papers/2607.20734",
-      "upvotes": 18,
+      "upvotes": 21,
       "published": "2026-07-21T20:00:00.000Z"
     },
     {
       "title": "Visual Contrastive Self-Distillation",
       "url": "https://huggingface.co/papers/2607.21556",
-      "upvotes": 41,
+      "upvotes": 43,
       "published": "2026-07-22T20:00:00.000Z"
     },
     {
@@ -848,7 +848,5 @@
       "published": "2026-07-21T20:00:00.000Z"
     }
   ],
-  "warnings": [
-    "arxiv: HTTP 429 for https://export.arxiv.org/api/query?search_query=cat%3Aeess.AS%20OR%20cat%3Acs.SD&start=0&max_results=80&sortBy=submittedDate&sortOrder=descending (kept previous)"
-  ]
+  "warnings": []
 }
