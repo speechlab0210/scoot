@@ -1,7 +1,194 @@
 {
-  "fetched_at": "2026-07-26T22:40:02.481Z",
+  "fetched_at": "2026-07-27T22:40:02.153Z",
   "paper_window_days": 10,
   "papers": [
+    {
+      "id": "https://arxiv.org/abs/2607.22413v1",
+      "title": "Reflector: Arrangement-Aware Harmonic Retrieval for Sample-Based Composition",
+      "authors": [
+        "Austin Rockman"
+      ],
+      "abstract": "Sample retrieval tools can help composers find harmonically compatible material, but querying from a fixed reference sample becomes less informative as arrangements evolve and the harmonic context shifts with each musical decision. We present Reflector, an interactive audio workstation that tracks harmonic combinations as they accumulate on the composer's timeline and adapts retrieval as the arrangement develops. The system is organized around a fixed interval-class oracle: a hand-designed table of weights that scores how pitch-class content combines between sources. An encoder trained enti...",
+      "published": "2026-07-24T15:30:30Z",
+      "cats": [
+        "cs.SD",
+        "cs.IR",
+        "cs.LG"
+      ]
+    },
+    {
+      "id": "https://arxiv.org/abs/2607.22377v1",
+      "title": "Kutti AI: A Voice-First, Offline-Capable Learning Companion with Real-Time Struggle Detection for Visually-Impaired Children",
+      "authors": [
+        "Kadharmoideen Fadurudeen"
+      ],
+      "abstract": "Most educational technology for children is built around visual interfaces, which excludes the many children worldwide who live with visual impairment -- an estimated 1.4 million children are blind and many more have low vision. We present Kutti AI, a voice-first learning companion designed so that audio is the primary and sufficient interface: children learn curriculum concepts through spoken conversation, respond by speaking, and receive spoken feedback, with no reliance on visual elements. The system contributes three practical mechanisms for accessible, adaptive learning on commodity mo...",
+      "published": "2026-07-24T15:03:41Z",
+      "cats": [
+        "cs.HC",
+        "cs.CY",
+        "cs.SD"
+      ]
+    },
+    {
+      "id": "https://arxiv.org/abs/2607.22304v1",
+      "title": "Synthetic Speech, Real Signal: Paralinguistic Preservation and Cross-Lingual Augmentation via Voice Cloning",
+      "authors": [
+        "Roseline Polle",
+        "Owen Parsons",
+        "George Fairs",
+        "Luis Miguel San Martin Fernandez",
+        "Cole Looney",
+        "Xiaoliang Wu",
+        "Alexandra Livia Georgescu",
+        "Stefano Goria"
+      ],
+      "abstract": "Synthetic data augmentation in speech is common practice for linguistic tasks like ASR, but has seen far less work for paralinguistic ones, especially clinical tasks where labelled data is expensive and some patient groups are underrepresented. Voice cloning is one such augmentation approach, but is typically evaluated on speech intelligibility (WER) or speaker similarity (SS) rather than on downstream performance, and it remains unclear whether these preserve the paralinguistic signal such tasks depend on. We benchmark eight voice cloning models on five paralinguistic tasks across public a...",
+      "published": "2026-07-24T13:46:00Z",
+      "cats": [
+        "cs.LG",
+        "cs.SD"
+      ]
+    },
+    {
+      "id": "https://arxiv.org/abs/2607.22100v1",
+      "title": "MEUSLI: a Multilingual Projector for LLM-based ASR and Beyond",
+      "authors": [
+        "Lorenzo Concina",
+        "Seraphina Fong",
+        "Marco Matassoni",
+        "Alessio Brutti"
+      ],
+      "abstract": "Lightweight projectors are an established way to connect pre-trained speech encoders with large language models (LLMs), mapping acoustic features into token-level embeddings for tasks like ASR and spoken question answering. Existing systems, however, typically only support a few languages and are often limited to English. We introduce MEUSLI, the first open-science multilingual projector family that links a Whisper encoder with open-source multilingual LLMs, enabling fully open-source end-to-end ASR in 28 European languages. MEUSLI extends prior monolingual pipelines, delivering strong resu...",
+      "published": "2026-07-24T08:52:44Z",
+      "cats": [
+        "cs.CL",
+        "cs.AI",
+        "eess.AS"
+      ]
+    },
+    {
+      "id": "https://arxiv.org/abs/2607.22094v1",
+      "title": "Transforming Keystroke Noise to Text: Self-Supervised Acoustic Eavesdropping Attacks on Keyboards",
+      "authors": [
+        "Atsunori Okada",
+        "Akira Ito",
+        "Rei Ueno",
+        "Yuichi Hayashi",
+        "Naofumi Homma"
+      ],
+      "abstract": "We present a self-supervised acoustic eavesdropping attack that reconstructs typed text solely from keystroke sounds, without requiring labeled data for the target device. The proposed attack enables stealthy eavesdropping in two real-world scenarios-physical spaces (public and semi-public) and online meetings. Our method combines unsupervised acoustic clustering with Transformer-based language model inference and iterative self-training, enabling stable character inference under highly uncertain acoustic-to-character mappings. We demonstrate that the proposed method achieves over 99% recon...",
+      "published": "2026-07-24T08:43:16Z",
+      "cats": [
+        "cs.CR",
+        "cs.SD"
+      ]
+    },
+    {
+      "id": "https://arxiv.org/abs/2607.22086v1",
+      "title": "MemNMF: Memory-Augmented NMF on LPC Spectra for Anomalous Sound Detection",
+      "authors": [
+        "Phurich Saengthong",
+        "Takahiro Shinozaki"
+      ],
+      "abstract": "Autoencoder-based anomalous sound detection is attractive for machine condition monitoring because it can be trained using only normal recordings and yields an interpretable anomaly score from reconstruction error. Most prior work uses spectrogram autoencoders, but reconstructing detailed time--frequency patterns is sensitive to noise and transients, and models can reconstruct some anomalous inputs well, weakening normal--anomaly separation. We propose MemNMF, a constrained reconstruction method that operates on the Linear Predictive Coding spectrum, a compact estimate of the spectral envel...",
+      "published": "2026-07-24T08:34:12Z",
+      "cats": [
+        "cs.SD",
+        "cs.LG"
+      ]
+    },
+    {
+      "id": "https://arxiv.org/abs/2607.22010v1",
+      "title": "How Meta-Learning Shapes LoRA Adapter Geometry in Speech Deepfake Detection",
+      "authors": [
+        "Ivan Kukanov",
+        "Janne Laakkonen",
+        "Ville Hautamäki"
+      ],
+      "abstract": "Meta-learning for domain generalization (MLDG) improves out-of-distribution speech deepfake detection over empirical risk minimization (ERM) when both objectives train low-rank adapters on the same frozen self-supervised speech model. Because the architecture and adapter capacity are held fixed, this gap points to differences in how the training objective shapes the adapter, yet the field characterizes objectives through error rates rather than through the geometry of the solution they reach. We introduce a descriptive diagnostic for this question: holding architecture, rank, data, and seed...",
+      "published": "2026-07-24T06:15:39Z",
+      "cats": [
+        "eess.AS"
+      ]
+    },
+    {
+      "id": "https://arxiv.org/abs/2607.22000v1",
+      "title": "Music-JEPA: Learning a World Model of Sound from Action",
+      "authors": [
+        "Ziyu Wang",
+        "Kun Fang",
+        "Yann LeCun"
+      ],
+      "abstract": "Joint Embedding Predictive Architectures (JEPA) have recently emerged as a paradigm for learning world models by predicting latent representations, offering a promising direction for self-supervised learning. While initial attempts have applied JEPA to the music domain, it remains unclear how such frameworks can naturally support the formation of a world model for music. In this work, we propose to learn a world model of piano sound using JEPA by framing music as an action-conditioned system: the audio is treated as the state, and the pianoroll as the instrument action. Given a current audi...",
+      "published": "2026-07-24T05:59:30Z",
+      "cats": [
+        "cs.SD"
+      ]
+    },
+    {
+      "id": "https://arxiv.org/abs/2607.21943v1",
+      "title": "Listen, Do Not Copy: Internalizing Audio-Grounded Scaffold Context for Robust Omni-Model Speech Understanding",
+      "authors": [
+        "Pengfei Zhang",
+        "Biao Tian",
+        "Tianxin Xie",
+        "Minghao Yang",
+        "Xiangang Li",
+        "Li Liu"
+      ],
+      "abstract": "Omni models transcribe clean, single-speaker speech well, but their accuracy drops sharply when speakers overlap and the scene is noisy, exactly where knowing who said what matters most. A natural fix is a short scene description. We show why this is risky: answer-bearing text lets the model copy instead of listen, so the score rises although nothing has been heard; a silent test exposes this shortcut at once. We call this failure mode perception bypass and address it with Audio-Grounded Scaffold Context (AGSC). AGSC links three steps: first, we build clues from audio to guide listening wit...",
+      "published": "2026-07-24T03:39:34Z",
+      "cats": [
+        "cs.SD"
+      ]
+    },
+    {
+      "id": "https://arxiv.org/abs/2607.21899v1",
+      "title": "CODA: Cascaded Online Discontinuity-Aware Alignment for Real-Time Image-Based Score Following",
+      "authors": [
+        "Yining Yang",
+        "Ruogu Chen",
+        "Jie Han"
+      ],
+      "abstract": "Real-time score following from sheet images remains chal- lenging because the model must process streaming au- dio while resolving highly repetitive visual patterns un- der strict latency constraints. Recent image-based meth- ods have attempted to use multi-resolution prediction by simultaneously predicting the positions of the active sys- tem, bar, and note. However, their predictions across these different levels of notation are independent, which makes the predictions unstable and introduces unnecessary ex- tra search space for bar- and note-level predictions. Most existing methods also ...",
+      "published": "2026-07-24T02:02:05Z",
+      "cats": [
+        "cs.SD"
+      ]
+    },
+    {
+      "id": "https://arxiv.org/abs/2607.21857v1",
+      "title": "SoundscapeAgent: Agentic Soundscape Construction for Controllable Synthesis and Scalable Audio-Language Supervision",
+      "authors": [
+        "Hao Zhang",
+        "Yiwen Zhao",
+        "Yixuan Zhang",
+        "Yiwen Shao",
+        "Steve Yves"
+      ],
+      "abstract": "We present an agentic soundscape construction framework for controllable compositional audio generation that makes explicit the scene planning, source selection, temporal layout, and rendering steps typically handled implicitly by single-shot text-to-audio models. An LLM-based agent converts user intent into an executable scene plan, acquires assets through retrieval and on-demand generation, renders controllable multi-event mixtures, and exports aligned scene metadata. The framework also supports human-in-the-loop interaction through user-guided tool selection and editable scene plans. Tog...",
+      "published": "2026-07-23T22:58:24Z",
+      "cats": [
+        "cs.SD"
+      ]
+    },
+    {
+      "id": "https://arxiv.org/abs/2607.21820v1",
+      "title": "Probing Speaker Identity Sensitivity in Audio Deepfake Detectors",
+      "authors": [
+        "Daniyal Kabir Dar",
+        "Arun Ross"
+      ],
+      "abstract": "Audio deepfake detectors are trained to distinguish genuine speech from synthetic speech and often perform well on standard benchmarks. Yet the same detector that achieves less than 1% error on one dataset can see its error rate increase twentyfold when evaluated on a different dataset. We argue that one contributing factor is speaker-identity reliance: standard training corpora correlate speaker identity with the genuine/synthetic label, allowing detectors to partially rely on speaker-related cues rather than synthesis artifacts alone. We propose the Identity Sensitivity Score (ISS), a per...",
+      "published": "2026-07-23T21:12:33Z",
+      "cats": [
+        "cs.SD",
+        "cs.AI",
+        "cs.CR",
+        "cs.LG"
+      ]
+    },
     {
       "id": "https://arxiv.org/abs/2607.21424v1",
       "title": "An Evaluation Framework for Structured Audio Captions Validated by Controlled Perturbations",
@@ -454,398 +641,196 @@
       "cats": [
         "eess.AS"
       ]
-    },
-    {
-      "id": "https://arxiv.org/abs/2607.18704v1",
-      "title": "What the Waveform Knows: Transparent-first Speech and Audio Intelligence with Caption Studio",
-      "authors": [
-        "Cheng Siong Chin",
-        "Jianhua Zhang",
-        "Mohan Venkateshkumar"
-      ],
-      "abstract": "Caption Studio is a transparency-first speech and audio intelligence platform that transforms spoken audio and video into structured, searchable content through automated transcription, speaker diarization, speech analytics, signal-level audio analysis, and subtitle generation. The system is built on a FastAPI backend with a real-time dashboard and adopts a three-layer architecture comprising (i) a transcription and diarization core based on Whisper-class automatic speech recognition and pyannote speaker diarization, (ii) an audio intelligence layer that extracts acoustic and linguistic fea...",
-      "published": "2026-07-21T04:56:00Z",
-      "cats": [
-        "cs.SD",
-        "cs.AI"
-      ]
-    },
-    {
-      "id": "https://arxiv.org/abs/2607.18666v1",
-      "title": "Fusion Embedding: A Unified Embedding Space for Text, Image, Video, and Audio",
-      "authors": [
-        "Abdul Basit Tonmoy",
-        "Kazi Fardinul Hoque",
-        "Md. Shahrier Islam Arham",
-        "Arman Luthra"
-      ],
-      "abstract": "A single embedding space that covers text, images, video, and audio lets one index serve every query a user can pose. Embedding models built on vision-language backbones now lead text/image/video retrieval benchmarks but lack audio entirely, while audio-text retrieval is led by specialist systems that serve no other modality. We present the Fusion Embedding family, which adds audio to a frozen vision-language embedding base whose parameters are never updated: generation 1 (fusion-embedding-1) trains only a 16.4M-parameter connector between a frozen audio tower and the frozen base, and gener...",
-      "published": "2026-07-21T03:25:34Z",
-      "cats": [
-        "cs.CL",
-        "cs.SD"
-      ]
-    },
-    {
-      "id": "https://arxiv.org/abs/2607.18658v1",
-      "title": "Towards Array-Invariant Speech Enhancement via Geometry-Aware Dynamic Convolution",
-      "authors": [
-        "Zhenglong Liu",
-        "Wangyou Zhang",
-        "Chenda Li",
-        "Yanmin Qian"
-      ],
-      "abstract": "Multi-channel speech enhancement (SE) systems exhibit superior performance over single-channel methods but are constrained to fixed microphone array configurations. This restricts their real-world deployment across devices with diverse array geometries. While recent array-agnostic SE methods address variable microphone numbers and permutations, they largely fail to exploit explicit array geometry priors when available, missing a crucial cue for optimal spatial filtering. A Geometry-Aware Dynamic Convolution (Geo-DConv) framework is proposed, which explicitly leverages microphone coordinates...",
-      "published": "2026-07-21T03:02:57Z",
-      "cats": [
-        "eess.AS",
-        "cs.SD"
-      ]
-    },
-    {
-      "id": "https://arxiv.org/abs/2607.19434v1",
-      "title": "CAPS: A Cascaded Reconstruction Model to Power Saving in Hearables Using Sub-Nyquist Sampling with Bandwidth Extension",
-      "authors": [
-        "Tarikul Islam Tamiti",
-        "Sajid Fardin Dipto",
-        "Luke Baja-Ricketts",
-        "David Vergano",
-        "Anomadarshi Barua"
-      ],
-      "abstract": "Hearables are wearable computers worn on the ear. Bone conduction microphones are used with air conduction microphones in hearables for multimodal speech enhancement in noisy conditions. Despite this potential, current models largely fail to explore how jointly reducing sampling bit resolution and sampling frequency in analog-to-digital converters (ADCs) of hearables impacts both power usage and audio quality. Furthermore, current frameworks cannot do sub-Nyquist sampling in hearables because they lack a method to reconstruct wideband signals from narrowband components. We therefore propose...",
-      "published": "2026-07-21T02:09:58Z",
-      "cats": [
-        "cs.SD"
-      ]
-    },
-    {
-      "id": "https://arxiv.org/abs/2607.18629v1",
-      "title": "CS-ETS: Chaos-Inspired Samba-Based EMG-To-Speech Synthesis with Nonlinear Chaotic Losses",
-      "authors": [
-        "Sajid Fardin Dipto",
-        "Tarikul Islam Tamiti",
-        "David Vergano",
-        "Luke Baja-Ricketts",
-        "Anomadarshi Barua"
-      ],
-      "abstract": "We propose a chaos-inspired new architecture for EMG-to-Speech (ETS) synthesis called CS-ETS, which combines a Samba-based encoder with two novel chaos-inspired loss functions -- Lyapunov Exponent Regularization (LER) and Multi-Scale Detrended Fluctuation Analysis (MSDFA). LER is designed based on Lyapunov exponents to capture nonlinear fluctuations and sensitivity to initial conditions. MSDFA exploits detrended fluctuation analysis to quantify fractal-like, long-range temporal chaotic correlation. CS-ETS surpasses prior work with a 40.79\\% lower parameter count (32M vs 54.1M) and introduce...",
-      "published": "2026-07-21T01:54:51Z",
-      "cats": [
-        "cs.SD",
-        "eess.SP"
-      ]
-    },
-    {
-      "id": "https://arxiv.org/abs/2607.18614v1",
-      "title": "End-to-End Markov State Sequence Learning for Auditory Attention Decoding",
-      "authors": [
-        "Yushan Yashengjiang",
-        "Jie Zhang",
-        "Miao Sun",
-        "Huadong Liang",
-        "Xin Li",
-        "Zhen-hua Ling"
-      ],
-      "abstract": "Auditory attention decoding (AAD) identifies the speaker a listener attends to from neural responses like electroencephalography (EEG), making it a key algorithm in neuro-steered hearing aids. However, most neural AAD models are trained as independent short-window classifiers, despite auditory attention being a temporally persistent cognitive state and short-window EEG--audio evidence often being noisy and ambiguous. We propose an end-to-end Markov AAD framework based on conditional random field (CRF) that trains window-level neural emissions under a two-state attention prior. The framework...",
-      "published": "2026-07-21T01:33:59Z",
-      "cats": [
-        "cs.SD",
-        "cs.HC"
-      ]
-    },
-    {
-      "id": "https://arxiv.org/abs/2607.18190v1",
-      "title": "Audio Cross Verification Using Dual Alignment Likelihood Ratio Test",
-      "authors": [
-        "Heidi Lei",
-        "Arm Wonghirundacha",
-        "Irmak Bukey",
-        "TJ Tsai"
-      ],
-      "abstract": "This paper explores a way to verify that audio has not been maliciously tampered in a specific context: short viral videos taken from news recordings. Rather than trying to detect artifacts of tampering (internal inconsistency), we focus on positively verifying a query against a trusted source such as a news recording (external consistency). We propose a method for cross verifying a short audio query against a reference recording from which it was taken. Our approach is to define two hypotheses (non-tampered vs tampered), calculate the most likely alignment between query and reference for e...",
-      "published": "2026-07-20T17:29:22Z",
-      "cats": [
-        "cs.SD"
-      ]
-    },
-    {
-      "id": "https://arxiv.org/abs/2607.18189v1",
-      "title": "Dense-Sparse Dynamic Time Warping for Customizing Piano Concerto Accompaniments",
-      "authors": [
-        "TJ Tsai",
-        "Kavi Dey",
-        "Yigitcan Ozer",
-        "Meinard Muller"
-      ],
-      "abstract": "In this study, we explore how pianists can customize Music Minus One (MMO) concerto accompaniments to match their playing style. Bypassing the need for a symbolic score, often not available digitally, we use three types of audio data: solo piano recordings, MMO orchestra-only recordings, and mixed recordings of both piano and orchestra (e.g., from YouTube). The mixed recording serves as an intermediary reference to align the solo and orchestra parts, with only the orchestral part being adjusted through time-scale modification to synchronize with the user's playing. The main challenge with e...",
-      "published": "2026-07-20T17:29:10Z",
-      "cats": [
-        "cs.SD",
-        "eess.AS"
-      ]
-    },
-    {
-      "id": "https://arxiv.org/abs/2607.17900v2",
-      "title": "Harness TTS: Towards Context-Aware Expressive Speech Synthesis with Harness Layer",
-      "authors": [
-        "Shengfan Shen",
-        "Di Wu",
-        "Xingchen Song",
-        "Dinghao Zhou",
-        "Pengyu Cheng",
-        "Sixiang Lyu",
-        "Jian Luan",
-        "Shuai Wang"
-      ],
-      "abstract": "Expressive speech synthesis for voice assistants requires flexible style control that adapts to explicit requests and broader interaction context. We propose Harness TTS, a lightweight control layer that wraps around a TTS engine to externalize and govern its expressive behavior. It reformulates style control as closed-set prompt-tool routing: offline, a compact registry of stylistic prompt tools is constructed with structured metadata; online, an LLM planner selects the appropriate tool based on a priority-aware observation schema, and the TTS executor synthesizes speech using the correspo...",
-      "published": "2026-07-20T12:48:02Z",
-      "cats": [
-        "cs.SD"
-      ]
-    },
-    {
-      "id": "https://arxiv.org/abs/2607.17867v1",
-      "title": "The tttAI System for the TSA-ASR Task of the SmartGlasses Challenge 2026",
-      "authors": [
-        "Xuanji He",
-        "Gaoyang Dong",
-        "Xiaoxiao Li",
-        "Minchuan Chen",
-        "Fengjie Zhu"
-      ],
-      "abstract": "This paper presents the tttAI system submitted to the TSA-ASR task of the SmartGlasses Challenge 2026, evaluated on both two-person dialogues (Track 1) and multi-party meetings (Track 2). The task requires time-stamped speaker-attributed speech recognition from smart-glasses recordings. This is particularly challenging due to long-form audio, multiple speakers, and frequent overlapping speech. We proposed a cascaded architecture consisting of speaker diarization, overlap detection, target-speaker extraction, post-processing, and automatic speech recognition. The diarization module extracts ...",
-      "published": "2026-07-20T12:10:11Z",
-      "cats": [
-        "eess.AS"
-      ]
-    },
-    {
-      "id": "https://arxiv.org/abs/2607.17761v1",
-      "title": "Time-Frequency Consistency Learning for Robust Speech Deepfake Detection",
-      "authors": [
-        "Jun Xue",
-        "Zhuolin Yi",
-        "Yanzhen Ren",
-        "Yihuan Huang",
-        "Jiayu Xiong",
-        "Yi Chai",
-        "Guanxiang Feng",
-        "Jiajun Liu"
-      ],
-      "abstract": "Recently, speech deepfake detection (SDD) has achieved significant progress. However, its robustness evaluation remains largely confined to controlled additive noise scenarios, lacking systematic investigation of the complex distortions introduced by acoustic front-end (AFE) processing pipelines in real-world deployments. In this work, we simulate a unified AFE pipeline comprising acoustic echo cancellation, noise suppression, automatic gain control, and voice activity detection (VAD), and conduct a comprehensive evaluation of current state-of-the-art models. The results show that the nonli...",
-      "published": "2026-07-20T09:51:03Z",
-      "cats": [
-        "cs.SD",
-        "cs.AI"
-      ]
-    },
-    {
-      "id": "https://arxiv.org/abs/2607.18345v1",
-      "title": "Addressing Limited Data in Auditory Attention Decoding with Diffusion Generative Models",
-      "authors": [
-        "David Rannaleet",
-        "Victor Gunnarsson",
-        "Bo Bernhardsson",
-        "Martin A. Skoglund",
-        "Emina Alickovic"
-      ],
-      "abstract": "Limited training data constrains deep learning models for Auditory Attention Decoding (AAD) in hearing aids (HAs). AAD uses electroencephalogram (EEG) data to decode listener's attention, enabling real-time tracking of specific sound sources. However, achieving high AAD performance with short time windows typical in HAs (<=1s) is challenging due to the scarcity of real-world speech-evoked EEG data. To address this issue, we investigate diffusion probabilistic models (DPMs) for generating synthetic speech-evoked EEG data. DPMs learn the underlying complex data structure through a denoising p...",
-      "published": "2026-07-20T07:47:20Z",
-      "cats": [
-        "cs.SD",
-        "cs.AI",
-        "cs.LG"
-      ]
     }
   ],
   "models": [
     {
-      "id": "nvidia/nemotron-3.5-asr-streaming-0.6b",
-      "pipeline": "automatic-speech-recognition",
-      "likes": 945,
-      "downloads": 884001,
-      "url": "https://huggingface.co/nvidia/nemotron-3.5-asr-streaming-0.6b"
-    },
-    {
       "id": "microsoft/VibeVoice-ASR-BitNet",
       "pipeline": "automatic-speech-recognition",
-      "likes": 51,
-      "downloads": 665,
+      "likes": 67,
+      "downloads": 1219,
       "url": "https://huggingface.co/microsoft/VibeVoice-ASR-BitNet"
+    },
+    {
+      "id": "nvidia/nemotron-3.5-asr-streaming-0.6b",
+      "pipeline": "automatic-speech-recognition",
+      "likes": 951,
+      "downloads": 924450,
+      "url": "https://huggingface.co/nvidia/nemotron-3.5-asr-streaming-0.6b"
     },
     {
       "id": "pyannote/speaker-diarization-3.1",
       "pipeline": "automatic-speech-recognition",
-      "likes": 2847,
-      "downloads": 8656906,
+      "likes": 2862,
+      "downloads": 8717990,
       "url": "https://huggingface.co/pyannote/speaker-diarization-3.1"
     },
     {
       "id": "pyannote/speaker-diarization-community-1",
       "pipeline": "automatic-speech-recognition",
-      "likes": 852,
-      "downloads": 5237692,
+      "likes": 865,
+      "downloads": 5105211,
       "url": "https://huggingface.co/pyannote/speaker-diarization-community-1"
-    },
-    {
-      "id": "Trelis/tiron",
-      "pipeline": "automatic-speech-recognition",
-      "likes": 21,
-      "downloads": 674,
-      "url": "https://huggingface.co/Trelis/tiron"
     },
     {
       "id": "openai/whisper-large-v3",
       "pipeline": "automatic-speech-recognition",
-      "likes": 5987,
-      "downloads": 6004606,
+      "likes": 5994,
+      "downloads": 5933645,
       "url": "https://huggingface.co/openai/whisper-large-v3"
+    },
+    {
+      "id": "Trelis/tiron",
+      "pipeline": "automatic-speech-recognition",
+      "likes": 22,
+      "downloads": 763,
+      "url": "https://huggingface.co/Trelis/tiron"
     },
     {
       "id": "owensong/Inflect-Micro-v2",
       "pipeline": "text-to-speech",
-      "likes": 172,
-      "downloads": 298,
+      "likes": 221,
+      "downloads": 483,
       "url": "https://huggingface.co/owensong/Inflect-Micro-v2"
     },
     {
       "id": "owensong/Inflect-Nano-v2",
       "pipeline": "text-to-speech",
-      "likes": 72,
-      "downloads": 252,
+      "likes": 91,
+      "downloads": 349,
       "url": "https://huggingface.co/owensong/Inflect-Nano-v2"
     },
     {
       "id": "Qwen/Qwen3-TTS-12Hz-1.7B-CustomVoice",
       "pipeline": "text-to-speech",
-      "likes": 1823,
-      "downloads": 2487040,
+      "likes": 1830,
+      "downloads": 2483599,
       "url": "https://huggingface.co/Qwen/Qwen3-TTS-12Hz-1.7B-CustomVoice"
+    },
+    {
+      "id": "neuphonic/neutts-2e",
+      "pipeline": "text-to-speech",
+      "likes": 29,
+      "downloads": 4892,
+      "url": "https://huggingface.co/neuphonic/neutts-2e"
+    },
+    {
+      "id": "hexgrad/Kokoro-82M",
+      "pipeline": "text-to-speech",
+      "likes": 6595,
+      "downloads": 10331854,
+      "url": "https://huggingface.co/hexgrad/Kokoro-82M"
     },
     {
       "id": "k2-fsa/OmniVoice",
       "pipeline": "text-to-speech",
       "likes": 1209,
-      "downloads": 834165,
+      "downloads": 840002,
       "url": "https://huggingface.co/k2-fsa/OmniVoice"
-    },
-    {
-      "id": "hexgrad/Kokoro-82M",
-      "pipeline": "text-to-speech",
-      "likes": 6588,
-      "downloads": 10417369,
-      "url": "https://huggingface.co/hexgrad/Kokoro-82M"
-    },
-    {
-      "id": "neuphonic/neutts-2e",
-      "pipeline": "text-to-speech",
-      "likes": 26,
-      "downloads": 4812,
-      "url": "https://huggingface.co/neuphonic/neutts-2e"
     },
     {
       "id": "OpenMOSS-Team/MOSS-Transcribe-Diarize",
       "pipeline": "audio-text-to-text",
-      "likes": 329,
-      "downloads": 123481,
+      "likes": 331,
+      "downloads": 125294,
       "url": "https://huggingface.co/OpenMOSS-Team/MOSS-Transcribe-Diarize"
     },
     {
       "id": "microsoft/VibeVoice-ASR-HF",
       "pipeline": "audio-text-to-text",
       "likes": 167,
-      "downloads": 237613,
+      "downloads": 229251,
       "url": "https://huggingface.co/microsoft/VibeVoice-ASR-HF"
     },
     {
       "id": "mistralai/Voxtral-Small-24B-2507",
       "pipeline": "audio-text-to-text",
-      "likes": 514,
-      "downloads": 240970,
+      "likes": 515,
+      "downloads": 246173,
       "url": "https://huggingface.co/mistralai/Voxtral-Small-24B-2507"
     },
     {
       "id": "Qwen/Qwen2-Audio-7B",
       "pipeline": "audio-text-to-text",
       "likes": 175,
-      "downloads": 42518,
+      "downloads": 43281,
       "url": "https://huggingface.co/Qwen/Qwen2-Audio-7B"
     },
     {
       "id": "stepfun-ai/Step-Audio-R1.1",
       "pipeline": "audio-text-to-text",
       "likes": 186,
-      "downloads": 264,
+      "downloads": 265,
       "url": "https://huggingface.co/stepfun-ai/Step-Audio-R1.1"
     },
     {
       "id": "Qwen/Qwen2-Audio-7B-Instruct",
       "pipeline": "audio-text-to-text",
       "likes": 551,
-      "downloads": 700848,
+      "downloads": 698323,
       "url": "https://huggingface.co/Qwen/Qwen2-Audio-7B-Instruct"
     }
   ],
   "community_picks": [
     {
-      "title": "OpenForgeRL: Train Harness-native Agents in Any Environment",
-      "url": "https://huggingface.co/papers/2607.21557",
+      "title": "Interactive Training 2: Auditable Control Plane for Live Model Training",
+      "url": "https://huggingface.co/papers/2607.18314",
+      "upvotes": 15,
+      "published": "2026-07-16T20:00:00.000Z"
+    },
+    {
+      "title": "Multimodal Speaker Verification as a Threat to Speaker Anonymization",
+      "url": "https://huggingface.co/papers/2607.19636",
+      "upvotes": 1,
+      "published": "2026-07-21T20:00:00.000Z"
+    },
+    {
+      "title": "Three-Body Scattering for Generative Modeling",
+      "url": "https://huggingface.co/papers/2607.18198",
+      "upvotes": 10,
+      "published": "2026-07-19T20:00:00.000Z"
+    },
+    {
+      "title": "DataPrep-Bench: Benchmarking LLMs as Training Data Preparators",
+      "url": "https://huggingface.co/papers/2607.20465",
+      "upvotes": 38,
+      "published": "2026-05-18T20:00:00.000Z"
+    },
+    {
+      "title": "Multi-Head Latent Control: A Unified Interface for LLM Agent Decision Making",
+      "url": "https://huggingface.co/papers/2607.14277",
       "upvotes": 6,
+      "published": "2026-07-14T20:00:00.000Z"
+    },
+    {
+      "title": "Agentic Context Management: Solving Agent Memory and Cost by Treating Them as Lifecycle and Architecture Problems",
+      "url": "https://huggingface.co/papers/2607.21503",
+      "upvotes": 16,
       "published": "2026-07-22T20:00:00.000Z"
     },
     {
-      "title": "SANA-Video 2.0: Hybrid Linear Attention with Attention Residuals for Efficient Video Generation",
-      "url": "https://huggingface.co/papers/2607.21553",
-      "upvotes": 27,
-      "published": "2026-07-22T20:00:00.000Z"
+      "title": "IDEAgent: Agentic Quality-Diversity Search for Research Idea Generation",
+      "url": "https://huggingface.co/papers/2607.22375",
+      "upvotes": 4,
+      "published": "2026-07-23T20:00:00.000Z"
     },
     {
-      "title": "FinanceComplexQA: Benchmarking Agentic Reasoning on Industrial-grade Financial Documents",
-      "url": "https://huggingface.co/papers/2607.19238",
-      "upvotes": 6,
-      "published": "2026-07-20T20:00:00.000Z"
-    },
-    {
-      "title": "Self-Supervised Learning of Structured Dynamics from Videos",
-      "url": "https://huggingface.co/papers/2607.21576",
-      "upvotes": 18,
-      "published": "2026-07-22T20:00:00.000Z"
-    },
-    {
-      "title": "K12-KGraph: A Curriculum-Aligned Knowledge Graph for Benchmarking and Training Educational LLMs",
-      "url": "https://huggingface.co/papers/2605.09635",
-      "upvotes": 57,
-      "published": "2026-07-22T20:00:00.000Z"
-    },
-    {
-      "title": "Color Pass-Through via Camera-Display Coupling",
-      "url": "https://huggingface.co/papers/2607.12746",
-      "upvotes": 18,
+      "title": "VisCo: Leveraging Large Language Models as Intrinsic Encoders for Visual Token Compression",
+      "url": "https://huggingface.co/papers/2607.12756",
+      "upvotes": 2,
       "published": "2026-07-13T20:00:00.000Z"
     },
     {
-      "title": "LLMs Get Lost in Evolving User Intent",
-      "url": "https://huggingface.co/papers/2607.20734",
-      "upvotes": 21,
-      "published": "2026-07-21T20:00:00.000Z"
-    },
-    {
-      "title": "Visual Contrastive Self-Distillation",
-      "url": "https://huggingface.co/papers/2607.21556",
-      "upvotes": 43,
+      "title": "Closing the Loop: Training-Free Revisit Consistency for Autoregressive Generative Rendering",
+      "url": "https://huggingface.co/papers/2607.21848",
+      "upvotes": 5,
       "published": "2026-07-22T20:00:00.000Z"
     },
     {
-      "title": "Robostral Navigate",
-      "url": "https://huggingface.co/papers/2607.20785",
-      "upvotes": 8,
-      "published": "2026-07-21T20:00:00.000Z"
-    },
-    {
-      "title": "ReferTrack: Referring Then Tracking for Embodied Visual Tracking",
-      "url": "https://huggingface.co/papers/2607.20061",
-      "upvotes": 49,
-      "published": "2026-07-21T20:00:00.000Z"
+      "title": "SceneActBench: Can Agents Act on the 3D Scenes They See?",
+      "url": "https://huggingface.co/papers/2607.22393",
+      "upvotes": 4,
+      "published": "2026-07-23T20:00:00.000Z"
     }
   ],
   "warnings": []
