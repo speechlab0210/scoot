@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-31T22:40:02.816Z",
+  "fetched_at": "2026-08-01T22:40:02.633Z",
   "paper_window_days": 10,
   "papers": [
     {
@@ -647,106 +647,106 @@
     {
       "id": "microsoft/VibeVoice-ASR-BitNet",
       "pipeline": "automatic-speech-recognition",
-      "likes": 133,
-      "downloads": 5464,
+      "likes": 141,
+      "downloads": 5835,
       "url": "https://huggingface.co/microsoft/VibeVoice-ASR-BitNet"
     },
     {
       "id": "nyralabs/CrisperWhisper2.0_large",
       "pipeline": "automatic-speech-recognition",
-      "likes": 59,
-      "downloads": 2257,
+      "likes": 62,
+      "downloads": 2340,
       "url": "https://huggingface.co/nyralabs/CrisperWhisper2.0_large"
     },
     {
       "id": "pyannote/speaker-diarization-3.1",
       "pipeline": "automatic-speech-recognition",
-      "likes": 2918,
-      "downloads": 8834968,
+      "likes": 2930,
+      "downloads": 8622264,
       "url": "https://huggingface.co/pyannote/speaker-diarization-3.1"
     },
     {
       "id": "nvidia/nemotron-3.5-asr-streaming-0.6b",
       "pipeline": "automatic-speech-recognition",
-      "likes": 973,
-      "downloads": 1014552,
+      "likes": 976,
+      "downloads": 1015530,
       "url": "https://huggingface.co/nvidia/nemotron-3.5-asr-streaming-0.6b"
     },
     {
       "id": "Qwen/Qwen3-ASR-1.7B",
       "pipeline": "automatic-speech-recognition",
-      "likes": 968,
-      "downloads": 2005162,
+      "likes": 972,
+      "downloads": 1997676,
       "url": "https://huggingface.co/Qwen/Qwen3-ASR-1.7B"
     },
     {
-      "id": "pyannote/speaker-diarization-community-1",
+      "id": "openai/whisper-large-v3",
       "pipeline": "automatic-speech-recognition",
-      "likes": 894,
-      "downloads": 4968516,
-      "url": "https://huggingface.co/pyannote/speaker-diarization-community-1"
+      "likes": 6014,
+      "downloads": 5623797,
+      "url": "https://huggingface.co/openai/whisper-large-v3"
     },
     {
       "id": "owensong/Inflect-Micro-v2",
       "pipeline": "text-to-speech",
-      "likes": 347,
-      "downloads": 1449,
+      "likes": 361,
+      "downloads": 1565,
       "url": "https://huggingface.co/owensong/Inflect-Micro-v2"
     },
     {
       "id": "Audio8/Audio8-TTS-Preview-0.6b",
       "pipeline": "text-to-speech",
-      "likes": 151,
-      "downloads": 2481,
+      "likes": 166,
+      "downloads": 3254,
       "url": "https://huggingface.co/Audio8/Audio8-TTS-Preview-0.6b"
     },
     {
       "id": "owensong/Inflect-Nano-v2",
       "pipeline": "text-to-speech",
-      "likes": 121,
-      "downloads": 802,
+      "likes": 126,
+      "downloads": 838,
       "url": "https://huggingface.co/owensong/Inflect-Nano-v2"
     },
     {
       "id": "fishaudio/s2-pro",
       "pipeline": "text-to-speech",
-      "likes": 1168,
-      "downloads": 294657,
+      "likes": 1174,
+      "downloads": 301720,
       "url": "https://huggingface.co/fishaudio/s2-pro"
     },
     {
       "id": "hexgrad/Kokoro-82M",
       "pipeline": "text-to-speech",
-      "likes": 6618,
-      "downloads": 11331791,
+      "likes": 6622,
+      "downloads": 11282032,
       "url": "https://huggingface.co/hexgrad/Kokoro-82M"
     },
     {
       "id": "Qwen/Qwen3-TTS-12Hz-1.7B-CustomVoice",
       "pipeline": "text-to-speech",
       "likes": 1848,
-      "downloads": 2452950,
+      "downloads": 2400018,
       "url": "https://huggingface.co/Qwen/Qwen3-TTS-12Hz-1.7B-CustomVoice"
     },
     {
       "id": "OpenMOSS-Team/MOSS-Transcribe-Diarize",
       "pipeline": "audio-text-to-text",
       "likes": 349,
-      "downloads": 204661,
+      "downloads": 206841,
       "url": "https://huggingface.co/OpenMOSS-Team/MOSS-Transcribe-Diarize"
     },
     {
       "id": "mistralai/Voxtral-Small-24B-2507",
       "pipeline": "audio-text-to-text",
-      "likes": 517,
-      "downloads": 279009,
+      "likes": 518,
+      "downloads": 274349,
       "url": "https://huggingface.co/mistralai/Voxtral-Small-24B-2507"
     },
     {
       "id": "Qwen/Qwen2-Audio-7B",
       "pipeline": "audio-text-to-text",
       "likes": 176,
-      "downloads": 48591,
+      "downloads": 47253,
       "url": "https://huggingface.co/Qwen/Qwen2-Audio-7B"
     },
     {
@@ -757,37 +757,37 @@
       "url": "https://huggingface.co/govnejri/Estimin3n"
     },
     {
+      "id": "nvidia/music-flamingo-2601-hf",
+      "pipeline": "audio-text-to-text",
+      "likes": 109,
+      "downloads": 51237,
+      "url": "https://huggingface.co/nvidia/music-flamingo-2601-hf"
+    },
+    {
       "id": "microsoft/VibeVoice-ASR-HF",
       "pipeline": "audio-text-to-text",
       "likes": 169,
-      "downloads": 198817,
+      "downloads": 190583,
       "url": "https://huggingface.co/microsoft/VibeVoice-ASR-HF"
-    },
-    {
-      "id": "nvidia/audio-flamingo-next-hf",
-      "pipeline": "audio-text-to-text",
-      "likes": 58,
-      "downloads": 6745,
-      "url": "https://huggingface.co/nvidia/audio-flamingo-next-hf"
     }
   ],
   "community_picks": [
     {
       "title": "OmniScope: Modality-Decoupled Token Compression for Omnimodal Large Language Models",
       "url": "https://huggingface.co/papers/2607.23193",
-      "upvotes": 2,
+      "upvotes": 3,
       "published": "2026-07-27T20:00:00.000Z"
     },
     {
       "title": "β-OPSD: Deriving with Policy Optimization, Training with Self-Distillation",
       "url": "https://huggingface.co/papers/2607.28582",
-      "upvotes": 13,
+      "upvotes": 18,
       "published": "2026-07-29T20:00:00.000Z"
     },
     {
       "title": "Beyond Geometric Complementarity: Coherent Overlap in Sparse Mixture-of-Experts Routing",
       "url": "https://huggingface.co/papers/2607.28308",
-      "upvotes": 1,
+      "upvotes": 2,
       "published": "2026-07-29T20:00:00.000Z"
     },
     {
@@ -799,7 +799,7 @@
     {
       "title": "See2Think: Do Multimodal Models Really Use Intermediate Visual States?",
       "url": "https://huggingface.co/papers/2607.26769",
-      "upvotes": 21,
+      "upvotes": 22,
       "published": "2026-07-28T20:00:00.000Z"
     },
     {
