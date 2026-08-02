@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-08-01T22:40:02.633Z",
+  "fetched_at": "2026-08-02T22:40:02.048Z",
   "paper_window_days": 10,
   "papers": [
     {
@@ -647,107 +647,114 @@
     {
       "id": "microsoft/VibeVoice-ASR-BitNet",
       "pipeline": "automatic-speech-recognition",
-      "likes": 141,
-      "downloads": 5835,
+      "likes": 149,
+      "downloads": 8468,
       "url": "https://huggingface.co/microsoft/VibeVoice-ASR-BitNet"
     },
     {
       "id": "nyralabs/CrisperWhisper2.0_large",
       "pipeline": "automatic-speech-recognition",
-      "likes": 62,
-      "downloads": 2340,
+      "likes": 81,
+      "downloads": 3100,
       "url": "https://huggingface.co/nyralabs/CrisperWhisper2.0_large"
     },
     {
       "id": "pyannote/speaker-diarization-3.1",
       "pipeline": "automatic-speech-recognition",
-      "likes": 2930,
-      "downloads": 8622264,
+      "likes": 2942,
+      "downloads": 8815920,
       "url": "https://huggingface.co/pyannote/speaker-diarization-3.1"
     },
     {
       "id": "nvidia/nemotron-3.5-asr-streaming-0.6b",
       "pipeline": "automatic-speech-recognition",
-      "likes": 976,
-      "downloads": 1015530,
+      "likes": 982,
+      "downloads": 1037937,
       "url": "https://huggingface.co/nvidia/nemotron-3.5-asr-streaming-0.6b"
     },
     {
       "id": "Qwen/Qwen3-ASR-1.7B",
       "pipeline": "automatic-speech-recognition",
-      "likes": 972,
-      "downloads": 1997676,
+      "likes": 976,
+      "downloads": 2032806,
       "url": "https://huggingface.co/Qwen/Qwen3-ASR-1.7B"
     },
     {
-      "id": "openai/whisper-large-v3",
+      "id": "pyannote/speaker-diarization-community-1",
       "pipeline": "automatic-speech-recognition",
-      "likes": 6014,
-      "downloads": 5623797,
-      "url": "https://huggingface.co/openai/whisper-large-v3"
+      "likes": 908,
+      "downloads": 5089209,
+      "url": "https://huggingface.co/pyannote/speaker-diarization-community-1"
     },
     {
       "id": "owensong/Inflect-Micro-v2",
       "pipeline": "text-to-speech",
-      "likes": 361,
-      "downloads": 1565,
+      "likes": 371,
+      "downloads": 1825,
       "url": "https://huggingface.co/owensong/Inflect-Micro-v2"
     },
     {
       "id": "Audio8/Audio8-TTS-Preview-0.6b",
       "pipeline": "text-to-speech",
-      "likes": 166,
-      "downloads": 3254,
+      "likes": 177,
+      "downloads": 4314,
       "url": "https://huggingface.co/Audio8/Audio8-TTS-Preview-0.6b"
-    },
-    {
-      "id": "owensong/Inflect-Nano-v2",
-      "pipeline": "text-to-speech",
-      "likes": 126,
-      "downloads": 838,
-      "url": "https://huggingface.co/owensong/Inflect-Nano-v2"
     },
     {
       "id": "fishaudio/s2-pro",
       "pipeline": "text-to-speech",
-      "likes": 1174,
-      "downloads": 301720,
+      "likes": 1179,
+      "downloads": 330423,
       "url": "https://huggingface.co/fishaudio/s2-pro"
+    },
+    {
+      "id": "owensong/Inflect-Nano-v2",
+      "pipeline": "text-to-speech",
+      "likes": 128,
+      "downloads": 950,
+      "url": "https://huggingface.co/owensong/Inflect-Nano-v2"
     },
     {
       "id": "hexgrad/Kokoro-82M",
       "pipeline": "text-to-speech",
-      "likes": 6622,
-      "downloads": 11282032,
+      "likes": 6627,
+      "downloads": 11777762,
       "url": "https://huggingface.co/hexgrad/Kokoro-82M"
     },
     {
-      "id": "Qwen/Qwen3-TTS-12Hz-1.7B-CustomVoice",
+      "id": "Audio8/Audio8-TTS-Preview-0.6B-ONNX-INT4",
       "pipeline": "text-to-speech",
-      "likes": 1848,
-      "downloads": 2400018,
-      "url": "https://huggingface.co/Qwen/Qwen3-TTS-12Hz-1.7B-CustomVoice"
+      "likes": 26,
+      "downloads": 0,
+      "url": "https://huggingface.co/Audio8/Audio8-TTS-Preview-0.6B-ONNX-INT4"
     },
     {
       "id": "OpenMOSS-Team/MOSS-Transcribe-Diarize",
       "pipeline": "audio-text-to-text",
-      "likes": 349,
-      "downloads": 206841,
+      "likes": 350,
+      "downloads": 212027,
       "url": "https://huggingface.co/OpenMOSS-Team/MOSS-Transcribe-Diarize"
     },
     {
       "id": "mistralai/Voxtral-Small-24B-2507",
       "pipeline": "audio-text-to-text",
-      "likes": 518,
-      "downloads": 274349,
+      "likes": 519,
+      "downloads": 279195,
       "url": "https://huggingface.co/mistralai/Voxtral-Small-24B-2507"
     },
     {
-      "id": "Qwen/Qwen2-Audio-7B",
+      "id": "nvidia/music-flamingo-2601-hf",
       "pipeline": "audio-text-to-text",
-      "likes": 176,
-      "downloads": 47253,
-      "url": "https://huggingface.co/Qwen/Qwen2-Audio-7B"
+      "likes": 110,
+      "downloads": 48367,
+      "url": "https://huggingface.co/nvidia/music-flamingo-2601-hf"
+    },
+    {
+      "id": "nvidia/audio-flamingo-next-hf",
+      "pipeline": "audio-text-to-text",
+      "likes": 59,
+      "downloads": 7118,
+      "url": "https://huggingface.co/nvidia/audio-flamingo-next-hf"
     },
     {
       "id": "govnejri/Estimin3n",
@@ -757,17 +764,10 @@
       "url": "https://huggingface.co/govnejri/Estimin3n"
     },
     {
-      "id": "nvidia/music-flamingo-2601-hf",
-      "pipeline": "audio-text-to-text",
-      "likes": 109,
-      "downloads": 51237,
-      "url": "https://huggingface.co/nvidia/music-flamingo-2601-hf"
-    },
-    {
       "id": "microsoft/VibeVoice-ASR-HF",
       "pipeline": "audio-text-to-text",
       "likes": 169,
-      "downloads": 190583,
+      "downloads": 183912,
       "url": "https://huggingface.co/microsoft/VibeVoice-ASR-HF"
     }
   ],
@@ -781,7 +781,7 @@
     {
       "title": "β-OPSD: Deriving with Policy Optimization, Training with Self-Distillation",
       "url": "https://huggingface.co/papers/2607.28582",
-      "upvotes": 18,
+      "upvotes": 19,
       "published": "2026-07-29T20:00:00.000Z"
     },
     {
@@ -805,7 +805,7 @@
     {
       "title": "Filesystem-Based Memory for LLM Agents: Organization, Evolution, and Sustainability",
       "url": "https://huggingface.co/papers/2607.26637",
-      "upvotes": 6,
+      "upvotes": 7,
       "published": "2026-07-28T20:00:00.000Z"
     },
     {
