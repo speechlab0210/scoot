@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-08-07T22:40:02.342Z",
+  "fetched_at": "2026-08-08T22:40:01.880Z",
   "paper_window_days": 10,
   "papers": [
     {
@@ -689,58 +689,72 @@
     {
       "id": "openai/whisper-large-v3",
       "pipeline": "automatic-speech-recognition",
-      "likes": 6111,
-      "downloads": 5253587,
+      "likes": 6116,
+      "downloads": 5100033,
       "url": "https://huggingface.co/openai/whisper-large-v3"
     },
     {
       "id": "Audio8/Audio8-ASR-0.1B",
       "pipeline": "automatic-speech-recognition",
-      "likes": 53,
-      "downloads": 663,
+      "likes": 57,
+      "downloads": 784,
       "url": "https://huggingface.co/Audio8/Audio8-ASR-0.1B"
     },
     {
       "id": "pyannote/speaker-diarization-3.1",
       "pipeline": "automatic-speech-recognition",
-      "likes": 2996,
-      "downloads": 8590622,
+      "likes": 3005,
+      "downloads": 8491314,
       "url": "https://huggingface.co/pyannote/speaker-diarization-3.1"
+    },
+    {
+      "id": "nvidia/nemotron-3.5-asr-streaming-0.6b",
+      "pipeline": "automatic-speech-recognition",
+      "likes": 1011,
+      "downloads": 1048160,
+      "url": "https://huggingface.co/nvidia/nemotron-3.5-asr-streaming-0.6b"
     },
     {
       "id": "nyralabs/CrisperWhisper2.0_large",
       "pipeline": "automatic-speech-recognition",
-      "likes": 96,
-      "downloads": 9958,
+      "likes": 97,
+      "downloads": 12499,
       "url": "https://huggingface.co/nyralabs/CrisperWhisper2.0_large"
     },
     {
       "id": "microsoft/VibeVoice-ASR-BitNet",
       "pipeline": "automatic-speech-recognition",
-      "likes": 173,
-      "downloads": 11081,
+      "likes": 176,
+      "downloads": 11365,
       "url": "https://huggingface.co/microsoft/VibeVoice-ASR-BitNet"
-    },
-    {
-      "id": "nvidia/nemotron-3.5-asr-streaming-0.6b",
-      "pipeline": "automatic-speech-recognition",
-      "likes": 1006,
-      "downloads": 1052774,
-      "url": "https://huggingface.co/nvidia/nemotron-3.5-asr-streaming-0.6b"
     },
     {
       "id": "Audio8/Audio8-TTS-Preview-0.6b",
       "pipeline": "text-to-speech",
-      "likes": 305,
-      "downloads": 12633,
+      "likes": 320,
+      "downloads": 12837,
       "url": "https://huggingface.co/Audio8/Audio8-TTS-Preview-0.6b"
     },
     {
       "id": "owensong/Inflect-Micro-v2",
       "pipeline": "text-to-speech",
-      "likes": 419,
-      "downloads": 2216,
+      "likes": 421,
+      "downloads": 2261,
       "url": "https://huggingface.co/owensong/Inflect-Micro-v2"
+    },
+    {
+      "id": "fishaudio/s2-pro",
+      "pipeline": "text-to-speech",
+      "likes": 1214,
+      "downloads": 401855,
+      "url": "https://huggingface.co/fishaudio/s2-pro"
+    },
+    {
+      "id": "hexgrad/Kokoro-82M",
+      "pipeline": "text-to-speech",
+      "likes": 6660,
+      "downloads": 11584843,
+      "url": "https://huggingface.co/hexgrad/Kokoro-82M"
     },
     {
       "id": "Aratako/Irodori-TTS-v4-Small",
@@ -750,128 +764,114 @@
       "url": "https://huggingface.co/Aratako/Irodori-TTS-v4-Small"
     },
     {
-      "id": "fishaudio/s2-pro",
-      "pipeline": "text-to-speech",
-      "likes": 1209,
-      "downloads": 392719,
-      "url": "https://huggingface.co/fishaudio/s2-pro"
-    },
-    {
       "id": "Audio8/Audio8-TTS-Preview-0.6B-ONNX-INT4",
       "pipeline": "text-to-speech",
-      "likes": 39,
-      "downloads": 211,
+      "likes": 40,
+      "downloads": 238,
       "url": "https://huggingface.co/Audio8/Audio8-TTS-Preview-0.6B-ONNX-INT4"
-    },
-    {
-      "id": "hexgrad/Kokoro-82M",
-      "pipeline": "text-to-speech",
-      "likes": 6655,
-      "downloads": 11658420,
-      "url": "https://huggingface.co/hexgrad/Kokoro-82M"
     },
     {
       "id": "OpenMOSS-Team/MOSS-Transcribe-Diarize",
       "pipeline": "audio-text-to-text",
-      "likes": 367,
-      "downloads": 219772,
+      "likes": 369,
+      "downloads": 218275,
       "url": "https://huggingface.co/OpenMOSS-Team/MOSS-Transcribe-Diarize"
     },
     {
       "id": "fixie-ai/ultravox-v0_5-llama-3_2-1b",
       "pipeline": "audio-text-to-text",
       "likes": 94,
-      "downloads": 1071667,
+      "downloads": 1034967,
       "url": "https://huggingface.co/fixie-ai/ultravox-v0_5-llama-3_2-1b"
-    },
-    {
-      "id": "microsoft/VibeVoice-ASR-HF",
-      "pipeline": "audio-text-to-text",
-      "likes": 172,
-      "downloads": 137263,
-      "url": "https://huggingface.co/microsoft/VibeVoice-ASR-HF"
     },
     {
       "id": "nvidia/music-flamingo-2601-hf",
       "pipeline": "audio-text-to-text",
-      "likes": 110,
-      "downloads": 34633,
+      "likes": 112,
+      "downloads": 27481,
       "url": "https://huggingface.co/nvidia/music-flamingo-2601-hf"
     },
     {
-      "id": "OpenMOSS-Team/MOSS-Audio-4B-Thinking",
+      "id": "microsoft/VibeVoice-ASR-HF",
       "pipeline": "audio-text-to-text",
-      "likes": 36,
-      "downloads": 35474,
-      "url": "https://huggingface.co/OpenMOSS-Team/MOSS-Audio-4B-Thinking"
+      "likes": 173,
+      "downloads": 121116,
+      "url": "https://huggingface.co/microsoft/VibeVoice-ASR-HF"
+    },
+    {
+      "id": "nvidia/audio-flamingo-next-hf",
+      "pipeline": "audio-text-to-text",
+      "likes": 60,
+      "downloads": 6197,
+      "url": "https://huggingface.co/nvidia/audio-flamingo-next-hf"
     },
     {
       "id": "zhifeixie/AudioInteraction",
       "pipeline": "audio-text-to-text",
       "likes": 26,
-      "downloads": 72,
+      "downloads": 69,
       "url": "https://huggingface.co/zhifeixie/AudioInteraction"
     }
   ],
   "community_picks": [
     {
+      "title": "GaussianSelector: Lightweight Human-Guided Object Selection in 3D Gaussian Splatting with Graph Optimization",
+      "url": "https://huggingface.co/papers/2608.01492",
+      "upvotes": 4,
+      "published": "2026-08-01T20:00:00.000Z"
+    },
+    {
       "title": "FactorJEPA: Factorizing Monolithic Futures into Layout-Agent-Interaction Channels for Crowded and Chaotic Global South Urban Worlds",
       "url": "https://huggingface.co/papers/2608.01049",
-      "upvotes": 0,
+      "upvotes": 6,
       "published": "2026-08-01T20:00:00.000Z"
     },
     {
       "title": "KVAE: Family of Tokenizers for Multimodal Generative Models",
       "url": "https://huggingface.co/papers/2608.05798",
-      "upvotes": 10,
+      "upvotes": 15,
       "published": "2026-08-05T20:00:00.000Z"
     },
     {
       "title": "Activity Frames: Deterministic Screen-Activity Compilation for Agent Memory and Replay",
       "url": "https://huggingface.co/papers/2608.05784",
-      "upvotes": 8,
+      "upvotes": 18,
       "published": "2026-08-05T20:00:00.000Z"
     },
     {
       "title": "DataSpace: Benchmarking Data Agents for Verifiable Analytics over Heterogeneous Workspaces",
       "url": "https://huggingface.co/papers/2608.03451",
-      "upvotes": 19,
+      "upvotes": 25,
       "published": "2026-08-03T20:00:00.000Z"
     },
     {
       "title": "Interpretable MEG Decoding of Perceived Speech: Cortical Sources and the Stimulus Features That Drive Retrieval",
       "url": "https://huggingface.co/papers/2608.01481",
-      "upvotes": 46,
+      "upvotes": 58,
       "published": "2026-08-01T20:00:00.000Z"
     },
     {
       "title": "MameLoshnLM: Yiddish Language Model and Evaluation Benchmark",
       "url": "https://huggingface.co/papers/2608.05850",
-      "upvotes": 10,
+      "upvotes": 14,
       "published": "2026-08-05T20:00:00.000Z"
     },
     {
       "title": "Continual Learning in Transition",
       "url": "https://huggingface.co/papers/2608.06216",
-      "upvotes": 2,
+      "upvotes": 14,
       "published": "2026-08-05T20:00:00.000Z"
     },
     {
       "title": "Task-Conditional Flow Matching for Balanced Multilingual Text Embedding Adaptation",
       "url": "https://huggingface.co/papers/2608.05785",
-      "upvotes": 0,
+      "upvotes": 5,
       "published": "2026-08-05T20:00:00.000Z"
     },
     {
       "title": "Teaching Nemotron Greek: Mining a Corpus, Adapting Retrieval, and Grounding Generation for Modern Greek across Specialist Domains",
       "url": "https://huggingface.co/papers/2608.05138",
-      "upvotes": 17,
-      "published": "2026-08-04T20:00:00.000Z"
-    },
-    {
-      "title": "ContextMaster: Interactive Multi-Shot Video Creation via Fixed-Budget Sparse Context Routing",
-      "url": "https://huggingface.co/papers/2608.04956",
-      "upvotes": 5,
+      "upvotes": 24,
       "published": "2026-08-04T20:00:00.000Z"
     }
   ],
