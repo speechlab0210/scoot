@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-08-14T22:40:02.592Z",
+  "fetched_at": "2026-08-15T22:40:02.931Z",
   "paper_window_days": 10,
   "papers": [
     {
@@ -880,5 +880,9 @@
       "published": "2026-08-10T20:00:00.000Z"
     }
   ],
-  "warnings": []
+  "warnings": [
+    "arxiv: fetch failed (kept previous)",
+    "hf models: fetch failed (kept previous)",
+    "hf daily_papers: fetch failed"
+  ]
 }
