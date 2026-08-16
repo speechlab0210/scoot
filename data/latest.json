@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-08-15T22:40:02.931Z",
+  "fetched_at": "2026-08-16T04:03:45.256Z",
   "paper_window_days": 10,
   "papers": [
     {
@@ -692,197 +692,193 @@
   ],
   "models": [
     {
-      "id": "pyannote/speaker-diarization-3.1",
-      "pipeline": "automatic-speech-recognition",
-      "likes": 3063,
-      "downloads": 9075594,
-      "url": "https://huggingface.co/pyannote/speaker-diarization-3.1"
-    },
-    {
       "id": "openai/whisper-large-v3",
       "pipeline": "automatic-speech-recognition",
-      "likes": 6147,
-      "downloads": 5013186,
+      "likes": 6148,
+      "downloads": 5075565,
       "url": "https://huggingface.co/openai/whisper-large-v3"
     },
     {
-      "id": "pyannote/speaker-diarization-community-1",
+      "id": "pyannote/speaker-diarization-3.1",
       "pipeline": "automatic-speech-recognition",
-      "likes": 1017,
-      "downloads": 5463773,
-      "url": "https://huggingface.co/pyannote/speaker-diarization-community-1"
+      "likes": 3071,
+      "downloads": 9385573,
+      "url": "https://huggingface.co/pyannote/speaker-diarization-3.1"
     },
     {
       "id": "nvidia/nemotron-3.5-asr-streaming-0.6b",
       "pipeline": "automatic-speech-recognition",
-      "likes": 1037,
-      "downloads": 1298440,
+      "likes": 1040,
+      "downloads": 1285725,
       "url": "https://huggingface.co/nvidia/nemotron-3.5-asr-streaming-0.6b"
+    },
+    {
+      "id": "pyannote/speaker-diarization-community-1",
+      "pipeline": "automatic-speech-recognition",
+      "likes": 1029,
+      "downloads": 5607397,
+      "url": "https://huggingface.co/pyannote/speaker-diarization-community-1"
     },
     {
       "id": "Qwen/Qwen3-ASR-1.7B",
       "pipeline": "automatic-speech-recognition",
-      "likes": 1016,
-      "downloads": 4062840,
+      "likes": 1018,
+      "downloads": 4196574,
       "url": "https://huggingface.co/Qwen/Qwen3-ASR-1.7B"
     },
     {
       "id": "Audio8/Audio8-ASR-0.1B",
       "pipeline": "automatic-speech-recognition",
-      "likes": 74,
-      "downloads": 1570,
+      "likes": 75,
+      "downloads": 1733,
       "url": "https://huggingface.co/Audio8/Audio8-ASR-0.1B"
     },
     {
       "id": "IndexTeam/IndexTTS-2.5",
       "pipeline": "text-to-speech",
-      "likes": 84,
-      "downloads": 1903,
+      "likes": 93,
+      "downloads": 2886,
       "url": "https://huggingface.co/IndexTeam/IndexTTS-2.5"
-    },
-    {
-      "id": "Audio8/Audio8-TTS-Preview-0.6b",
-      "pipeline": "text-to-speech",
-      "likes": 350,
-      "downloads": 17005,
-      "url": "https://huggingface.co/Audio8/Audio8-TTS-Preview-0.6b"
-    },
-    {
-      "id": "fishaudio/s2-pro",
-      "pipeline": "text-to-speech",
-      "likes": 1246,
-      "downloads": 530504,
-      "url": "https://huggingface.co/fishaudio/s2-pro"
     },
     {
       "id": "javawock7618/comfy-MiniMax-H3-workflows",
       "pipeline": "text-to-speech",
-      "likes": 33,
+      "likes": 38,
       "downloads": 0,
       "url": "https://huggingface.co/javawock7618/comfy-MiniMax-H3-workflows"
     },
     {
+      "id": "fishaudio/s2-pro",
+      "pipeline": "text-to-speech",
+      "likes": 1249,
+      "downloads": 551975,
+      "url": "https://huggingface.co/fishaudio/s2-pro"
+    },
+    {
       "id": "hexgrad/Kokoro-82M",
       "pipeline": "text-to-speech",
-      "likes": 6690,
-      "downloads": 11982890,
+      "likes": 6697,
+      "downloads": 12326093,
       "url": "https://huggingface.co/hexgrad/Kokoro-82M"
+    },
+    {
+      "id": "Audio8/Audio8-TTS-Preview-0.6b",
+      "pipeline": "text-to-speech",
+      "likes": 353,
+      "downloads": 18090,
+      "url": "https://huggingface.co/Audio8/Audio8-TTS-Preview-0.6b"
     },
     {
       "id": "k2-fsa/OmniVoice",
       "pipeline": "text-to-speech",
-      "likes": 1267,
-      "downloads": 849141,
+      "likes": 1268,
+      "downloads": 877549,
       "url": "https://huggingface.co/k2-fsa/OmniVoice"
     },
     {
       "id": "OpenMOSS-Team/MOSS-Transcribe-Diarize",
       "pipeline": "audio-text-to-text",
-      "likes": 379,
-      "downloads": 198869,
+      "likes": 381,
+      "downloads": 225872,
       "url": "https://huggingface.co/OpenMOSS-Team/MOSS-Transcribe-Diarize"
-    },
-    {
-      "id": "nvidia/music-flamingo-2601-hf",
-      "pipeline": "audio-text-to-text",
-      "likes": 113,
-      "downloads": 25525,
-      "url": "https://huggingface.co/nvidia/music-flamingo-2601-hf"
     },
     {
       "id": "fixie-ai/ultravox-v0_7-glm-4_6",
       "pipeline": "audio-text-to-text",
       "likes": 31,
-      "downloads": 1764,
+      "downloads": 1769,
       "url": "https://huggingface.co/fixie-ai/ultravox-v0_7-glm-4_6"
     },
     {
       "id": "stepfun-ai/Step-Audio-R1.1",
       "pipeline": "audio-text-to-text",
       "likes": 189,
-      "downloads": 376,
+      "downloads": 380,
       "url": "https://huggingface.co/stepfun-ai/Step-Audio-R1.1"
     },
     {
       "id": "ACE-Step/acestep-transcriber",
       "pipeline": "audio-text-to-text",
       "likes": 61,
-      "downloads": 12783,
+      "downloads": 12472,
       "url": "https://huggingface.co/ACE-Step/acestep-transcriber"
     },
     {
-      "id": "nvidia/audio-flamingo-next-hf",
+      "id": "umd-zhou-lab/AudioRubrics",
       "pipeline": "audio-text-to-text",
-      "likes": 61,
-      "downloads": 8222,
-      "url": "https://huggingface.co/nvidia/audio-flamingo-next-hf"
+      "likes": 2,
+      "downloads": 34,
+      "url": "https://huggingface.co/umd-zhou-lab/AudioRubrics"
+    },
+    {
+      "id": "glenn2/LFG-3",
+      "pipeline": "audio-text-to-text",
+      "likes": 2,
+      "downloads": 81,
+      "url": "https://huggingface.co/glenn2/LFG-3"
     }
   ],
   "community_picks": [
     {
+      "title": "Thought-Level Beam Search for Reasoning",
+      "url": "https://huggingface.co/papers/2608.08020",
+      "upvotes": 10,
+      "published": "2026-08-10T20:00:00.000Z"
+    },
+    {
       "title": "RibAssist 3D: Biplanar Rib-Fracture Detection, Addressing, and Selective 3D Localization from CT-Derived Projections",
       "url": "https://huggingface.co/papers/2608.06914",
-      "upvotes": 0,
+      "upvotes": 3,
       "published": "2026-08-09T20:00:00.000Z"
     },
     {
       "title": "Context-Matched Distillation: Teacher Causality for Autoregressive Video Distillation",
       "url": "https://huggingface.co/papers/2608.13391",
-      "upvotes": 3,
+      "upvotes": 9,
       "published": "2026-08-12T20:00:00.000Z"
     },
     {
       "title": "From Inaudible Inputs to Model Failures: Low-Frequency Safety Risks in LALMs",
       "url": "https://huggingface.co/papers/2608.09158",
-      "upvotes": 1,
+      "upvotes": 6,
       "published": "2026-08-09T20:00:00.000Z"
     },
     {
       "title": "Mitigating Gender Bias in English to Romanian Machine Translation",
       "url": "https://huggingface.co/papers/2608.08606",
-      "upvotes": 0,
+      "upvotes": 4,
       "published": "2026-08-08T20:00:00.000Z"
     },
     {
       "title": "Hybrid-Policy Self-Editing for Composable Unstructured Knowledge Editing",
       "url": "https://huggingface.co/papers/2608.11660",
-      "upvotes": 3,
+      "upvotes": 7,
       "published": "2026-08-11T20:00:00.000Z"
     },
     {
       "title": "Specification-first convergence with an AI coding agent: a case study of dismantling a core architectural invariant across 189 files in a 717k-line codebase with no test oracle and no human code review",
       "url": "https://huggingface.co/papers/2608.12440",
-      "upvotes": 1,
+      "upvotes": 6,
       "published": "2026-08-11T20:00:00.000Z"
     },
     {
       "title": "AVA-Encoder: Towards Agent-Native Video Representation Learning",
       "url": "https://huggingface.co/papers/2608.12313",
-      "upvotes": 5,
+      "upvotes": 10,
       "published": "2026-08-11T20:00:00.000Z"
     },
     {
       "title": "Knowing When to Quit: Diagnosing and Training LLMs to Abort Futile Reasoning",
       "url": "https://huggingface.co/papers/2607.29211",
-      "upvotes": 2,
+      "upvotes": 7,
       "published": "2026-07-30T20:00:00.000Z"
     },
     {
       "title": "An AI4AI Framework for Visual Token Pruning",
       "url": "https://huggingface.co/papers/2608.07193",
-      "upvotes": 7,
+      "upvotes": 11,
       "published": "2026-08-06T20:00:00.000Z"
-    },
-    {
-      "title": "SKILLER: Language-Level Reinforcement Learning for Reusable Skill Extraction in Small Language Models",
-      "url": "https://huggingface.co/papers/2608.10538",
-      "upvotes": 3,
-      "published": "2026-08-10T20:00:00.000Z"
     }
   ],
-  "warnings": [
-    "arxiv: fetch failed (kept previous)",
-    "hf models: fetch failed (kept previous)",
-    "hf daily_papers: fetch failed"
-  ]
+  "warnings": []
 }
