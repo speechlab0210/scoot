@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-08-22T22:40:04.361Z",
+  "fetched_at": "2026-08-23T22:40:02.863Z",
   "paper_window_days": 10,
   "papers": [
     {
@@ -655,23 +655,30 @@
     {
       "id": "pyannote/speaker-diarization-community-1",
       "pipeline": "automatic-speech-recognition",
-      "likes": 1112,
-      "downloads": 5294541,
+      "likes": 1122,
+      "downloads": 5266231,
       "url": "https://huggingface.co/pyannote/speaker-diarization-community-1"
-    },
-    {
-      "id": "ARTPARK-IISc/SraVaani-1.0",
-      "pipeline": "automatic-speech-recognition",
-      "likes": 61,
-      "downloads": 4073,
-      "url": "https://huggingface.co/ARTPARK-IISc/SraVaani-1.0"
     },
     {
       "id": "pyannote/speaker-diarization-3.1",
       "pipeline": "automatic-speech-recognition",
-      "likes": 3146,
-      "downloads": 9962888,
+      "likes": 3153,
+      "downloads": 9909175,
       "url": "https://huggingface.co/pyannote/speaker-diarization-3.1"
+    },
+    {
+      "id": "ARTPARK-IISc/SraVaani-1.0",
+      "pipeline": "automatic-speech-recognition",
+      "likes": 62,
+      "downloads": 4135,
+      "url": "https://huggingface.co/ARTPARK-IISc/SraVaani-1.0"
+    },
+    {
+      "id": "openai/whisper-large-v3",
+      "pipeline": "automatic-speech-recognition",
+      "likes": 6175,
+      "downloads": 4566049,
+      "url": "https://huggingface.co/openai/whisper-large-v3"
     },
     {
       "id": "ggerganov/whisper.cpp",
@@ -681,101 +688,94 @@
       "url": "https://huggingface.co/ggerganov/whisper.cpp"
     },
     {
-      "id": "openai/whisper-large-v3-turbo",
+      "id": "Qwen/Qwen3-ASR-1.7B",
       "pipeline": "automatic-speech-recognition",
-      "likes": 3258,
-      "downloads": 7757611,
-      "url": "https://huggingface.co/openai/whisper-large-v3-turbo"
-    },
-    {
-      "id": "nvidia/nemotron-3.5-asr-streaming-0.6b",
-      "pipeline": "automatic-speech-recognition",
-      "likes": 1056,
-      "downloads": 1080018,
-      "url": "https://huggingface.co/nvidia/nemotron-3.5-asr-streaming-0.6b"
-    },
-    {
-      "id": "IndexTeam/IndexTTS-2.5",
-      "pipeline": "text-to-speech",
-      "likes": 175,
-      "downloads": 6868,
-      "url": "https://huggingface.co/IndexTeam/IndexTTS-2.5"
+      "likes": 1035,
+      "downloads": 4587139,
+      "url": "https://huggingface.co/Qwen/Qwen3-ASR-1.7B"
     },
     {
       "id": "Audio8/Audio8-TTS-Preview-0.1b",
       "pipeline": "text-to-speech",
-      "likes": 78,
-      "downloads": 813,
+      "likes": 116,
+      "downloads": 1093,
       "url": "https://huggingface.co/Audio8/Audio8-TTS-Preview-0.1b"
     },
     {
       "id": "KRAFTON/Raon-OpenTTS-1B",
       "pipeline": "text-to-speech",
-      "likes": 67,
-      "downloads": 118,
+      "likes": 70,
+      "downloads": 124,
       "url": "https://huggingface.co/KRAFTON/Raon-OpenTTS-1B"
+    },
+    {
+      "id": "IndexTeam/IndexTTS-2.5",
+      "pipeline": "text-to-speech",
+      "likes": 178,
+      "downloads": 7284,
+      "url": "https://huggingface.co/IndexTeam/IndexTTS-2.5"
     },
     {
       "id": "hexgrad/Kokoro-82M",
       "pipeline": "text-to-speech",
-      "likes": 6737,
-      "downloads": 12615271,
+      "likes": 6742,
+      "downloads": 12336787,
       "url": "https://huggingface.co/hexgrad/Kokoro-82M"
+    },
+    {
+      "id": "javawock7618/comfy-MiniMax-H3-workflows",
+      "pipeline": "text-to-speech",
+      "likes": 66,
+      "downloads": 0,
+      "url": "https://huggingface.co/javawock7618/comfy-MiniMax-H3-workflows"
     },
     {
       "id": "k2-fsa/OmniVoice",
       "pipeline": "text-to-speech",
       "likes": 1299,
-      "downloads": 950107,
+      "downloads": 951446,
       "url": "https://huggingface.co/k2-fsa/OmniVoice"
-    },
-    {
-      "id": "javawock7618/comfy-MiniMax-H3-workflows",
-      "pipeline": "text-to-speech",
-      "likes": 62,
-      "downloads": 0,
-      "url": "https://huggingface.co/javawock7618/comfy-MiniMax-H3-workflows"
     },
     {
       "id": "OpenMOSS-Team/MOSS-Transcribe-Diarize",
       "pipeline": "audio-text-to-text",
-      "likes": 389,
-      "downloads": 281950,
+      "likes": 392,
+      "downloads": 281387,
       "url": "https://huggingface.co/OpenMOSS-Team/MOSS-Transcribe-Diarize"
     },
     {
       "id": "nvidia/audio-flamingo-3",
       "pipeline": "audio-text-to-text",
       "likes": 155,
-      "downloads": 271,
+      "downloads": 265,
       "url": "https://huggingface.co/nvidia/audio-flamingo-3"
-    },
-    {
-      "id": "mistralai/Voxtral-Small-24B-2507",
-      "pipeline": "audio-text-to-text",
-      "likes": 521,
-      "downloads": 251815,
-      "url": "https://huggingface.co/mistralai/Voxtral-Small-24B-2507"
     },
     {
       "id": "nvidia/audio-flamingo-3-hf",
       "pipeline": "audio-text-to-text",
       "likes": 192,
-      "downloads": 140780,
+      "downloads": 135088,
       "url": "https://huggingface.co/nvidia/audio-flamingo-3-hf"
+    },
+    {
+      "id": "fixie-ai/ultravox-v0_7-glm-4_6",
+      "pipeline": "audio-text-to-text",
+      "likes": 33,
+      "downloads": 1771,
+      "url": "https://huggingface.co/fixie-ai/ultravox-v0_7-glm-4_6"
     },
     {
       "id": "nvidia/music-flamingo-2601-hf",
       "pipeline": "audio-text-to-text",
       "likes": 115,
-      "downloads": 25959,
+      "downloads": 25478,
       "url": "https://huggingface.co/nvidia/music-flamingo-2601-hf"
     },
     {
       "id": "OpenMOSS-Team/MOSS-Music-8B-Instruct",
       "pipeline": "audio-text-to-text",
       "likes": 31,
-      "downloads": 1630,
+      "downloads": 1566,
       "url": "https://huggingface.co/OpenMOSS-Team/MOSS-Music-8B-Instruct"
     }
   ],
@@ -789,7 +789,7 @@
     {
       "title": "τ_0-VLA: a Hierarchical Robot Foundation Model with World-Model-Guided Test-Time Computation",
       "url": "https://huggingface.co/papers/2608.16885",
-      "upvotes": 9,
+      "upvotes": 13,
       "published": "2026-08-16T20:00:00.000Z"
     },
     {
@@ -801,7 +801,7 @@
     {
       "title": "Hierarchical Self-Improvement: A Framework for Task-Specific Evolvable Agent Harnesses",
       "url": "https://huggingface.co/papers/2608.08466",
-      "upvotes": 10,
+      "upvotes": 11,
       "published": "2026-08-08T20:00:00.000Z"
     },
     {
@@ -831,13 +831,13 @@
     {
       "title": "Towards Quantifying Benchmark Optimization in ASR Models",
       "url": "https://huggingface.co/papers/2608.19936",
-      "upvotes": 8,
+      "upvotes": 10,
       "published": "2026-08-19T20:00:00.000Z"
     },
     {
       "title": "SWE-bench Science: Can Coding Agents Resolve Engineering Tasks in Science?",
       "url": "https://huggingface.co/papers/2608.19799",
-      "upvotes": 58,
+      "upvotes": 61,
       "published": "2026-08-19T20:00:00.000Z"
     }
   ],
