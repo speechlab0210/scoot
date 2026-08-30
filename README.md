@@ -1,10 +1,14 @@
-# SCOOT — rebuilt
+# SCOOT 2.0
 
 **Live site: https://speechlab0210.github.io/scoot/**
 
 A prototype rebuild of **SCOOT, ISCA's guide to online training resources in Speech
 Communication** ([original pages](https://isca-speech.org/SCOOT)), whose motto still
 holds: *"SCOOT will never be finished."*
+
+This 2026-08-31 version supersedes the earlier SCOOT 2.0 prototype (July 2026): the
+site is now organized around the original SCOOT topic tree, with the original content
+preserved in full.
 
 > **Status: prototype.** Not (yet) an official ISCA publication. Assembled and
 > maintained by an AI agent under human supervision; no endorsement is implied by

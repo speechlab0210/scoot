@@ -1,5 +1,5 @@
 {
-  "site_title": "SCOOT",
+  "site_title": "SCOOT 2.0",
   "tagline": "ISCA's guide to online training resources in Speech Communication",
   "banner": "Prototype rebuild of the original ISCA SCOOT — not (yet) an official ISCA publication. Original content preserved in full; extensions clearly marked.",
   "contact_email": "speechlab0210@gmail.com",
@@ -13,7 +13,7 @@
   ],
   "about": [
     "SCOOT is ISCA's guide to online training resources in Speech Communication, created and long maintained by members of the ISCA community (the archived pages credit course material by Roger Moore, Simon King and many others). Its motto: 'SCOOT will never be finished.'",
-    "This site is a prototype rebuild of that guide. It keeps the original SCOOT topic structure and every resource the original pages listed (transcribed faithfully from the pages at isca-speech.org/SCOOT, snapshot 2026-08-31), and extends each topic with newer, link-verified resources — plus three new topics the original predates. Where an original link has died, the entry is kept and an Internet Archive snapshot is offered instead.",
+    "This site — SCOOT 2.0 — is a prototype rebuild of that guide. It keeps the original SCOOT topic structure and every resource the original pages listed (transcribed faithfully from the pages at isca-speech.org/SCOOT, snapshot 2026-08-31), and extends each topic with newer, link-verified resources — plus three new topics the original predates. Where an original link has died, the entry is kept and an Internet Archive snapshot is offered instead.",
     "It serves the same audience as the original: students of speech communication arriving from phonetics, linguistics, computer science, or electrical engineering, anywhere between a first degree and a PhD.",
     "This prototype is for evaluation by the ISCA education community. It is not (yet) an official ISCA publication, and no endorsement is implied by inclusion of any resource."
   ],
