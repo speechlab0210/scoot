@@ -1,0 +1,872 @@
+{
+  "source": "https://isca-speech.org/SCOOT",
+  "archived_at": "2026-08-31",
+  "archive_note": "Faithful transcription of the original ISCA SCOOT pages (26 pages crawled 2026-08-31, HTML snapshots in original-scoot/html/). Obvious typos fixed and a handful of broken link targets repaired; wording otherwise preserved. Every entry from the original pages is present.",
+  "welcome": [
+    "Welcome to SCOOT, ISCA's guide to online training resources in Speech Communication.",
+    "Our aim is to help and encourage students who are learning about Speech Communication, who may come from a variety of backgrounds: phonetics, linguistics, computer science, electrical engineering — and be at different stages in their education, from first degree to Ph.D.",
+    "SCOOT provides students in speech communication with a guide to high-quality, up-to-date learning resources available on the internet, which can be tailored to their individual needs.",
+    "Please note that in many cases we are picking up material which has been prepared for particular cohorts of students taking particular modules, and therefore you will find material which is not relevant for you, e.g. details of assignments, lecture timings and so on.",
+    "SCOOT will never be finished."
+  ],
+  "sections": [
+    {
+      "key": "overviews",
+      "title": "Overviews",
+      "source_page": "https://isca-speech.org/SCOOT-Overview",
+      "intro": ["Here are some overviews of Speech Communication."],
+      "entries": [
+        {
+          "text": "Lecture 1 in Roger Moore's course on Speech Processing introduces applications of speech processing.",
+          "links": [
+            { "label": "Slides", "href": "https://staffwww.dcs.shef.ac.uk/people/R.K.Moore/SCOOT/COM3502-4502-6502_L1_Introduction.pdf" },
+            { "label": "Audio", "href": "https://staffwww.dcs.shef.ac.uk/people/R.K.Moore/SCOOT/COM3502-4502-6502_L1_Introduction.mp3" }
+          ]
+        },
+        {
+          "text": "Roger has also authored a series of YouTube videos on What Everyone Working on Spoken Language Processing Needs to Know about Spoken Language.",
+          "links": [
+            { "label": "Part 1", "href": "https://youtu.be/01ml3rpPZYg" },
+            { "label": "Part 2", "href": "https://youtu.be/NHCSmi5VXhs" },
+            { "label": "Part 3", "href": "https://youtu.be/25caXhCE8zA" }
+          ]
+        },
+        {
+          "text": "Roger's vision of the future is in his ISCA Distinguished Lecturer talk.",
+          "links": [
+            { "label": "ISCA Distinguished Lecturer talk", "href": "https://isca-speech.org/resources/Documents/Outreach/Distinguished%20lectures/RKM_ISCA-DL-2014-15_Beyond-Siri.pdf" }
+          ]
+        },
+        {
+          "text": "The Saras Institute 'History of Speech and Language Technology' holds a wealth of information about speech technology research and interviews with many of the pioneers.",
+          "links": [
+            { "label": "History of Speech and Language Technology", "href": "http://www.sarasinstitute.org/" }
+          ]
+        },
+        {
+          "text": "Lecture 5 in Roger Moore's course on Speech Processing, on 'The Nature of Speech', shows why speech is an interesting and challenging signal to process.",
+          "links": [
+            { "label": "Slides", "href": "https://staffwww.dcs.shef.ac.uk/people/R.K.Moore/SCOOT/COM3502-4502-6502_L5_Nature-of-Speech.pdf" },
+            { "label": "Audio", "href": "https://staffwww.dcs.shef.ac.uk/people/R.K.Moore/SCOOT/COM3502-4502-6502_L5_Nature-of-Speech.mp3" }
+          ]
+        },
+        {
+          "text": "Simon King's Course on Speech Processing is a multimedia introduction covering the fundamentals of speech communication and introducing speech technology. It is part of Edinburgh's speech.zone.",
+          "links": [
+            { "label": "Simon King's Course on Speech Processing", "href": "https://speech.zone/courses/speech-processing/" },
+            { "label": "speech.zone", "href": "https://speech.zone/" }
+          ]
+        },
+        {
+          "text": "The Speech Kitchen includes an introductory speech and language processing course.",
+          "links": [
+            { "label": "Speech Kitchen", "href": "http://speechkitchen.org/home/about/" },
+            { "label": "speech and language processing course", "href": "http://speechkitchen.org/cse-5525-ohio-state-vm/" }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "sound",
+      "title": "Sound",
+      "source_page": "https://isca-speech.org/Sound",
+      "intro": [],
+      "entries": [
+        {
+          "text": "Lecture 2 in Roger Moore's course on Speech Processing is an introduction to the physics of sound.",
+          "links": [
+            { "label": "Slides", "href": "https://staffwww.dcs.shef.ac.uk/people/R.K.Moore/SCOOT/COM3502-4502-6502_L2_Sound.pdf" },
+            { "label": "Audio", "href": "https://staffwww.dcs.shef.ac.uk/people/R.K.Moore/SCOOT/COM3502-4502-6502_L2_Sound.mp3" }
+          ]
+        },
+        {
+          "text": "In Edinburgh's speech.zone, speech signals are covered in the Digital Speech Signals module.",
+          "links": [
+            { "label": "Digital Speech Signals module", "href": "https://speech.zone/courses/speech-processing/module-3-digital-speech-signals/" }
+          ]
+        },
+        {
+          "text": "This Introduction to Speech Acoustics from Listen Lab is a series of YouTube videos covering some aspects of acoustics, signal processing and phonetics.",
+          "links": [
+            { "label": "Introduction to Speech Acoustics", "href": "https://www.youtube.com/playlist?list=PL6niCBwOhjHhQFfl88fQfdLgiD7QaShBo" }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "signal-processing",
+      "title": "Signal Processing",
+      "source_page": "https://isca-speech.org/Signal-Processing",
+      "intro": [
+        "Speech signal processing transforms speech acoustics to features which represent speech information (for instance the distribution of energy over time and frequency), and vice versa."
+      ],
+      "entries": [
+        {
+          "text": "Lectures 11–20 in Roger Moore's course on Speech Processing cover speech signal processing. They are written for Computer Science students and assume some mathematical knowledge. They make use of the visual programming language Pure Data.",
+          "links": [{ "label": "Pure Data", "href": "https://puredata.info/" }],
+          "lectures": [
+            { "title": "Lecture 11 — Signals", "slides": "https://staffwww.dcs.shef.ac.uk/people/R.K.Moore/SCOOT/COM3502-4502-6502_L11_Signals.pdf", "audio": "https://staffwww.dcs.shef.ac.uk/people/R.K.Moore/SCOOT/COM3502-4502-6502_L11_Signals.mp3" },
+            { "title": "Lecture 12 — Frequency Analysis", "slides": "https://staffwww.dcs.shef.ac.uk/people/R.K.Moore/SCOOT/COM3502-4502-6502_L12_Frequency-Analysis.pdf", "audio": "https://staffwww.dcs.shef.ac.uk/people/R.K.Moore/SCOOT/COM3502-4502-6502_L12_Frequency-Analysis.mp3" },
+            { "title": "Lecture 13 — Digital Signals", "slides": "https://staffwww.dcs.shef.ac.uk/people/R.K.Moore/SCOOT/COM3502-4502-6502_L13_Digital-Signals.pdf", "audio": "https://staffwww.dcs.shef.ac.uk/people/R.K.Moore/SCOOT/COM3502-4502-6502_L13_Digital-Signals.mp3" },
+            { "title": "Lecture 14 — Waveform Processing", "slides": "https://staffwww.dcs.shef.ac.uk/people/R.K.Moore/SCOOT/COM3502-4502-6502_L14_Waveform-Processing.pdf", "audio": "https://staffwww.dcs.shef.ac.uk/people/R.K.Moore/SCOOT/COM3502-4502-6502_L14_Waveform-Processing.mp3" },
+            { "title": "Lecture 15 — Fourier Transforms", "slides": "https://staffwww.dcs.shef.ac.uk/people/R.K.Moore/SCOOT/COM3502-4502-6502_L15_Fourier-Transform.pdf", "audio": "https://staffwww.dcs.shef.ac.uk/people/R.K.Moore/SCOOT/COM3502-4502-6502_L15_Fourier-Transform.mp3" },
+            { "title": "Lecture 16 — The Z Transform", "slides": "https://staffwww.dcs.shef.ac.uk/people/R.K.Moore/SCOOT/COM3502-4502-6502_L16_Z-Transform.pdf", "audio": "https://staffwww.dcs.shef.ac.uk/people/R.K.Moore/SCOOT/COM3502-4502-6502_L16_Z-Transform.mp3" },
+            { "title": "Lecture 17 — Linear Filters", "slides": "https://staffwww.dcs.shef.ac.uk/people/R.K.Moore/SCOOT/COM3502-4502-6502_L17_Linear-Filters.pdf", "audio": "https://staffwww.dcs.shef.ac.uk/people/R.K.Moore/SCOOT/COM3502-4502-6502_L17_Linear-Filters.mp3" },
+            { "title": "Lecture 18 — Linear Prediction", "slides": "https://staffwww.dcs.shef.ac.uk/people/R.K.Moore/SCOOT/COM3502-4502-6502_L18_Linear-Prediction.pdf", "audio": "https://staffwww.dcs.shef.ac.uk/people/R.K.Moore/SCOOT/COM3502-4502-6502_L18_Linear-Prediction.mp3" },
+            { "title": "Lecture 19 — Cepstral Analysis", "slides": "https://staffwww.dcs.shef.ac.uk/people/R.K.Moore/SCOOT/COM3502-4502-6502_L19_Cepstral-Analysis.pdf", "audio": "https://staffwww.dcs.shef.ac.uk/people/R.K.Moore/SCOOT/COM3502-4502-6502_L19_Cepstral-Analysis.mp3" },
+            { "title": "Lecture 20 — Final Overview", "slides": "https://staffwww.dcs.shef.ac.uk/people/R.K.Moore/SCOOT/COM3502-4502-6502_L20_Final-Overview.pdf", "audio": "https://staffwww.dcs.shef.ac.uk/people/R.K.Moore/SCOOT/COM3502-4502-6502_L20_Final-Overview.mp3" }
+          ]
+        },
+        {
+          "text": "Dan Ellis covers speech signal processing from first principles: this is a non-mathematical treatment.",
+          "links": [
+            { "label": "Speech signal processing from first principles", "href": "https://www.ee.columbia.edu/~dpwe/pubs/Ellis10-introspeech.pdf" }
+          ]
+        },
+        {
+          "text": "A series of 6 lectures by Professor E. Ambikairajah on YouTube covers Speech and Audio Processing, following Rabiner's classic textbook.",
+          "links": [
+            { "label": "Lecture 1", "href": "https://www.youtube.com/watch?v=Xjzm7S__kBU" },
+            { "label": "Lecture 2", "href": "https://www.youtube.com/watch?v=Y_mSQ7tTlvQ" },
+            { "label": "Lecture 3", "href": "https://www.youtube.com/watch?v=lWH-Oh5KnNY" },
+            { "label": "Lecture 4", "href": "https://www.youtube.com/watch?v=nRhkzeeMqVk" },
+            { "label": "Lecture 5", "href": "https://www.youtube.com/watch?v=LwWKTTzcg_M" },
+            { "label": "Lecture 6", "href": "https://www.youtube.com/watch?v=H9qNuyD7xdg" }
+          ]
+        },
+        {
+          "text": "Lecture 2 in the Columbia Speech Recognition course is a more advanced treatment.",
+          "links": [
+            { "label": "Columbia Speech Recognition course", "href": "http://www.ee.columbia.edu/~stanchen/spring16/e6870/outline.html" }
+          ]
+        },
+        {
+          "text": "Hynek Hermansky's take on speech signal processing is in part 2 of his ISCA lectures.",
+          "links": [
+            { "label": "Hynek Hermansky's take on speech signal processing", "href": "https://isca-speech.org/resources/Documents/Training/SCOOT/Signal%20Processing/hyderabad2013Part2.pdf" }
+          ]
+        },
+        {
+          "text": "Speech signal processing or 'Feature Engineering' is covered in Edinburgh's speech.zone.",
+          "links": [
+            { "label": "Feature Engineering", "href": "https://speech.zone/courses/speech-processing/module-8-speech-recognition-feature-engineering/" }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "linguistics",
+      "title": "Linguistics",
+      "source_page": "https://isca-speech.org/Linguistics",
+      "intro": [
+        "Linguistics is the scientific study of language and involves an analysis of language form, language meaning, and language in context. Within it, Phonetics is the study of speech sounds, and Phonology is the organisation of speech sounds in a language."
+      ],
+      "intro_links": [{ "label": "Linguistics (Wikipedia)", "href": "https://en.wikipedia.org/wiki/Linguistics" }],
+      "entries": [],
+      "subsections": [
+        {
+          "key": "psycholinguistics",
+          "title": "Psycholinguistics",
+          "source_page": "https://isca-speech.org/Psycholinguistics",
+          "intro": [
+            "Psycholinguistics, or psychology of language, is the study of the interrelation between linguistic factors and psychological aspects, including the process of language acquisition."
+          ],
+          "intro_links": [{ "label": "Psycholinguistics (Wikipedia)", "href": "https://en.wikipedia.org/wiki/Psycholinguistics" }],
+          "entries": [
+            {
+              "text": "See Odette Scharenborg's Winter School presentation, particularly lecture 2.",
+              "links": [{ "label": "Winter School presentation", "href": "http://odettescharenborg.ruhosting.nl/winterschool/" }]
+            }
+          ]
+        },
+        {
+          "key": "phonology",
+          "title": "Phonology",
+          "source_page": "https://isca-speech.org/Phonology",
+          "intro": [
+            "Phonology is a branch of linguistics concerned with the systematic organization of sounds in languages."
+          ],
+          "intro_links": [{ "label": "Phonology (Wikipedia)", "href": "https://en.wikipedia.org/wiki/Phonology" }],
+          "entries": [
+            {
+              "text": "Tutorial: an introduction to phonology from the Linguistics Network.",
+              "links": [{ "label": "Linguistics Network", "href": "http://www.linguisticsnetwork.com/an-introduction-to-phonology/" }]
+            },
+            {
+              "text": "Tutorial: a video introduction by Thomas Kallas.",
+              "links": [{ "label": "Thomas Kallas", "href": "https://www.youtube.com/watch?v=_69ATDAomLc" }]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "phonetics",
+      "title": "Phonetics",
+      "source_page": "https://isca-speech.org/Phonetics",
+      "intro": [
+        "Phonetics is the study of the sounds of speech. It is concerned with the physical properties of speech sounds or signs (phones): their physiological production, acoustic properties, auditory perception, and neurophysiological status. Phonology, on the other hand, is concerned with the abstract, grammatical characterization of systems of sounds or signs.",
+        "In the case of oral languages there are three basic areas of study — articulatory, acoustic, and auditory phonetics — inter-connected through the common mechanism of sound, such as wavelength (pitch), amplitude, and harmonics. [adapted from Wikipedia]"
+      ],
+      "entries": [
+        {
+          "text": "The phoneme is 'the smallest unit of speech that distinguishes one word from another in a particular language'. The term is often misused in speech research: see Moore and Skidmore, On the use/misuse of the term 'Phoneme'.",
+          "links": [
+            { "label": "On the use/misuse of the term 'Phoneme'", "href": "https://www.isca-archive.org/interspeech_2019/moore19_interspeech.html" }
+          ]
+        },
+        {
+          "text": "For a general coverage of phonetics for speech technologists, see the phonetics lecture in Andrew Maas's Stanford course CS224S (Spoken Language Processing).",
+          "links": [
+            { "label": "Stanford CS224S syllabus", "href": "https://web.stanford.edu/class/cs224s/semesters/2024-spring/syllabus" }
+          ]
+        },
+        {
+          "text": "The Virtual Linguistics Campus hosts a number of courses on YouTube, including two on phonetics.",
+          "links": [
+            { "label": "Virtual Linguistics Campus", "href": "https://www.youtube.com/channel/UCaMpov1PPVXGcKYgwHjXB3g" }
+          ]
+        }
+      ],
+      "subsections": [
+        {
+          "key": "articulatory-phonetics",
+          "title": "Articulatory Phonetics",
+          "source_page": "https://isca-speech.org/Articulatory-Phonetics",
+          "intro": [
+            "Articulatory phonetics: the study of the organs of speech and their use in producing speech sounds by the speaker."
+          ],
+          "entries": [
+            {
+              "text": "Lecture 3 in Roger Moore's Speech Processing course covers speech production and the speech spectrum.",
+              "links": [
+                { "label": "Slides", "href": "https://staffwww.dcs.shef.ac.uk/people/R.K.Moore/SCOOT/COM3502-4502-6502_L3_Speaking.pdf" },
+                { "label": "Audio", "href": "https://staffwww.dcs.shef.ac.uk/people/R.K.Moore/SCOOT/COM3502-4502-6502_L3_Speaking.mp3" }
+              ]
+            },
+            {
+              "text": "Lecture 7 in Roger Moore's Speech Processing course covers articulatory phonetics.",
+              "links": [
+                { "label": "Slides", "href": "https://staffwww.dcs.shef.ac.uk/people/R.K.Moore/SCOOT/COM3502-4502-6502_L7_Articulatory-Phonetics.pdf" },
+                { "label": "Audio", "href": "https://staffwww.dcs.shef.ac.uk/people/R.K.Moore/SCOOT/COM3502-4502-6502_L7_Articulatory-Phonetics.mp3" }
+              ]
+            },
+            {
+              "text": "Gabriel Wyner's YouTube tutorials cover English pronunciation and the International Phonetic Alphabet.",
+              "links": [
+                { "label": "Voicing and Place", "href": "https://www.youtube.com/watch?v=-e66ByetpDY" },
+                { "label": "Manner", "href": "https://www.youtube.com/watch?v=jJR1VPzayu0" },
+                { "label": "English Vowels and the IPA", "href": "https://www.youtube.com/watch?v=eeaghqkLRi8" }
+              ]
+            },
+            {
+              "text": "Amazing real-time MRI images for the production of speech sounds can be downloaded from USC. You need a lot of space.",
+              "links": [
+                { "label": "MRI images for the production of speech sounds", "href": "http://sail.usc.edu/span/rtmri_ipa/index.html" }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "acoustic-phonetics",
+          "title": "Acoustic Phonetics",
+          "source_page": "https://isca-speech.org/Acoustic-Phonetics",
+          "intro": [
+            "Acoustic phonetics: the study of the physical transmission of speech sounds from the speaker to the listener."
+          ],
+          "entries": [
+            {
+              "text": "Lecture 8 in Roger Moore's Speech Processing course is about acoustic phonetics.",
+              "links": [
+                { "label": "Slides", "href": "https://staffwww.dcs.shef.ac.uk/people/R.K.Moore/SCOOT/COM3502-4502-6502_L8_Acoustic-Phonetics.pdf" },
+                { "label": "Audio", "href": "https://staffwww.dcs.shef.ac.uk/people/R.K.Moore/SCOOT/COM3502-4502-6502_L8_Acoustic-Phonetics.mp3" }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "auditory-phonetics",
+          "title": "Auditory Phonetics and Hearing",
+          "source_page": "https://isca-speech.org/Auditory-Phonetics",
+          "intro": [
+            "Auditory phonetics: the study of the reception and perception of speech sounds by the listener."
+          ],
+          "entries": [
+            {
+              "text": "Lecture 4 in Roger Moore's Speech Processing course is about hearing.",
+              "links": [
+                { "label": "Slides", "href": "https://staffwww.dcs.shef.ac.uk/people/R.K.Moore/SCOOT/COM3502-4502-6502_L4_Hearing.pdf" },
+                { "label": "Audio", "href": "https://staffwww.dcs.shef.ac.uk/people/R.K.Moore/SCOOT/COM3502-4502-6502_L4_Hearing.mp3" }
+              ]
+            },
+            {
+              "text": "Odette Scharenborg's ISCA Winter School presentation covers speech perception in adverse listening conditions.",
+              "links": [
+                { "label": "ISCA Winter School presentation", "href": "http://odettescharenborg.ruhosting.nl/winterschool/" }
+              ]
+            },
+            {
+              "text": "The MAD demos recreate a number of classic findings in hearing. They run in Matlab.",
+              "links": [
+                { "label": "MAD demos", "href": "http://spandh.dcs.shef.ac.uk/ed_arena/mad/mad/docs/mad.htm" }
+              ]
+            },
+            {
+              "text": "The final lecture in the series by Professor E. Ambikairajah on YouTube is about modelling the auditory system and auditory masking (how the perception of one sound is affected by the presence of another sound).",
+              "links": [
+                { "label": "Modelling the auditory system and auditory masking", "href": "https://www.youtube.com/watch?v=H9qNuyD7xdg" }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "prosodics",
+          "title": "Prosodics",
+          "source_page": "https://isca-speech.org/Prosodics",
+          "intro": [
+            "Prosodics is the study of rhythm, stress and intonation in spoken language: the 'music' of speech."
+          ],
+          "entries": [
+            {
+              "text": "Professors Nigel G. Ward and Gina-Anne Levow of ISCA's Special Interest Group on Speech Prosody have produced a comprehensive tutorial, with 400 slides and 29 YouTube videos. This is a university-level introduction to prosody, covering both fundamentals and applications.",
+              "links": [
+                { "label": "Comprehensive prosody tutorial", "href": "https://nigelward.com/prosody/" }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "speech-technology",
+      "title": "Speech Technology",
+      "source_page": "https://isca-speech.org/Speech-Technology",
+      "intro": [
+        "Speech technology is conventionally divided into Speech Coding, Speech Recognition and Speech Synthesis. There are several software toolkits for training and deploying speech technology; 'recipes' are provided as examples of how to use a toolkit on typical tasks. In recent years speech technology has been increasingly dominated by deep neural networks — see the Deep Neural Networks section below."
+      ],
+      "entries": [
+        {
+          "text": "Janet Baker: History of Speech and Language Technology (the Saras Institute).",
+          "links": [
+            { "label": "History of Speech and Language Technology", "href": "http://www.sarasinstitute.org/" }
+          ]
+        },
+        {
+          "text": "Roger Moore: 'Beyond Siri' (ISCA Distinguished Lecture).",
+          "links": [
+            { "label": "'Beyond Siri'", "href": "https://isca-speech.org/resources/Documents/Training/SCOOT/Speech%20Technology/RKM_ISCA-DL-2014-15_Beyond-Siri.pdf" }
+          ]
+        },
+        {
+          "text": "Roger Moore: Speech Technology — Past, Present and Tech Transfer.",
+          "links": [
+            { "label": "Speech Technology: Past, Present and Tech Transfer", "href": "https://www.youtube.com/watch?v=73HsLb0e_zQ" }
+          ]
+        }
+      ],
+      "subsections": [
+        {
+          "key": "speech-coding",
+          "title": "Speech Coding",
+          "source_page": "https://isca-speech.org/Speech-Coding",
+          "intro": [],
+          "entries": [
+            {
+              "text": "Introductory material: Source Coding Basics and Speech Coding, Yao Wang, Polytechnic University, Brooklyn.",
+              "links": [
+                { "label": "Source Coding Basics and Speech Coding", "href": "http://eeweb.poly.edu/~yao/EE3414/speech_coding.pdf" }
+              ]
+            },
+            {
+              "text": "Speech Coding: Objectives and Requirements — from the lecture series on Digital Voice and Picture Communication by Prof. S. Sengupta, Department of Electronics and Electrical Communication Engineering, IIT Kharagpur.",
+              "links": [
+                { "label": "Speech Coding: Objectives and Requirements", "href": "https://www.youtube.com/watch?v=MBxFVBAzdMc" }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "speech-synthesis",
+          "title": "Speech Synthesis",
+          "source_page": "https://isca-speech.org/Speech-Synthesis",
+          "intro": [
+            "Most attention has been paid to 'Text-to-Speech' applications, i.e. type in the words you want and have them spoken for you. Speech synthesis systems are evaluated in terms of intelligibility (how many words are correctly identified by listeners?) and naturalness (to what extent does the synthesis resemble a normal human voice?).",
+            "Synthesis from written text (orthography) involves two stages, which are to a large extent independent: Text Analysis — transform the text into an intermediate representation — and Waveform Generation — render the speech acoustics from the intermediate representation."
+          ],
+          "entries": [
+            {
+              "text": "Speech synthesis has a long history: there is a good introduction by Andrew Maas in the speech synthesis lecture of the Stanford Spoken Language Processing course (CS224S).",
+              "links": [
+                { "label": "Stanford CS224S syllabus", "href": "https://web.stanford.edu/class/cs224s/syllabus.html" }
+              ]
+            },
+            {
+              "text": "Simon King's Course on Speech Synthesis is a comprehensive multimedia presentation.",
+              "links": [
+                { "label": "Simon King's Course on Speech Synthesis", "href": "https://speech.zone/courses/speech-synthesis/" }
+              ]
+            },
+            {
+              "text": "ISCA's speech synthesis special interest group SynSIG compiles lists of software tools and educational materials.",
+              "links": [
+                { "label": "SynSIG", "href": "https://www.synsig.org/" },
+                { "label": "Software tools", "href": "https://www.synsig.org/index.php/Software" },
+                { "label": "Educational materials", "href": "https://www.synsig.org/index.php/Education" }
+              ]
+            },
+            {
+              "text": "Visual overview of SCOOT synthesis topics (PDF).",
+              "links": [
+                { "label": "SCOOT Synthesis Topics", "href": "https://isca-speech.org/resources/Documents/Training/SCOOT/Speech%20Synthesis/scoot-synthesis-topics.pdf" }
+              ]
+            },
+            {
+              "group": "Text Analysis",
+              "text": "For an introduction to text analysis, see the speech synthesis lecture of the Stanford CS224S course by Andrew Maas.",
+              "links": [
+                { "label": "Stanford CS224S syllabus", "href": "https://web.stanford.edu/class/cs224s/syllabus.html" }
+              ]
+            },
+            {
+              "group": "Text Analysis",
+              "text": "This introduction to text analysis in Edinburgh's speech.zone (now the speech synthesis module of the Speech Processing course).",
+              "links": [
+                { "label": "Introduction to text analysis", "href": "https://speech.zone/courses/speech-processing/module-5-speech-synthesis/" }
+              ]
+            },
+            {
+              "group": "Text Analysis",
+              "text": "This introduction to pronunciation and prosody in Edinburgh's speech.zone (now covered in the speech synthesis module of the Speech Processing course).",
+              "links": [
+                { "label": "Introduction to pronunciation and prosody", "href": "https://speech.zone/courses/speech-processing/module-5-speech-synthesis/" }
+              ]
+            },
+            {
+              "group": "Text Analysis",
+              "text": "Kim Silverman's 2013 talk at ICSI.",
+              "links": [
+                { "label": "Kim Silverman's 2013 talk at ICSI", "href": "https://www.youtube.com/watch?v=7mjh0PSUv0M" }
+              ]
+            },
+            {
+              "group": "Waveform Generation — Classic Speech Synthesis",
+              "text": "Classic speech synthesis was based on simulations of the vocal tract, with filters for the formants. The simulation was supplied with parameters for excitation, formant frequencies and amplitudes. The best-known systems were the Klatt Synthesiser (US) and the Holmes Synthesiser (UK); tutorial papers for both are in the Smithsonian Speech Synthesis History Project (SSSHP), 1986–2002. The Klatt synthesiser is familiar as the voice of Stephen Hawking, and provided the original 'DECtalk' and Apple voices.",
+              "links": [
+                { "label": "Smithsonian Speech Synthesis History Project", "href": "http://amhistory.si.edu/archives/speechsynthesis/ss_home.htm" },
+                { "label": "Klatt", "href": "http://amhistory.si.edu/archives/speechsynthesis/dk_737a.htm" },
+                { "label": "Holmes", "href": "http://amhistory.si.edu/archives/speechsynthesis/im_home.htm" }
+              ]
+            },
+            {
+              "group": "Waveform Generation — Concatenative Synthesis",
+              "text": "Speech is produced by joining recorded acoustic segments together. There are ways of doing this which fool the auditory system into believing it is hearing flowing speech from the same speaker — see the synthesis lecture in Stanford's CS224S course.",
+              "links": [
+                { "label": "Stanford CS224S syllabus", "href": "https://web.stanford.edu/class/cs224s/syllabus.html" }
+              ]
+            },
+            {
+              "group": "Waveform Generation — Parametric (HMM-based) Synthesis",
+              "text": "Synthesis based on statistical models (somewhat) similar to those developed for speech recognition. Simon King: 'A beginners' guide to statistical parametric speech synthesis'.",
+              "links": [
+                { "label": "A beginners' guide to statistical parametric speech synthesis", "href": "http://www.cstr.ed.ac.uk/downloads/publications/2010/king_hmm_tutorial.pdf" }
+              ]
+            },
+            {
+              "group": "Waveform Generation — Parametric (HMM-based) Synthesis",
+              "text": "Simon King's inaugural lecture: 'Using Speech Synthesis to give Everyone their own Voice'.",
+              "links": [
+                { "label": "Inaugural lecture", "href": "https://www.youtube.com/watch?v=xzL-pxcpo-E" }
+              ]
+            },
+            {
+              "group": "Waveform Generation — Parametric (HMM-based) Synthesis",
+              "text": "The statistical synthesis lecture by Andrew Maas in Stanford's CS224S (from slide 73).",
+              "links": [
+                { "label": "Stanford CS224S syllabus", "href": "https://web.stanford.edu/class/cs224s/syllabus.html" }
+              ]
+            },
+            {
+              "group": "Waveform Generation — Parametric (HMM-based) Synthesis",
+              "text": "Zhen-Hua Ling's talk at Microsoft, 2016.",
+              "links": [
+                { "label": "Zhen-Hua Ling's talk at Microsoft", "href": "https://www.youtube.com/watch?v=MPdOp72bOCA" }
+              ]
+            },
+            {
+              "group": "Waveform Generation — DNN Synthesis",
+              "text": "Synthesis based on neural networks — see the Deep Neural Networks section, which covers DNN methods for both synthesis and recognition.",
+              "links": []
+            }
+          ]
+        },
+        {
+          "key": "speech-recognition",
+          "title": "Automatic Speech Recognition (ASR)",
+          "source_page": "https://isca-speech.org/Speech-Recognition",
+          "intro": [
+            "Research on Automatic Speech Recognition (ASR) dates back to the 1950s."
+          ],
+          "entries": [
+            {
+              "text": "See Lecture 1 in the Columbia Speech Recognition course for an introduction.",
+              "links": [
+                { "label": "Lecture 1 in the Columbia Speech Recognition course", "href": "http://www.ee.columbia.edu/~stanchen/spring16/e6870/outline.html" }
+              ]
+            },
+            {
+              "text": "Preethi Jyothi (IIT Bombay) gives an overview talk at Microsoft (2017).",
+              "links": [
+                { "label": "Overview talk at Microsoft", "href": "https://www.youtube.com/watch?v=q67z7PTGRi8" }
+              ]
+            },
+            {
+              "text": "There is an edX online course on Speech Recognition: an introductory course on principles of speech recognition, created by Jasha Droppo, Mike Seltzer and Andreas Stolcke as part of Microsoft's 'AI School', but really self-contained and not specific to Microsoft AI services. It's aimed at undergraduates wishing to learn the basic principles of speech recognition.",
+              "links": [
+                { "label": "edX course on Speech Recognition", "href": "https://www.edx.org/course/speech-recognition-systems-2" }
+              ]
+            },
+            {
+              "text": "Michael Picheny (IBM) presents a review of progress in ASR in 'Speech Recognition: What's Left?' (2018).",
+              "links": [
+                { "label": "Speech Recognition: What's Left?", "href": "https://www.youtube.com/watch?v=SxSN3b1vNHg" }
+              ]
+            },
+            {
+              "text": "Hermann Ney (Aachen) provides an excellent treatment of the development of ASR and related speech technology over 40 years. This is the ISCA Medalist keynote talk at Interspeech 2021.",
+              "links": [
+                { "label": "ISCA Medalist keynote talk at Interspeech 2021", "href": "https://www.isca-archive.org/interspeech_2021/ney21_interspeech.html" }
+              ]
+            },
+            {
+              "group": "ASR Methods — Dynamic Time Warping (DTW)",
+              "text": "The first ASR technique to get anywhere: DTW is based on finding the best time-alignment between a stored template (e.g. the features for a known word) and a pattern (e.g. the features for an incoming word). See the Columbia Speech Recognition course, Lecture 2, from slide 95.",
+              "links": [
+                { "label": "Columbia Speech Recognition course, Lecture 2", "href": "http://www.ee.columbia.edu/~stanchen/spring16/e6870/outline.html" }
+              ]
+            },
+            {
+              "group": "ASR Methods — Dynamic Time Warping (DTW)",
+              "text": "The module on pattern matching in Edinburgh's speech.zone.",
+              "links": [
+                { "label": "Pattern matching module", "href": "https://speech.zone/courses/speech-processing/module-7-speech-recognition-pattern-matching/" }
+              ]
+            },
+            {
+              "group": "ASR Methods — Hidden Markov Models (HMMs)",
+              "text": "HMM-based ASR compares incoming speech with statistical models for speech units (acoustic models), usually in the context of a language model which deploys statistics about word sequences. Kai-Fu Lee is one of the best-known names in the development of HMM-based ASR; he recorded this lecture in 1993.",
+              "links": [
+                { "label": "Kai-Fu Lee's 1993 lecture", "href": "https://www.youtube.com/watch?v=PJ_KCTsOCrs" }
+              ]
+            },
+            {
+              "group": "ASR Methods — Hidden Markov Models (HMMs)",
+              "text": "There are two modules on the HMM in Edinburgh's speech.zone.",
+              "links": [
+                { "label": "The Hidden Markov Model", "href": "https://speech.zone/courses/speech-processing/module-9-speech-recognition-the-hidden-markov-model/" },
+                { "label": "Connected speech and HMM training", "href": "https://speech.zone/courses/speech-processing/module-10-speech-recognition-connected-speech-hmm-training/" }
+              ]
+            },
+            {
+              "group": "ASR Methods — Hidden Markov Models (HMMs)",
+              "text": "Hermann Ney's 2012 review lecture (Hong Kong).",
+              "links": [
+                { "label": "Hermann Ney: 2012 review", "href": "https://isca-speech.org/resources/Documents/Training/SCOOT/Speech%20Technology/HermanNeyHongKong_HKUST_Lecture_04Dec12.pdf" }
+              ]
+            },
+            {
+              "group": "ASR Methods — Hidden Markov Models (HMMs)",
+              "text": "Columbia Speech Recognition course, Lectures 3–12.",
+              "links": [
+                { "label": "Columbia Speech Recognition course", "href": "http://www.ee.columbia.edu/~stanchen/spring16/e6870/outline.html" }
+              ]
+            },
+            {
+              "group": "ASR Methods — Hidden Markov Models (HMMs)",
+              "text": "The HMM lectures in Stanford's CS224S course by Andrew Maas.",
+              "links": [
+                { "label": "Stanford CS224S syllabus", "href": "https://web.stanford.edu/class/cs224s/syllabus.html" }
+              ]
+            },
+            {
+              "group": "ASR Methods — Neural Networks",
+              "text": "DNN-based ASR — see the Deep Neural Networks section, which covers DNN methods for both recognition and synthesis.",
+              "links": []
+            }
+          ]
+        },
+        {
+          "key": "ann",
+          "title": "Deep Neural Networks for Speech Technology",
+          "source_page": "https://isca-speech.org/ANN-ASR",
+          "intro": [
+            "The best-performing systems at the time of writing (2024) are based on deep neural networks. In end-to-end ASR the transformation from audio to words is accomplished by DNNs alone, with no use of phonetic or linguistic knowledge."
+          ],
+          "entries": [
+            {
+              "group": "Introductions to DNNs (MIT videos)",
+              "text": "Basics of Deep Learning covers the basics of neural nets and how they are trained: gradient descent and back propagation.",
+              "links": [{ "label": "Basics of Deep Learning", "href": "https://www.youtube.com/watch?v=ErnWZxJovaM" }]
+            },
+            {
+              "group": "Introductions to DNNs (MIT videos)",
+              "text": "RNNs and Transformers covers sequence modelling, recurrent neural nets, Long Short-Term Memory, Transformers and Attention.",
+              "links": [{ "label": "RNNs and Transformers", "href": "https://www.youtube.com/watch?v=dqoEU9Ac3ek" }]
+            },
+            {
+              "group": "Introductions to DNNs (MIT videos)",
+              "text": "CNNs covers Convolutional Neural Networks — illustrated using vision, but the same principles apply to feature detection from speech audio.",
+              "links": [{ "label": "CNNs", "href": "https://www.youtube.com/watch?v=2xqkSUhmmXU" }]
+            },
+            {
+              "group": "Introductions to DNNs (MIT videos)",
+              "text": "Generative Modeling (e.g. GANs) covers generative models: the basis of modern generative AI systems.",
+              "links": [{ "label": "Generative Modeling", "href": "https://www.youtube.com/watch?v=Dmm4UG-6jxA" }]
+            },
+            {
+              "group": "Introductions to DNNs (MIT videos)",
+              "text": "Diffusion models: covers diffusion models in the second part of the lecture (from 26:40 onwards), as well as some history and challenges related to neural networks.",
+              "links": [{ "label": "Diffusion models", "href": "https://www.youtube.com/watch?v=N1fbskTpwZ0" }]
+            },
+            {
+              "group": "DNNs for Speech Synthesis",
+              "text": "Simon King's Speech Synthesis course has videos covering DNNs in text-to-speech — see the deep neural networks module.",
+              "links": [{ "label": "Deep neural networks module", "href": "https://speech.zone/courses/speech-synthesis/module-8-deep-neural-networks/" }]
+            },
+            {
+              "group": "DNNs for Speech Synthesis",
+              "text": "This Interspeech 2022 tutorial on neural speech synthesis is by Xu Tan (Microsoft) and Hung-yi Lee (National Taiwan University), and is based on their review paper.",
+              "links": [{ "label": "Interspeech 2022 tutorial on neural speech synthesis", "href": "https://tts-tutorial.github.io/interspeech2022/INTERSPEECH_Tutorial_TTS.pdf" }]
+            },
+            {
+              "group": "DNNs for ASR",
+              "text": "DNN feature extraction: wav2vec and wav2vec 2.0 are schemes for 'learning the structure of speech from raw audio' — a convolutional network trained by predicting the next item from context. A 'Lazy Data Science' guide to wav2vec 2.0.",
+              "links": [{ "label": "A 'Lazy Data Science' guide to wav2vec 2.0", "href": "http://mohitmayank.com/a_lazy_data_science_guide/audio_intelligence/wav2vec2/" }]
+            },
+            {
+              "group": "DNNs for ASR",
+              "text": "Meta's guide to wav2vec 2.0.",
+              "links": [{ "label": "Meta's guide to wav2vec 2.0", "href": "https://ai.meta.com/blog/wav2vec-20-learning-the-structure-of-speech-from-raw-audio/" }]
+            },
+            {
+              "group": "DNNs for ASR",
+              "text": "Sequence modelling: ASR is a sequence-to-sequence task. Such tasks were first handled by recurrent neural networks; RNNs have some serious problems and have been superseded by Transformer architectures using attention-based models, introduced in the famous paper 'Attention Is All You Need'. An animated explanation of the paper by Jean de Dieu Nyandwi of CMU.",
+              "links": [{ "label": "Animated explanation of 'Attention Is All You Need'", "href": "https://www.youtube.com/watch?v=VygOX3AyDQs" }]
+            },
+            {
+              "group": "DNNs for ASR",
+              "text": "Speech recognition: a review of the different deep learning approaches, by Ilias Papastratis (AI Summer).",
+              "links": [
+                { "label": "Review of deep learning approaches", "href": "https://theaisummer.com/speech-recognition/" },
+                { "label": "Ilias Papastratis", "href": "https://theaisummer.com/author/Ilias-Papastratis/" }
+              ]
+            },
+            {
+              "group": "DNNs for ASR",
+              "text": "A tutorial on end-to-end automatic speech recognition (Paperspace / DigitalOcean).",
+              "links": [{ "label": "End-to-end ASR tutorial", "href": "https://blog.paperspace.com/end-to-end-automatic-speech-recognition/" }]
+            },
+            {
+              "group": "DNNs for ASR",
+              "text": "Michiel Bacchiani (Google): Google research on end-to-end models for speech recognition.",
+              "links": [{ "label": "End-to-end models for speech recognition", "href": "https://www.youtube.com/watch?v=gaoOndAQkUw" }]
+            },
+            {
+              "group": "DNN Toolkits",
+              "text": "PyTorch is a machine learning library based on the Torch library, used for applications such as computer vision and natural language processing. This series of YouTube videos talks you through it, and this tutorial lets you experiment with the basics.",
+              "links": [
+                { "label": "PyTorch", "href": "https://pytorch.org/" },
+                { "label": "YouTube series", "href": "https://www.youtube.com/playlist?list=PLCC34OHNcOtpcgR9LEYSdi9r7XIbpkpK1" },
+                { "label": "PyTorch basics tutorial", "href": "https://pytorch.org/tutorials/beginner/basics/intro.html" }
+              ]
+            },
+            {
+              "group": "DNN Toolkits",
+              "text": "TensorFlow is another popular DNN toolkit.",
+              "links": [{ "label": "TensorFlow course", "href": "https://www.youtube.com/watch?v=tPYj3fFJGjk" }]
+            },
+            {
+              "group": "DNN Toolkits",
+              "text": "SpeechBrain is a community toolkit for open-source conversational AI, based on PyTorch.",
+              "links": [{ "label": "SpeechBrain", "href": "https://speechbrain.github.io/index.html" }]
+            },
+            {
+              "group": "DNN Toolkits",
+              "text": "Whisper is an open-source neural net system that 'approaches human level robustness and accuracy on English speech recognition', created by OpenAI.",
+              "links": [{ "label": "Whisper", "href": "https://openai.com/index/whisper/" }]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "toolkits",
+      "title": "Toolkits",
+      "source_page": "https://isca-speech.org/Toolkits",
+      "intro": [
+        "Many speech researchers use software toolkits which implement popular algorithms, e.g. for defining and training an ASR system or building a synthesiser. Toolkits often provide recipes for common tasks."
+      ],
+      "entries": [
+        {
+          "text": "The Speech Recognition Virtual Kitchen aims to 'provide straightforward access to the tools and techniques used by advanced researchers' by the use of virtual machines, which 'provide a consistent, end-to-end environment for experimentation, without the need to install other software or data, and cope with their incompatibilities and peculiarities.'",
+          "links": [
+            { "label": "Speech Recognition Virtual Kitchen", "href": "http://speechkitchen.org/home/about/" }
+          ]
+        }
+      ],
+      "subsections": [
+        {
+          "key": "asr-toolkits",
+          "title": "ASR Toolkits",
+          "source_page": "https://isca-speech.org/ASR-Toolkits",
+          "intro": [],
+          "entries": [
+            {
+              "group": "HTK",
+              "text": "The Hidden Markov Model Toolkit (HTK) is a portable toolkit for building and manipulating hidden Markov models, developed at Cambridge, UK and first released in 1989. The researchers most closely associated with HTK are Steve Young, Phil Woodland and Mark Gales. HTK is primarily used for speech recognition research although it has been used for numerous other applications including research into speech synthesis, character recognition and DNA sequencing. HTK is in use at hundreds of sites worldwide.",
+              "links": []
+            },
+            {
+              "group": "HTK",
+              "text": "The HTK book is a comprehensive guide, including tutorials and recipes.",
+              "links": [{ "label": "HTK book", "href": "https://labrosa.ee.columbia.edu/doc/HTKBook21/HTKBook.html" }]
+            },
+            {
+              "group": "HTK",
+              "text": "A shorter tutorial by Giampiero Salvi is available from KTH.",
+              "links": [{ "label": "KTH tutorial", "href": "http://www.speech.kth.se/~matsb/speech_rec_course_2003/htk_tutorial.pdf" }]
+            },
+            {
+              "group": "HTK",
+              "text": "Recipes for the Wall Street Journal task.",
+              "links": [{ "label": "WSJ recipes for HTK", "href": "https://www.keithv.com/software/htk/" }]
+            },
+            {
+              "group": "CMUSphinx",
+              "text": "The Sphinx toolkit, originally developed from Kai-Fu Lee's thesis, embodies more than 20 years' work at Carnegie Mellon University. There are tools designed for low-resource platforms. It's free.",
+              "links": [{ "label": "CMUSphinx", "href": "https://cmusphinx.github.io/wiki/about/" }]
+            },
+            {
+              "group": "CMUSphinx",
+              "text": "There is a tutorial for CMUSphinx.",
+              "links": [{ "label": "CMUSphinx tutorial", "href": "https://cmusphinx.github.io/wiki/tutorial/" }]
+            },
+            {
+              "group": "CMUSphinx",
+              "text": "A recipe for the Wall Street Journal task.",
+              "links": [{ "label": "WSJ recipe for Sphinx", "href": "https://www.keithv.com/software/sphinx/" }]
+            },
+            {
+              "group": "Kaldi",
+              "text": "Kaldi is a toolkit for speech recognition written in C++ and licensed under the Apache License v2.0. Kaldi development began in 2009, led by Dan Povey. Kaldi is intended for use by speech recognition researchers and is free.",
+              "links": [{ "label": "Kaldi documentation", "href": "http://kaldi-asr.org/doc/" }]
+            },
+            {
+              "group": "Kaldi",
+              "text": "There is an introduction to Kaldi in its documentation.",
+              "links": [{ "label": "About Kaldi", "href": "http://kaldi-asr.org/doc/about.html" }]
+            },
+            {
+              "group": "Kaldi",
+              "text": "Start with the 'Kaldi for Dummies' tutorial.",
+              "links": [{ "label": "Kaldi for Dummies", "href": "http://kaldi-asr.org/doc/kaldi_for_dummies.html" }]
+            },
+            {
+              "group": "Kaldi",
+              "text": "A detailed tutorial by Sanjeev Khudanpur, Dan Povey and Jan Trmal (JHU).",
+              "links": [{ "label": "Building Speech Recognition Systems with the Kaldi Toolkit", "href": "https://engineering.jhu.edu/clsp/wp-content/uploads/sites/75/2016/06/Building-Speech-Recognition-Systems-with-the-Kaldi-Toolkit.pdf" }]
+            },
+            {
+              "group": "Kaldi",
+              "text": "There are Speech Kitchen Kaldi demos.",
+              "links": [
+                { "label": "TED-LIUM VM demo", "href": "http://speechkitchen.org/tedlium-vm/" },
+                { "label": "Interaction in virtual worlds VM demo", "href": "http://speechkitchen.org/interaction-in-virtual-worlds-vm/" }
+              ]
+            },
+            {
+              "group": "Kaldi",
+              "text": "Two Kaldi repositories with tutorials and scripts: from Ankit Agrover and Yoav Ramon.",
+              "links": [
+                { "label": "Kaldi-notes (Ankit)", "href": "https://github.com/Agrover112/Kaldi-notes" },
+                { "label": "awesome-kaldi (Yoav Ramon)", "href": "https://github.com/YoavRamon/awesome-kaldi" }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "synthesis-toolkits",
+          "title": "Synthesis Toolkits",
+          "source_page": "https://isca-speech.org/Synthesis-Toolkits",
+          "intro": [],
+          "entries": [
+            {
+              "group": "Merlin",
+              "text": "Merlin is a toolkit for building deep neural network models for statistical parametric speech synthesis, developed at CSTR Edinburgh by a team led by Simon King. It must be used in combination with a front-end text processor (e.g. Festival) and a vocoder (e.g. STRAIGHT or WORLD). Merlin comes with recipes to show you how to build state-of-the-art systems, and is free software distributed under an Apache License 2.0, allowing unrestricted commercial and non-commercial use alike.",
+              "links": [{ "label": "Merlin", "href": "http://www.cstr.ed.ac.uk/projects/merlin/" }]
+            },
+            {
+              "group": "Merlin",
+              "text": "This video tutorial for Merlin is from Simon King (Interspeech 2017).",
+              "links": [{ "label": "Merlin video tutorial", "href": "https://speech.zone/courses/one-off/merlin-interspeech2017/" }]
+            },
+            {
+              "group": "Festival",
+              "text": "Festival, developed at CMU (Alan Black) and CSTR Edinburgh (Simon King), 'offers a general framework for building speech synthesis systems as well as including examples of various modules.' It is multilingual and there are online demos.",
+              "links": [{ "label": "Festival", "href": "http://www.cstr.ed.ac.uk/projects/festival/" }]
+            },
+            {
+              "group": "Festvox",
+              "text": "Festvox, from the CMU speech group, 'aims to make the building of new synthetic voices more systemic and better documented, making it possible for anyone to build a new voice.' There are close connections to Festival.",
+              "links": [{ "label": "Festvox", "href": "http://festvox.org/" }]
+            },
+            {
+              "group": "Festvox",
+              "text": "Festvox offers documentation (including scripts explaining the background and specifics for building new voices in new and supported languages), specific scripts to build new voices in supported languages such as US and UK English, aids to building synthetic voices for limited domains, example speech databases to help build new voices, and links, demos and a repository for new voices.",
+              "links": [
+                { "label": "Documentation", "href": "http://festvox.org/festvox/" },
+                { "label": "Limited domains", "href": "http://festvox.org/ldom/index.html" },
+                { "label": "Example speech databases", "href": "http://festvox.org/dbs/index.html" }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "databases",
+      "title": "Databases",
+      "source_page": "https://isca-speech.org/Databases",
+      "intro": [
+        "Modern speech technology relies on databases (or corpora) for training applications based on machine learning. Corpus linguistics uses databases as a resource for language studies."
+      ],
+      "intro_links": [{ "label": "Corpus linguistics (Wikipedia)", "href": "https://en.wikipedia.org/wiki/Corpus_linguistics" }],
+      "entries": [
+        {
+          "text": "The European Language Resources Association (ELRA) is a non-profit organisation whose main mission is to make language resources for human language technologies available to the community at large. To achieve this goal, ELRA carries out a wide variety of activities around language resources, including identification & distribution, production & validation, technology evaluation, and information dissemination.",
+          "links": [
+            { "label": "ELRA", "href": "http://www.elra.info/en/" },
+            { "label": "Identification & Distribution", "href": "http://www.elra.info/catalogues/" },
+            { "label": "Production", "href": "http://www.elra.info/services-around-lrs/production/" },
+            { "label": "Validation", "href": "http://www.elra.info/services-around-lrs/validation/" },
+            { "label": "Technology Evaluation", "href": "http://www.elra.info/dissemination/hlt-evaluation/" },
+            { "label": "Information Dissemination", "href": "http://www.elra.info/dissemination/" }
+          ]
+        },
+        {
+          "text": "The Linguistic Data Consortium (LDC) is an open consortium of universities, libraries, corporations and government research laboratories, based in the USA. LDC was formed in 1992 to address the critical data shortage then facing language technology research and development.",
+          "links": [
+            { "label": "Linguistic Data Consortium", "href": "https://www.ldc.upenn.edu/" }
+          ]
+        },
+        {
+          "text": "Corpora can be very expensive, but many of the classic ones are free or relatively cheap, e.g. TIMIT, the Wall Street Journal corpus, and Resource Management.",
+          "links": [
+            { "label": "TIMIT", "href": "https://catalog.ldc.upenn.edu/LDC93S1" },
+            { "label": "Wall Street Journal corpus", "href": "https://catalog.ldc.upenn.edu/LDC93S6A" },
+            { "label": "Resource Management", "href": "https://catalog.ldc.upenn.edu/LDC93S3C" }
+          ]
+        }
+      ]
+    }
+  ]
+}

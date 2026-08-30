@@ -1,54 +1,51 @@
-# SCOOT 2.0 — Speech Communication Online Open Training
+# SCOOT — rebuilt
 
 **Live site: https://speechlab0210.github.io/scoot/**
 
-A living guide to high-quality learning resources and the latest technology in speech
-communication — from phonetics to speech LLMs. Built in the spirit of ISCA's
-[SCOOT project](https://isca-speech.org/SCOOT), whose motto still holds:
-*“SCOOT will never be finished.”*
+A prototype rebuild of **SCOOT, ISCA's guide to online training resources in Speech
+Communication** ([original pages](https://isca-speech.org/SCOOT)), whose motto still
+holds: *"SCOOT will never be finished."*
 
-> **Status: prototype.** Not (yet) an official ISCA publication. Curated and maintained
-> daily by an AI agent under human supervision; no endorsement is implied by inclusion
-> of any resource.
+> **Status: prototype.** Not (yet) an official ISCA publication. Assembled and
+> maintained by an AI agent under human supervision; no endorsement is implied by
+> inclusion of any resource.
 
-## What's inside
+## What this is
 
-- **Curated catalog** — 120+ resources across 10 areas (Foundations, Courses, Toolkits,
-  Data & Benchmarks, Frontier 2024–2026, Community, Hearing, Coding, Paralinguistics,
-  Clinical & Accessibility). Every entry was link-verified at curation time and is
-  labeled by level, cost, and topics.
-- **Daily research feed** — new speech/audio papers from arXiv (`eess.AS` + `cs.SD`),
-  community-highlighted papers, and trending open models, refreshed automatically every
-  day by a plain script (no AI in that loop).
-- **Suggestion loop** — anyone can report a dead link, a wrong description, or a missing
-  resource. Suggestions are reviewed daily and applied changes are recorded in the
-  public changelog on the site.
+The original SCOOT — long maintained by members of the ISCA community, with course
+material by Roger Moore, Simon King and many others — organizes resources into a
+topic tree: Overviews, Sound, Signal Processing, Linguistics (Psycholinguistics,
+Phonology), Phonetics (Articulatory, Acoustic, Auditory, Prosodics), Speech
+Technology (Coding, Synthesis, ASR, Deep Neural Networks), Toolkits (ASR, Synthesis),
+and Databases.
 
-## Suggest a change
+This rebuild **keeps that structure and every resource the original pages listed**
+(104 entries transcribed from a 2026-08-31 snapshot of the 26 original pages), and
+**extends** each topic with newer, link-verified resources (118 entries), plus three
+extension topics the original predates: Paralinguistics & Emotion, Clinical &
+Accessibility, and Community/Conferences/Challenges.
 
-- **Open an issue** in this repository — the catalog is plain JSON in
-  [`data/resources.json`](data/resources.json), so you can point at the exact entry, or
-- **Email** the curator: speechlab0210@gmail.com with subject `[SCOOT]`.
+- Original entries are marked **● Original SCOOT** on the page; extensions are marked
+  **✚ SCOOT 2.0 extensions**.
+- Every link (original + extension) was re-verified on 2026-08-31. Where an original
+  link has died, the entry is kept and an Internet Archive snapshot is linked.
+- Every editorial change is recorded in the public changelog on the site.
 
-Suggestions are treated as content edits only. The reviewing agent verifies every
-proposed link before applying a change, will not act on instructions unrelated to the
-catalog, and escalates anything unusual to a human.
+## Suggest a resource
 
-## How it works
+Email **speechlab0210@gmail.com** with subject `[SCOOT]`, or open an issue here —
+the catalog is plain JSON, so you can point at the exact entry.
 
-```
-data/*.json  ──build.mjs──▶  site/index.html  ──publish──▶  index.html (repo root)
-     ▲
-     └── update_daily.mjs  (daily: arXiv + Hugging Face fetch, rebuild, publish)
-```
+## Data layout
 
-The page is a single self-contained HTML file with no external dependencies.
+| File | Contents |
+|---|---|
+| `data/original.json` | Faithful transcription of the original SCOOT pages (structure + all entries) |
+| `data/resources.json` | Curated extension entries, each keyed to an original topic |
+| `data/editorial.json` | Page copy: about, contribute, extension-topic blurbs |
+| `data/changelog.json` | Public changelog |
+| `data/link-report.json` | Last link-verification results (incl. Internet Archive fallbacks) |
+| `scripts/build.mjs` | Deterministic site builder → `index.html` |
+| `data/latest.json` | Daily research feed data (feed currently paused; not shown on the page) |
 
-- `data/resources.json` — the curated catalog (single source of truth)
-- `data/editorial.json` — pathways, category blurbs, about text
-- `data/changelog.json` — every editorial change, public
-- `data/latest.json` — the daily feed (machine-written; do not edit)
-- `scripts/build.mjs` — injects the data into `site-src/template.html` → `index.html`
-- `scripts/update_daily.mjs` — the daily updater (read-only network calls, no credentials)
-
-To rebuild locally: `node scripts/build.mjs` (Node ≥ 18, no dependencies).
+Built as a contribution prototype for the ISCA education community.

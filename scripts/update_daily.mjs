@@ -155,6 +155,27 @@ if (newLines.length) appendFileSync(archivePath, newLines.join('\n') + '\n');
 // rebuild the site
 execFileSync(process.execPath, [join(ROOT, 'scripts', 'build.mjs')], { stdio: 'inherit' });
 
+// publish to GitHub Pages (deploy/ is a clone of speechlab0210/scoot).
+// Best-effort: a publish failure must never break the local update.
+const DEPLOY = join(ROOT, 'deploy');
+if (existsSync(join(DEPLOY, '.git'))) {
+  try {
+    const { copyFileSync } = await import('node:fs');
+    copyFileSync(join(ROOT, 'site', 'index.html'), join(DEPLOY, 'index.html'));
+    for (const f of ['resources.json', 'editorial.json', 'changelog.json', 'latest.json']) {
+      copyFileSync(join(DATA, f), join(DEPLOY, 'data', f));
+    }
+    const git = (...args) => execFileSync('git', ['-C', DEPLOY, ...args], { encoding: 'utf8', timeout: 60000 });
+    git('add', '-A');
+    if (git('status', '--porcelain').trim()) {
+      git('commit', '-m', `daily update ${nowIso.slice(0, 10)}`);
+      git('push', 'origin', 'main');
+    }
+  } catch (e) {
+    warnings.push(`publish: ${e.message.split('\n')[0]}`);
+  }
+}
+
 const status = warnings.length ? `WARN(${warnings.join('; ')})` : 'OK';
 appendFileSync(join(LOGS, 'update.log'),
   `${nowIso} papers=${papers.length} models=${models.length} picks=${communityPicks.length} new_archived=${newLines.length} ${status}\n`);

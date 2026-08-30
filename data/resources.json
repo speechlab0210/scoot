@@ -1,44 +1,7 @@
 {
-  "generated_at": "2026-07-05",
-  "note": "seeded by multi-agent curation workflow 2026-07-06; every entry link-verified at curation time",
-  "gaps": [
-    {
-      "key": "speech-audio-coding",
-      "title": "Speech & Audio Coding / Compression"
-    },
-    {
-      "key": "clinical-accessibility-speech",
-      "title": "Clinical, Health & Accessibility Speech Applications"
-    },
-    {
-      "key": "hearing-auditory-psychoacoustics",
-      "title": "Hearing Science, Psychoacoustics & Auditory Perception"
-    },
-    {
-      "key": "paralinguistics-emotion",
-      "title": "Paralinguistics, Emotion & Affective Speech"
-    }
-  ],
+  "generated_at": "2026-08-31",
+  "note": "Rebuilt 2026-08-31 around the ORIGINAL ISCA SCOOT topic tree (see data/original.json). Each entry extends one original topic. Seeded 2026-07-06 by multi-agent curation, every entry link-verified; re-verified 2026-08-31.",
   "entries": [
-    {
-      "title": "speech.zone — Speech Processing / Speech Synthesis",
-      "url": "https://speech.zone/",
-      "org": "Simon King, CSTR, University of Edinburgh",
-      "type": "course",
-      "level": "advanced",
-      "topics": [
-        "speech signal processing",
-        "phonetics",
-        "spectrograms",
-        "text-to-speech",
-        "speech recognition"
-      ],
-      "year": "2016–, maintained",
-      "cost": "free",
-      "description": "University of Edinburgh courses by Simon King: Speech Processing and Speech Synthesis. Video lectures, slides, readings, and exercises covering speech signals, spectrograms, source-filter theory, and phonetics, then text-to-speech and speech recognition. Free to browse; forum accounts limited to Edinburgh students.",
-      "why": "Bridges phonetics and signal processing in one advanced video course.",
-      "category": "foundations"
-    },
     {
       "title": "Praat: doing Phonetics by Computer",
       "url": "https://www.fon.hum.uva.nl/praat/",
@@ -57,7 +20,8 @@
       "cost": "free",
       "description": "Free open-source software for speech analysis and synthesis: waveforms, spectrograms, and formant, pitch, and intensity tracking, plus TextGrid annotation and a scripting language. Cross-platform (Windows/Mac/Linux). The standard tool for phonetic measurement and teaching; continuously updated.",
       "why": "De facto standard tool every speech researcher and student uses for acoustic analysis.",
-      "category": "foundations"
+      "legacy_category": "foundations",
+      "topic": "acoustic-phonetics"
     },
     {
       "title": "Corpus Phonetics Tutorial",
@@ -76,7 +40,8 @@
       "cost": "free",
       "description": "Chaptered web tutorial on automating acoustic analysis: Praat scripting, Kaldi and the Montreal Forced Aligner for forced alignment, AutoVOT for voice-onset-time, and bash basics. Code-based, reproducible workflows for measuring large speech corpora. Free; also published as a 2018 arXiv paper.",
       "why": "Practical bridge from manual measurement to reproducible, large-scale corpus phonetics.",
-      "category": "foundations"
+      "legacy_category": "foundations",
+      "topic": "acoustic-phonetics"
     },
     {
       "title": "Seeing Speech",
@@ -95,7 +60,8 @@
       "cost": "free",
       "description": "Interactive IPA chart where each sound links to MRI video, ultrasound tongue imaging, and 2D midsagittal animations of the vocal tract, showing how consonants and vowels are articulated. Built by six Scottish universities. Free, Creative Commons licensed (CC BY-NC-ND).",
       "why": "Best free window into articulation using real MRI and ultrasound imaging.",
-      "category": "foundations"
+      "legacy_category": "foundations",
+      "topic": "articulatory-phonetics"
     },
     {
       "title": "Dynamic Dialects",
@@ -114,7 +80,8 @@
       "cost": "free",
       "description": "Articulatory accent corpus: synchronized ultrasound tongue and lip video with audio for a shared word list plus spontaneous speech from English speakers worldwide. Clickable accent map. Companion to Seeing Speech, built by six Scottish universities. Free for non-commercial use (CC BY-NC-ND).",
       "why": "Rare articulatory view of accent variation across world Englishes.",
-      "category": "foundations"
+      "legacy_category": "foundations",
+      "topic": "articulatory-phonetics"
     },
     {
       "title": "Sounds of Speech",
@@ -133,7 +100,8 @@
       "cost": "free",
       "description": "University of Iowa resource with animated vocal-tract diagrams, step-by-step production descriptions, and audio/video for every consonant and vowel of American English, Spanish, and German. Free in a browser; optional paid mobile app (English only). Beginner phonetics self-study.",
       "why": "Clearest beginner articulation animations for phonetics self-study.",
-      "category": "foundations"
+      "legacy_category": "foundations",
+      "topic": "articulatory-phonetics"
     },
     {
       "title": "Interactive IPA Chart (official)",
@@ -151,7 +119,8 @@
       "cost": "free",
       "description": "The International Phonetic Association's official clickable chart: click any symbol to hear it (recordings by Esling, House, Ladefoged, Wells) and see its phonetic description, IPA number, and Unicode value. Covers the full consonant, vowel, and diacritic inventory. Free.",
       "why": "Authoritative, audio-backed reference for the sound-to-symbol inventory.",
-      "category": "foundations"
+      "legacy_category": "foundations",
+      "topic": "phonetics"
     },
     {
       "title": "Illustrations of the IPA (Journal of the IPA)",
@@ -169,7 +138,8 @@
       "cost": "free",
       "description": "Peer-reviewed 'Illustrations of the IPA' in the Journal of the IPA: concise phonetic descriptions of individual languages, each with a segment inventory and a transcribed, recorded passage. A model for describing a language's sounds. The journal is now fully open access.",
       "why": "Gold-standard template for how to phonetically describe any language.",
-      "category": "foundations"
+      "legacy_category": "foundations",
+      "topic": "phonetics"
     },
     {
       "title": "UCLA Phonetics Lab Archive",
@@ -187,7 +157,8 @@
       "cost": "free",
       "description": "Audio archive of field recordings from hundreds of languages with word lists, connected speech, and phonetic transcriptions, much of it from Peter Ladefoged's UCLA fieldwork. Primary source material for studying the world's speech-sound inventories. Open to everyone, free download.",
       "why": "Primary cross-linguistic phonetic data behind 'Sounds of the World's Languages.'",
-      "category": "foundations"
+      "legacy_category": "foundations",
+      "topic": "phonetics"
     },
     {
       "title": "Pink Trombone",
@@ -205,7 +176,8 @@
       "cost": "free",
       "description": "Browser toy that synthesizes voice from a real-time physical model of the vocal tract. Drag the tongue, lips, and glottis to form vowels and consonants and hear the output immediately. Free, hands-on intuition for source-filter and articulatory synthesis.",
       "why": "Instantly conveys how vocal-tract shape produces speech sounds.",
-      "category": "foundations"
+      "legacy_category": "foundations",
+      "topic": "articulatory-phonetics"
     },
     {
       "title": "Think DSP: Digital Signal Processing in Python",
@@ -224,7 +196,8 @@
       "cost": "free",
       "description": "Free Python DSP textbook with a top-down, code-first approach: decomposing sounds into harmonics, spectra, the FFT, spectrograms, filtering, sampling, and LTI systems. Runnable Jupyter notebooks on GitHub. Free HTML and PDF, Creative Commons licensed; second edition in progress.",
       "why": "Fastest hands-on route into spectral sound analysis for programmers.",
-      "category": "foundations"
+      "legacy_category": "foundations",
+      "topic": "signal-processing"
     },
     {
       "title": "The Scientist and Engineer's Guide to Digital Signal Processing",
@@ -243,7 +216,8 @@
       "cost": "free",
       "description": "Steven Smith's 640-page DSP reference, free online in full: sampling, convolution, the DFT/FFT, and FIR/IIR digital filters, with low-math, intuitive explanations and 500+ figures. Browse chapters or download PDFs. Widely used practical reference.",
       "why": "The intuition-first DSP reference, complete and entirely free.",
-      "category": "foundations"
+      "legacy_category": "foundations",
+      "topic": "signal-processing"
     },
     {
       "title": "MIT OpenCourseWare 6.003: Signals and Systems",
@@ -262,7 +236,8 @@
       "cost": "free",
       "description": "MIT OpenCourseWare course on signal and system analysis: discrete- and continuous-time LTI systems, Fourier series and transforms, Laplace and z-transforms, sampling, and feedback. Full video lectures, notes, and problem sets with solutions. CC BY-NC-SA. Advanced.",
       "why": "Rigorous signals-and-systems foundation underpinning all speech DSP.",
-      "category": "foundations"
+      "legacy_category": "foundations",
+      "topic": "signal-processing"
     },
     {
       "title": "Digital Signal Processing (EPFL specialization)",
@@ -281,7 +256,8 @@
       "cost": "freemium",
       "description": "EPFL four-course specialization on discrete-time signal processing: signals as vectors, the DFT/DTFT, FIR/IIR filter design, sampling, quantization, and applications. Video lectures with Python/Jupyter exercises, taught by Prandoni and Vetterli. Individual courses free to enroll; certificates paid.",
       "why": "Structured, math-grounded DSP course from EPFL, enrollable free per course.",
-      "category": "foundations"
+      "legacy_category": "foundations",
+      "topic": "signal-processing"
     },
     {
       "title": "Auditory Neuroscience: Making Sense of Sound (companion site)",
@@ -300,7 +276,8 @@
       "cost": "freemium",
       "description": "Companion site to the MIT Press book by Schnupp, Nelken, and King, with free sound demos and animations: cochlear mechanics and hair cells, pitch and the missing fundamental, sound localization, speech perception, and cochlear-implant simulations. Demos free; full book paid.",
       "why": "Best free interactive demos for hearing and psychoacoustics.",
-      "category": "foundations"
+      "legacy_category": "foundations",
+      "topic": "auditory-phonetics"
     },
     {
       "title": "Essentials of Linguistics (2nd edition)",
@@ -319,44 +296,8 @@
       "cost": "free",
       "description": "Open textbook with embedded video lectures, exercises, and quizzes. Covers phonetics (articulation, IPA transcription, acoustics) and phonology (features, rules), plus morphology, syntax, semantics, and psycholinguistics. Second edition (2022), CC BY-NC-SA licensed. Introductory undergraduate level, with a Canadian-English focus.",
       "why": "Free, media-rich introduction grounding phonetics and phonology for beginners.",
-      "category": "foundations"
-    },
-    {
-      "title": "Speech Processing (speech.zone)",
-      "url": "https://speech.zone/courses/speech-processing/",
-      "org": "Simon King, CSTR, University of Edinburgh",
-      "type": "course",
-      "level": "intro",
-      "topics": [
-        "phonetics",
-        "digital signal processing",
-        "text-to-speech",
-        "speech recognition"
-      ],
-      "year": "2025, taught and revised annually",
-      "cost": "free",
-      "description": "Edinburgh's one-semester foundation course: modules running from phonetics and digital signal processing through the text-to-speech front end to HMM-based speech recognition, delivered as short videos with quizzes, readings and practical assignments. Videos and materials are openly accessible.",
-      "why": "Gold-standard structured entry point, continually revised by an active university teaching team.",
-      "category": "courses"
-    },
-    {
-      "title": "Speech Synthesis (speech.zone)",
-      "url": "https://speech.zone/courses/speech-synthesis/",
-      "org": "Simon King, CSTR, University of Edinburgh",
-      "type": "course",
-      "level": "intermediate",
-      "topics": [
-        "text-to-speech",
-        "unit selection",
-        "vocoding",
-        "sequence-to-sequence models",
-        "evaluation"
-      ],
-      "year": "2025, taught annually",
-      "cost": "free",
-      "description": "Follow-on TTS course covering unit selection, signal processing and vocoding, statistical parametric synthesis, sequence-to-sequence neural models and evaluation, plus a state-of-the-art module. Video lectures, readings and materials are open; assumes Speech Processing background.",
-      "why": "Deepest openly available synthesis-specific course, taught by a leading TTS researcher.",
-      "category": "courses"
+      "legacy_category": "foundations",
+      "topic": "linguistics"
     },
     {
       "title": "CS224S: Spoken Language Processing",
@@ -375,7 +316,8 @@
       "cost": "free",
       "description": "Stanford's quarter-length graduate course on spoken language technology, emphasizing dialogue and conversational systems: neural ASR, synthesis, affect detection, digital assistants and multilingual speech. Syllabus, slides and assignments are public; lecture videos are restricted to enrolled students.",
       "why": "Canonical graduate syllabus connecting core speech technology with conversational AI.",
-      "category": "courses"
+      "legacy_category": "courses",
+      "topic": "speech-technology"
     },
     {
       "title": "11-751/18-781: Speech Recognition and Understanding",
@@ -393,7 +335,8 @@
       "cost": "free",
       "description": "CMU's graduate speech recognition course from Shinji Watanabe's WAVLab, spanning statistical foundations to end-to-end neural ASR and understanding, with ESPnet-based assignments. The Fall 2025 page is public, but slides and discussion sit behind Piazza login; some related lectures are on YouTube.",
       "why": "Taught by ESPnet's lead developer; closest match to current ASR research practice.",
-      "category": "courses"
+      "legacy_category": "courses",
+      "topic": "speech-recognition"
     },
     {
       "title": "11-785: Introduction to Deep Learning",
@@ -411,7 +354,8 @@
       "cost": "free",
       "description": "Semester-long CMU deep learning course from speech faculty; lecture and recitation recordings are publicly viewable on the course YouTube channel, with slides posted each semester. The homework sequence culminates in an attention-based end-to-end speech recognizer, a common on-ramp to neural speech work.",
       "why": "Complete free lecture videos; speech-flavoured assignments bridge general deep learning to ASR.",
-      "category": "courses"
+      "legacy_category": "courses",
+      "topic": "ann"
     },
     {
       "title": "Introduction to Speech Features",
@@ -429,7 +373,8 @@
       "cost": "free",
       "description": "Short YouTube lecture series deriving classic speech features step by step: windowing, the short-time Fourier transform, mel filter banks and MFCCs. Slides are free on kamperh.com, which also hosts a companion dynamic time warping series with slides and a notebook.",
       "why": "Exceptionally clear short explanation of MFCCs and filter banks, with open slides.",
-      "category": "courses"
+      "legacy_category": "courses",
+      "topic": "signal-processing"
     },
     {
       "title": "Hugging Face Audio Course",
@@ -447,7 +392,8 @@
       "cost": "free",
       "description": "Hands-on course on transformers for audio: audio data handling and architectures, then building ASR, TTS and audio classification systems with the Hugging Face ecosystem. Text lessons with runnable code, quizzes and a free completion certificate; fully open source and free.",
       "why": "Best free hands-on route from transformer knowledge to working speech systems.",
-      "category": "courses"
+      "legacy_category": "courses",
+      "topic": "ann"
     },
     {
       "title": "Building AI Voice Agents for Production",
@@ -465,7 +411,8 @@
       "cost": "freemium",
       "description": "One-hour short course (seven video lessons plus code examples) on production voice-agent architecture: modular STT-LLM-TTS pipelines versus realtime speech-to-speech APIs, latency budgeting, voice activity detection, turn management and handling interruptions. Free to watch; the graded assignment requires paid membership.",
       "why": "Practical engineering view of deployed voice agents that academic courses rarely cover.",
-      "category": "courses"
+      "legacy_category": "courses",
+      "topic": "ann"
     },
     {
       "title": "Audio Signal Processing for Machine Learning",
@@ -484,7 +431,8 @@
       "cost": "free",
       "description": "YouTube series of roughly 25 videos covering sound fundamentals, time- and frequency-domain features, Fourier and short-time Fourier transforms, mel spectrograms and MFCCs, each combining intuition, math and librosa implementations in Python. Code and slides are free on GitHub.",
       "why": "Widely used audio-DSP primer; ideal preparation before any speech technology course.",
-      "category": "courses"
+      "legacy_category": "courses",
+      "topic": "signal-processing"
     },
     {
       "title": "Introduction to Speech Processing",
@@ -503,7 +451,8 @@
       "cost": "free",
       "description": "Open online course book underpinning Aalto's speech processing teaching: speech production and acoustics, analysis, coding, enhancement, transmission, recognition and synthesis, with interactive Python examples. Licensed CC BY-SA 4.0; designed for self-study and course adoption.",
       "why": "Free, interactive, CC-licensed engineering foundation, systematically covering the whole pipeline.",
-      "category": "courses"
+      "legacy_category": "courses",
+      "topic": "overviews"
     },
     {
       "title": "Deep Learning in Audio (DLA)",
@@ -522,7 +471,8 @@
       "cost": "free",
       "description": "Graduate course repository updated each autumn (current: 2025): lecture and seminar notebooks on CTC-based ASR, source separation and denoising, TTS and neural vocoders, with demanding PyTorch homework. Lecture recordings are in Russian, with English recordings for some weeks; code and homework are in English.",
       "why": "Rigorous implementation-first coverage; assignments mirror real speech research engineering.",
-      "category": "courses"
+      "legacy_category": "courses",
+      "topic": "ann"
     },
     {
       "title": "Speech Synthesis and Voice Cloning (Skoltech ISP'25)",
@@ -541,7 +491,8 @@
       "cost": "free",
       "description": "Compact 2025 Skoltech Independent Study Period course in English: slide decks across eight modules plus a companion code repository covering TTS fundamentals, audio representations, acoustic models, vocoders, voice conversion and expressive/multilingual synthesis, ending with a clone-your-own-voice group project. MIT-licensed; no lecture videos.",
       "why": "Up-to-date, openly licensed deep dive into modern neural TTS and voice cloning.",
-      "category": "courses"
+      "legacy_category": "courses",
+      "topic": "speech-synthesis"
     },
     {
       "title": "ISCA Video Archive",
@@ -559,7 +510,8 @@
       "cost": "free",
       "description": "ISCA's official archive of recorded conference content: Interspeech sessions from 2010-2022, Odyssey speaker and language recognition workshops (2010-2016) and invited lectures, streamed free via SuperLectures and YouTube, many with downloadable slides. Coverage currently stops around 2022.",
       "why": "Primary free source for conference tutorials and keynotes by field leaders.",
-      "category": "courses"
+      "legacy_category": "courses",
+      "topic": "overviews"
     },
     {
       "title": "ESPnet",
@@ -579,7 +531,8 @@
       "cost": "free",
       "description": "PyTorch toolkit with Kaldi-style recipes for ASR, TTS, speech translation, enhancement, diarization, SSL, and singing synthesis across dozens of corpora, plus a pretrained model zoo. Apache-2.0; release 202604 shipped April 2026.",
       "why": "The de facto academic end-to-end speech toolkit; reproducible recipes span nearly every speech task.",
-      "category": "toolkits"
+      "legacy_category": "toolkits",
+      "topic": "asr-toolkits"
     },
     {
       "title": "SpeechBrain",
@@ -598,7 +551,8 @@
       "cost": "free",
       "description": "PyTorch conversational-AI toolkit with 200+ training recipes on 40+ datasets covering ASR, speaker recognition, enhancement, separation, and language modeling, plus pretrained HuggingFace models and extensive tutorials. v1.1.0 released March 2026; Apache-2.0.",
       "why": "Readable code and rich tutorials make it the friendliest full research toolkit for newcomers.",
-      "category": "toolkits"
+      "legacy_category": "toolkits",
+      "topic": "asr-toolkits"
     },
     {
       "title": "NVIDIA NeMo (Speech)",
@@ -616,7 +570,8 @@
       "cost": "free",
       "description": "NVIDIA's framework for training and deploying speech models: ASR (Parakeet, Canary, Nemotron streaming), TTS (Magpie), and speech LLMs with multi-GPU scaling. Speech components were split into this dedicated repo in 2026, with frequent model releases. Apache-2.0.",
       "why": "Industrial-scale training plus state-of-the-art open checkpoints that top current ASR leaderboards.",
-      "category": "toolkits"
+      "legacy_category": "toolkits",
+      "topic": "asr-toolkits"
     },
     {
       "title": "icefall (next-gen Kaldi)",
@@ -635,7 +590,8 @@
       "cost": "free",
       "description": "Training recipes of the next-generation Kaldi stack, built on k2 (differentiable FSA/FST) and Lhotse: Zipformer transducers, CTC and MMI for ASR, plus TTS recipes. Trained models export to sherpa for deployment. Commits through mid-2026; Apache-2.0.",
       "why": "Kaldi's official successor; state-of-the-art streaming Zipformer recipes with lattice-based training.",
-      "category": "toolkits"
+      "legacy_category": "toolkits",
+      "topic": "asr-toolkits"
     },
     {
       "title": "whisper.cpp",
@@ -653,7 +609,8 @@
       "cost": "free",
       "description": "Dependency-free C/C++ port of OpenAI's Whisper on the ggml tensor library: quantized CPU/GPU inference on laptops, phones, Raspberry Pi, and WebAssembly, no Python required, with bindings for many languages. v1.9.1 released June 2026; MIT.",
       "why": "Easiest way to run serious ASR locally on modest hardware; ideal for on-device demos.",
-      "category": "toolkits"
+      "legacy_category": "toolkits",
+      "topic": "asr-toolkits"
     },
     {
       "title": "faster-whisper",
@@ -671,7 +628,8 @@
       "cost": "free",
       "description": "Python reimplementation of Whisper on the CTranslate2 inference engine: up to 4x faster than openai/whisper at equal accuracy, with 8-bit quantization, batched inference, and built-in VAD. Backbone of many open transcription apps. v1.2.1 released October 2025; MIT.",
       "why": "The default choice for fast Whisper transcription inside Python pipelines.",
-      "category": "toolkits"
+      "legacy_category": "toolkits",
+      "topic": "asr-toolkits"
     },
     {
       "title": "sherpa-onnx",
@@ -690,7 +648,8 @@
       "cost": "free",
       "description": "Deployment toolkit running ASR, TTS, speaker diarization, VAD, and enhancement fully offline via onnxruntime. Supports Android, iOS, Raspberry Pi, RISC-V, and x86 servers, with APIs in 12 programming languages. Frequent releases through 2026; Apache-2.0.",
       "why": "One library takes models from the classroom to phones and embedded boards, no internet needed.",
-      "category": "toolkits"
+      "legacy_category": "toolkits",
+      "topic": "asr-toolkits"
     },
     {
       "title": "Piper (piper1-gpl)",
@@ -707,7 +666,8 @@
       "cost": "free",
       "description": "Fast local neural TTS (VITS-based) optimized for Raspberry Pi-class hardware, with pretrained voices in dozens of languages; powers Home Assistant voice. Successor repo to rhasspy/piper, archived October 2025. v1.4.2 released April 2026; GPL-3.0.",
       "why": "Simplest way to run offline TTS; a natural first synthesis tool for students.",
-      "category": "toolkits"
+      "legacy_category": "toolkits",
+      "topic": "synthesis-toolkits"
     },
     {
       "title": "F5-TTS",
@@ -725,7 +685,8 @@
       "cost": "free",
       "description": "Zero-shot voice-cloning TTS using flow matching with a Diffusion Transformer, trained on 100k hours of multilingual data (Emilia). Provides training, fine-tuning, CLI, and Gradio inference. v1 base model released March 2025; code MIT, checkpoints CC-BY-NC.",
       "why": "Accessible state-of-the-art open voice cloning; a widely used baseline in 2025-26 TTS research.",
-      "category": "toolkits"
+      "legacy_category": "toolkits",
+      "topic": "synthesis-toolkits"
     },
     {
       "title": "CosyVoice",
@@ -743,7 +704,8 @@
       "cost": "free",
       "description": "LLM-based zero-shot TTS family (CosyVoice 2, Fun-CosyVoice 3) with full training, inference, and deployment stack, including streaming, vLLM, and TensorRT-LLM runtimes. Covers 9 languages plus 18 Chinese dialects. Fun-CosyVoice 3.0 open-sourced December 2025; Apache-2.0.",
       "why": "Full-stack production-grade TTS with top zero-shot quality and streaming support.",
-      "category": "toolkits"
+      "legacy_category": "toolkits",
+      "topic": "synthesis-toolkits"
     },
     {
       "title": "S3PRL",
@@ -760,7 +722,8 @@
       "cost": "free",
       "description": "Self-supervised speech toolkit behind the SUPERB benchmark: one-line loading of wav2vec 2.0, HuBERT, WavLM, and dozens of other upstream models, plus downstream evaluation tasks. In declared maintenance mode (bug fixes, new upstreams) with commits into mid-2025. Apache-2.0.",
       "why": "Standard interface for comparing SSL speech representations; SUPERB remains the reference benchmark.",
-      "category": "toolkits"
+      "legacy_category": "toolkits",
+      "topic": "ann"
     },
     {
       "title": "Parselmouth",
@@ -778,7 +741,8 @@
       "cost": "free",
       "description": "Python library exposing Praat's C/C++ algorithms (pitch, formants, intensity, spectrograms) as a natural Python API with NumPy integration, no Praat scripting required. Installed as praat-parselmouth. v0.4.7 released November 2025; GPL-3.0.",
       "why": "Bridges phonetics and Python data science; Praat-quality measurements inside notebooks.",
-      "category": "toolkits"
+      "legacy_category": "toolkits",
+      "topic": "acoustic-phonetics"
     },
     {
       "title": "Montreal Forced Aligner",
@@ -796,7 +760,8 @@
       "cost": "free",
       "description": "Command-line forced aligner producing word- and phone-level time alignments from audio plus transcripts, with pretrained acoustic models and harmonized IPA dictionaries for dozens of languages, G2P, and model adaptation. v3.3.9 released February 2026; MIT.",
       "why": "The most widely used aligner in phonetics and speech-corpus research.",
-      "category": "toolkits"
+      "legacy_category": "toolkits",
+      "topic": "acoustic-phonetics"
     },
     {
       "title": "librosa",
@@ -814,7 +779,8 @@
       "cost": "free",
       "description": "Python library for audio and music analysis: loading, spectrograms, mel features, MFCCs, pitch tracking, beat detection, and visualization utilities. The foundation of countless speech feature-extraction tutorials. v0.11.0 released March 2025; ISC license.",
       "why": "The first library most students touch for audio feature extraction in Python.",
-      "category": "toolkits"
+      "legacy_category": "toolkits",
+      "topic": "signal-processing"
     },
     {
       "title": "pyannote.audio",
@@ -831,7 +797,8 @@
       "cost": "free",
       "description": "PyTorch toolkit for speaker diarization: voice activity detection, segmentation, speaker embeddings, and the open pretrained community-1 pipeline on Hugging Face; a paid precision-2 API also exists. v4.0.7 released June 2026; code MIT.",
       "why": "Best open speaker-diarization pipeline; two lines of code answer who spoke when.",
-      "category": "toolkits"
+      "legacy_category": "toolkits",
+      "topic": "asr-toolkits"
     },
     {
       "title": "jiwer",
@@ -848,7 +815,8 @@
       "cost": "free",
       "description": "Small Python package computing WER, CER, MER, and WIL/WIP between reference and hypothesis transcripts, with composable text-normalization transforms and alignment visualization; fast RapidFuzz C++ backend. v4.0.0 released June 2025; Apache-2.0.",
       "why": "The standard WER calculator cited in ASR papers and used in every tutorial.",
-      "category": "toolkits"
+      "legacy_category": "toolkits",
+      "topic": "asr-toolkits"
     },
     {
       "title": "VERSA",
@@ -866,7 +834,8 @@
       "cost": "free",
       "description": "Evaluation toolkit wrapping 90+ speech, audio, and music metrics (MOS predictors, intelligibility, speaker similarity, WER, distributional measures) behind one Python interface with YAML configs; integrates with ESPnet. Active development through May 2026; Apache-2.0.",
       "why": "One-stop objective evaluation for the generative speech era, where WER alone no longer suffices.",
-      "category": "toolkits"
+      "legacy_category": "toolkits",
+      "topic": "synthesis-toolkits"
     },
     {
       "title": "LibriSpeech",
@@ -884,7 +853,8 @@
       "cost": "free",
       "description": "1,000 hours of 16 kHz read English audiobook speech from LibriVox, segmented and aligned, with standard clean/other train, dev and test splits. CC BY 4.0; direct tar.gz downloads with mirrors. The default first corpus for ASR coursework and baselines.",
       "why": "Every toolkit ships a LibriSpeech recipe; still the universal ASR reference point.",
-      "category": "data"
+      "legacy_category": "data",
+      "topic": "databases"
     },
     {
       "title": "Mozilla Common Voice",
@@ -902,7 +872,8 @@
       "cost": "free",
       "description": "Crowdsourced read and spontaneous speech under CC0: over 36,000 hours across nearly 300 languages (v26, June 2026). Since October 2025 downloads are served exclusively through Mozilla Data Collective (free account). Primary source for low-resource-language ASR training and evaluation.",
       "why": "Largest CC0 speech corpus; unmatched language coverage, actively growing.",
-      "category": "data"
+      "legacy_category": "data",
+      "topic": "databases"
     },
     {
       "title": "GigaSpeech",
@@ -920,7 +891,8 @@
       "cost": "free",
       "description": "10,000 hours of transcribed English from audiobooks, podcasts and YouTube, in graded XS-XL training subsets plus dev/test. Apache 2.0 terms; gated Hugging Face dataset (accept terms with free account). Standard corpus for training and benchmarking large supervised ASR models.",
       "why": "The standard mid-scale multi-domain English corpus; its test set appears on major leaderboards.",
-      "category": "data"
+      "legacy_category": "data",
+      "topic": "databases"
     },
     {
       "title": "Multilingual LibriSpeech (MLS)",
@@ -938,7 +910,8 @@
       "cost": "free",
       "description": "About 50,000 hours of read LibriVox audiobook speech in eight European languages (bulk English), CC BY 4.0. Streamable from Hugging Face; original archives on OpenSLR (SLR94). Standard train and eval sets for multilingual ASR and increasingly for TTS.",
       "why": "The clean, permissively licensed multilingual scale-up from LibriSpeech.",
-      "category": "data"
+      "legacy_category": "data",
+      "topic": "databases"
     },
     {
       "title": "YODAS",
@@ -956,7 +929,8 @@
       "cost": "free",
       "description": "About 370,000 hours of Creative-Commons YouTube speech with manual or automatic captions in 149 languages, CC BY 3.0. YODAS2 variant provides unsegmented 24 kHz audio. Downloadable from Hugging Face; used to train open Whisper-style models such as OWSM.",
       "why": "The openly licensed answer to web-scale training data; basis of open Whisper reproductions.",
-      "category": "data"
+      "legacy_category": "data",
+      "topic": "databases"
     },
     {
       "title": "Emilia / Emilia-Large",
@@ -974,7 +948,8 @@
       "cost": "free",
       "description": "In-the-wild speech for generative models: 101k hours (Emilia, CC BY-NC 4.0) plus 114k hours Emilia-YODAS (CC BY 4.0) in Chinese, English, Japanese, French, German, Korean, with transcripts, WebDataset format. Gated Hugging Face access; check the split licenses carefully.",
       "why": "Training source behind most recent open TTS and voice-cloning models.",
-      "category": "data"
+      "legacy_category": "data",
+      "topic": "databases"
     },
     {
       "title": "LibriTTS-R",
@@ -992,7 +967,8 @@
       "cost": "free",
       "description": "Sound-quality-restored LibriTTS: 585 hours of 24 kHz English read speech from about 2,400 speakers with normalized text, CC BY 4.0, direct OpenSLR download (SLR141). The standard academic corpus for multi-speaker TTS training before scaling to web data.",
       "why": "The cleanest free starting corpus for building a TTS system.",
-      "category": "data"
+      "legacy_category": "data",
+      "topic": "databases"
     },
     {
       "title": "VoxCeleb 1 & 2",
@@ -1009,7 +985,8 @@
       "cost": "free",
       "description": "Speaker recognition corpora: 1,251 (VoxCeleb1) and 6,112 (VoxCeleb2) speakers, over a million utterances from YouTube interviews, with standard verification trial lists. Audio access via request form on the official Oxford page; no blanket open license, research use.",
       "why": "The default speaker verification benchmark; EER on VoxCeleb1-O is the field's headline number.",
-      "category": "data"
+      "legacy_category": "data",
+      "topic": "databases"
     },
     {
       "title": "AISHELL-1",
@@ -1026,7 +1003,8 @@
       "cost": "free",
       "description": "178 hours of read Mandarin Chinese from 400 speakers across accent regions, with manual transcripts, Apache 2.0, direct OpenSLR download (SLR33). The standard entry corpus and character-error-rate benchmark for Chinese ASR.",
       "why": "The LibriSpeech of Mandarin; permissive license and ubiquitous toolkit recipes.",
-      "category": "data"
+      "legacy_category": "data",
+      "topic": "databases"
     },
     {
       "title": "FLEURS",
@@ -1044,7 +1022,8 @@
       "cost": "free",
       "description": "n-way parallel read speech in 102 languages (roughly 10-12 hours each), built from FLoRes translation benchmark sentences. CC BY 4.0 on Hugging Face. The standard multilingual ASR/LID/speech-translation evaluation set, used for Whisper, MMS and Open ASR multilingual results.",
       "why": "The default yardstick for claiming multilingual speech capability.",
-      "category": "data"
+      "legacy_category": "data",
+      "topic": "databases"
     },
     {
       "title": "SUPERB",
@@ -1061,7 +1040,8 @@
       "cost": "free",
       "description": "Benchmarks frozen self-supervised speech representations (wav2vec 2.0, HuBERT, WavLM class) with lightweight task heads across ten tasks: ASR, speaker, emotion, spoken language understanding and more. Evaluated via the open-source s3prl toolkit (now in maintenance mode); public leaderboard and papers.",
       "why": "Reference framework for comparing speech foundation representations across tasks.",
-      "category": "data"
+      "legacy_category": "data",
+      "topic": "databases"
     },
     {
       "title": "ML-SUPERB 2.0",
@@ -1079,7 +1059,8 @@
       "cost": "free",
       "description": "Multilingual successor to SUPERB: ASR and language identification over 154 languages and 200+ varieties, scored with metrics that emphasize worst-performing languages and accent/dialect robustness. Ran as an Interspeech 2025 challenge; data, baselines and results public.",
       "why": "Pushes evaluation beyond high-resource languages toward inclusive ASR.",
-      "category": "data"
+      "legacy_category": "data",
+      "topic": "databases"
     },
     {
       "title": "Dynamic-SUPERB (Phase-2)",
@@ -1096,7 +1077,8 @@
       "cost": "free",
       "description": "Collaboratively expanding benchmark of 180 instruction-following tasks across speech, music and general audio, spanning classification, regression and sequence generation, for universal spoken language models (ICLR 2025). Tasks hosted on Hugging Face; evaluation code, leaderboard and task-submission tutorial on GitHub.",
       "why": "The broadest open test of instruction-following speech LLMs; community-extensible by design.",
-      "category": "data"
+      "legacy_category": "data",
+      "topic": "databases"
     },
     {
       "title": "Open ASR Leaderboard",
@@ -1114,7 +1096,8 @@
       "cost": "free",
       "description": "Continuously updated leaderboard ranking 80+ open and proprietary ASR systems by word error rate and inverse real-time factor across standard English test sets, plus multilingual and long-form tracks. Evaluation scripts open-sourced on GitHub; space last updated June 2026.",
       "why": "The practical answer to 'which ASR model should I use in 2026'.",
-      "category": "data"
+      "legacy_category": "data",
+      "topic": "databases"
     },
     {
       "title": "AudioBench",
@@ -1132,7 +1115,8 @@
       "cost": "free",
       "description": "Evaluation suite for audio-capable large language models: 50+ datasets covering speech understanding, voice/accent/emotion paralinguistics and audio-scene tasks, with LLM-as-judge scoring (NAACL 2025). Open-source toolkit plus live Hugging Face leaderboard; includes Southeast-Asian language and Singlish extensions.",
       "why": "First stop for evaluating the new wave of audio-LLM systems.",
-      "category": "data"
+      "legacy_category": "data",
+      "topic": "databases"
     },
     {
       "title": "Blizzard Challenge",
@@ -1150,7 +1134,8 @@
       "cost": "free",
       "description": "Long-running shared task in speech synthesis: teams build voices from a common database, compared through large listening tests (naturalness, similarity, intelligibility). 2025 edition ran at SSW13. Older challenge data and listening-test results downloadable via free license forms; some recent corpora restricted to participants.",
       "why": "The canonical TTS evaluation campaign and a unique archive of human judgments.",
-      "category": "data"
+      "legacy_category": "data",
+      "topic": "speech-synthesis"
     },
     {
       "title": "Full-Duplex-Bench",
@@ -1168,7 +1153,8 @@
       "cost": "free",
       "description": "Benchmark for full-duplex spoken dialogue models: pause handling, backchanneling, turn-taking and interruption management, scored with automatic metrics. v2 (Feb 2026) adds a real-time automated multi-turn examiner; v3 code and data released May 2026, adding tool use under disfluent speech.",
       "why": "Emerging standard for evaluating real-time conversational speech-to-speech systems.",
-      "category": "data"
+      "legacy_category": "data",
+      "topic": "databases"
     },
     {
       "title": "Speech Trident: Awesome Speech LM, Representation, and Codec Papers",
@@ -1186,7 +1172,8 @@
       "cost": "free",
       "description": "Curated, regularly updated reading list covering the three pillars of speech LLMs: self-supervised representation models, neural audio codecs (EnCodec, DAC, Mimi), and speech/audio language models, plus benchmarks and tutorial links. Hundreds of papers; updates through 2026.",
       "why": "A living map of the speech-LLM literature, maintained by leading researchers in the area.",
-      "category": "frontier"
+      "legacy_category": "frontier",
+      "topic": "ann"
     },
     {
       "title": "Advancements in Spoken Language Models: Building upon Text-Based LLMs (talk)",
@@ -1203,7 +1190,8 @@
       "cost": "free",
       "description": "Recorded English-language overview lecture (September 2025) by Hung-yi Lee on how spoken language models are built on top of text LLMs — speech tokens, architectures, and open challenges. A gentle orientation before tackling the written surveys.",
       "why": "Accessible video lecture from a leading researcher; orients newcomers before dense surveys.",
-      "category": "frontier"
+      "legacy_category": "frontier",
+      "topic": "ann"
     },
     {
       "title": "Recent Advances in Speech Language Models: A Survey",
@@ -1221,7 +1209,8 @@
       "cost": "free",
       "description": "First comprehensive survey of end-to-end speech language models: tokenizers, architectures, training recipes, streaming and duplex interaction, capabilities, and evaluation metrics. Peer-reviewed at ACL 2025; companion paper list at github.com/dreamtheater123/Awesome-SpeechLM-Survey.",
       "why": "Peer-reviewed survey; the standard first read on speech language models.",
-      "category": "frontier"
+      "legacy_category": "frontier",
+      "topic": "ann"
     },
     {
       "title": "On the Landscape of Spoken Language Models: A Comprehensive Survey",
@@ -1240,7 +1229,8 @@
       "cost": "free",
       "description": "Survey organizing the whole spoken-LM space — purely speech-trained models, speech-plus-text hybrids, and speech-aware text LLMs — by architecture, training stages, and evaluation choices, with open problems. Authored across CMU, NTU, TTIC, Meta; revised April 2026.",
       "why": "The most authoritative taxonomy of the field, written by many of its leading researchers.",
-      "category": "frontier"
+      "legacy_category": "frontier",
+      "topic": "ann"
     },
     {
       "title": "Recent Advances in Discrete Speech Tokens: A Review",
@@ -1259,7 +1249,8 @@
       "cost": "free",
       "description": "Systematic review of discrete speech tokens: acoustic codec tokens (EnCodec, DAC, Mimi line) versus semantic tokens from self-supervised models, with taxonomy, design trade-offs, and controlled experimental comparisons across token types. Accepted to IEEE TPAMI; the key reference on audio tokenization for speech LLMs.",
       "why": "Clearest explanation of codec versus semantic tokens, the core abstraction underlying speech LLMs.",
-      "category": "frontier"
+      "legacy_category": "frontier",
+      "topic": "ann"
     },
     {
       "title": "Self-Supervised Speech Representation Learning: A Review",
@@ -1277,7 +1268,8 @@
       "cost": "free",
       "description": "Definitive journal review (IEEE JSTSP 2022, ~30 pages) of self-supervised speech representation learning: generative, contrastive, and predictive approaches including wav2vec 2.0, HuBERT, and WavLM, plus benchmarks and analysis methods. Pre-LLM, but explains the foundations every speech LLM builds on.",
       "why": "Foundational review connecting self-supervised pretraining to today's speech models.",
-      "category": "frontier"
+      "legacy_category": "frontier",
+      "topic": "ann"
     },
     {
       "title": "wav2vec 2.0: A Framework for Self-Supervised Learning of Speech Representations",
@@ -1295,7 +1287,8 @@
       "cost": "free",
       "description": "The canonical self-supervised speech paper: contrastive learning over masked, quantized latent speech yields representations that fine-tune to strong ASR from as little as ten minutes of labels. Read alongside HuBERT (arXiv 2106.07447) and WavLM (arXiv 2110.13900).",
       "why": "The paper that started modern speech representation learning; assumed knowledge everywhere in the field.",
-      "category": "frontier"
+      "legacy_category": "frontier",
+      "topic": "ann"
     },
     {
       "title": "Moshi: A Speech-Text Foundation Model for Real-Time Dialogue",
@@ -1313,7 +1306,8 @@
       "cost": "free",
       "description": "Canonical paper for real-time full-duplex spoken dialogue: a 7B speech-text foundation model using the streaming Mimi neural codec and Inner Monologue text-token prefixing, reaching about 200 ms practical latency. Open code and weights at github.com/kyutai-labs/moshi.",
       "why": "The defining open system for real-time full-duplex voice AI, with fully reproducible code.",
-      "category": "frontier"
+      "legacy_category": "frontier",
+      "topic": "ann"
     },
     {
       "title": "Qwen2-Audio Technical Report",
@@ -1331,7 +1325,8 @@
       "cost": "free",
       "description": "Technical report for a widely used open audio-language model handling speech, sound, and music inputs, with voice-chat and audio-analysis modes. Representative of the audio-understanding LLM family alongside SALMONN (arXiv 2310.13289). Code and weights at github.com/QwenLM/Qwen2-Audio.",
       "why": "Canonical open audio-understanding LLM; a baseline in most 2024-2026 evaluations.",
-      "category": "frontier"
+      "legacy_category": "frontier",
+      "topic": "ann"
     },
     {
       "title": "SeamlessM4T: Massively Multilingual and Multimodal Machine Translation",
@@ -1349,7 +1344,8 @@
       "cost": "free",
       "description": "Canonical multilingual translation paper: one model performing speech-to-speech, speech-to-text, text-to-speech, and text translation plus ASR for roughly 100 languages, built on w2v-BERT 2.0 representations. Follow-up Seamless (arXiv 2312.05187) adds streaming and expressive translation.",
       "why": "The standard reference for unified, massively multilingual speech translation.",
-      "category": "frontier"
+      "legacy_category": "frontier",
+      "topic": "ann"
     },
     {
       "title": "Towards Controllable Speech Synthesis in the Era of LLMs: A Systematic Survey",
@@ -1368,7 +1364,8 @@
       "cost": "free",
       "description": "Systematic survey of modern TTS: zero-shot voice cloning and control of emotion, timbre, and style via codec language models (VALL-E line, arXiv 2301.02111), diffusion, and flow matching, plus datasets and evaluation. Companion list at github.com/imxtx/awesome-controllable-speech-synthesis.",
       "why": "The best current map of TTS techniques after the LLM and diffusion shift.",
-      "category": "frontier"
+      "legacy_category": "frontier",
+      "topic": "speech-synthesis"
     },
     {
       "title": "Ultravox (open speech LLM)",
@@ -1386,7 +1383,8 @@
       "cost": "free",
       "description": "Open-weight multimodal LLM for real-time voice: a trained projector feeds audio directly into open LLM backbones (Llama, Gemma, Qwen), skipping a separate ASR stage. Training and inference code public; v0.6/v0.7 releases (2025) cover 42 languages.",
       "why": "Clean open codebase demonstrating how to bolt speech understanding onto any text LLM.",
-      "category": "frontier"
+      "legacy_category": "frontier",
+      "topic": "ann"
     },
     {
       "title": "VoicePrivacy Challenge",
@@ -1403,7 +1401,8 @@
       "cost": "free",
       "description": "Biennial challenge benchmarking speaker anonymization: conceal speaker identity while preserving linguistic content and emotion. The fourth edition runs through 2026 with English and multilingual tracks and a September 2026 workshop at Interspeech; baselines, datasets, and evaluation code at github.com/Voice-Privacy-Challenge.",
       "why": "The reference evaluation framework for voice-privacy research; currently running.",
-      "category": "frontier"
+      "legacy_category": "frontier",
+      "topic": "community"
     },
     {
       "title": "ASVspoof Challenge and ASVspoof 5 Database",
@@ -1421,7 +1420,8 @@
       "cost": "free",
       "description": "Community challenge series for speech spoofing and deepfake detection running since 2015. ASVspoof 5 provides a freely available crowdsourced database of about 2,000 speakers and 32 TTS, voice-conversion, and adversarial attacks (paper: arXiv 2502.08857), with protocols and baselines.",
       "why": "The reference benchmark for deepfake speech detection; its datasets underpin most published research.",
-      "category": "frontier"
+      "legacy_category": "frontier",
+      "topic": "community"
     },
     {
       "title": "INTERSPEECH (ISCA flagship conference series)",
@@ -1440,7 +1440,8 @@
       "cost": "paid",
       "description": "The largest annual conference on speech science and technology, spanning phonetics to neural speech models. Interspeech 2026: Sydney, 28 September-1 October; 2027 Sao Paulo; 2028 San Antonio. Students get reduced registration, volunteer positions, mentoring events, and eligibility for ISCA travel grants.",
       "why": "The field's central venue; nearly every speech student publishes or networks here first.",
-      "category": "community"
+      "legacy_category": "community",
+      "topic": "community"
     },
     {
       "title": "ICASSP (IEEE conference series)",
@@ -1458,7 +1459,8 @@
       "cost": "paid",
       "description": "IEEE's annual flagship signal processing conference; speech and audio are among its largest tracks. ICASSP 2026 (Barcelona, 4-8 May) featured over 4,500 papers, tutorials, and SP Grand Challenges (including URGENT) open to students. Next editions: Toronto 2027, Tokyo 2028. Student rates available.",
       "why": "The other must-attend venue; its Grand Challenges are student-accessible entry points.",
-      "category": "community"
+      "legacy_category": "community",
+      "topic": "community"
     },
     {
       "title": "IEEE ASRU and SLT workshops",
@@ -1476,7 +1478,8 @@
       "cost": "paid",
       "description": "Two biennial single-track IEEE workshops that alternate yearly: ASRU (2025 edition in Honolulu drew a record 447 submissions) and SLT 2026 (Palermo, 13-16 December). Cover ASR, spoken language understanding, dialog, and speech foundation models. Small scale means posters get real senior-researcher traffic.",
       "why": "Single-track workshops where students actually converse with leading researchers, unlike mega-conferences.",
-      "category": "community"
+      "legacy_category": "community",
+      "topic": "community"
     },
     {
       "title": "Speech Prosody conference (SProSIG)",
@@ -1494,7 +1497,8 @@
       "cost": "paid",
       "description": "Biennial conference of ISCA's prosody SIG and the only recurring international meeting covering linguistic, psychological, social, and technological aspects of prosody; about 300 attendees. Speech Prosody 2026 (13th edition) takes place 26-29 May 2026 at the University of Pennsylvania, Philadelphia.",
       "why": "The home venue for phonetics- and linguistics-leaning speech students; small and welcoming.",
-      "category": "community"
+      "legacy_category": "community",
+      "topic": "prosodics"
     },
     {
       "title": "Speech Synthesis Workshop (SSW)",
@@ -1511,7 +1515,8 @@
       "cost": "paid",
       "description": "ISCA's dedicated text-to-speech workshop series, an Interspeech satellite held since 1990 and biennial since 2019. SSW13 ran August 2025 in Leeuwarden, themed sustainable synthesis for language diversity, co-located with the Blizzard Challenge; SSW14 is set for Brazil, 2027. Proceedings are open in the ISCA Archive.",
       "why": "The TTS community's own gathering; pairs directly with the Blizzard Challenge.",
-      "category": "community"
+      "legacy_category": "community",
+      "topic": "speech-synthesis"
     },
     {
       "title": "ISCA Archive",
@@ -1528,7 +1533,8 @@
       "cost": "free",
       "description": "Open-access repository of 40,000+ papers from 395 ISCA conferences and workshops (1970-2026), including all Interspeech and Eurospeech proceedings plus SSW, Odyssey, SPSC, and Blizzard papers. Searchable by author and topic, with DOIs and BibTeX export.",
       "why": "Free, paywall-less access to nearly the entire speech-communication literature.",
-      "category": "community"
+      "legacy_category": "community",
+      "topic": "overviews"
     },
     {
       "title": "ISCA Student Advisory Committee (ISCA-SAC) and mentoring program",
@@ -1546,7 +1552,8 @@
       "cost": "free",
       "description": "ISCA's student-run committee (since 2004). Runs mentoring at Interspeech—topic round-tables (two mentors, 6-8 students) and one-on-one matching, in person or virtual—plus the Doctoral Consortium (12th edition at Interspeech 2026), the Speech Pitch podcast, Students Meet Experts panels, and volunteer roles.",
       "why": "Lowest-barrier entry into the community; mentoring works even without conference travel.",
-      "category": "community"
+      "legacy_category": "community",
+      "topic": "community"
     },
     {
       "title": "ISCA Grants",
@@ -1563,7 +1570,8 @@
       "cost": "free",
       "description": "Grants for students and early-career researchers attending ISCA-organized or ISCA-supported conferences, workshops, and training schools; cover early registration and possibly accommodation. Require an accepted paper, documentation of other funding sought, and no prior ISCA grant; researchers from low-income countries or special situations may also apply.",
       "why": "Real conference money many students never learn exists; one grant per person, so apply strategically.",
-      "category": "community"
+      "legacy_category": "community",
+      "topic": "community"
     },
     {
       "title": "ISCA Training Schools Program (summer/winter schools)",
@@ -1580,7 +1588,8 @@
       "cost": "freemium",
       "description": "ISCA-sponsored summer and winter schools, typically five days, training students and early-career researchers on selected speech topics. ISCA contributes up to 5,000 euros per school budget, mainly for inviting lecturers; attendees can separately apply for ISCA grants through the online portal.",
       "why": "Structured intensive training plus dedicated funding routes to reach it.",
-      "category": "community"
+      "legacy_category": "community",
+      "topic": "community"
     },
     {
       "title": "CHiME Challenge",
@@ -1598,7 +1607,8 @@
       "cost": "free",
       "description": "Long-running challenge series on speech processing in everyday environments, with data and baselines provided. CHiME-9 (workshop 2026) has two tasks: multimodal conversation recognition from 360-degree video and audio (MCoRec) and conversational hearing enhancement (ECHI). CHiME-10 proposals were due 28 May 2026.",
       "why": "Classic entry route into robust ASR research; free data, baselines, and a workshop.",
-      "category": "community"
+      "legacy_category": "community",
+      "topic": "community"
     },
     {
       "title": "URGENT Speech Enhancement Challenge",
@@ -1615,25 +1625,8 @@
       "cost": "free",
       "description": "Third iteration, run as an ICASSP 2026 SP Grand Challenge on universal, robust, generalizable speech enhancement. Track 1: one unified system across diverse distortions, domains, and formats, with a 700-hour curated training set; Track 2: speech quality assessment. Leaderboard submissions via urgent-challenge.com.",
       "why": "Beginner-feasible: provided data, baselines, leaderboard, and a path to an ICASSP paper.",
-      "category": "community"
-    },
-    {
-      "title": "Blizzard Challenge",
-      "url": "http://www.festvox.org/blizzard/",
-      "org": "ISCA SynSIG / festvox.org",
-      "type": "challenge",
-      "level": "intermediate",
-      "topics": [
-        "speech synthesis",
-        "TTS",
-        "evaluation",
-        "listening tests"
-      ],
-      "year": "2025",
-      "cost": "paid",
-      "description": "TTS challenge since 2005: all participants build voices from the same corpus, compared through common listening tests. The 2025 edition, co-located with SSW13, targeted Bildts, a low-resource Dutch language variety; submitting systems paid a 700-euro evaluation fee. Festvox hosts past editions' rules, papers, and results.",
-      "why": "The standard way to benchmark and publish a first end-to-end TTS system.",
-      "category": "community"
+      "legacy_category": "community",
+      "topic": "community"
     },
     {
       "title": "JSALT - Jelinek Memorial Summer Workshop",
@@ -1650,7 +1643,8 @@
       "cost": "free",
       "description": "Eight-week residential research workshop (since 1995) where dozens of international researchers work in multidisciplinary teams on frontier speech and language problems. JSALT 2026 (12th Jelinek workshop) runs 15 June-7 August at Johns Hopkins; teams include funded positions for graduate and undergraduate students.",
       "why": "Eight funded weeks doing real research beside field leaders; career-making for many.",
-      "category": "community"
+      "legacy_category": "community",
+      "topic": "community"
     },
     {
       "title": "ISCA SIG-SPSC and SPSC Symposium",
@@ -1668,7 +1662,8 @@
       "cost": "freemium",
       "description": "ISCA special interest group joining technical and humanities perspectives on speech security and privacy. Runs the annual SPSC Symposium (6th edition co-located with Interspeech 2026, Sydney) which hosts the VoicePrivacy 2026 workshop and welcomes challenge-participant papers. SIG participation is free; symposium registration paid.",
       "why": "Gateway into a fast-growing subfield and its whole challenge ecosystem.",
-      "category": "community"
+      "legacy_category": "community",
+      "topic": "community"
     },
     {
       "title": "IEEE Speech and Language Processing Technical Committee (SLTC) and newsletter",
@@ -1686,7 +1681,8 @@
       "cost": "free",
       "description": "The IEEE SPS technical committee behind ICASSP speech and language sessions and the ASRU/SLT and Odyssey workshops. Its free newsletter (active in 2026) aggregates challenge announcements, workshop reports, calls for papers, job postings, and award news across the speech and language field.",
       "why": "One free subscription that tracks the field's challenges, workshops, and jobs.",
-      "category": "community"
+      "legacy_category": "community",
+      "topic": "community"
     },
     {
       "title": "Digital Show & Tell",
@@ -1705,7 +1701,8 @@
       "cost": "free",
       "description": "~24-minute demonstration video showing sampling, quantization, bit depth, and dither on real analog and digital bench equipment. CC BY-SA, subtitles in eight languages, demo source code downloadable. Grounds the digitization concepts every codec builds on.",
       "why": "Legendary hands-on debunking of digital-audio myths; the ideal on-ramp from DSP fundamentals to coding.",
-      "category": "coding"
+      "legacy_category": "coding",
+      "topic": "speech-coding"
     },
     {
       "title": "Audio Signal Processing and Coding",
@@ -1725,7 +1722,8 @@
       "cost": "paid",
       "description": "Graduate reference on perceptual coding of high-fidelity audio: psychoacoustic masking, time-frequency analysis, quantization and rate-distortion, and the MPEG/AAC standards families, with MATLAB projects and 600+ references. Complements speech-specific coding material on the wideband-audio side.",
       "why": "Canonical textbook for the psychoacoustic principles behind MP3/AAC-era and modern codecs.",
-      "category": "coding"
+      "legacy_category": "coding",
+      "topic": "speech-coding"
     },
     {
       "title": "Opus Interactive Audio Codec (RFC 6716)",
@@ -1745,7 +1743,8 @@
       "cost": "free",
       "description": "The royalty-free IETF-standardized codec behind WebRTC and most VoIP: hybrid SILK (LPC) + CELT (MDCT) design spanning 6–510 kb/s. Site links spec (RFC 6716), reference implementation, comparisons, and demo write-ups; releases 1.5–1.6 add neural DRED and bandwidth extension.",
       "why": "The modern open deployed standard: readable spec, runnable reference code, actively maintained (Jan 2026 release).",
-      "category": "coding"
+      "legacy_category": "coding",
+      "topic": "speech-coding"
     },
     {
       "title": "Neural Speech and Audio Coding: Modern AI Technology Meets Traditional Codecs",
@@ -1765,7 +1764,8 @@
       "cost": "free",
       "description": "Nine-page magazine survey bridging traditional and neural codecs: taxonomy from DNN-assisted hybrids (LPCNet-in-Opus style) to end-to-end RVQ models (SoundStream, EnCodec, DAC), plus quality-evaluation pitfalls. Frames neural codecs as compression systems, not just LLM tokenizers. Open on arXiv.",
       "why": "Authoritative, readable bridge from classical coding to neural codecs; complements the guide's token-centric review.",
-      "category": "coding"
+      "legacy_category": "coding",
+      "topic": "speech-coding"
     },
     {
       "title": "A Real-Time Wideband Neural Vocoder at 1.6 kb/s Using LPCNet (demo write-up)",
@@ -1784,7 +1784,8 @@
       "cost": "free",
       "description": "Interactive demo article building a 1.6 kb/s neural speech codec: LPC plus WaveRNN synthesis, with explicit pitch/energy/cepstrum quantization and bit-allocation tables, listening comparisons against Opus, MELP, and Speex, and BSD-licensed code (github.com/xiph/LPCNet). Companion demos cover RNNoise.",
       "why": "Shows exactly how classical LPC/quantization ideas power neural coding; audio samples make bitrate tradeoffs audible.",
-      "category": "coding"
+      "legacy_category": "coding",
+      "topic": "speech-coding"
     },
     {
       "title": "Descript Audio Codec (DAC)",
@@ -1803,7 +1804,8 @@
       "cost": "free",
       "description": "MIT-licensed reference neural codec compressing 44.1 kHz audio to discrete codes at ~8 kb/s (~90x) via Improved RVQGAN (arXiv:2306.06546). Ships pretrained 16/24/44.1 kHz weights, CLI encode/decode, and full training scripts — a codec students can run and retrain.",
       "why": "The runnable open neural codec: hands-on encode/decode and training, framed as compression rather than tokenization.",
-      "category": "coding"
+      "legacy_category": "coding",
+      "topic": "speech-coding"
     },
     {
       "title": "ASHA Practice Portal",
@@ -1823,7 +1825,8 @@
       "cost": "free",
       "description": "Curated, peer-reviewed clinical- and professional-topic pages from the field's US professional body, covering aphasia, dysarthria, voice disorders, stuttering and more with assessment, treatment and linked evidence. Free web reference orienting newcomers to clinical terminology and scope of practice.",
       "why": "Authoritative clinical entry point mapping speech-tech problems onto the SLP field's terminology and evidence.",
-      "category": "clinical"
+      "legacy_category": "clinical",
+      "topic": "clinical"
     },
     {
       "title": "Making Audio and Video Media Accessible (W3C WAI)",
@@ -1843,7 +1846,8 @@
       "cost": "free",
       "description": "Guidance resource on captions/subtitles, transcripts, audio description and sign language for media, with the WCAG requirements they satisfy and planning advice. Free, maintained (updated September 2024); defines what quality captioning for Deaf and hard-of-hearing users actually requires.",
       "why": "Sets the accessibility and captioning-quality standards that ASR-driven live-captioning systems must meet.",
-      "category": "clinical"
+      "legacy_category": "clinical",
+      "topic": "clinical"
     },
     {
       "title": "TORGO Database of Dysarthric Articulation",
@@ -1863,7 +1867,8 @@
       "cost": "free",
       "description": "~18 GB corpus of aligned acoustic and 3D articulatory (EMA) recordings from 8 speakers with dysarthria (cerebral palsy or ALS) plus 7 matched controls, with transcriptions. Free for academic, non-profit use from the Toronto page; also distributed via LDC (LDC2012S02).",
       "why": "Canonical dysarthric-speech corpus with rare articulatory measurements, freely downloadable for academic research.",
-      "category": "clinical"
+      "legacy_category": "clinical",
+      "topic": "clinical"
     },
     {
       "title": "Speech Accessibility Project (SAP)",
@@ -1883,7 +1888,8 @@
       "cost": "free",
       "description": "Large multi-etiology disordered-speech corpus (Parkinson's, ALS, cerebral palsy, stroke, Down syndrome, stuttering, hearing loss) for training accessible ASR. Access by proposal plus a signed data-use agreement. Backed by Amazon, Apple, Google, Meta and Microsoft; ongoing 2025 releases.",
       "why": "The field's largest current multi-condition disordered-speech dataset and central new accessibility resource.",
-      "category": "clinical"
+      "legacy_category": "clinical",
+      "topic": "clinical"
     },
     {
       "title": "DementiaBank (with ADReSS / ADReSSo challenges)",
@@ -1903,7 +1909,8 @@
       "cost": "free",
       "description": "TalkBank repository of audio, transcripts and analysis tools for language in dementia, including the Pitt corpus and the ADReSS (Interspeech 2020) and ADReSSo (2021) Alzheimer's-detection challenge datasets. Free with consortium membership via email registration; students need a faculty sponsor.",
       "why": "Standard corpus and shared-task benchmark for speech-based detection of cognitive decline.",
-      "category": "clinical"
+      "legacy_category": "clinical",
+      "topic": "clinical"
     },
     {
       "title": "SEP-28k: Stuttering Events in Podcasts",
@@ -1923,7 +1930,8 @@
       "cost": "free",
       "description": "Open dataset of ~28,000 three-second podcast clips (plus ~4,000 FluencyBank clips) labeled for five stuttering event types (blocks, prolongations, sound/word repetitions, interjections) by three annotators. Labels and metadata on GitHub; audio is fetched via the provided podcast URLs.",
       "why": "Only large public stuttering-event corpus; a ready, reproducible benchmark for dysfluency detection.",
-      "category": "clinical"
+      "legacy_category": "clinical",
+      "topic": "clinical"
     },
     {
       "title": "Project Euphonia: Advancing Inclusive Speech Recognition",
@@ -1943,7 +1951,8 @@
       "cost": "free",
       "description": "Open-access (CC BY) Frontiers in Language Sciences paper (June 2025) on Google Project Euphonia's multilingual disordered-speech data collection (adding Spanish, French, Japanese, Hindi to English), SLP-based quality review, and a meaning-preservation ASR evaluation metric. Links to released open-source tooling.",
       "why": "Current methods reference for collecting data and evaluating personalized ASR for impaired speech.",
-      "category": "clinical"
+      "legacy_category": "clinical",
+      "topic": "clinical"
     },
     {
       "title": "ModelTalker Voice Banking",
@@ -1963,7 +1972,8 @@
       "cost": "freemium",
       "description": "Web-based voice-banking pipeline: people with ALS/MND record a sentence inventory (a ~300-sentence Gen3 set or a longer 3,000+ set) to build a personalized synthetic TTS voice for AAC devices. $100 to download a completed voice (free for US ALS patients via Team Gleason); donors and clinicians register free.",
       "why": "Long-running, still-active service showing clinical personalized-TTS and AAC voice preservation in practice.",
-      "category": "clinical"
+      "legacy_category": "clinical",
+      "topic": "clinical"
     },
     {
       "title": "An Introduction to the Psychology of Hearing (6th ed.)",
@@ -1983,7 +1993,8 @@
       "cost": "paid",
       "description": "Graduate and upper-undergraduate textbook (~420 pp.) on auditory perception: cochlear frequency selectivity, masking and critical bands, loudness, pitch and periodicity, temporal processing, spatial hearing, and speech perception. The standard psychoacoustics reference. Print and e-book from Brill; paywalled.",
       "why": "The field's standard psychoacoustics textbook and single most-cited entry point to auditory perception.",
-      "category": "hearing"
+      "legacy_category": "hearing",
+      "topic": "auditory-phonetics"
     },
     {
       "title": "Auditory Demonstrations (ASA/IPO CD)",
@@ -2003,7 +2014,8 @@
       "cost": "free",
       "description": "Online mirror of the classic ASA/IPO CD (Houtsma, Rossing, Wagenaars): 39 demonstrations across ~80 WAV tracks with an explanatory PDF booklet, covering loudness, the dB scale, masking, critical bands, pitch, timbre and binaural effects. Playable and downloadable per track.",
       "why": "Lets students actually hear masking, critical bands and pitch phenomena; a classroom classic, now free online.",
-      "category": "hearing"
+      "legacy_category": "hearing",
+      "topic": "auditory-phonetics"
     },
     {
       "title": "Demonstrations of Auditory Scene Analysis (Bregman archive)",
@@ -2022,7 +2034,8 @@
       "cost": "free",
       "description": "McGill/Music Lab archive of Bregman & Ahad's 'Demonstrations of Auditory Scene Analysis' (1996 MIT Press CD) with a PDF booklet, illustrating streaming, grouping and perceptual organization of sound. Free MP3 downloads (zipped set) and per-track listening, plus scene-analysis theory pages.",
       "why": "Definitive audio illustrations of auditory scene analysis from the theory's originator, freely archived.",
-      "category": "hearing"
+      "legacy_category": "hearing",
+      "topic": "auditory-phonetics"
     },
     {
       "title": "PSYCHOACOUSTICS-WEB",
@@ -2041,7 +2054,8 @@
       "cost": "free",
       "description": "Browser-based tool from the University of Padua that runs adaptive psychoacoustic experiments—frequency, intensity and duration discrimination, gap detection, amplitude-modulation detection—via transformed up-down staircases (Levitt, 1971). Guest mode or free accounts; suitable for classroom or online use, no coding required.",
       "why": "Students measure their own auditory thresholds in-browser: hands-on psychoacoustics with no setup or coding.",
-      "category": "hearing"
+      "legacy_category": "hearing",
+      "topic": "auditory-phonetics"
     },
     {
       "title": "Human and Machine Hearing: Extracting Meaning from Sound",
@@ -2060,7 +2074,8 @@
       "cost": "free",
       "description": "Author's free draft PDF of Lyon's 'Human and Machine Hearing' (Cambridge, 2017; 2018 errata-corrected version), covering cochlear filtering, gammatone/PZFC filterbanks and the CARFAC digital cochlea, linking auditory models to speech and machine-hearing front-ends. CARFAC code (MATLAB/NumPy/JAX) is available separately.",
       "why": "Bridges hearing science and engineering; free, with runnable CARFAC cochlear-model code.",
-      "category": "hearing"
+      "legacy_category": "hearing",
+      "topic": "auditory-phonetics"
     },
     {
       "title": "The Auditory Modeling Toolbox (AMT)",
@@ -2079,7 +2094,8 @@
       "cost": "free",
       "description": "Open MATLAB/Octave toolbox (GPLv3) with 60+ peer-reviewed auditory models: gammatone/ERB filterbanks, cochlear and auditory-nerve models, loudness, modulation and binaural localization, with bundled data for reproduction. Maintained by ARI/OeAW. Used to build speech front-ends and predict perception.",
       "why": "The community reference implementation of auditory models that feed modern speech front-ends.",
-      "category": "hearing"
+      "legacy_category": "hearing",
+      "topic": "auditory-phonetics"
     },
     {
       "title": "Objective intelligibility & quality metrics: pystoi + pesq",
@@ -2099,7 +2115,8 @@
       "cost": "free",
       "description": "Open Python packages for perceptual speech-evaluation metrics: pystoi (STOI and extended STOI intelligibility) and pesq (ITU-T P.862 narrowband/wideband quality, MOS-LQO). pip-installable, operating on reference and degraded waveforms; widely used to evaluate speech enhancement and separation systems.",
       "why": "STOI and PESQ are the metrics every speech-enhancement engineer must report; runnable in minutes.",
-      "category": "hearing"
+      "legacy_category": "hearing",
+      "topic": "auditory-phonetics"
     },
     {
       "title": "NIDCD: Cochlear Implants & Hearing Health",
@@ -2118,7 +2135,8 @@
       "cost": "free",
       "description": "US NIH institute's plain-language health pages on hearing: how cochlear implants work (microphone, processor, electrode array, auditory-nerve stimulation), who benefits, and how implants differ from hearing aids, with sibling pages on hearing aids and hearing loss. Last updated June 2024.",
       "why": "Authoritative, jargon-free grounding in hearing technology and clinical audiology basics.",
-      "category": "hearing"
+      "legacy_category": "hearing",
+      "topic": "auditory-phonetics"
     },
     {
       "title": "Computational Paralinguistics: Emotion, Affect and Personality in Speech and Language Processing",
@@ -2138,7 +2156,8 @@
       "cost": "paid",
       "description": "Field-defining Wiley textbook (344 pages) on automatically recognizing speaker states and traits — emotion, personality, age, health, intoxication — from speech and language. Covers the taxonomy of paralinguistics, corpora, acoustic features, machine learning and evaluation, with a tutorial on the openEAR toolkit lineage.",
       "why": "The standard reference that framed computational paralinguistics as a field; still the canonical entry point.",
-      "category": "paralinguistics"
+      "legacy_category": "paralinguistics",
+      "topic": "paralinguistics"
     },
     {
       "title": "ComParE — Computational Paralinguistics Challenge series",
@@ -2158,7 +2177,8 @@
       "cost": "free",
       "description": "Archive of the Computational Paralinguistics Challenge (15 editions, INTERSPEECH 2009–2021 and ACM Multimedia 2022–2023): yearly tasks on emotion, age, personality, sleepiness, intoxication, COVID-19, stuttering and vocalisations, with baseline papers, standard feature sets and winners. Site is plain HTTP; data via organisers.",
       "why": "Defines the field's task landscape; its baseline papers double as compact tutorials per topic.",
-      "category": "paralinguistics"
+      "legacy_category": "paralinguistics",
+      "topic": "paralinguistics"
     },
     {
       "title": "openSMILE",
@@ -2178,7 +2198,8 @@
       "cost": "free",
       "description": "C++ audio feature extractor, the de facto standard in paralinguistics: computes the ComParE 2016 (6,373 features) and GeMAPS/eGeMAPS acoustic parameter sets used across the challenge literature. pip-installable Python wrapper (opensmile-python). Free for private, research and educational use; commercial use requires a license.",
       "why": "The feature sets behind nearly all classic SER baselines; still the reproducibility workhorse.",
-      "category": "paralinguistics"
+      "legacy_category": "paralinguistics",
+      "topic": "paralinguistics"
     },
     {
       "title": "w2v2-how-to: dimensional speech emotion recognition with wav2vec 2.0",
@@ -2197,7 +2218,8 @@
       "cost": "free",
       "description": "Notebook tutorial for audEERING's public wav2vec 2.0 model predicting arousal, dominance and valence, fine-tuned on MSP-Podcast v1.7; weights on Hugging Face and Zenodo (CC BY-NC-SA 4.0, non-commercial). Companion TPAMI 2023 paper analyses transformer-based SER, cross-corpus generalisation and fairness (arXiv:2203.07378).",
       "why": "Runnable state-of-practice dimensional SER in minutes, paired with a rigorous peer-reviewed analysis.",
-      "category": "paralinguistics"
+      "legacy_category": "paralinguistics",
+      "topic": "paralinguistics"
     },
     {
       "title": "EmoBox: multilingual multi-corpus SER toolkit and benchmark",
@@ -2217,7 +2239,8 @@
       "cost": "free",
       "description": "Multilingual SER toolkit and benchmark (INTERSPEECH 2024): data preparation plus SpeechBrain training recipes for 32 emotion corpora in 14 languages (294 hours total), with intra- and cross-corpus leaderboards comparing 10 pre-trained speech models. MIT-licensed code; corpora must be obtained separately.",
       "why": "One-stop reproducible benchmark showing how pre-trained models compare across corpora and languages.",
-      "category": "paralinguistics"
+      "legacy_category": "paralinguistics",
+      "topic": "paralinguistics"
     },
     {
       "title": "SER-datasets: a directory of speech emotion corpora",
@@ -2236,7 +2259,8 @@
       "cost": "free",
       "description": "Searchable, community-maintained table of 77 speech-emotion corpora (2002–2024) — IEMOCAP, CREMA-D, MSP-Podcast, RAVDESS, RECOLA and more — listing language, size, emotion labels, license and open/restricted access per dataset, with automated link checking. Companion GitHub repository accepts contributions.",
       "why": "Fastest way to find an obtainable SER corpus and check its licensing before committing.",
-      "category": "paralinguistics"
+      "legacy_category": "paralinguistics",
+      "topic": "paralinguistics"
     },
     {
       "title": "IEMOCAP: Interactive Emotional Dyadic Motion Capture database",
@@ -2255,7 +2279,8 @@
       "cost": "free",
       "description": "Most-cited SER benchmark corpus: roughly 12 hours of dyadic acted and improvised English dialogue from 10 actors, with audio, video, motion capture and transcripts, annotated with categorical emotions and valence/arousal/dominance. Free for research after signing USC's electronic release form; no redistribution.",
       "why": "The canonical corpus virtually every SER paper reports on; students need its access path.",
-      "category": "paralinguistics"
+      "legacy_category": "paralinguistics",
+      "topic": "paralinguistics"
     },
     {
       "title": "Speech Emotion Recognition in Naturalistic Conditions Challenge (Interspeech 2025)",
@@ -2275,7 +2300,8 @@
       "cost": "free",
       "description": "Successor to the Odyssey 2024 emotion challenge: categorical (eight classes, Macro-F1) and dimensional (arousal/valence/dominance, CCC) tracks over 324+ hours of naturalistic MSP-Podcast speech. Baseline code on GitHub and a live leaderboard remain online; data requires a free institution-signed academic license.",
       "why": "The benchmark of record for naturalistic SER, with ready-made baselines students can build on.",
-      "category": "paralinguistics"
+      "legacy_category": "paralinguistics",
+      "topic": "paralinguistics"
     }
   ]
 }

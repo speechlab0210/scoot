@@ -1,6 +1,11 @@
 {
   "entries": [
     {
+      "date": "2026-08-31",
+      "change": "Site rebuilt around the ORIGINAL ISCA SCOOT topic tree (Overviews / Sound / Signal Processing / Linguistics / Phonetics / Speech Technology / Toolkits / Databases). All 104 resource entries from the original SCOOT pages (26 pages, snapshot 2026-08-31) transcribed and preserved; the 2.0 curated catalog (118 entries) re-mapped as clearly-marked extensions under the original topics, plus three extension topics (Paralinguistics, Clinical & Accessibility, Community). Every link on the page re-verified; dead original links carry Internet Archive snapshot links. Daily-feed tab removed (auto-update paused 2026-08-28).",
+      "source": "editorial rebuild"
+    },
+    {
       "date": "2026-07-06",
       "change": "SCOOT 2.0 prototype launched: curated catalog seeded (all entries link-verified), daily auto-update pipeline for arXiv papers and trending models, community suggestion loop defined.",
       "source": "initial build"
