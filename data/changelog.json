@@ -2,6 +2,11 @@
   "entries": [
     {
       "date": "2026-08-31",
+      "change": "Anchored the Spoken LLM Benchmark Atlas under SCOOT 2.0: a new Benchmarks section links the daily-updated index of spoken-LLM benchmarks (368 benchmarks / 19 categories / 15,468 sourced result cells at the time of writing), which lives on its own page because of its size and daily rebuild; the atlas page now carries SCOOT 2.0 attribution and links back.",
+      "source": "editorial decision"
+    },
+    {
+      "date": "2026-08-31",
       "change": "Repaired three original-catalog links to www.synsig.org (Speech Technology → Synthesis): the SIG's historical domain has been hijacked and now serves a gambling site while still answering HTTP 200, so the automated link check could not catch it. Main link now points to the SIG's current home at isca-speech.org/SynSIG; the Software and Educational-materials wiki pages point to April 2024 Internet Archive snapshots of the same pages. Entry text unchanged; repair registered in the coverage audit.",
       "source": "SIG-part review finding"
     },

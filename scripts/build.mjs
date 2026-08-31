@@ -297,6 +297,25 @@ body += `<section class="topic" id="sig-notes"><h2>${esc(sigEd.notes_title)}</h2
   sigEd.notes.map((n) => `<li class="note-item" data-search="${searchAttr(n.text)}">${n.warn ? '<span class="warn-ico">⚠</span> ' : ''}${esc(n.text)}</li>`).join('') +
   `</ul></div></section>`;
 
+// ---------- Spoken LLM Benchmark Atlas (satellite page under SCOOT 2.0) ----------
+const ba = editorial.benchmark_atlas;
+if (ba) {
+  for (const u of [ba.url, ba.stats_url, ba.repo_url, ba.paper_url]) {
+    if (!/^https?:\/\//.test(u)) throw new Error('benchmark_atlas: non-http url: ' + u);
+  }
+  const baSearch = searchAttr([ba.title, ba.blurb, ba.stats.map((s) => s.label).join(' '), 'spoken llm benchmark atlas evaluation'].join(' '));
+  body += `<section class="topic" id="benchmark-atlas"><h2>${esc(ba.title)}</h2>` +
+    `<div class="intro"><p>${esc(ba.blurb)}</p></div>` +
+    `<div class="callout ba-card" data-search="${baSearch}" data-stats-url="${esc(ba.stats_url)}">` +
+    `<div class="sig-stats">` +
+    ba.stats.map((s, i) => `<div class="stat${i === 0 ? ' rec' : ''}"><b data-ba-stat="${esc(s.key)}">${esc(s.n)}</b>${esc(s.label)}</div>`).join('') +
+    `</div>` +
+    `<p class="srcline">Counts from the <span data-ba-asof>${esc(ba.asof)}</span> build; the atlas rebuilds daily.</p>` +
+    `<p><a class="contact-btn" href="${esc(ba.url)}" rel="noopener">Open the Benchmark Atlas →</a> · <a href="${esc(ba.paper_url)}" rel="noopener">overview paper</a> · <a href="${esc(ba.repo_url)}" rel="noopener">data + scripts</a></p>` +
+    `<p class="srcline">${esc(ba.maintained)}</p>` +
+    `</div></section>`;
+}
+
 // ---------- nav ----------
 let nav = '<div class="toc-head">Scoot Topics</div>';
 nav += `<a href="#welcome">Welcome</a>`;
@@ -313,6 +332,9 @@ nav += '<div class="toc-head">SIGs &amp; Online Events</div>' +
   '<a href="#sig-directory">SIG directory</a>' +
   '<a href="#sig-central">ISCA-level video</a>' +
   '<a href="#sig-notes">Board notes</a>';
+if (editorial.benchmark_atlas) {
+  nav += '<div class="toc-head">Benchmarks</div><a href="#benchmark-atlas">Spoken LLM Benchmark Atlas</a>';
+}
 nav += '<div class="toc-head">About</div><a href="#about">About this site</a><a href="#contribute">Suggest a resource</a><a href="#changelog">Changelog</a>';
 
 // ---------- footer ----------

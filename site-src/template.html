@@ -272,7 +272,7 @@ __SCOOT_FOOTER__
   document.documentElement.classList.add('js');
   var input = document.getElementById('search');
   var note = document.getElementById('searchNote');
-  var items = Array.prototype.slice.call(document.querySelectorAll('ul.orig > li[data-search], .ext-item[data-search], .series-card[data-search], .up-row[data-search], .arch-row[data-search], .sig-card[data-search], .cent-row[data-search], .note-item[data-search]'));
+  var items = Array.prototype.slice.call(document.querySelectorAll('ul.orig > li[data-search], .ext-item[data-search], .series-card[data-search], .up-row[data-search], .arch-row[data-search], .sig-card[data-search], .cent-row[data-search], .note-item[data-search], .ba-card[data-search]'));
   var sections = Array.prototype.slice.call(document.querySelectorAll('section.topic, section.subtopic'));
   var headers = Array.prototype.slice.call(document.querySelectorAll('.orig-head, .ext-head, .group-head, .extended-intro'));
   var tocToggle = document.getElementById('tocToggle');
@@ -372,6 +372,26 @@ __SCOOT_FOOTER__
     });
     input.addEventListener('input', applyChips);
     applyChips();
+  }
+
+  // Benchmark Atlas card: refresh baked counts from the atlas's same-origin
+  // stats.json (it rebuilds daily); the baked snapshot stays as the fallback.
+  var baCard = document.querySelector('.ba-card[data-stats-url]');
+  if (baCard && window.fetch) {
+    fetch(baCard.getAttribute('data-stats-url'), { cache: 'no-store' })
+      .then(function (r) { return r.ok ? r.json() : null; })
+      .then(function (s) {
+        if (!s) return;
+        Array.prototype.forEach.call(baCard.querySelectorAll('[data-ba-stat]'), function (el) {
+          var v = s[el.getAttribute('data-ba-stat')];
+          if (typeof v === 'number') el.textContent = v.toLocaleString('en-US');
+        });
+        var asof = baCard.querySelector('[data-ba-asof]');
+        if (asof && typeof s.built_at === 'string' && /^\d{4}-\d{2}-\d{2}/.test(s.built_at)) {
+          asof.textContent = s.built_at.slice(0, 10);
+        }
+      })
+      .catch(function () { /* offline or blocked: keep the baked snapshot */ });
   }
 })();
 </script>

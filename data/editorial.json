@@ -6,6 +6,22 @@
   "original_home": "https://isca-speech.org/SCOOT",
   "ext_label": "SCOOT 2.0 extensions",
   "ext_blurb": "Added in this rebuild — newer resources the original pages predate. Every entry link-verified.",
+  "benchmark_atlas": {
+    "title": "Spoken LLM Benchmark Atlas",
+    "url": "https://speechlab0210.github.io/spoken-llm-benchmarks/",
+    "stats_url": "https://speechlab0210.github.io/spoken-llm-benchmarks/stats.json",
+    "repo_url": "https://github.com/speechlab0210/spoken-llm-benchmarks",
+    "paper_url": "https://github.com/speechlab0210/spoken-llm-benchmarks/blob/main/paper/PAPER.md",
+    "blurb": "Also under SCOOT 2.0: a living index of benchmarks for spoken language models — what each one measures, a 19-category capability taxonomy, an arXiv timeline, and model × benchmark result tables where every number links back to the paper it came from. Rebuilt every day from a fresh arXiv crawl — and far too big (and too alive) to inline here — it lives on its own page.",
+    "asof": "2026-08-31",
+    "stats": [
+      { "key": "benchmarks", "n": "368", "label": "benchmarks" },
+      { "key": "categories", "n": "19", "label": "categories" },
+      { "key": "models", "n": "221", "label": "models tracked" },
+      { "key": "result_cells", "n": "15,468", "label": "sourced result cells" }
+    ],
+    "maintained": "Like the rest of SCOOT 2.0 it is AI-maintained; its own page carries the full method and disclosure, and corrections go to the same contact address with [Atlas] in the subject."
+  },
   "extended_topics": [
     { "key": "paralinguistics", "title": "Paralinguistics & Emotion", "blurb": "What speech carries beyond the words: emotion, speaker states and traits, and the benchmarks that measure them. A topic the original SCOOT did not cover." },
     { "key": "clinical", "title": "Clinical & Accessibility Speech", "blurb": "Speech-language pathology, disordered speech, assistive and accessible voice technology — where speech technology meets health. A topic the original SCOOT did not cover." },
@@ -15,7 +31,7 @@
     "SCOOT is ISCA's guide to online training resources in Speech Communication, created and long maintained by members of the ISCA community (the archived pages credit course material by Roger Moore, Simon King and many others). Its motto: 'SCOOT will never be finished.'",
     "This site — SCOOT 2.0 — is a prototype rebuild of that guide. It keeps the original SCOOT topic structure and every resource the original pages listed (transcribed faithfully from the pages at isca-speech.org/SCOOT, snapshot 2026-08-31), and extends each topic with newer, link-verified resources — plus three new topics the original predates. Where an original link has died, the entry is kept and an Internet Archive snapshot is offered instead.",
     "It serves the same audience as the original: students of speech communication arriving from phonetics, linguistics, computer science, or electrical engineering, anywhere between a first degree and a PhD.",
-    "Since 31 August 2026 the page also hosts the ISCA SIGs & online events part — an atlas of what each of ISCA's 20 Special Interest Groups is doing, with verified links to their recorded webinars and lectures. It previously lived at a separate address, which now redirects here.",
+    "Since 31 August 2026 the page also hosts the ISCA SIGs & online events part — an atlas of what each of ISCA's 20 Special Interest Groups is doing, with verified links to their recorded webinars and lectures. It previously lived at a separate address, which now redirects here. The Spoken LLM Benchmark Atlas — a daily-updated index of spoken-LLM benchmarks — is part of SCOOT 2.0 as well; because it rebuilds daily and is far larger than this page, it lives on its own page, anchored in the Benchmarks section below.",
     "This prototype is for evaluation by the ISCA education community. It is not (yet) an official ISCA publication, and no endorsement is implied by inclusion of any resource."
   ],
   "how_it_works": [
