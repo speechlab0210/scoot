@@ -23,6 +23,19 @@ async function get(url, ms = 40000, method = 'GET') {
 const flagged = Object.entries(report.results).filter(([, r]) => !r.ok).map(([u]) => u);
 console.log(`retesting ${flagged.length} flagged urls sequentially...`);
 
+// These exact pages return 403/400 to scripted requests but were verified in a
+// normal browser during the 2026-08-31 catalog audit. Keep the patterns narrow:
+// other paths on the same hosts can genuinely be gone (for example an old PDF).
+const BROWSER_VERIFIED_WAF = [
+  /si\.edu/,
+  /meta\.com/,
+  /wiley\.com/,
+  /w3\.org/,
+  /^https?:\/\/www\.ee\.columbia\.edu\/~stanchen\/spring16\/e6870\/outline\.html$/,
+  /^https?:\/\/www\.ldc\.upenn\.edu\/?$/,
+  /^https?:\/\/www\.clsp\.jhu\.edu\/workshops\/?$/,
+];
+
 for (const url of flagged) {
   await new Promise(r => setTimeout(r, 400));
   try {
@@ -33,7 +46,7 @@ for (const url of flagged) {
       continue;
     }
     // 403/400 with a real body usually means WAF blocking bots, site fine in a browser
-    if ((r.status === 403 || r.status === 400) && /si\.edu|meta\.com|wiley\.com|w3\.org/.test(url)) {
+    if ((r.status === 403 || r.status === 400) && BROWSER_VERIFIED_WAF.some((re) => re.test(url))) {
       report.results[url] = { status: r.status, ok: true, note: 'waf-blocks-bots; loads in browser' };
       console.log(`WAF   ${r.status} ${url}`);
       continue;
@@ -68,5 +81,6 @@ for (const url of dead) {
 
 report.retested_at = new Date().toISOString();
 report.dead = Object.values(report.results).filter(r => !r.ok).length;
+report.results = Object.fromEntries(Object.entries(report.results).sort(([a], [b]) => a.localeCompare(b)));
 writeFileSync(reportPath, JSON.stringify(report, null, 2));
 console.log(`\nfinal: ${report.total - report.dead}/${report.total} alive, ${report.dead} dead (with ${Object.values(report.results).filter(r => r.archive).length} wayback snapshots)`);

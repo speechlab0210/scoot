@@ -1,13 +1,78 @@
 {
-  "checked_at": "2026-08-30T17:16:52.843Z",
-  "total": 264,
-  "dead": 19,
+  "checked_at": "2026-08-31T02:41:02.522Z",
+  "total": 268,
+  "dead": 15,
   "results": {
-    "http://speechkitchen.org/home/about/": {
+    "http://amhistory.si.edu/archives/speechsynthesis/dk_737a.htm": {
+      "status": 403,
+      "ok": true,
+      "note": "waf-blocks-bots; loads in browser"
+    },
+    "http://amhistory.si.edu/archives/speechsynthesis/im_home.htm": {
+      "status": 403,
+      "ok": true,
+      "note": "waf-blocks-bots; loads in browser"
+    },
+    "http://amhistory.si.edu/archives/speechsynthesis/ss_home.htm": {
+      "status": 403,
+      "ok": true,
+      "note": "waf-blocks-bots; loads in browser"
+    },
+    "http://eeweb.poly.edu/~yao/EE3414/speech_coding.pdf": {
+      "status": 0,
+      "ok": false,
+      "note": "UNABLE_TO_VERIFY_LEAF_SIGNATURE",
+      "archive": "https://web.archive.org/web/20190214233120/http://eeweb.poly.edu:80/~yao/EE3414/speech_coding.pdf"
+    },
+    "http://festvox.org/": {
+      "status": 0,
+      "ok": false,
+      "note": "UND_ERR_CONNECT_TIMEOUT",
+      "archive": "https://web.archive.org/web/20260728062619/http://www.festvox.org/"
+    },
+    "http://festvox.org/dbs/index.html": {
+      "status": 0,
+      "ok": false,
+      "note": "EAI_AGAIN",
+      "archive": "https://web.archive.org/web/20260519163542/http://www.festvox.org/dbs/index.html"
+    },
+    "http://festvox.org/festvox/": {
+      "status": 0,
+      "ok": false,
+      "note": "UND_ERR_CONNECT_TIMEOUT",
+      "archive": "https://web.archive.org/web/20260519154143/http://www.festvox.org/festvox/"
+    },
+    "http://festvox.org/ldom/index.html": {
       "status": 0,
       "ok": false,
       "note": "ENOTFOUND",
-      "archive": "https://web.archive.org/web/20230117155542/http://speechkitchen.org/home/about/"
+      "archive": "https://web.archive.org/web/20260421234914/http://festvox.org/ldom/index.html"
+    },
+    "http://kaldi-asr.org/doc/": {
+      "status": 200,
+      "ok": true
+    },
+    "http://kaldi-asr.org/doc/about.html": {
+      "status": 200,
+      "ok": true
+    },
+    "http://kaldi-asr.org/doc/kaldi_for_dummies.html": {
+      "status": 200,
+      "ok": true
+    },
+    "http://mohitmayank.com/a_lazy_data_science_guide/audio_intelligence/wav2vec2/": {
+      "status": 200,
+      "ok": true
+    },
+    "http://sail.usc.edu/span/rtmri_ipa/index.html": {
+      "status": 0,
+      "ok": false,
+      "note": "UND_ERR_CONNECT_TIMEOUT",
+      "archive": "https://web.archive.org/web/20250720045046/https://sail.usc.edu/span/rtmri_ipa/index.html"
+    },
+    "http://spandh.dcs.shef.ac.uk/ed_arena/mad/mad/docs/mad.htm": {
+      "status": 200,
+      "ok": true
     },
     "http://speechkitchen.org/cse-5525-ohio-state-vm/": {
       "status": 0,
@@ -15,27 +80,556 @@
       "note": "ENOTFOUND",
       "archive": "https://web.archive.org/web/20230117155542/http://speechkitchen.org/cse-5525-ohio-state-vm/"
     },
+    "http://speechkitchen.org/home/about/": {
+      "status": 0,
+      "ok": false,
+      "note": "ENOTFOUND",
+      "archive": "https://web.archive.org/web/20230117155542/http://speechkitchen.org/home/about/"
+    },
+    "http://speechkitchen.org/interaction-in-virtual-worlds-vm/": {
+      "status": 0,
+      "ok": false,
+      "note": "ENOTFOUND",
+      "archive": "https://web.archive.org/web/20210805013314/https://speechkitchen.org/interaction-in-virtual-worlds-vm/"
+    },
+    "http://speechkitchen.org/tedlium-vm/": {
+      "status": 0,
+      "ok": false,
+      "note": "ENOTFOUND",
+      "archive": "https://web.archive.org/web/20210805021923/https://speechkitchen.org/tedlium-vm/"
+    },
+    "http://www.compare.openaudio.eu/": {
+      "status": 200,
+      "ok": true
+    },
+    "http://www.cstr.ed.ac.uk/downloads/publications/2010/king_hmm_tutorial.pdf": {
+      "status": 200,
+      "ok": true
+    },
+    "http://www.cstr.ed.ac.uk/projects/festival/": {
+      "status": 200,
+      "ok": true,
+      "note": "alive-on-retest"
+    },
+    "http://www.cstr.ed.ac.uk/projects/merlin/": {
+      "status": 200,
+      "ok": true,
+      "note": "alive-on-retest"
+    },
+    "http://www.ee.columbia.edu/~stanchen/spring16/e6870/outline.html": {
+      "status": 403,
+      "ok": true,
+      "note": "waf-blocks-bots; loads in browser"
+    },
+    "http://www.elra.info/catalogues/": {
+      "status": 200,
+      "ok": true,
+      "note": "alive-on-retest"
+    },
+    "http://www.elra.info/dissemination/": {
+      "status": 200,
+      "ok": true
+    },
+    "http://www.elra.info/dissemination/hlt-evaluation/": {
+      "status": 200,
+      "ok": true
+    },
+    "http://www.elra.info/en/": {
+      "status": 200,
+      "ok": true,
+      "note": "alive-on-retest"
+    },
+    "http://www.elra.info/services-around-lrs/production/": {
+      "status": 200,
+      "ok": true
+    },
+    "http://www.elra.info/services-around-lrs/validation/": {
+      "status": 200,
+      "ok": true
+    },
+    "http://www.linguisticsnetwork.com/an-introduction-to-phonology/": {
+      "status": 200,
+      "ok": true,
+      "note": "alive-on-retest"
+    },
+    "http://www.sarasinstitute.org/": {
+      "status": 200,
+      "ok": true
+    },
+    "http://www.speech.kth.se/~matsb/speech_rec_course_2003/htk_tutorial.pdf": {
+      "status": 404,
+      "ok": false,
+      "note": "confirmed dead on retest",
+      "archive": "https://web.archive.org/web/20250815000553/https://www.speech.kth.se/~matsb/speech_rec_course_2003/htk_tutorial.pdf"
+    },
+    "https://ai.meta.com/blog/wav2vec-20-learning-the-structure-of-speech-from-raw-audio/": {
+      "status": 400,
+      "ok": true,
+      "note": "waf-blocks-bots; loads in browser"
+    },
+    "https://archive.phonetics.ucla.edu/": {
+      "status": 200,
+      "ok": true
+    },
+    "https://arxiv.org/abs/2006.11477": {
+      "status": 200,
+      "ok": true
+    },
+    "https://arxiv.org/abs/2205.10643": {
+      "status": 200,
+      "ok": true
+    },
+    "https://arxiv.org/abs/2308.11596": {
+      "status": 200,
+      "ok": true
+    },
+    "https://arxiv.org/abs/2407.10759": {
+      "status": 200,
+      "ok": true
+    },
+    "https://arxiv.org/abs/2408.06954": {
+      "status": 200,
+      "ok": true
+    },
+    "https://arxiv.org/abs/2410.00037": {
+      "status": 200,
+      "ok": true
+    },
+    "https://arxiv.org/abs/2410.03751": {
+      "status": 200,
+      "ok": true
+    },
+    "https://arxiv.org/abs/2412.06602": {
+      "status": 200,
+      "ok": true
+    },
+    "https://arxiv.org/abs/2502.06490": {
+      "status": 200,
+      "ok": true
+    },
+    "https://arxiv.org/abs/2504.08528": {
+      "status": 200,
+      "ok": true
+    },
+    "https://attend.ieee.org/slt-2026/": {
+      "status": 200,
+      "ok": true
+    },
+    "https://auditoryneuroscience.com/": {
+      "status": 200,
+      "ok": true
+    },
+    "https://blog.paperspace.com/end-to-end-automatic-speech-recognition/": {
+      "status": 200,
+      "ok": true
+    },
+    "https://brill.com/display/title/24210": {
+      "status": 200,
+      "ok": true
+    },
+    "https://catalog.ldc.upenn.edu/LDC93S1": {
+      "status": 200,
+      "ok": true
+    },
+    "https://catalog.ldc.upenn.edu/LDC93S3C": {
+      "status": 200,
+      "ok": true
+    },
+    "https://catalog.ldc.upenn.edu/LDC93S6A": {
+      "status": 200,
+      "ok": true
+    },
+    "https://cmusphinx.github.io/wiki/about/": {
+      "status": 200,
+      "ok": true
+    },
+    "https://cmusphinx.github.io/wiki/tutorial/": {
+      "status": 200,
+      "ok": true
+    },
+    "https://commonvoice.mozilla.org/datasets": {
+      "status": 200,
+      "ok": true
+    },
+    "https://deeplearning.cs.cmu.edu/S26/index.html": {
+      "status": 200,
+      "ok": true
+    },
+    "https://dicklyon.com/hmh/": {
+      "status": 200,
+      "ok": true
+    },
+    "https://dood.al/pinktrombone/": {
+      "status": 200,
+      "ok": true
+    },
+    "https://ecampusontario.pressbooks.pub/essentialsoflinguistics2/": {
+      "status": 200,
+      "ok": true
+    },
+    "https://eleanorchodroff.com/tutorial/": {
+      "status": 200,
+      "ok": true
+    },
+    "https://en.wikipedia.org/wiki/Corpus_linguistics": {
+      "status": 200,
+      "ok": true,
+      "note": "alive-on-retest"
+    },
+    "https://en.wikipedia.org/wiki/Linguistics": {
+      "status": 200,
+      "ok": true
+    },
+    "https://en.wikipedia.org/wiki/Phonology": {
+      "status": 200,
+      "ok": true
+    },
+    "https://en.wikipedia.org/wiki/Psycholinguistics": {
+      "status": 200,
+      "ok": true
+    },
+    "https://engineering.jhu.edu/clsp/wp-content/uploads/sites/75/2016/06/Building-Speech-Recognition-Systems-with-the-Kaldi-Toolkit.pdf": {
+      "status": 403,
+      "ok": false,
+      "note": "confirmed dead on retest",
+      "archive": "https://web.archive.org/web/20181129170426/https://engineering.jhu.edu/clsp/wp-content/uploads/sites/75/2016/06/Building-Speech-Recognition-Systems-with-the-Kaldi-Toolkit.pdf"
+    },
+    "https://github.com/Agrover112/Kaldi-notes": {
+      "status": 200,
+      "ok": true
+    },
+    "https://github.com/apple/ml-stuttering-events-dataset": {
+      "status": 200,
+      "ok": true
+    },
+    "https://github.com/audeering/opensmile": {
+      "status": 200,
+      "ok": true
+    },
+    "https://github.com/audeering/w2v2-how-to": {
+      "status": 200,
+      "ok": true
+    },
+    "https://github.com/AudioLLMs/AudioBench": {
+      "status": 200,
+      "ok": true
+    },
+    "https://github.com/DanielLin94144/Full-Duplex-Bench": {
+      "status": 200,
+      "ok": true
+    },
+    "https://github.com/descriptinc/descript-audio-codec": {
+      "status": 200,
+      "ok": true
+    },
+    "https://github.com/dynamic-superb/dynamic-superb": {
+      "status": 200,
+      "ok": true
+    },
+    "https://github.com/emo-box/EmoBox": {
+      "status": 200,
+      "ok": true
+    },
+    "https://github.com/espnet/espnet": {
+      "status": 200,
+      "ok": true
+    },
+    "https://github.com/fixie-ai/ultravox": {
+      "status": 200,
+      "ok": true
+    },
+    "https://github.com/FunAudioLLM/CosyVoice": {
+      "status": 200,
+      "ok": true
+    },
+    "https://github.com/ga642381/speech-trident": {
+      "status": 200,
+      "ok": true
+    },
+    "https://github.com/ggml-org/whisper.cpp": {
+      "status": 200,
+      "ok": true
+    },
+    "https://github.com/ilya16/speech-synthesis-course": {
+      "status": 200,
+      "ok": true
+    },
+    "https://github.com/jitsi/jiwer": {
+      "status": 200,
+      "ok": true
+    },
+    "https://github.com/k2-fsa/icefall": {
+      "status": 200,
+      "ok": true
+    },
+    "https://github.com/k2-fsa/sherpa-onnx": {
+      "status": 200,
+      "ok": true
+    },
+    "https://github.com/librosa/librosa": {
+      "status": 200,
+      "ok": true
+    },
+    "https://github.com/markovka17/dla": {
+      "status": 200,
+      "ok": true
+    },
+    "https://github.com/MontrealCorpusTools/Montreal-Forced-Aligner": {
+      "status": 200,
+      "ok": true
+    },
+    "https://github.com/mpariente/pystoi": {
+      "status": 200,
+      "ok": true
+    },
+    "https://github.com/NVIDIA-NeMo/Speech": {
+      "status": 200,
+      "ok": true
+    },
+    "https://github.com/OHF-Voice/piper1-gpl": {
+      "status": 200,
+      "ok": true
+    },
+    "https://github.com/pyannote/pyannote-audio": {
+      "status": 200,
+      "ok": true
+    },
+    "https://github.com/s3prl/s3prl": {
+      "status": 200,
+      "ok": true
+    },
+    "https://github.com/speechbrain/speechbrain": {
+      "status": 200,
+      "ok": true
+    },
+    "https://github.com/SWivid/F5-TTS": {
+      "status": 200,
+      "ok": true
+    },
+    "https://github.com/SYSTRAN/faster-whisper": {
+      "status": 200,
+      "ok": true
+    },
+    "https://github.com/wavlab-speech/versa": {
+      "status": 200,
+      "ok": true
+    },
+    "https://github.com/YannickJadoul/Parselmouth": {
+      "status": 200,
+      "ok": true
+    },
+    "https://github.com/YoavRamon/awesome-kaldi": {
+      "status": 200,
+      "ok": true
+    },
+    "https://greenteapress.com/wp/think-dsp/": {
+      "status": 200,
+      "ok": true
+    },
+    "https://homes.esat.kuleuven.be/~compi/demos/AuditoryDemonstrations/": {
+      "status": 200,
+      "ok": true
+    },
+    "https://huggingface.co/datasets/amphion/Emilia-Dataset": {
+      "status": 200,
+      "ok": true
+    },
+    "https://huggingface.co/datasets/espnet/yodas": {
+      "status": 200,
+      "ok": true
+    },
+    "https://huggingface.co/datasets/facebook/multilingual_librispeech": {
+      "status": 200,
+      "ok": true
+    },
+    "https://huggingface.co/datasets/google/fleurs": {
+      "status": 200,
+      "ok": true
+    },
+    "https://huggingface.co/datasets/speechcolab/gigaspeech": {
+      "status": 200,
+      "ok": true
+    },
+    "https://huggingface.co/learn/audio-course/chapter0/introduction": {
+      "status": 200,
+      "ok": true
+    },
+    "https://huggingface.co/spaces/hf-audio/open_asr_leaderboard": {
+      "status": 200,
+      "ok": true
+    },
+    "https://ieeeicassp.org/": {
+      "status": 200,
+      "ok": true
+    },
+    "https://isca-speech.org/Grants": {
+      "status": 200,
+      "ok": true
+    },
     "https://isca-speech.org/resources/Documents/Outreach/Distinguished%20lectures/RKM_ISCA-DL-2014-15_Beyond-Siri.pdf": {
       "status": 200,
       "ok": true
     },
-    "https://youtu.be/NHCSmi5VXhs": {
+    "https://isca-speech.org/resources/Documents/Training/SCOOT/Signal%20Processing/hyderabad2013Part2.pdf": {
       "status": 200,
       "ok": true
     },
-    "https://youtu.be/01ml3rpPZYg": {
+    "https://isca-speech.org/resources/Documents/Training/SCOOT/Speech%20Synthesis/scoot-synthesis-topics.pdf": {
       "status": 200,
       "ok": true
     },
-    "https://youtu.be/25caXhCE8zA": {
+    "https://isca-speech.org/resources/Documents/Training/SCOOT/Speech%20Technology/HermanNeyHongKong_HKUST_Lecture_04Dec12.pdf": {
       "status": 200,
       "ok": true
     },
-    "https://www.youtube.com/playlist?list=PL6niCBwOhjHhQFfl88fQfdLgiD7QaShBo": {
+    "https://isca-speech.org/resources/Documents/Training/SCOOT/Speech%20Technology/RKM_ISCA-DL-2014-15_Beyond-Siri.pdf": {
       "status": 200,
       "ok": true
     },
-    "https://staffwww.dcs.shef.ac.uk/people/R.K.Moore/SCOOT/COM3502-4502-6502_L5_Nature-of-Speech.mp3": {
+    "https://isca-speech.org/Speech-Prosody-SProSIG": {
+      "status": 200,
+      "ok": true
+    },
+    "https://isca-speech.org/SynSIG-Events": {
+      "status": 200,
+      "ok": true
+    },
+    "https://isca-speech.org/Upcoming-Interspeech": {
+      "status": 200,
+      "ok": true
+    },
+    "https://isca-speech.org/Video-Archive": {
+      "status": 200,
+      "ok": true
+    },
+    "https://jmvalin.ca/demo/lpcnet_codec/": {
+      "status": 200,
+      "ok": true
+    },
+    "https://lab-msp.com/MSP-Podcast_Competition/IS2025/": {
+      "status": 200,
+      "ok": true
+    },
+    "https://labrosa.ee.columbia.edu/doc/HTKBook21/HTKBook.html": {
+      "status": 0,
+      "ok": false,
+      "note": "CERT_HAS_EXPIRED",
+      "archive": "https://web.archive.org/web/20260520194909/https://labrosa.ee.columbia.edu/doc/HTKBook21/HTKBook.html"
+    },
+    "https://modeltalker.org/": {
+      "status": 200,
+      "ok": true
+    },
+    "https://multilingual.superbbenchmark.org/": {
+      "status": 200,
+      "ok": true
+    },
+    "https://nigelward.com/prosody/": {
+      "status": 200,
+      "ok": true
+    },
+    "https://ocw.mit.edu/courses/6-003-signals-and-systems-fall-2011/": {
+      "status": 200,
+      "ok": true
+    },
+    "https://odettescharenborg.wordpress.com/teaching/": {
+      "status": 200,
+      "ok": true
+    },
+    "https://onlinelibrary.wiley.com/doi/book/10.1002/0470041978": {
+      "status": 403,
+      "ok": true,
+      "note": "waf-blocks-bots; loads in browser"
+    },
+    "https://openai.com/index/whisper/": {
+      "status": 200,
+      "ok": true
+    },
+    "https://opus-codec.org/": {
+      "status": 200,
+      "ok": true
+    },
+    "https://psychoacoustics.dpg.psy.unipd.it/": {
+      "status": 200,
+      "ok": true
+    },
+    "https://puredata.info/": {
+      "status": 200,
+      "ok": true
+    },
+    "https://pytorch.org/": {
+      "status": 200,
+      "ok": true
+    },
+    "https://pytorch.org/tutorials/beginner/basics/intro.html": {
+      "status": 200,
+      "ok": true
+    },
+    "https://sail.usc.edu/iemocap/": {
+      "status": 200,
+      "ok": true
+    },
+    "https://signalprocessingsociety.org/community-involvement/speech-and-language-processing": {
+      "status": 200,
+      "ok": true
+    },
+    "https://soundsofspeech.uiowa.edu/": {
+      "status": 200,
+      "ok": true
+    },
+    "https://speech.zone/": {
+      "status": 200,
+      "ok": true
+    },
+    "https://speech.zone/courses/one-off/merlin-interspeech2017/": {
+      "status": 200,
+      "ok": true
+    },
+    "https://speech.zone/courses/speech-processing/": {
+      "status": 200,
+      "ok": true
+    },
+    "https://speech.zone/courses/speech-processing/module-10-speech-recognition-connected-speech-hmm-training/": {
+      "status": 200,
+      "ok": true
+    },
+    "https://speech.zone/courses/speech-processing/module-3-digital-speech-signals/": {
+      "status": 200,
+      "ok": true
+    },
+    "https://speech.zone/courses/speech-processing/module-5-speech-synthesis/": {
+      "status": 200,
+      "ok": true
+    },
+    "https://speech.zone/courses/speech-processing/module-7-speech-recognition-pattern-matching/": {
+      "status": 200,
+      "ok": true
+    },
+    "https://speech.zone/courses/speech-processing/module-8-speech-recognition-feature-engineering/": {
+      "status": 200,
+      "ok": true
+    },
+    "https://speech.zone/courses/speech-processing/module-9-speech-recognition-the-hidden-markov-model/": {
+      "status": 200,
+      "ok": true
+    },
+    "https://speech.zone/courses/speech-synthesis/": {
+      "status": 200,
+      "ok": true
+    },
+    "https://speech.zone/courses/speech-synthesis/module-8-deep-neural-networks/": {
+      "status": 200,
+      "ok": true
+    },
+    "https://speechaccessibilityproject.beckman.illinois.edu/": {
+      "status": 200,
+      "ok": true
+    },
+    "https://speechbrain.github.io/index.html": {
+      "status": 200,
+      "ok": true
+    },
+    "https://speechprocessingbook.aalto.fi/": {
       "status": 200,
       "ok": true
     },
@@ -47,27 +641,7 @@
       "status": 200,
       "ok": true
     },
-    "https://staffwww.dcs.shef.ac.uk/people/R.K.Moore/SCOOT/COM3502-4502-6502_L5_Nature-of-Speech.pdf": {
-      "status": 200,
-      "ok": true
-    },
-    "https://speech.zone/": {
-      "status": 200,
-      "ok": true
-    },
-    "https://speech.zone/courses/speech-processing/": {
-      "status": 200,
-      "ok": true
-    },
-    "http://www.sarasinstitute.org/": {
-      "status": 200,
-      "ok": true
-    },
-    "https://staffwww.dcs.shef.ac.uk/people/R.K.Moore/SCOOT/COM3502-4502-6502_L2_Sound.pdf": {
-      "status": 200,
-      "ok": true
-    },
-    "https://staffwww.dcs.shef.ac.uk/people/R.K.Moore/SCOOT/COM3502-4502-6502_L2_Sound.mp3": {
+    "https://staffwww.dcs.shef.ac.uk/people/R.K.Moore/SCOOT/COM3502-4502-6502_L11_Signals.mp3": {
       "status": 200,
       "ok": true
     },
@@ -75,7 +649,7 @@
       "status": 200,
       "ok": true
     },
-    "https://staffwww.dcs.shef.ac.uk/people/R.K.Moore/SCOOT/COM3502-4502-6502_L13_Digital-Signals.pdf": {
+    "https://staffwww.dcs.shef.ac.uk/people/R.K.Moore/SCOOT/COM3502-4502-6502_L12_Frequency-Analysis.mp3": {
       "status": 200,
       "ok": true
     },
@@ -83,23 +657,11 @@
       "status": 200,
       "ok": true
     },
-    "https://staffwww.dcs.shef.ac.uk/people/R.K.Moore/SCOOT/COM3502-4502-6502_L11_Signals.mp3": {
-      "status": 200,
-      "ok": true
-    },
-    "https://staffwww.dcs.shef.ac.uk/people/R.K.Moore/SCOOT/COM3502-4502-6502_L12_Frequency-Analysis.mp3": {
-      "status": 200,
-      "ok": true
-    },
     "https://staffwww.dcs.shef.ac.uk/people/R.K.Moore/SCOOT/COM3502-4502-6502_L13_Digital-Signals.mp3": {
       "status": 200,
       "ok": true
     },
-    "https://staffwww.dcs.shef.ac.uk/people/R.K.Moore/SCOOT/COM3502-4502-6502_L14_Waveform-Processing.pdf": {
-      "status": 200,
-      "ok": true
-    },
-    "https://speech.zone/courses/speech-processing/module-3-digital-speech-signals/": {
+    "https://staffwww.dcs.shef.ac.uk/people/R.K.Moore/SCOOT/COM3502-4502-6502_L13_Digital-Signals.pdf": {
       "status": 200,
       "ok": true
     },
@@ -107,11 +669,15 @@
       "status": 200,
       "ok": true
     },
-    "https://staffwww.dcs.shef.ac.uk/people/R.K.Moore/SCOOT/COM3502-4502-6502_L15_Fourier-Transform.pdf": {
+    "https://staffwww.dcs.shef.ac.uk/people/R.K.Moore/SCOOT/COM3502-4502-6502_L14_Waveform-Processing.pdf": {
       "status": 200,
       "ok": true
     },
     "https://staffwww.dcs.shef.ac.uk/people/R.K.Moore/SCOOT/COM3502-4502-6502_L15_Fourier-Transform.mp3": {
+      "status": 200,
+      "ok": true
+    },
+    "https://staffwww.dcs.shef.ac.uk/people/R.K.Moore/SCOOT/COM3502-4502-6502_L15_Fourier-Transform.pdf": {
       "status": 200,
       "ok": true
     },
@@ -131,15 +697,11 @@
       "status": 200,
       "ok": true
     },
-    "https://staffwww.dcs.shef.ac.uk/people/R.K.Moore/SCOOT/COM3502-4502-6502_L18_Linear-Prediction.pdf": {
-      "status": 200,
-      "ok": true
-    },
     "https://staffwww.dcs.shef.ac.uk/people/R.K.Moore/SCOOT/COM3502-4502-6502_L18_Linear-Prediction.mp3": {
       "status": 200,
       "ok": true
     },
-    "https://staffwww.dcs.shef.ac.uk/people/R.K.Moore/SCOOT/COM3502-4502-6502_L19_Cepstral-Analysis.pdf": {
+    "https://staffwww.dcs.shef.ac.uk/people/R.K.Moore/SCOOT/COM3502-4502-6502_L18_Linear-Prediction.pdf": {
       "status": 200,
       "ok": true
     },
@@ -147,7 +709,15 @@
       "status": 200,
       "ok": true
     },
-    "https://staffwww.dcs.shef.ac.uk/people/R.K.Moore/SCOOT/COM3502-4502-6502_L20_Final-Overview.pdf": {
+    "https://staffwww.dcs.shef.ac.uk/people/R.K.Moore/SCOOT/COM3502-4502-6502_L19_Cepstral-Analysis.pdf": {
+      "status": 200,
+      "ok": true
+    },
+    "https://staffwww.dcs.shef.ac.uk/people/R.K.Moore/SCOOT/COM3502-4502-6502_L2_Sound.mp3": {
+      "status": 200,
+      "ok": true
+    },
+    "https://staffwww.dcs.shef.ac.uk/people/R.K.Moore/SCOOT/COM3502-4502-6502_L2_Sound.pdf": {
       "status": 200,
       "ok": true
     },
@@ -155,87 +725,7 @@
       "status": 200,
       "ok": true
     },
-    "https://www.youtube.com/watch?v=nRhkzeeMqVk": {
-      "status": 200,
-      "ok": true
-    },
-    "https://www.youtube.com/watch?v=Xjzm7S__kBU": {
-      "status": 200,
-      "ok": true
-    },
-    "https://www.youtube.com/watch?v=Y_mSQ7tTlvQ": {
-      "status": 200,
-      "ok": true
-    },
-    "https://www.youtube.com/watch?v=lWH-Oh5KnNY": {
-      "status": 200,
-      "ok": true
-    },
-    "https://www.youtube.com/watch?v=LwWKTTzcg_M": {
-      "status": 200,
-      "ok": true
-    },
-    "https://www.youtube.com/watch?v=H9qNuyD7xdg": {
-      "status": 200,
-      "ok": true
-    },
-    "https://en.wikipedia.org/wiki/Psycholinguistics": {
-      "status": 200,
-      "ok": true
-    },
-    "https://isca-speech.org/resources/Documents/Training/SCOOT/Signal%20Processing/hyderabad2013Part2.pdf": {
-      "status": 200,
-      "ok": true
-    },
-    "https://en.wikipedia.org/wiki/Linguistics": {
-      "status": 200,
-      "ok": true
-    },
-    "https://en.wikipedia.org/wiki/Phonology": {
-      "status": 200,
-      "ok": true
-    },
-    "https://www.youtube.com/watch?v=_69ATDAomLc": {
-      "status": 200,
-      "ok": true
-    },
-    "https://www.youtube.com/channel/UCaMpov1PPVXGcKYgwHjXB3g": {
-      "status": 200,
-      "ok": true
-    },
-    "http://www.ee.columbia.edu/~stanchen/spring16/e6870/outline.html": {
-      "status": 200,
-      "ok": true
-    },
-    "https://www.ee.columbia.edu/~dpwe/pubs/Ellis10-introspeech.pdf": {
-      "status": 200,
-      "ok": true
-    },
-    "https://speech.zone/courses/speech-processing/module-8-speech-recognition-feature-engineering/": {
-      "status": 200,
-      "ok": true
-    },
-    "https://puredata.info/": {
-      "status": 200,
-      "ok": true
-    },
-    "https://www.youtube.com/watch?v=eeaghqkLRi8": {
-      "status": 200,
-      "ok": true
-    },
-    "https://www.isca-archive.org/interspeech_2019/moore19_interspeech.html": {
-      "status": 200,
-      "ok": true
-    },
-    "https://www.youtube.com/watch?v=-e66ByetpDY": {
-      "status": 200,
-      "ok": true
-    },
-    "https://www.youtube.com/watch?v=jJR1VPzayu0": {
-      "status": 200,
-      "ok": true
-    },
-    "https://staffwww.dcs.shef.ac.uk/people/R.K.Moore/SCOOT/COM3502-4502-6502_L3_Speaking.pdf": {
+    "https://staffwww.dcs.shef.ac.uk/people/R.K.Moore/SCOOT/COM3502-4502-6502_L20_Final-Overview.pdf": {
       "status": 200,
       "ok": true
     },
@@ -243,7 +733,23 @@
       "status": 200,
       "ok": true
     },
-    "https://staffwww.dcs.shef.ac.uk/people/R.K.Moore/SCOOT/COM3502-4502-6502_L7_Articulatory-Phonetics.pdf": {
+    "https://staffwww.dcs.shef.ac.uk/people/R.K.Moore/SCOOT/COM3502-4502-6502_L3_Speaking.pdf": {
+      "status": 200,
+      "ok": true
+    },
+    "https://staffwww.dcs.shef.ac.uk/people/R.K.Moore/SCOOT/COM3502-4502-6502_L4_Hearing.mp3": {
+      "status": 200,
+      "ok": true
+    },
+    "https://staffwww.dcs.shef.ac.uk/people/R.K.Moore/SCOOT/COM3502-4502-6502_L4_Hearing.pdf": {
+      "status": 200,
+      "ok": true
+    },
+    "https://staffwww.dcs.shef.ac.uk/people/R.K.Moore/SCOOT/COM3502-4502-6502_L5_Nature-of-Speech.mp3": {
+      "status": 200,
+      "ok": true
+    },
+    "https://staffwww.dcs.shef.ac.uk/people/R.K.Moore/SCOOT/COM3502-4502-6502_L5_Nature-of-Speech.pdf": {
       "status": 200,
       "ok": true
     },
@@ -251,28 +757,7 @@
       "status": 200,
       "ok": true
     },
-    "https://web.stanford.edu/class/cs224s/semesters/2024-spring/syllabus": {
-      "status": 200,
-      "ok": true
-    },
-    "https://www.youtube.com/watch?v=73HsLb0e_zQ": {
-      "status": 200,
-      "ok": true
-    },
-    "https://www.youtube.com/watch?v=MBxFVBAzdMc": {
-      "status": 200,
-      "ok": true
-    },
-    "http://odettescharenborg.ruhosting.nl/winterschool/": {
-      "status": 404,
-      "ok": false,
-      "note": "confirmed dead on retest"
-    },
-    "https://staffwww.dcs.shef.ac.uk/people/R.K.Moore/SCOOT/COM3502-4502-6502_L4_Hearing.mp3": {
-      "status": 200,
-      "ok": true
-    },
-    "https://staffwww.dcs.shef.ac.uk/people/R.K.Moore/SCOOT/COM3502-4502-6502_L4_Hearing.pdf": {
+    "https://staffwww.dcs.shef.ac.uk/people/R.K.Moore/SCOOT/COM3502-4502-6502_L7_Articulatory-Phonetics.pdf": {
       "status": 200,
       "ok": true
     },
@@ -284,23 +769,43 @@
       "status": 200,
       "ok": true
     },
-    "https://isca-speech.org/resources/Documents/Training/SCOOT/Speech%20Technology/RKM_ISCA-DL-2014-15_Beyond-Siri.pdf": {
+    "https://superbbenchmark.github.io/": {
       "status": 200,
       "ok": true
     },
-    "https://nigelward.com/prosody/": {
+    "https://superkogito.github.io/SER-datasets/": {
       "status": 200,
       "ok": true
     },
-    "https://isca-speech.org/resources/Documents/Training/SCOOT/Speech%20Synthesis/scoot-synthesis-topics.pdf": {
+    "https://talkbank.org/dementia/": {
       "status": 200,
       "ok": true
     },
-    "https://www.synsig.org/": {
+    "https://theaisummer.com/author/Ilias-Papastratis/": {
       "status": 200,
       "ok": true
     },
-    "https://www.youtube.com/watch?v=7mjh0PSUv0M": {
+    "https://theaisummer.com/speech-recognition/": {
+      "status": 200,
+      "ok": true
+    },
+    "https://themusiclab.github.io/bregman-archive/": {
+      "status": 200,
+      "ok": true
+    },
+    "https://tts-tutorial.github.io/interspeech2022/INTERSPEECH_Tutorial_TTS.pdf": {
+      "status": 200,
+      "ok": true
+    },
+    "https://urgent-challenge.github.io/urgent2026/": {
+      "status": 200,
+      "ok": true
+    },
+    "https://web.stanford.edu/class/cs224s/": {
+      "status": 200,
+      "ok": true
+    },
+    "https://web.stanford.edu/class/cs224s/semesters/2024-spring/syllabus": {
       "status": 200,
       "ok": true
     },
@@ -310,33 +815,52 @@
       "note": "confirmed dead on retest",
       "archive": "https://web.archive.org/web/20200205000141/http://web.stanford.edu:80/class/cs224s/syllabus.html"
     },
-    "https://www.synsig.org/index.php/Education": {
+    "https://www.amtoolbox.org/": {
       "status": 200,
       "ok": true
     },
-    "http://spandh.dcs.shef.ac.uk/ed_arena/mad/mad/docs/mad.htm": {
+    "https://www.asha.org/practice-portal/": {
       "status": 200,
       "ok": true
     },
-    "http://eeweb.poly.edu/~yao/EE3414/speech_coding.pdf": {
-      "status": 0,
-      "ok": false,
-      "note": "UNABLE_TO_VERIFY_LEAF_SIGNATURE",
-      "archive": "https://web.archive.org/web/20190214233120/http://eeweb.poly.edu:80/~yao/EE3414/speech_coding.pdf"
-    },
-    "https://www.youtube.com/watch?v=xzL-pxcpo-E": {
+    "https://www.asvspoof.org/": {
       "status": 200,
       "ok": true
     },
-    "https://www.youtube.com/watch?v=MPdOp72bOCA": {
+    "https://www.cambridge.org/core/journals/journal-of-the-international-phonetic-association": {
       "status": 200,
       "ok": true
     },
-    "https://www.synsig.org/index.php/Software": {
+    "https://www.chimechallenge.org/": {
       "status": 200,
       "ok": true
     },
-    "https://www.youtube.com/watch?v=q67z7PTGRi8": {
+    "https://www.clsp.jhu.edu/workshops/": {
+      "status": 403,
+      "ok": true,
+      "note": "waf-blocks-bots; loads in browser"
+    },
+    "https://www.coursera.org/specializations/digital-signal-processing": {
+      "status": 200,
+      "ok": true
+    },
+    "https://www.cs.toronto.edu/~complingweb/data/TORGO/torgo.html": {
+      "status": 200,
+      "ok": true
+    },
+    "https://www.cstr.ed.ac.uk/projects/blizzard/": {
+      "status": 200,
+      "ok": true
+    },
+    "https://www.deeplearning.ai/courses/building-ai-voice-agents-for-production/": {
+      "status": 200,
+      "ok": true
+    },
+    "https://www.dspguide.com/": {
+      "status": 200,
+      "ok": true
+    },
+    "https://www.dynamicdialects.ac.uk/": {
       "status": 200,
       "ok": true
     },
@@ -346,279 +870,7 @@
       "note": "confirmed dead on retest",
       "archive": "https://web.archive.org/web/20200804063447/https://www.edx.org/course/speech-recognition-systems-2"
     },
-    "https://www.youtube.com/watch?v=SxSN3b1vNHg": {
-      "status": 200,
-      "ok": true
-    },
-    "http://amhistory.si.edu/archives/speechsynthesis/ss_home.htm": {
-      "status": 403,
-      "ok": true,
-      "note": "waf-blocks-bots; loads in browser"
-    },
-    "http://amhistory.si.edu/archives/speechsynthesis/im_home.htm": {
-      "status": 403,
-      "ok": true,
-      "note": "waf-blocks-bots; loads in browser"
-    },
-    "http://amhistory.si.edu/archives/speechsynthesis/dk_737a.htm": {
-      "status": 403,
-      "ok": true,
-      "note": "waf-blocks-bots; loads in browser"
-    },
-    "https://www.youtube.com/watch?v=PJ_KCTsOCrs": {
-      "status": 200,
-      "ok": true
-    },
-    "https://speech.zone/courses/speech-processing/module-7-speech-recognition-pattern-matching/": {
-      "status": 200,
-      "ok": true
-    },
-    "https://www.youtube.com/watch?v=ErnWZxJovaM": {
-      "status": 200,
-      "ok": true
-    },
-    "https://isca-speech.org/resources/Documents/Training/SCOOT/Speech%20Technology/HermanNeyHongKong_HKUST_Lecture_04Dec12.pdf": {
-      "status": 200,
-      "ok": true
-    },
-    "https://speech.zone/courses/speech-synthesis/": {
-      "status": 200,
-      "ok": true
-    },
-    "https://www.youtube.com/watch?v=dqoEU9Ac3ek": {
-      "status": 200,
-      "ok": true
-    },
-    "https://www.youtube.com/watch?v=2xqkSUhmmXU": {
-      "status": 200,
-      "ok": true
-    },
-    "https://www.youtube.com/watch?v=Dmm4UG-6jxA": {
-      "status": 200,
-      "ok": true
-    },
-    "https://www.youtube.com/watch?v=N1fbskTpwZ0": {
-      "status": 200,
-      "ok": true
-    },
-    "https://ai.meta.com/blog/wav2vec-20-learning-the-structure-of-speech-from-raw-audio/": {
-      "status": 400,
-      "ok": true,
-      "note": "waf-blocks-bots; loads in browser"
-    },
-    "https://theaisummer.com/speech-recognition/": {
-      "status": 200,
-      "ok": true
-    },
-    "https://speech.zone/courses/speech-synthesis/module-8-deep-neural-networks/": {
-      "status": 200,
-      "ok": true
-    },
-    "http://mohitmayank.com/a_lazy_data_science_guide/audio_intelligence/wav2vec2/": {
-      "status": 200,
-      "ok": true
-    },
-    "https://speech.zone/courses/speech-processing/module-10-speech-recognition-connected-speech-hmm-training/": {
-      "status": 200,
-      "ok": true
-    },
-    "https://speech.zone/courses/speech-processing/module-9-speech-recognition-the-hidden-markov-model/": {
-      "status": 200,
-      "ok": true
-    },
-    "https://tts-tutorial.github.io/interspeech2022/INTERSPEECH_Tutorial_TTS.pdf": {
-      "status": 200,
-      "ok": true
-    },
-    "https://isca-speech.org/iscaweb/Lecture_ISCAMedal_Brno_short_31Aug21": {
-      "status": 404,
-      "ok": false,
-      "note": "confirmed dead on retest"
-    },
-    "https://www.youtube.com/playlist?list=PLCC34OHNcOtpcgR9LEYSdi9r7XIbpkpK1": {
-      "status": 200,
-      "ok": true
-    },
-    "https://blog.paperspace.com/end-to-end-automatic-speech-recognition/": {
-      "status": 200,
-      "ok": true
-    },
-    "https://www.youtube.com/watch?v=VygOX3AyDQs": {
-      "status": 200,
-      "ok": true
-    },
-    "http://www.cstr.ed.ac.uk/downloads/publications/2010/king_hmm_tutorial.pdf": {
-      "status": 200,
-      "ok": true
-    },
-    "https://speechbrain.github.io/index.html": {
-      "status": 200,
-      "ok": true
-    },
-    "https://www.youtube.com/watch?v=gaoOndAQkUw": {
-      "status": 200,
-      "ok": true
-    },
-    "https://www.youtube.com/watch?v=tPYj3fFJGjk": {
-      "status": 200,
-      "ok": true
-    },
-    "https://openai.com/index/whisper/": {
-      "status": 200,
-      "ok": true
-    },
-    "https://speech.zone/courses/speech-processing/module-3-speech-synthesis-text-processing/": {
-      "status": 404,
-      "ok": false,
-      "note": "confirmed dead on retest",
-      "archive": "https://web.archive.org/web/20191102094115/http://www.speech.zone:80/courses/speech-processing/module-3-speech-synthesis-text-processing/"
-    },
-    "https://pytorch.org/tutorials/beginner/basics/intro.html": {
-      "status": 200,
-      "ok": true
-    },
-    "https://cmusphinx.github.io/wiki/about/": {
-      "status": 200,
-      "ok": true
-    },
-    "https://www.keithv.com/software/htk/": {
-      "status": 200,
-      "ok": true
-    },
-    "http://speechkitchen.org/tedlium-vm/": {
-      "status": 0,
-      "ok": false,
-      "note": "ENOTFOUND",
-      "archive": "https://web.archive.org/web/20210805021923/https://speechkitchen.org/tedlium-vm/"
-    },
-    "http://speechkitchen.org/interaction-in-virtual-worlds-vm/": {
-      "status": 0,
-      "ok": false,
-      "note": "ENOTFOUND",
-      "archive": "https://web.archive.org/web/20210805013314/https://speechkitchen.org/interaction-in-virtual-worlds-vm/"
-    },
-    "https://cmusphinx.github.io/wiki/tutorial/": {
-      "status": 200,
-      "ok": true
-    },
-    "https://www.keithv.com/software/sphinx/": {
-      "status": 200,
-      "ok": true
-    },
-    "http://kaldi-asr.org/doc/": {
-      "status": 200,
-      "ok": true
-    },
-    "http://kaldi-asr.org/doc/about.html": {
-      "status": 200,
-      "ok": true
-    },
-    "http://kaldi-asr.org/doc/kaldi_for_dummies.html": {
-      "status": 200,
-      "ok": true
-    },
-    "https://labrosa.ee.columbia.edu/doc/HTKBook21/HTKBook.html": {
-      "status": 0,
-      "ok": false,
-      "note": "CERT_HAS_EXPIRED",
-      "archive": "https://web.archive.org/web/20260520194909/https://labrosa.ee.columbia.edu/doc/HTKBook21/HTKBook.html"
-    },
-    "https://github.com/YoavRamon/awesome-kaldi": {
-      "status": 200,
-      "ok": true
-    },
-    "https://github.com/Agrover112/Kaldi-notes": {
-      "status": 200,
-      "ok": true
-    },
-    "https://speech.zone/courses/one-off/merlin-interspeech2017/": {
-      "status": 200,
-      "ok": true
-    },
-    "http://sail.usc.edu/span/rtmri_ipa/index.html": {
-      "status": 0,
-      "ok": false,
-      "note": "UND_ERR_CONNECT_TIMEOUT",
-      "archive": "https://web.archive.org/web/20250720045046/https://sail.usc.edu/span/rtmri_ipa/index.html"
-    },
-    "https://pytorch.org/": {
-      "status": 200,
-      "ok": true,
-      "note": "alive-on-retest"
-    },
-    "http://www.linguisticsnetwork.com/an-introduction-to-phonology/": {
-      "status": 200,
-      "ok": true,
-      "note": "alive-on-retest"
-    },
-    "http://festvox.org/": {
-      "status": 0,
-      "ok": false,
-      "note": "UND_ERR_CONNECT_TIMEOUT",
-      "archive": "https://web.archive.org/web/20260728062619/http://www.festvox.org/"
-    },
-    "http://festvox.org/festvox/": {
-      "status": 0,
-      "ok": false,
-      "note": "ENOTFOUND",
-      "archive": "https://web.archive.org/web/20260519154143/http://www.festvox.org/festvox/"
-    },
-    "http://www.cstr.ed.ac.uk/projects/merlin/": {
-      "status": 200,
-      "ok": true,
-      "note": "alive-on-retest"
-    },
-    "http://festvox.org/dbs/index.html": {
-      "status": 0,
-      "ok": false,
-      "note": "UND_ERR_CONNECT_TIMEOUT",
-      "archive": "https://web.archive.org/web/20260519163542/http://www.festvox.org/dbs/index.html"
-    },
-    "http://festvox.org/ldom/index.html": {
-      "status": 0,
-      "ok": false,
-      "note": "UND_ERR_CONNECT_TIMEOUT",
-      "archive": "https://web.archive.org/web/20260421234914/http://festvox.org/ldom/index.html"
-    },
-    "https://en.wikipedia.org/wiki/Corpus_linguistics": {
-      "status": 200,
-      "ok": true,
-      "note": "alive-on-retest"
-    },
-    "http://www.speech.kth.se/~matsb/speech_rec_course_2003/htk_tutorial.pdf": {
-      "status": 404,
-      "ok": false,
-      "note": "confirmed dead on retest",
-      "archive": "https://web.archive.org/web/20250815000553/https://www.speech.kth.se/~matsb/speech_rec_course_2003/htk_tutorial.pdf"
-    },
-    "https://engineering.jhu.edu/clsp/wp-content/uploads/sites/75/2016/06/Building-Speech-Recognition-Systems-with-the-Kaldi-Toolkit.pdf": {
-      "status": 403,
-      "ok": false,
-      "note": "confirmed dead on retest",
-      "archive": "https://web.archive.org/web/20181129170426/https://engineering.jhu.edu/clsp/wp-content/uploads/sites/75/2016/06/Building-Speech-Recognition-Systems-with-the-Kaldi-Toolkit.pdf"
-    },
-    "http://www.cstr.ed.ac.uk/projects/festival/": {
-      "status": 200,
-      "ok": true,
-      "note": "alive-on-retest"
-    },
-    "https://eleanorchodroff.com/tutorial/": {
-      "status": 200,
-      "ok": true
-    },
-    "https://catalog.ldc.upenn.edu/LDC93S1": {
-      "status": 200,
-      "ok": true
-    },
-    "https://catalog.ldc.upenn.edu/LDC93S6A": {
-      "status": 200,
-      "ok": true
-    },
-    "https://catalog.ldc.upenn.edu/LDC93S3C": {
-      "status": 200,
-      "ok": true
-    },
-    "https://www.seeingspeech.ac.uk/": {
+    "https://www.ee.columbia.edu/~dpwe/pubs/Ellis10-introspeech.pdf": {
       "status": 200,
       "ok": true
     },
@@ -626,35 +878,7 @@
       "status": 200,
       "ok": true
     },
-    "https://soundsofspeech.uiowa.edu/": {
-      "status": 200,
-      "ok": true
-    },
-    "https://www.ldc.upenn.edu/": {
-      "status": 200,
-      "ok": true
-    },
-    "https://www.cambridge.org/core/journals/journal-of-the-international-phonetic-association": {
-      "status": 200,
-      "ok": true
-    },
-    "https://archive.phonetics.ucla.edu/": {
-      "status": 200,
-      "ok": true
-    },
-    "https://ocw.mit.edu/courses/6-003-signals-and-systems-fall-2011/": {
-      "status": 200,
-      "ok": true
-    },
-    "https://www.dynamicdialects.ac.uk/": {
-      "status": 200,
-      "ok": true
-    },
-    "http://www.elra.info/catalogues/": {
-      "status": 200,
-      "ok": true
-    },
-    "https://auditoryneuroscience.com/": {
+    "https://www.frontiersin.org/journals/language-sciences/articles/10.3389/flang.2025.1569448/full": {
       "status": 200,
       "ok": true
     },
@@ -662,172 +886,40 @@
       "status": 200,
       "ok": true
     },
-    "https://www.youtube.com/playlist?list=PLmZlBIcArwhN8nFJ8VL1jLM2Qe7YCcmAb": {
+    "https://www.isca-archive.org/": {
       "status": 200,
       "ok": true
     },
-    "https://dood.al/pinktrombone/": {
+    "https://www.isca-archive.org/interspeech_2019/moore19_interspeech.html": {
       "status": 200,
       "ok": true
     },
-    "https://huggingface.co/learn/audio-course/chapter0/introduction": {
+    "https://www.isca-archive.org/interspeech_2021/ney21_interspeech.html": {
       "status": 200,
       "ok": true
     },
-    "https://www.youtube.com/playlist?list=PL-wATfeyAMNqIee7cH3q1bh4QJFAaeNv0": {
+    "https://www.isca-speech.org/Training-Schools-Program": {
       "status": 200,
       "ok": true
     },
-    "https://greenteapress.com/wp/think-dsp/": {
+    "https://www.isca-students.org/sacweb/": {
       "status": 200,
       "ok": true
     },
-    "https://www.wavlab.org/activities/2025/11751-2025f/": {
+    "https://www.keithv.com/software/htk/": {
       "status": 200,
       "ok": true
     },
-    "https://www.deeplearning.ai/courses/building-ai-voice-agents-for-production/": {
+    "https://www.keithv.com/software/sphinx/": {
       "status": 200,
       "ok": true
     },
-    "https://web.stanford.edu/class/cs224s/": {
-      "status": 200,
-      "ok": true
-    },
-    "https://www.dspguide.com/": {
-      "status": 200,
-      "ok": true
-    },
-    "https://ecampusontario.pressbooks.pub/essentialsoflinguistics2/": {
-      "status": 200,
-      "ok": true
-    },
-    "https://deeplearning.cs.cmu.edu/S26/index.html": {
-      "status": 200,
-      "ok": true
-    },
-    "https://github.com/markovka17/dla": {
-      "status": 200,
-      "ok": true
-    },
-    "https://isca-speech.org/Video-Archive": {
-      "status": 200,
-      "ok": true
-    },
-    "https://www.coursera.org/specializations/digital-signal-processing": {
-      "status": 200,
-      "ok": true
-    },
-    "https://github.com/espnet/espnet": {
-      "status": 200,
-      "ok": true
-    },
-    "https://github.com/ilya16/speech-synthesis-course": {
-      "status": 200,
-      "ok": true
-    },
-    "https://github.com/speechbrain/speechbrain": {
-      "status": 200,
-      "ok": true
-    },
-    "https://github.com/NVIDIA-NeMo/Speech": {
-      "status": 200,
-      "ok": true
-    },
-    "https://github.com/SYSTRAN/faster-whisper": {
-      "status": 200,
-      "ok": true
-    },
-    "https://github.com/k2-fsa/icefall": {
-      "status": 200,
-      "ok": true
-    },
-    "https://github.com/ggml-org/whisper.cpp": {
-      "status": 200,
-      "ok": true
-    },
-    "https://github.com/OHF-Voice/piper1-gpl": {
-      "status": 200,
-      "ok": true
-    },
-    "https://github.com/SWivid/F5-TTS": {
-      "status": 200,
-      "ok": true
-    },
-    "https://github.com/s3prl/s3prl": {
-      "status": 200,
-      "ok": true
-    },
-    "https://github.com/YannickJadoul/Parselmouth": {
-      "status": 200,
-      "ok": true
-    },
-    "https://github.com/k2-fsa/sherpa-onnx": {
-      "status": 200,
-      "ok": true
-    },
-    "https://commonvoice.mozilla.org/datasets": {
-      "status": 200,
-      "ok": true
-    },
-    "http://www.elra.info/en/": {
-      "status": 200,
+    "https://www.ldc.upenn.edu/": {
+      "status": 403,
       "ok": true,
-      "note": "get-retry"
+      "note": "waf-blocks-bots; loads in browser"
     },
-    "https://github.com/FunAudioLLM/CosyVoice": {
-      "status": 200,
-      "ok": true
-    },
-    "https://speechprocessingbook.aalto.fi/": {
-      "status": 200,
-      "ok": true
-    },
-    "https://huggingface.co/datasets/speechcolab/gigaspeech": {
-      "status": 200,
-      "ok": true
-    },
-    "https://github.com/librosa/librosa": {
-      "status": 200,
-      "ok": true
-    },
-    "https://github.com/pyannote/pyannote-audio": {
-      "status": 200,
-      "ok": true
-    },
-    "https://github.com/MontrealCorpusTools/Montreal-Forced-Aligner": {
-      "status": 200,
-      "ok": true
-    },
-    "https://huggingface.co/datasets/espnet/yodas": {
-      "status": 200,
-      "ok": true
-    },
-    "https://huggingface.co/datasets/facebook/multilingual_librispeech": {
-      "status": 200,
-      "ok": true
-    },
-    "https://github.com/jitsi/jiwer": {
-      "status": 200,
-      "ok": true
-    },
-    "https://huggingface.co/datasets/amphion/Emilia-Dataset": {
-      "status": 200,
-      "ok": true
-    },
-    "https://github.com/wavlab-speech/versa": {
-      "status": 200,
-      "ok": true
-    },
-    "https://huggingface.co/datasets/google/fleurs": {
-      "status": 200,
-      "ok": true
-    },
-    "https://superbbenchmark.github.io/": {
-      "status": 200,
-      "ok": true
-    },
-    "https://huggingface.co/spaces/hf-audio/open_asr_leaderboard": {
+    "https://www.nidcd.nih.gov/health/cochlear-implants": {
       "status": 200,
       "ok": true
     },
@@ -843,168 +935,31 @@
       "status": 200,
       "ok": true
     },
-    "https://www.youtube.com/watch?v=_Jx3wgiWX2o": {
-      "status": 200,
-      "ok": true
-    },
-    "https://github.com/AudioLLMs/AudioBench": {
-      "status": 200,
-      "ok": true
-    },
-    "https://arxiv.org/abs/2502.06490": {
-      "status": 200,
-      "ok": true
-    },
-    "https://arxiv.org/abs/2410.03751": {
-      "status": 200,
-      "ok": true
-    },
-    "https://arxiv.org/abs/2504.08528": {
-      "status": 200,
-      "ok": true
-    },
-    "https://arxiv.org/abs/2205.10643": {
-      "status": 200,
-      "ok": true
-    },
-    "https://arxiv.org/abs/2410.00037": {
-      "status": 200,
-      "ok": true
-    },
-    "https://arxiv.org/abs/2006.11477": {
-      "status": 200,
-      "ok": true
-    },
-    "https://arxiv.org/abs/2407.10759": {
-      "status": 200,
-      "ok": true
-    },
-    "https://arxiv.org/abs/2412.06602": {
-      "status": 200,
-      "ok": true
-    },
-    "https://arxiv.org/abs/2308.11596": {
-      "status": 200,
-      "ok": true
-    },
-    "https://multilingual.superbbenchmark.org/": {
-      "status": 200,
-      "ok": true
-    },
-    "https://github.com/dynamic-superb/dynamic-superb": {
-      "status": 200,
-      "ok": true
-    },
-    "https://github.com/DanielLin94144/Full-Duplex-Bench": {
-      "status": 200,
-      "ok": true
-    },
-    "https://github.com/ga642381/speech-trident": {
-      "status": 200,
-      "ok": true
-    },
-    "https://github.com/fixie-ai/ultravox": {
-      "status": 200,
-      "ok": true
-    },
-    "https://ieeeicassp.org/": {
-      "status": 200,
-      "ok": true
-    },
     "https://www.robots.ox.ac.uk/~vgg/data/voxceleb/": {
       "status": 200,
       "ok": true
     },
-    "https://attend.ieee.org/slt-2026/": {
+    "https://www.seeingspeech.ac.uk/": {
       "status": 200,
       "ok": true
     },
-    "https://isca-speech.org/Upcoming-Interspeech": {
+    "https://www.spsc-sig.org/": {
       "status": 200,
       "ok": true
     },
-    "https://www.cstr.ed.ac.uk/projects/blizzard/": {
+    "https://www.synsig.org/": {
       "status": 200,
       "ok": true
     },
-    "https://www.isca-students.org/sacweb/": {
+    "https://www.synsig.org/index.php/Education": {
       "status": 200,
       "ok": true
     },
-    "https://www.chimechallenge.org/": {
+    "https://www.synsig.org/index.php/Software": {
       "status": 200,
       "ok": true
     },
     "https://www.voiceprivacychallenge.org/": {
-      "status": 200,
-      "ok": true
-    },
-    "https://isca-speech.org/SynSIG-Events": {
-      "status": 200,
-      "ok": true
-    },
-    "https://isca-speech.org/Speech-Prosody-SProSIG": {
-      "status": 200,
-      "ok": true
-    },
-    "https://urgent-challenge.github.io/urgent2026/": {
-      "status": 200,
-      "ok": true
-    },
-    "https://isca-speech.org/Grants": {
-      "status": 200,
-      "ok": true
-    },
-    "https://www.isca-speech.org/Training-Schools-Program": {
-      "status": 200,
-      "ok": true
-    },
-    "https://www.isca-archive.org/": {
-      "status": 200,
-      "ok": true
-    },
-    "https://xiph.org/video/vid2.shtml": {
-      "status": 200,
-      "ok": true
-    },
-    "https://arxiv.org/abs/2408.06954": {
-      "status": 200,
-      "ok": true
-    },
-    "https://opus-codec.org/": {
-      "status": 200,
-      "ok": true
-    },
-    "https://onlinelibrary.wiley.com/doi/book/10.1002/0470041978": {
-      "status": 403,
-      "ok": true,
-      "note": "waf-blocks-bots; loads in browser"
-    },
-    "https://signalprocessingsociety.org/community-involvement/speech-and-language-processing": {
-      "status": 200,
-      "ok": true
-    },
-    "https://www.asha.org/practice-portal/": {
-      "status": 200,
-      "ok": true
-    },
-    "https://github.com/descriptinc/descript-audio-codec": {
-      "status": 200,
-      "ok": true
-    },
-    "https://jmvalin.ca/demo/lpcnet_codec/": {
-      "status": 200,
-      "ok": true
-    },
-    "https://www.cs.toronto.edu/~complingweb/data/TORGO/torgo.html": {
-      "status": 200,
-      "ok": true
-    },
-    "https://www.clsp.jhu.edu/workshops/": {
-      "status": 200,
-      "ok": true
-    },
-    "https://speechaccessibilityproject.beckman.illinois.edu/": {
       "status": 200,
       "ok": true
     },
@@ -1013,48 +968,7 @@
       "ok": true,
       "note": "waf-blocks-bots; loads in browser"
     },
-    "https://github.com/apple/ml-stuttering-events-dataset": {
-      "status": 200,
-      "ok": true
-    },
-    "https://www.frontiersin.org/journals/language-sciences/articles/10.3389/flang.2025.1569448/full": {
-      "status": 200,
-      "ok": true
-    },
-    "https://brill.com/display/title/24210": {
-      "status": 200,
-      "ok": true
-    },
-    "https://themusiclab.github.io/bregman-archive/": {
-      "status": 200,
-      "ok": true
-    },
-    "https://modeltalker.org/": {
-      "status": 200,
-      "ok": true
-    },
-    "https://homes.esat.kuleuven.be/~compi/demos/AuditoryDemonstrations/": {
-      "status": 200,
-      "ok": true
-    },
-    "https://dicklyon.com/hmh/": {
-      "status": 200,
-      "ok": true
-    },
-    "https://www.amtoolbox.org/": {
-      "status": 200,
-      "ok": true
-    },
-    "https://github.com/mpariente/pystoi": {
-      "status": 200,
-      "ok": true
-    },
-    "https://talkbank.org/dementia/": {
-      "status": 200,
-      "ok": true,
-      "note": "alive-on-retest"
-    },
-    "https://www.nidcd.nih.gov/health/cochlear-implants": {
+    "https://www.wavlab.org/activities/2025/11751-2025f/": {
       "status": 200,
       "ok": true
     },
@@ -1062,55 +976,150 @@
       "status": 200,
       "ok": true
     },
-    "https://sail.usc.edu/iemocap/": {
+    "https://www.youtube.com/channel/UCaMpov1PPVXGcKYgwHjXB3g": {
       "status": 200,
       "ok": true
     },
-    "https://superkogito.github.io/SER-datasets/": {
+    "https://www.youtube.com/playlist?list=PL-wATfeyAMNqIee7cH3q1bh4QJFAaeNv0": {
       "status": 200,
       "ok": true
     },
-    "https://github.com/audeering/w2v2-how-to": {
+    "https://www.youtube.com/playlist?list=PL6niCBwOhjHhQFfl88fQfdLgiD7QaShBo": {
       "status": 200,
       "ok": true
     },
-    "https://github.com/emo-box/EmoBox": {
+    "https://www.youtube.com/playlist?list=PLCC34OHNcOtpcgR9LEYSdi9r7XIbpkpK1": {
       "status": 200,
       "ok": true
     },
-    "https://github.com/audeering/opensmile": {
+    "https://www.youtube.com/playlist?list=PLmZlBIcArwhN8nFJ8VL1jLM2Qe7YCcmAb": {
       "status": 200,
       "ok": true
     },
-    "https://lab-msp.com/MSP-Podcast_Competition/IS2025/": {
+    "https://www.youtube.com/watch?v=_69ATDAomLc": {
       "status": 200,
       "ok": true
     },
-    "http://www.compare.openaudio.eu/": {
+    "https://www.youtube.com/watch?v=_Jx3wgiWX2o": {
       "status": 200,
       "ok": true
     },
-    "https://psychoacoustics.dpg.psy.unipd.it/": {
+    "https://www.youtube.com/watch?v=-e66ByetpDY": {
       "status": 200,
-      "ok": true,
-      "note": "get-retry"
+      "ok": true
     },
-    "https://www.asvspoof.org/": {
+    "https://www.youtube.com/watch?v=2xqkSUhmmXU": {
       "status": 200,
-      "ok": true,
-      "note": "alive-on-retest"
+      "ok": true
     },
-    "http://www.festvox.org/blizzard/": {
-      "status": 0,
-      "ok": false,
-      "note": "UND_ERR_CONNECT_TIMEOUT",
-      "archive": "https://web.archive.org/web/20260511144438/http://festvox.org/blizzard/"
-    },
-    "https://www.spsc-sig.org/": {
+    "https://www.youtube.com/watch?v=73HsLb0e_zQ": {
       "status": 200,
-      "ok": true,
-      "note": "alive-on-retest"
+      "ok": true
+    },
+    "https://www.youtube.com/watch?v=7mjh0PSUv0M": {
+      "status": 200,
+      "ok": true
+    },
+    "https://www.youtube.com/watch?v=Dmm4UG-6jxA": {
+      "status": 200,
+      "ok": true
+    },
+    "https://www.youtube.com/watch?v=dqoEU9Ac3ek": {
+      "status": 200,
+      "ok": true
+    },
+    "https://www.youtube.com/watch?v=eeaghqkLRi8": {
+      "status": 200,
+      "ok": true
+    },
+    "https://www.youtube.com/watch?v=ErnWZxJovaM": {
+      "status": 200,
+      "ok": true
+    },
+    "https://www.youtube.com/watch?v=gaoOndAQkUw": {
+      "status": 200,
+      "ok": true
+    },
+    "https://www.youtube.com/watch?v=H9qNuyD7xdg": {
+      "status": 200,
+      "ok": true
+    },
+    "https://www.youtube.com/watch?v=jJR1VPzayu0": {
+      "status": 200,
+      "ok": true
+    },
+    "https://www.youtube.com/watch?v=lWH-Oh5KnNY": {
+      "status": 200,
+      "ok": true
+    },
+    "https://www.youtube.com/watch?v=LwWKTTzcg_M": {
+      "status": 200,
+      "ok": true
+    },
+    "https://www.youtube.com/watch?v=MBxFVBAzdMc": {
+      "status": 200,
+      "ok": true
+    },
+    "https://www.youtube.com/watch?v=MPdOp72bOCA": {
+      "status": 200,
+      "ok": true
+    },
+    "https://www.youtube.com/watch?v=N1fbskTpwZ0": {
+      "status": 200,
+      "ok": true
+    },
+    "https://www.youtube.com/watch?v=nRhkzeeMqVk": {
+      "status": 200,
+      "ok": true
+    },
+    "https://www.youtube.com/watch?v=PJ_KCTsOCrs": {
+      "status": 200,
+      "ok": true
+    },
+    "https://www.youtube.com/watch?v=q67z7PTGRi8": {
+      "status": 200,
+      "ok": true
+    },
+    "https://www.youtube.com/watch?v=SxSN3b1vNHg": {
+      "status": 200,
+      "ok": true
+    },
+    "https://www.youtube.com/watch?v=tPYj3fFJGjk": {
+      "status": 200,
+      "ok": true
+    },
+    "https://www.youtube.com/watch?v=VygOX3AyDQs": {
+      "status": 200,
+      "ok": true
+    },
+    "https://www.youtube.com/watch?v=Xjzm7S__kBU": {
+      "status": 200,
+      "ok": true
+    },
+    "https://www.youtube.com/watch?v=xzL-pxcpo-E": {
+      "status": 200,
+      "ok": true
+    },
+    "https://www.youtube.com/watch?v=Y_mSQ7tTlvQ": {
+      "status": 200,
+      "ok": true
+    },
+    "https://xiph.org/video/vid2.shtml": {
+      "status": 200,
+      "ok": true
+    },
+    "https://youtu.be/01ml3rpPZYg": {
+      "status": 200,
+      "ok": true
+    },
+    "https://youtu.be/25caXhCE8zA": {
+      "status": 200,
+      "ok": true
+    },
+    "https://youtu.be/NHCSmi5VXhs": {
+      "status": 200,
+      "ok": true
     }
   },
-  "retested_at": "2026-08-30T17:21:00.545Z"
+  "retested_at": "2026-08-31T02:51:00.842Z"
 }

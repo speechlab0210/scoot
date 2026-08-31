@@ -18,8 +18,8 @@
     "This prototype is for evaluation by the ISCA education community. It is not (yet) an official ISCA publication, and no endorsement is implied by inclusion of any resource."
   ],
   "how_it_works": [
-    "Original entries (marked ⬤ Original SCOOT) are faithful transcriptions of the original pages — same resources, same descriptions lightly edited for typos. The HTML snapshots they were transcribed from are preserved in the repository.",
-    "Extension entries (marked ✚ 2.0) were curated by an AI curator: found, link-checked and fact-checked before listing. Every link on this page — original and extension — was re-verified on 2026-08-31; dead originals carry an 'archived copy' link to the Internet Archive.",
+    "Original entries (marked ⬤ Original SCOOT) are faithful transcriptions of the original pages — same resources, same descriptions lightly edited for typos. The HTML snapshots they were transcribed from are preserved with the project source materials and audited mechanically against this page.",
+    "Extension entries (marked ✚ 2.0) were curated by an AI curator: found, link-checked and fact-checked before listing. Every link on this page — original and extension — is covered by the link-status report; its latest verification time appears at the bottom of this page. Dead originals carry an 'archived copy' link to the Internet Archive.",
     "Every editorial change is recorded in the changelog below, including changes made in response to community suggestions."
   ],
   "contribute": [

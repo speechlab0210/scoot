@@ -56,7 +56,7 @@ function renderLectures(lectures) {
   if (!lectures?.length) return '';
   const cells = lectures.map((lec) => {
     const dS = deadInfo(lec.slides); const dA = deadInfo(lec.audio);
-    return `<div class="lecture" data-search="${searchAttr(lec.title + ' roger moore speech processing')}">` +
+    return `<div class="lecture">` +
       `<span class="lt">${esc(lec.title)}</span>` +
       `<a href="${esc(lec.slides)}" rel="noopener">Slides</a><a href="${esc(lec.audio)}" rel="noopener">Audio</a>` +
       `${(dS || dA) ? ' <span class="deadnote">⚠</span>' : ''}</div>`;
@@ -77,7 +77,14 @@ function renderOriginalEntries(entries) {
       currentGroup = e.group ?? null;
       if (currentGroup) html += `<div class="group-head">${esc(currentGroup)}</div>`;
     }
-    const search = searchAttr([e.text, ...(e.links ?? []).map((l) => l.label), currentGroup ?? ''].join(' '));
+    // A lecture grid belongs to its parent resource. Include lecture titles in
+    // the parent index so a matching lecture never survives inside a hidden <li>.
+    const search = searchAttr([
+      e.text,
+      ...(e.links ?? []).map((l) => l.label),
+      ...(e.lectures ?? []).map((l) => l.title + ' slides audio'),
+      currentGroup ?? '',
+    ].join(' '));
     openList();
     html += `<li data-search="${search}">${esc(e.text)}${renderLinks(e.links)}${renderLectures(e.lectures)}</li>`;
   }
@@ -87,7 +94,7 @@ function renderOriginalEntries(entries) {
 
 function renderExtEntry(e) {
   const meta = [e.type, e.level, e.cost, e.year].filter(Boolean).map((m) => `<span>${esc(m)}</span>`).join('');
-  const search = searchAttr([e.title, e.org, e.description, (e.topics ?? []).join(' '), e.type].join(' '));
+  const search = searchAttr([e.title, e.org, e.description, (e.topics ?? []).join(' | '), e.type].join(' '));
   const d = deadInfo(e.url);
   return `<div class="ext-item" data-search="${search}">` +
     `<a class="et" href="${esc(e.url)}" rel="noopener">${esc(e.title)}</a>` +
@@ -180,7 +187,12 @@ const nOrig = (() => {
   original.sections.forEach(walk);
   return n;
 })();
-footer += `<p class="built">Built ${new Date().toISOString().slice(0, 10)} · ${nOrig} original SCOOT entries (all preserved) + ${resources.entries.length} extension entries · every link re-verified at build date · data + snapshots: <a href="https://github.com/speechlab0210/scoot" rel="noopener">github.com/speechlab0210/scoot</a></p>`;
+const linkCheckedAt = linkReport.retested_at ?? linkReport.checked_at;
+const linkCheckedLabel = linkCheckedAt?.replace('T', ' ').replace(/\.\d{3}Z$/, ' UTC');
+const linkStatus = linkCheckedAt
+  ? `${linkReport.total ?? Object.keys(linkReport.results ?? {}).length} unique links; last checked ${linkCheckedLabel}`
+  : 'link-check time not recorded';
+footer += `<p class="built">${nOrig} original SCOOT entries (all preserved) + ${resources.entries.length} extension entries · ${esc(linkStatus)} · source data + build scripts: <a href="https://github.com/speechlab0210/scoot" rel="noopener">github.com/speechlab0210/scoot</a></p>`;
 
 // ---------- assemble ----------
 const template = readFileSync(join(ROOT, 'site-src', 'template.html'), 'utf8');

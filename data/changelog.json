@@ -2,6 +2,11 @@
   "entries": [
     {
       "date": "2026-08-31",
+      "change": "Fixed catalog QA issues: lecture-title searches now reveal their parent resource, mobile topic navigation is collapsible, link-check provenance is reported from the actual audit timestamp, and the dead Odette Scharenborg Winter School URL was replaced with the author's maintained teaching page containing the same Day 1–5 slides.",
+      "source": "catalog audit"
+    },
+    {
+      "date": "2026-08-31",
       "change": "Site name confirmed as SCOOT 2.0 (this rebuild supersedes the July 2026 SCOOT 2.0 prototype at the same address).",
       "source": "editorial decision"
     },

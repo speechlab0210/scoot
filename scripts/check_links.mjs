@@ -84,6 +84,9 @@ async function worker() {
 }
 await Promise.all(Array.from({ length: POOL }, worker));
 
-const dead = Object.entries(results).filter(([, r]) => !r.ok);
-writeFileSync(join(ROOT, 'data', 'link-report.json'), JSON.stringify({ checked_at: new Date().toISOString(), total: list.length, dead: dead.length, results }, null, 2));
+// Workers finish in network-dependent order. Sort before serializing so two
+// equivalent audits do not produce hundreds of lines of meaningless diff.
+const orderedResults = Object.fromEntries([...list].sort().map((url) => [url, results[url]]));
+const dead = Object.entries(orderedResults).filter(([, r]) => !r.ok);
+writeFileSync(join(ROOT, 'data', 'link-report.json'), JSON.stringify({ checked_at: new Date().toISOString(), total: list.length, dead: dead.length, results: orderedResults }, null, 2));
 console.log(`done: ${list.length - dead.length}/${list.length} alive, ${dead.length} dead -> data/link-report.json`);
