@@ -2,6 +2,11 @@
   "entries": [
     {
       "date": "2026-08-31",
+      "change": "Disclaimer strengthened across the site at the owner's request: SCOOT 2.0 is not an official ISCA publication, nothing on it has been verified by any human, and the whole site is the output of Hung-yi Lee casually prompting an AI agent (Claude Fable 5) to see what AI agents can currently do. Banner, About, SIG-part disclosure and the masthead line all updated to say so plainly.",
+      "source": "owner instruction"
+    },
+    {
+      "date": "2026-08-31",
       "change": "Anchored the Spoken LLM Benchmark Atlas under SCOOT 2.0: a new Benchmarks section links the daily-updated index of spoken-LLM benchmarks (368 benchmarks / 19 categories / 15,468 sourced result cells at the time of writing), which lives on its own page because of its size and daily rebuild; the atlas page now carries SCOOT 2.0 attribution and links back.",
       "source": "editorial decision"
     },

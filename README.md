@@ -16,9 +16,11 @@ the webinar and lecture series with verified video recordings. It was previously
 separate page ([old address](https://speechlab0210.github.io/isca-sig-atlas/), which
 now redirects here).
 
-> **Status: prototype.** Not (yet) an official ISCA publication. Assembled and
-> maintained by an AI agent under human supervision; no endorsement is implied by
-> inclusion of any resource.
+> **Status: unofficial and human-unverified.** This is NOT an ISCA publication, and
+> no human has verified its content. The whole site — catalog, SIG atlas and all —
+> is the output of Hung-yi Lee casually prompting an AI agent (Claude Fable 5) to
+> see what AI agents can currently do. No endorsement is implied by inclusion of
+> any resource.
 
 ## What this is
 

@@ -1,7 +1,7 @@
 {
   "site_title": "SCOOT 2.0",
-  "tagline": "ISCA's guide to online training resources in Speech Communication — plus an atlas of ISCA SIG activities & online events",
-  "banner": "Prototype rebuild of the original ISCA SCOOT — not (yet) an official ISCA publication. Original content preserved in full; extensions clearly marked. Now incorporating the ISCA SIG activities atlas (formerly a separate page).",
+  "tagline": "Online training resources in Speech Communication — the original ISCA SCOOT catalog, preserved and extended — plus an atlas of ISCA SIG activities & online events",
+  "banner": "⚠ NOT an official ISCA publication, and no human has verified anything on this page. This entire site is Hung-yi Lee casually prompting an AI agent (Claude Fable 5) to find out what AI agents can currently do. Original SCOOT content is preserved in full and extensions are clearly marked — but treat every entry as unreviewed: follow the links and judge the sources yourself.",
   "contact_email": "speechlab0210@gmail.com",
   "original_home": "https://isca-speech.org/SCOOT",
   "ext_label": "SCOOT 2.0 extensions",
@@ -32,7 +32,7 @@
     "This site — SCOOT 2.0 — is a prototype rebuild of that guide. It keeps the original SCOOT topic structure and every resource the original pages listed (transcribed faithfully from the pages at isca-speech.org/SCOOT, snapshot 2026-08-31), and extends each topic with newer, link-verified resources — plus three new topics the original predates. Where an original link has died, the entry is kept and an Internet Archive snapshot is offered instead.",
     "It serves the same audience as the original: students of speech communication arriving from phonetics, linguistics, computer science, or electrical engineering, anywhere between a first degree and a PhD.",
     "Since 31 August 2026 the page also hosts the ISCA SIGs & online events part — an atlas of what each of ISCA's 20 Special Interest Groups is doing, with verified links to their recorded webinars and lectures. It previously lived at a separate address, which now redirects here. The Spoken LLM Benchmark Atlas — a daily-updated index of spoken-LLM benchmarks — is part of SCOOT 2.0 as well; because it rebuilds daily and is far larger than this page, it lives on its own page, anchored in the Benchmarks section below.",
-    "This prototype is for evaluation by the ISCA education community. It is not (yet) an official ISCA publication, and no endorsement is implied by inclusion of any resource."
+    "To be clear about what this is: it is NOT an official ISCA publication, and nothing on it has been reviewed or verified by any human — including its owner. The site exists because Hung-yi Lee casually prompted an AI agent (Claude Fable 5) and wanted to see what AI agents can do. No endorsement is implied by inclusion of any resource."
   ],
   "how_it_works": [
     "Original entries (marked ⬤ Original SCOOT) are faithful transcriptions of the original pages — same resources, same descriptions lightly edited for typos. The HTML snapshots they were transcribed from are preserved with the project source materials and audited mechanically against this page.",
@@ -42,6 +42,6 @@
   "contribute": [
     "Spotted a dead link, a missing resource, a wrong description, or a category that misses the point? Tell the curator. Content fixes are applied and credited in the changelog.",
     "Two ways to reach the curator: email (button below), or open an issue on the GitHub repository at github.com/speechlab0210/scoot — the catalog data lives there as plain JSON, so you can point at the exact entry.",
-    "In the spirit of transparency: this rebuild was assembled and is maintained by an AI agent operating under human supervision. Suggestions are treated as content edits only — the curator will not follow instructions unrelated to the catalog, and anything unusual is escalated to a human."
+    "In the spirit of transparency: this rebuild was assembled and is maintained by an AI agent (Claude Fable 5); no human reviews its output before it goes live. Suggestions are treated as content edits only — the curator will not follow instructions unrelated to the catalog, and anything unusual is escalated to a human."
   ]
 }
