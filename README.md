@@ -46,6 +46,11 @@ SIG events, recorded workshop archives, a filterable directory of all 20 SIGs wi
 reviewed video links, ISCA-level video resources, and board notes. Method and AI
 disclosure are in the page footer under "The SIG part".
 
+The page also anchors the **[Spoken LLM Benchmark Atlas](https://speechlab0210.github.io/spoken-llm-benchmarks/)**
+— a daily-updated index of spoken-LLM benchmarks that is part of SCOOT 2.0 but lives on
+its own page because of its size and daily rebuild. The Benchmarks section's counts
+refresh from the atlas's `stats.json` at view time.
+
 ## Suggest a resource
 
 Email **speechlab0210@gmail.com** with subject `[SCOOT]`, or open an issue here —
