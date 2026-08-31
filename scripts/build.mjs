@@ -16,6 +16,8 @@ const original = read('data/original.json');
 const resources = read('data/resources.json');
 const editorial = read('data/editorial.json');
 const changelog = read('data/changelog.json');
+const sigsData = read('data/sigs.json');       // ISCA SIG directory (import_sigs.mjs)
+const sigEd = read('data/sig-editorial.json'); // hand-authored SIG featured content
 let linkReport = { results: {} };
 try { linkReport = read('data/link-report.json'); } catch { /* optional */ }
 
@@ -123,7 +125,8 @@ function renderIntro(section) {
     html += '<div class="intro">' + section.intro.map((p) => `<p>${esc(p)}</p>`).join('') + '</div>';
   }
   if (section.intro_links?.length) {
-    html = html.replace('</div>', `<p class="srcline">See also: ${section.intro_links.map((l) => `<a href="${esc(l.href)}" rel="noopener">${esc(l.label)}</a>`).join(' · ')}</p></div>`);
+    const seeAlso = `<p class="srcline">See also: ${section.intro_links.map((l) => `<a href="${esc(l.href)}" rel="noopener">${esc(l.label)}</a>`).join(' · ')}</p></div>`;
+    html = html.replace('</div>', () => seeAlso);
   }
   return html;
 }
@@ -162,6 +165,138 @@ for (const t of editorial.extended_topics) {
 const orphans = Object.keys(extByTopic).filter((k) => !renderedTopics.has(k));
 if (orphans.length) throw new Error('curated topics with no home in the tree: ' + orphans.join(', '));
 
+// ---------- SIG part (ISCA SIGs & online events, merged from the SIG Atlas) ----------
+const sigStats = {
+  sigCount: sigsData.sigs.length,
+  recCount: sigsData.sigs.filter((s) => s.hasRec).length,
+  liveSeries: sigsData.sigs.filter((s) => s.activeSeries).length,
+  videoLinks: sigsData.sigs.reduce((n, s) => n + s.videos.length, 0),
+};
+// the hijacked domain may be *mentioned* (board-note warning) but never linked
+if (/https?:\/\/(www\.)?synsig\.org/i.test(JSON.stringify(sigsData) + JSON.stringify(sigEd))) {
+  throw new Error('hijacked domain synsig.org must never be linked from SIG data');
+}
+// every SIG-part URL must be http(s) — same sanity gate as resources.json
+{
+  const sigUrls = [];
+  for (const s of sigsData.sigs) {
+    if (s.website) sigUrls.push(s.website);
+    sigUrls.push(s.iscaUrl);
+    for (const a of s.activities) if (a.url) sigUrls.push(a.url);
+    for (const w of s.series) { if (w.pageUrl) sigUrls.push(w.pageUrl); if (w.recUrl) sigUrls.push(w.recUrl); }
+    for (const v of s.videos) sigUrls.push(v.url);
+  }
+  for (const c of sigEd.series) for (const l of c.links ?? []) sigUrls.push(l.href);
+  for (const a of sigEd.archives) for (const l of a.links) sigUrls.push(l.href);
+  for (const c of sigEd.central) { if (c.url) sigUrls.push(c.url); for (const l of c.links ?? []) sigUrls.push(l.href); }
+  for (const u of sigUrls) if (!/^https?:\/\//.test(u)) throw new Error('SIG data: non-http url: ' + u);
+}
+
+const linkRow = (links) => links?.length
+  ? `<div class="linkrow">${links.map((l) => `<a href="${esc(l.href)}" rel="noopener">${esc(l.label)}</a>`).join('')}</div>`
+  : '';
+
+body += `<section class="extended-intro" id="sig-atlas"><h2>${esc(sigEd.part_title)}</h2><p>${esc(sigEd.part_blurb)}</p>` +
+  `<div class="sig-stats">` +
+  `<div class="stat"><b>${sigStats.sigCount}</b>SIGs</div>` +
+  `<div class="stat rec"><b>${sigStats.recCount}</b>with recording links</div>` +
+  `<div class="stat"><b>${sigStats.liveSeries}</b>live webinar / lecture series</div>` +
+  `<div class="stat"><b>${sigStats.videoLinks}</b>video links reviewed</div>` +
+  `</div></section>`;
+
+// 1. webinar & lecture series
+body += `<section class="topic" id="sig-series"><h2>${esc(sigEd.series_title)}</h2>` +
+  `<div class="intro"><p>${esc(sigEd.series_intro)}</p></div><div class="series-grid">` +
+  sigEd.series.map((c) => {
+    const search = searchAttr([c.name, c.sig, c.cad, c.text, c.next ?? '', (c.links ?? []).map((l) => l.label).join(' ')].join(' '));
+    return `<div class="series-card" data-search="${search}">` +
+      `<div class="top"><h4>${esc(c.name)}</h4><span class="pill ${esc(c.pill)}">${esc(c.pill)}</span></div>` +
+      `<div class="cad"><span class="sigtag">${esc(c.sig)}</span> · ${esc(c.cad)}</div>` +
+      `<p>${esc(c.text)}${c.next ? ` <strong>${esc(c.next)}</strong>` : ''}</p>` +
+      linkRow(c.links) + `</div>`;
+  }).join('') + `</div></section>`;
+
+// 2. coming up
+body += `<section class="topic" id="sig-upcoming"><h2>${esc(sigEd.upcoming_title)}</h2>` +
+  `<p class="srcline">${esc(sigEd.upcoming_asof)}</p>` +
+  `<div class="intro"><p>${esc(sigEd.upcoming_intro)}</p></div><div class="up-list">` +
+  sigEd.upcoming.map((u) => `<div class="up-row" data-search="${searchAttr([u.d, u.what, u.who].join(' '))}">` +
+    `<span class="d">${esc(u.d)}</span><span>${esc(u.what)}</span><span class="who">${esc(u.who)}</span></div>`).join('') +
+  `</div></section>`;
+
+// 3. recorded workshop archives
+body += `<section class="topic" id="sig-archives"><h2>${esc(sigEd.archives_title)} <span class="rec-badge">REC</span></h2>` +
+  `<div class="intro"><p>${esc(sigEd.archives_intro)}</p></div><div class="arch-list">` +
+  sigEd.archives.map((a) => `<div class="arch-row" data-search="${searchAttr([a.name, a.sig, a.links.map((l) => l.label).join(' ')].join(' '))}">` +
+    `<span class="nm">${esc(a.name)}</span><span class="sigtag">${esc(a.sig)}</span>` +
+    `<span class="links">${a.links.map((l) => `<a href="${esc(l.href)}" rel="noopener">${esc(l.label)}</a>`).join('')}</span></div>`).join('') +
+  `</div></section>`;
+
+// 4. SIG directory (build-time rendered; chips are a JS enhancement)
+const SIG_STATUS = { 'active': ['st-active', 'active'], 'low-activity': ['st-low', 'low activity'], 'dormant': ['st-dormant', 'dormant'], 'unknown': ['st-unknown', 'unknown'] };
+const KIND_TAG = { 'youtube-channel': 'channel', 'youtube-playlist': 'playlist', 'youtube-video': 'video', 'vimeo': 'vimeo', 'video-page': 'page', 'other': 'video' };
+const kindCount = (k) => sigsData.sigs.filter((s) => s.kind === k).length;
+
+function renderSigCard(s) {
+  const st = SIG_STATUS[s.status] ?? SIG_STATUS.unknown;
+  const search = searchAttr([
+    s.acronym, s.fullName, s.description, s.kind, s.status,
+    s.activities.map((a) => [a.name, a.type, a.cadence, a.last].filter(Boolean).join(' ')).join(' '),
+    s.series.map((x) => [x.name, x.cadence, x.platform, x.notes].filter(Boolean).join(' ')).join(' '),
+    s.videos.map((v) => [v.title, v.kind, v.what].filter(Boolean).join(' ')).join(' '),
+  ].join(' '));
+  let h = `<article class="sig-card" data-kind="${esc(s.kind)}" data-rec="${s.hasRec ? '1' : ''}" data-live="${s.activeSeries ? '1' : ''}" data-search="${search}">` +
+    `<div class="head"><span class="acr">${esc(s.acronym)}</span>` +
+    `<span class="pill ${st[0]}">${st[1]}</span>` +
+    (s.hasRec ? `<span class="rec-badge" title="recording links available">REC</span>` : '') +
+    `</div><h4>${esc(s.fullName)}</h4><p class="desc">${esc(s.description)}</p>`;
+  if (s.activities.length) {
+    h += `<details><summary>activities <span class="cnt">${s.activities.length}</span></summary><div class="items">` +
+      s.activities.map((a) => {
+        const nm = a.url ? `<a href="${esc(a.url)}" rel="noopener">${esc(a.name)}</a>` : esc(a.name);
+        const meta = [a.cadence, a.last].filter(Boolean).join(' · ');
+        return `<div class="item"><span class="t">${esc(a.type)}</span>${nm}${meta ? `<span class="meta">${esc(meta)}</span>` : ''}</div>`;
+      }).join('') + `</div></details>`;
+  }
+  if (s.videos.length) {
+    h += `<details><summary>recordings <span class="cnt">${s.videos.length}</span></summary><div class="items">` +
+      s.videos.map((v) => `<div class="item vid"><span class="t">${esc(KIND_TAG[v.kind] ?? 'video')}</span>` +
+        `<a href="${esc(v.url)}" rel="noopener">${esc(v.title)}</a><span class="meta">${esc(v.what)}</span></div>`).join('') +
+      `</div></details>`;
+  }
+  h += `<div class="foot">` +
+    (s.website ? `<a href="${esc(s.website)}" rel="noopener">Website ↗</a>` : '') +
+    `<a href="${esc(s.iscaUrl)}" rel="noopener">ISCA page ↗</a></div></article>`;
+  return h;
+}
+
+body += `<section class="topic" id="sig-directory"><h2>${esc(sigEd.directory_title)}</h2>` +
+  `<div class="intro"><p>${esc(sigEd.directory_intro)}</p></div>` +
+  `<div class="sig-filters" role="group" aria-label="Filter SIGs">` +
+  `<button class="chip" type="button" data-f="all" aria-pressed="true">All <span class="n">${sigStats.sigCount}</span></button>` +
+  `<button class="chip" type="button" data-f="rec" aria-pressed="false">● Recordings <span class="n">${sigStats.recCount}</span></button>` +
+  `<button class="chip" type="button" data-f="live" aria-pressed="false">Live series <span class="n">${sigStats.liveSeries}</span></button>` +
+  `<button class="chip" type="button" data-f="topic" aria-pressed="false">Topic <span class="n">${kindCount('topic')}</span></button>` +
+  `<button class="chip" type="button" data-f="language" aria-pressed="false">Language <span class="n">${kindCount('language')}</span></button>` +
+  `</div><div class="sig-note" id="sigDirNote" role="status" aria-live="polite"></div>` +
+  `<div class="sig-dir">${sigsData.sigs.map(renderSigCard).join('')}</div></section>`;
+
+// 5. ISCA-level video
+body += `<section class="topic" id="sig-central"><h2>${esc(sigEd.central_title)}</h2>` +
+  `<div class="intro"><p>${esc(sigEd.central_intro)}</p></div><div class="cent-list">` +
+  sigEd.central.map((c) => {
+    const search = searchAttr([c.name, c.what, (c.links ?? []).map((l) => l.label).join(' ')].join(' '));
+    const nm = c.url ? `<a href="${esc(c.url)}" rel="noopener">${esc(c.name)}</a>` : esc(c.name);
+    const extra = c.links?.length ? `<span class="cent-links">${c.links.map((l) => `<a href="${esc(l.href)}" rel="noopener">${esc(l.label)}</a>`).join('')}</span>` : '';
+    return `<div class="cent-row" data-search="${search}"><span class="nm">${nm}</span><span class="what">${esc(c.what)}</span>${extra}</div>`;
+  }).join('') + `</div></section>`;
+
+// 6. board notes
+body += `<section class="topic" id="sig-notes"><h2>${esc(sigEd.notes_title)}</h2>` +
+  `<div class="callout"><h4>${esc(sigEd.notes_head)}</h4><ul>` +
+  sigEd.notes.map((n) => `<li class="note-item" data-search="${searchAttr(n.text)}">${n.warn ? '<span class="warn-ico">⚠</span> ' : ''}${esc(n.text)}</li>`).join('') +
+  `</ul></div></section>`;
+
 // ---------- nav ----------
 let nav = '<div class="toc-head">Scoot Topics</div>';
 nav += `<a href="#welcome">Welcome</a>`;
@@ -171,11 +306,19 @@ for (const s of original.sections) {
 }
 nav += '<div class="toc-head">Extensions</div>';
 for (const t of editorial.extended_topics) nav += `<a href="#${esc(t.key)}">${esc(t.title)}</a>`;
+nav += '<div class="toc-head">SIGs &amp; Online Events</div>' +
+  '<a href="#sig-series">Webinar &amp; lecture series</a>' +
+  '<a href="#sig-upcoming">Coming up</a>' +
+  '<a href="#sig-archives">Workshop archives</a>' +
+  '<a href="#sig-directory">SIG directory</a>' +
+  '<a href="#sig-central">ISCA-level video</a>' +
+  '<a href="#sig-notes">Board notes</a>';
 nav += '<div class="toc-head">About</div><a href="#about">About this site</a><a href="#contribute">Suggest a resource</a><a href="#changelog">Changelog</a>';
 
 // ---------- footer ----------
 let footer = `<h2 id="about">About</h2>` + editorial.about.map((p) => `<p>${esc(p)}</p>`).join('');
 footer += `<h2>How this site is maintained</h2>` + editorial.how_it_works.map((p) => `<p>${esc(p)}</p>`).join('');
+footer += `<h2>The SIG part</h2><p>${esc(sigEd.method)}</p><p>${esc(sigEd.disclosure)}</p>`;
 footer += `<h2 id="contribute">Suggest a resource</h2>` + editorial.contribute.map((p) => `<p>${esc(p)}</p>`).join('');
 footer += `<p><a class="contact-btn" href="mailto:${esc(editorial.contact_email)}?subject=%5BSCOOT%5D%20suggestion">✉ Email a suggestion</a> · <a href="https://github.com/speechlab0210/scoot/issues" rel="noopener">Open a GitHub issue</a></p>`;
 footer += `<h2 id="changelog">Changelog</h2><ul class="changelog">` +
@@ -190,22 +333,24 @@ const nOrig = (() => {
 const linkCheckedAt = linkReport.retested_at ?? linkReport.checked_at;
 const linkCheckedLabel = linkCheckedAt?.replace('T', ' ').replace(/\.\d{3}Z$/, ' UTC');
 const linkStatus = linkCheckedAt
-  ? `${linkReport.total ?? Object.keys(linkReport.results ?? {}).length} unique links; last checked ${linkCheckedLabel}`
+  ? `${linkReport.total ?? Object.keys(linkReport.results ?? {}).length} unique catalog links; last checked ${linkCheckedLabel}`
   : 'link-check time not recorded';
-footer += `<p class="built">${nOrig} original SCOOT entries (all preserved) + ${resources.entries.length} extension entries · ${esc(linkStatus)} · source data + build scripts: <a href="https://github.com/speechlab0210/scoot" rel="noopener">github.com/speechlab0210/scoot</a></p>`;
+footer += `<p class="built">${nOrig} original SCOOT entries (all preserved) + ${resources.entries.length} extension entries · ${esc(linkStatus)} · ${sigStats.sigCount} ISCA SIGs with ${sigStats.videoLinks} video links, each reviewed ${esc(sigEd.reviewed)} · source data + build scripts: <a href="https://github.com/speechlab0210/scoot" rel="noopener">github.com/speechlab0210/scoot</a></p>`;
 
 // ---------- assemble ----------
 const template = readFileSync(join(ROOT, 'site-src', 'template.html'), 'utf8');
 for (const ph of ['__TAGLINE__', '__BANNER__', '__ORIGINAL_HOME__', '__SCOOT_NAV__', '__SCOOT_BODY__', '__SCOOT_FOOTER__']) {
   if (!template.includes(ph)) throw new Error('template.html missing placeholder ' + ph);
 }
+// function replacements: with a plain string, $&/$'/$`/$$ in data-derived
+// content are ACTIVE replacement patterns and silently corrupt the output
 const html = template
-  .replace('__TAGLINE__', esc(editorial.tagline))
-  .replace('__BANNER__', esc(editorial.banner))
-  .replace('__ORIGINAL_HOME__', esc(editorial.original_home))
-  .replace('__SCOOT_NAV__', nav)
-  .replace('__SCOOT_BODY__', body)
-  .replace('__SCOOT_FOOTER__', footer);
+  .replace('__TAGLINE__', () => esc(editorial.tagline))
+  .replace('__BANNER__', () => esc(editorial.banner))
+  .replace('__ORIGINAL_HOME__', () => esc(editorial.original_home))
+  .replace('__SCOOT_NAV__', () => nav)
+  .replace('__SCOOT_BODY__', () => body)
+  .replace('__SCOOT_FOOTER__', () => footer);
 
 mkdirSync(join(ROOT, 'site'), { recursive: true });
 writeFileSync(join(ROOT, 'site', 'index.html'), html);

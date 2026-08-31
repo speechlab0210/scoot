@@ -298,6 +298,46 @@
       "status": 200,
       "ok": true
     },
+    "https://github.com/AudioLLMs/AudioBench": {
+      "status": 200,
+      "ok": true
+    },
+    "https://github.com/DanielLin94144/Full-Duplex-Bench": {
+      "status": 200,
+      "ok": true
+    },
+    "https://github.com/FunAudioLLM/CosyVoice": {
+      "status": 200,
+      "ok": true
+    },
+    "https://github.com/MontrealCorpusTools/Montreal-Forced-Aligner": {
+      "status": 200,
+      "ok": true
+    },
+    "https://github.com/NVIDIA-NeMo/Speech": {
+      "status": 200,
+      "ok": true
+    },
+    "https://github.com/OHF-Voice/piper1-gpl": {
+      "status": 200,
+      "ok": true
+    },
+    "https://github.com/SWivid/F5-TTS": {
+      "status": 200,
+      "ok": true
+    },
+    "https://github.com/SYSTRAN/faster-whisper": {
+      "status": 200,
+      "ok": true
+    },
+    "https://github.com/YannickJadoul/Parselmouth": {
+      "status": 200,
+      "ok": true
+    },
+    "https://github.com/YoavRamon/awesome-kaldi": {
+      "status": 200,
+      "ok": true
+    },
     "https://github.com/apple/ml-stuttering-events-dataset": {
       "status": 200,
       "ok": true
@@ -307,14 +347,6 @@
       "ok": true
     },
     "https://github.com/audeering/w2v2-how-to": {
-      "status": 200,
-      "ok": true
-    },
-    "https://github.com/AudioLLMs/AudioBench": {
-      "status": 200,
-      "ok": true
-    },
-    "https://github.com/DanielLin94144/Full-Duplex-Bench": {
       "status": 200,
       "ok": true
     },
@@ -335,10 +367,6 @@
       "ok": true
     },
     "https://github.com/fixie-ai/ultravox": {
-      "status": 200,
-      "ok": true
-    },
-    "https://github.com/FunAudioLLM/CosyVoice": {
       "status": 200,
       "ok": true
     },
@@ -374,19 +402,7 @@
       "status": 200,
       "ok": true
     },
-    "https://github.com/MontrealCorpusTools/Montreal-Forced-Aligner": {
-      "status": 200,
-      "ok": true
-    },
     "https://github.com/mpariente/pystoi": {
-      "status": 200,
-      "ok": true
-    },
-    "https://github.com/NVIDIA-NeMo/Speech": {
-      "status": 200,
-      "ok": true
-    },
-    "https://github.com/OHF-Voice/piper1-gpl": {
       "status": 200,
       "ok": true
     },
@@ -402,23 +418,7 @@
       "status": 200,
       "ok": true
     },
-    "https://github.com/SWivid/F5-TTS": {
-      "status": 200,
-      "ok": true
-    },
-    "https://github.com/SYSTRAN/faster-whisper": {
-      "status": 200,
-      "ok": true
-    },
     "https://github.com/wavlab-speech/versa": {
-      "status": 200,
-      "ok": true
-    },
-    "https://github.com/YannickJadoul/Parselmouth": {
-      "status": 200,
-      "ok": true
-    },
-    "https://github.com/YoavRamon/awesome-kaldi": {
       "status": 200,
       "ok": true
     },
@@ -466,6 +466,27 @@
       "status": 200,
       "ok": true
     },
+    "https://isca-speech.org/Speech-Prosody-SProSIG": {
+      "status": 200,
+      "ok": true
+    },
+    "https://isca-speech.org/SynSIG": {
+      "status": 200,
+      "ok": true,
+      "note": "repair 2026-08-31"
+    },
+    "https://isca-speech.org/SynSIG-Events": {
+      "status": 200,
+      "ok": true
+    },
+    "https://isca-speech.org/Upcoming-Interspeech": {
+      "status": 200,
+      "ok": true
+    },
+    "https://isca-speech.org/Video-Archive": {
+      "status": 200,
+      "ok": true
+    },
     "https://isca-speech.org/resources/Documents/Outreach/Distinguished%20lectures/RKM_ISCA-DL-2014-15_Beyond-Siri.pdf": {
       "status": 200,
       "ok": true
@@ -483,22 +504,6 @@
       "ok": true
     },
     "https://isca-speech.org/resources/Documents/Training/SCOOT/Speech%20Technology/RKM_ISCA-DL-2014-15_Beyond-Siri.pdf": {
-      "status": 200,
-      "ok": true
-    },
-    "https://isca-speech.org/Speech-Prosody-SProSIG": {
-      "status": 200,
-      "ok": true
-    },
-    "https://isca-speech.org/SynSIG-Events": {
-      "status": 200,
-      "ok": true
-    },
-    "https://isca-speech.org/Upcoming-Interspeech": {
-      "status": 200,
-      "ok": true
-    },
-    "https://isca-speech.org/Video-Archive": {
       "status": 200,
       "ok": true
     },
@@ -633,14 +638,6 @@
       "status": 200,
       "ok": true
     },
-    "https://staffwww.dcs.shef.ac.uk/people/R.K.Moore/SCOOT/COM3502-4502-6502_L1_Introduction.mp3": {
-      "status": 200,
-      "ok": true
-    },
-    "https://staffwww.dcs.shef.ac.uk/people/R.K.Moore/SCOOT/COM3502-4502-6502_L1_Introduction.pdf": {
-      "status": 200,
-      "ok": true
-    },
     "https://staffwww.dcs.shef.ac.uk/people/R.K.Moore/SCOOT/COM3502-4502-6502_L11_Signals.mp3": {
       "status": 200,
       "ok": true
@@ -713,11 +710,11 @@
       "status": 200,
       "ok": true
     },
-    "https://staffwww.dcs.shef.ac.uk/people/R.K.Moore/SCOOT/COM3502-4502-6502_L2_Sound.mp3": {
+    "https://staffwww.dcs.shef.ac.uk/people/R.K.Moore/SCOOT/COM3502-4502-6502_L1_Introduction.mp3": {
       "status": 200,
       "ok": true
     },
-    "https://staffwww.dcs.shef.ac.uk/people/R.K.Moore/SCOOT/COM3502-4502-6502_L2_Sound.pdf": {
+    "https://staffwww.dcs.shef.ac.uk/people/R.K.Moore/SCOOT/COM3502-4502-6502_L1_Introduction.pdf": {
       "status": 200,
       "ok": true
     },
@@ -726,6 +723,14 @@
       "ok": true
     },
     "https://staffwww.dcs.shef.ac.uk/people/R.K.Moore/SCOOT/COM3502-4502-6502_L20_Final-Overview.pdf": {
+      "status": 200,
+      "ok": true
+    },
+    "https://staffwww.dcs.shef.ac.uk/people/R.K.Moore/SCOOT/COM3502-4502-6502_L2_Sound.mp3": {
+      "status": 200,
+      "ok": true
+    },
+    "https://staffwww.dcs.shef.ac.uk/people/R.K.Moore/SCOOT/COM3502-4502-6502_L2_Sound.pdf": {
       "status": 200,
       "ok": true
     },
@@ -800,6 +805,16 @@
     "https://urgent-challenge.github.io/urgent2026/": {
       "status": 200,
       "ok": true
+    },
+    "https://web.archive.org/web/20240422134327/https://synsig.org/index.php/Education": {
+      "status": 200,
+      "ok": true,
+      "note": "repair 2026-08-31"
+    },
+    "https://web.archive.org/web/20240424114352/https://www.synsig.org/index.php/Software": {
+      "status": 200,
+      "ok": true,
+      "note": "repair 2026-08-31"
     },
     "https://web.stanford.edu/class/cs224s/": {
       "status": 200,
@@ -947,18 +962,6 @@
       "status": 200,
       "ok": true
     },
-    "https://www.synsig.org/": {
-      "status": 200,
-      "ok": true
-    },
-    "https://www.synsig.org/index.php/Education": {
-      "status": 200,
-      "ok": true
-    },
-    "https://www.synsig.org/index.php/Software": {
-      "status": 200,
-      "ok": true
-    },
     "https://www.voiceprivacychallenge.org/": {
       "status": 200,
       "ok": true
@@ -996,14 +999,6 @@
       "status": 200,
       "ok": true
     },
-    "https://www.youtube.com/watch?v=_69ATDAomLc": {
-      "status": 200,
-      "ok": true
-    },
-    "https://www.youtube.com/watch?v=_Jx3wgiWX2o": {
-      "status": 200,
-      "ok": true
-    },
     "https://www.youtube.com/watch?v=-e66ByetpDY": {
       "status": 200,
       "ok": true
@@ -1024,31 +1019,11 @@
       "status": 200,
       "ok": true
     },
-    "https://www.youtube.com/watch?v=dqoEU9Ac3ek": {
-      "status": 200,
-      "ok": true
-    },
-    "https://www.youtube.com/watch?v=eeaghqkLRi8": {
-      "status": 200,
-      "ok": true
-    },
     "https://www.youtube.com/watch?v=ErnWZxJovaM": {
       "status": 200,
       "ok": true
     },
-    "https://www.youtube.com/watch?v=gaoOndAQkUw": {
-      "status": 200,
-      "ok": true
-    },
     "https://www.youtube.com/watch?v=H9qNuyD7xdg": {
-      "status": 200,
-      "ok": true
-    },
-    "https://www.youtube.com/watch?v=jJR1VPzayu0": {
-      "status": 200,
-      "ok": true
-    },
-    "https://www.youtube.com/watch?v=lWH-Oh5KnNY": {
       "status": 200,
       "ok": true
     },
@@ -1068,23 +1043,11 @@
       "status": 200,
       "ok": true
     },
-    "https://www.youtube.com/watch?v=nRhkzeeMqVk": {
-      "status": 200,
-      "ok": true
-    },
     "https://www.youtube.com/watch?v=PJ_KCTsOCrs": {
       "status": 200,
       "ok": true
     },
-    "https://www.youtube.com/watch?v=q67z7PTGRi8": {
-      "status": 200,
-      "ok": true
-    },
     "https://www.youtube.com/watch?v=SxSN3b1vNHg": {
-      "status": 200,
-      "ok": true
-    },
-    "https://www.youtube.com/watch?v=tPYj3fFJGjk": {
       "status": 200,
       "ok": true
     },
@@ -1096,11 +1059,51 @@
       "status": 200,
       "ok": true
     },
-    "https://www.youtube.com/watch?v=xzL-pxcpo-E": {
+    "https://www.youtube.com/watch?v=Y_mSQ7tTlvQ": {
       "status": 200,
       "ok": true
     },
-    "https://www.youtube.com/watch?v=Y_mSQ7tTlvQ": {
+    "https://www.youtube.com/watch?v=_69ATDAomLc": {
+      "status": 200,
+      "ok": true
+    },
+    "https://www.youtube.com/watch?v=_Jx3wgiWX2o": {
+      "status": 200,
+      "ok": true
+    },
+    "https://www.youtube.com/watch?v=dqoEU9Ac3ek": {
+      "status": 200,
+      "ok": true
+    },
+    "https://www.youtube.com/watch?v=eeaghqkLRi8": {
+      "status": 200,
+      "ok": true
+    },
+    "https://www.youtube.com/watch?v=gaoOndAQkUw": {
+      "status": 200,
+      "ok": true
+    },
+    "https://www.youtube.com/watch?v=jJR1VPzayu0": {
+      "status": 200,
+      "ok": true
+    },
+    "https://www.youtube.com/watch?v=lWH-Oh5KnNY": {
+      "status": 200,
+      "ok": true
+    },
+    "https://www.youtube.com/watch?v=nRhkzeeMqVk": {
+      "status": 200,
+      "ok": true
+    },
+    "https://www.youtube.com/watch?v=q67z7PTGRi8": {
+      "status": 200,
+      "ok": true
+    },
+    "https://www.youtube.com/watch?v=tPYj3fFJGjk": {
+      "status": 200,
+      "ok": true
+    },
+    "https://www.youtube.com/watch?v=xzL-pxcpo-E": {
       "status": 200,
       "ok": true
     },

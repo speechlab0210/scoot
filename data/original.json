@@ -409,9 +409,9 @@
             {
               "text": "ISCA's speech synthesis special interest group SynSIG compiles lists of software tools and educational materials.",
               "links": [
-                { "label": "SynSIG", "href": "https://www.synsig.org/" },
-                { "label": "Software tools", "href": "https://www.synsig.org/index.php/Software" },
-                { "label": "Educational materials", "href": "https://www.synsig.org/index.php/Education" }
+                { "label": "SynSIG", "href": "https://isca-speech.org/SynSIG" },
+                { "label": "Software tools", "href": "https://web.archive.org/web/20240424114352/https://www.synsig.org/index.php/Software" },
+                { "label": "Educational materials", "href": "https://web.archive.org/web/20240422134327/https://synsig.org/index.php/Education" }
               ]
             },
             {

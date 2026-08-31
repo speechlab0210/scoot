@@ -2,6 +2,16 @@
   "entries": [
     {
       "date": "2026-08-31",
+      "change": "Repaired three original-catalog links to www.synsig.org (Speech Technology → Synthesis): the SIG's historical domain has been hijacked and now serves a gambling site while still answering HTTP 200, so the automated link check could not catch it. Main link now points to the SIG's current home at isca-speech.org/SynSIG; the Software and Educational-materials wiki pages point to April 2024 Internet Archive snapshots of the same pages. Entry text unchanged; repair registered in the coverage audit.",
+      "source": "SIG-part review finding"
+    },
+    {
+      "date": "2026-08-31",
+      "change": "Merged the ISCA SIG activities atlas into this page as the 'ISCA SIGs & online events' part: 20 SIG cards with reviewed activities and video resources, the webinar & lecture series tracker, upcoming events, recorded workshop archives, ISCA-level video resources and board notes. The atlas's former standalone address now redirects here. All SIG links were reviewed 31 August 2026 (see 'The SIG part' in the footer).",
+      "source": "editorial decision"
+    },
+    {
+      "date": "2026-08-31",
       "change": "Fixed catalog QA issues: lecture-title searches now reveal their parent resource, mobile topic navigation is collapsible, link-check provenance is reported from the actual audit timestamp, and the dead Odette Scharenborg Winter School URL was replaced with the author's maintained teaching page containing the same Day 1–5 slides.",
       "source": "catalog audit"
     },
