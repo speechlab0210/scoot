@@ -1,6 +1,31 @@
 {
   "entries": [
     {
+      "date": "2026-10-04",
+      "source": "site review",
+      "change": "Replaced links that had become unsafe with archived copies of the original pages: the Linguistics Network phonology tutorial (the domain now redirects to gambling sites) and four Speech Recognition Virtual Kitchen pages (the domain lapsed; the previous archived copies showed a for-sale or parked page); the site will no longer link to either domain. Retired Smithsonian Speech Synthesis History Project pages now open 2016 archived copies; one link labelled 'Holmes' on the original page opens Mattingly's 1974 review, and its label now says so."
+    },
+    {
+      "date": "2026-10-04",
+      "source": "site review",
+      "change": "Original catalog checked entry by entry against the archived ISCA pages: restored original wording where the 31 August transcription had shortened or reworded entries (for example the wav2vec, sequence-modelling, formant-synthesis and concatenative-synthesis entries, and the Stanford lecture dates), removed details that were not on the original pages, and added two items the transcription had missed: Andreas Spanias's 1994 speech coding tutorial review and the HTK homepage link. The original catalog now has 105 entries."
+    },
+    {
+      "date": "2026-10-04",
+      "source": "site review",
+      "change": "Link repairs made in the 31 August rebuild, now listed here: Roger Moore's Lecture 5 slides and audio use the staffwww.dcs.shef.ac.uk mirror of the same files; two speech.zone links follow the course's renamed synthesis module; the 2021 ISCA Medal lecture links to its ISCA Archive page; a Google search link was replaced by the direct YouTube link to the same video; a broken LDC anchor points to www.ldc.upenn.edu. Today: Yao Wang's speech coding notes use the new NYU address of the same PDF, five http links (the USC real-time MRI page, the wav2vec 2.0 guide and three Kaldi documentation pages) now use https; and the original page's malformed link to the Interspeech 2022 tutorial's review paper now opens it on arXiv."
+    },
+    {
+      "date": "2026-10-04",
+      "source": "site review",
+      "change": "Updated 50 extension entries after checking each against its own page: current versions (Praat 7.0.02, ESPnet 202610, SpeechBrain 1.1.1, whisper.cpp 1.9.4, sherpa-onnx 1.13.8, Piper 1.8.0, Montreal Forced Aligner 3.4.2, librosa 1.0.0, NeMo Speech 3.0); moved repositories and courses (CosyVoice, SEP-28k, CMU 11-751 Fall 2026, CMU 11-785, the HSE course's complete 2025 branch); corrected access and cost notes (GigaSpeech, Multilingual LibriSpeech, the EPFL DSP specialization); past events written in the past tense with next editions (Interspeech, Speech Prosody, JSALT, VoicePrivacy, SPSC, CHiME, URGENT); the Blizzard Challenge now links to its current official site."
+    },
+    {
+      "date": "2026-10-04",
+      "source": "site review",
+      "change": "Links now checked every day, with archived copies shown for links that fail three days in a row; the UCLA Phonetics Lab Archive (expired security certificate) and the HTK homepage (server errors) show archived copies for now. Email and GitHub issues are now read three times a day. The 'How this site is maintained' and 'Suggest a resource or correction' sections describe the process. The notice at the top of the page again carries the full disclosure. Search fixes: section labels stay visible while filtering, results appear right below the search box, and searches for SIGs or seminars point to the ISCA SIG Atlas."
+    },
+    {
       "date": "2026-10-03",
       "change": "Replaced the embedded SIG directory and event lists with a direct link to the independent ISCA SIG Atlas. Added topic shortcuts, source filters, shareable multi-word search and a clear empty state; improved keyboard and mobile navigation. All 104 original entries and 118 extensions are preserved. Resource content and link-audit dates are unchanged.",
       "source": "site update"

@@ -1,0 +1,20 @@
+{
+  "note": "Domains this catalog once linked that were later taken over by unrelated (gambling or spam) sites, or that lapsed so that anyone could register them. A taken-over domain can still answer HTTP 200, so a status-code link check cannot catch it. The build refuses any link to these hosts; an archived copy of the original page is linked instead.",
+  "entries": [
+    {
+      "domain": "synsig.org",
+      "since": "2026-08-31",
+      "reason": "Former address of ISCA's speech synthesis SIG; now serves a gambling site."
+    },
+    {
+      "domain": "linguisticsnetwork.com",
+      "since": "2026-10-04",
+      "reason": "Redirects through about ten unrelated domains to a lottery and gambling page."
+    },
+    {
+      "domain": "speechkitchen.org",
+      "since": "2026-10-04",
+      "reason": "The domain lapsed and is no longer registered (it was offered for sale in 2021 and parked in 2023); 2018 archived copies are linked instead."
+    }
+  ]
+}

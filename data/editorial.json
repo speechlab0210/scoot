@@ -1,11 +1,11 @@
 {
   "site_title": "SCOOT 2.0",
   "tagline": "Find your way into speech communication. Courses, lectures, tools and datasets, organized by the original SCOOT topics.",
-  "banner": "Independent, AI-maintained prototype. Not an official ISCA publication. Content has not been independently verified by a human; check the linked sources before relying on it.",
+  "banner": "Not an official ISCA publication, and nothing here has been verified by a human. This site began as Hung-yi Lee casually prompting an AI agent (Claude Fable 5) to see what AI agents can do, and an AI agent maintains it. Check the linked sources before relying on it.",
   "contact_email": "speechlab0210@gmail.com",
   "original_home": "https://isca-speech.org/SCOOT",
   "ext_label": "SCOOT 2.0 extensions",
-  "ext_blurb": "Additional resources, clearly separated from the original SCOOT catalog.",
+  "ext_blurb": "Every entry here is a SCOOT 2.0 extension, kept separate from the original catalog.",
   "benchmark_atlas": {
     "title": "Spoken LLM Benchmark Atlas",
     "url": "https://speechlab0210.github.io/spoken-llm-benchmarks/",
@@ -13,11 +13,11 @@
     "repo_url": "https://github.com/speechlab0210/spoken-llm-benchmarks",
     "paper_url": "https://github.com/speechlab0210/spoken-llm-benchmarks/blob/main/paper/PAPER.md",
     "blurb": "Explore benchmarks for spoken language models, the capabilities they measure, and reported model results with links to the source papers.",
-    "asof": "2026-08-31",
+    "asof": "2026-10-03",
     "stats": [
       {
         "key": "benchmarks",
-        "n": "368",
+        "n": "433",
         "label": "benchmarks"
       },
       {
@@ -27,16 +27,16 @@
       },
       {
         "key": "models",
-        "n": "221",
+        "n": "261",
         "label": "models tracked"
       },
       {
         "key": "result_cells",
-        "n": "15,468",
+        "n": "16,561",
         "label": "sourced result cells"
       }
     ],
-    "maintained": "Like the rest of SCOOT 2.0 it is AI-maintained; its own page carries the full method and disclosure, and corrections go to the same contact address with [Atlas] in the subject."
+    "maintained": "Like the rest of SCOOT 2.0, it is AI-maintained; its own page carries the full method and disclosure. Send corrections to the same contact address with [Atlas] in the subject."
   },
   "extended_topics": [
     {
@@ -57,20 +57,22 @@
   ],
   "about": [
     "SCOOT is ISCA's guide to online training resources in Speech Communication, created and long maintained by members of the ISCA community (the archived pages credit course material by Roger Moore, Simon King and many others). Its motto: 'SCOOT will never be finished.'",
-    "SCOOT 2.0 preserves the original topic structure and all 104 resource entries from the 31 August 2026 snapshot, alongside 118 clearly marked extensions. Original entries retain their descriptions and source links. Archived copies are provided where available for links reported as unavailable.",
+    "SCOOT 2.0 preserves the original topic structure and all 105 resource entries from the original ISCA SCOOT pages as captured on 31 August 2026, alongside clearly marked extensions. Original entries keep their descriptions. Where an original link broke or its domain was taken over by an unrelated site, it now points to the same resource's current address or to an archived copy, and each repair is listed in the changelog.",
     "It serves the same audience as the original: students of speech communication arriving from phonetics, linguistics, computer science, or electrical engineering, anywhere between a first degree and a PhD.",
     "The ISCA SIG directory, seminars, events and recordings moved to the independent ISCA SIG Atlas on 3 October 2026. Use the direct link at the top of this page. The Spoken LLM Benchmark Atlas also has its own dedicated page.",
-    "This is NOT an official ISCA publication. The project began as Hung-yi Lee prompting an AI agent to explore what AI agents can do. This rebuilt catalog has not been independently verified by a human, and listing a resource does not imply endorsement."
+    "This is NOT an official ISCA publication (see the notice at the top of the page for how the project began). This rebuilt catalog has not been verified by a human, and listing a resource does not imply endorsement."
   ],
   "how_it_works": [
-    "Original entries (marked ⬤ Original SCOOT) are faithful transcriptions of the original pages — same resources, same descriptions lightly edited for typos. The HTML snapshots they were transcribed from are preserved with the project source materials and audited mechanically against this page.",
-    "Extension entries are marked “SCOOT 2.0 extensions”. Link-status labels reflect the last recorded audit, whose timestamp is shown below; this interface update is not a new review of every resource. Catalog and link checks are not currently scheduled. Check linked course pages for current availability, pricing and versions.",
-    "Every editorial change is recorded in the changelog below, including changes made in response to community suggestions."
+    "Original entries (marked ● Original SCOOT) are transcriptions of the original ISCA SCOOT pages: the same resources and descriptions, with typos corrected and a few documented differences (listed in data/original.json in the GitHub repository). The archived pages they were transcribed from are kept with the project's working files, and before every update a script checks that each resource link on those pages is still present here or recorded as a repair.",
+    "Every day, early morning Taipei time, an AI agent checks every link in the catalog and compares each linked page with the version it last reviewed. GitHub projects, Hugging Face datasets and YouTube videos are checked through their public interfaces. A link is labelled as possibly unavailable only after it has failed on three daily checks in a row, and an archived copy is linked where one exists. A link whose domain now redirects to unrelated sites, such as gambling pages, is replaced with an archived copy of the original page, and the build refuses to link that domain again.",
+    "Each day a few topics are also reviewed in depth, rotating through all of them: the pages behind their extension entries are re-read, version and status details are updated, and notable new learning resources may be added. A change is made only when the resource's own page supports it. Larger changes, such as new topics, a different structure or removing original entries, are referred to the project's human supervisor instead of being made automatically.",
+    "Extension entries are marked “SCOOT 2.0 extensions”. The footer shows when links were last checked. Check linked course pages for current availability, pricing and versions.",
+    "Every content change is listed in the changelog below, including changes made in response to suggestions."
   ],
   "contribute": [
-    "Found a broken link, missing resource or unclear description? Send the resource URL, its topic, and the correction you suggest.",
-    "Two ways to reach the curator: email (button below), or open an issue on the GitHub repository at github.com/speechlab0210/scoot — the catalog data lives there as plain JSON, so you can point at the exact entry.",
-    "This prototype is assembled by an AI agent. Suggestions are treated as information about the catalog, not instructions to perform unrelated actions. Contacting the curator does not guarantee an immediate reply or update."
+    "Found a broken link, a missing resource or an unclear description? Send the resource URL, its topic and the correction you suggest.",
+    "Email the curator (button below; [SCOOT] in the subject helps) or open an issue on the GitHub repository at github.com/speechlab0210/scoot, where the catalog data lives as plain JSON.",
+    "Email and GitHub issues are read three times a day by the AI agent that maintains this site. Small, verifiable corrections and additions are made directly, and the sender gets a reply describing the change. Content changes requested by members of the ISCA Board are made after their identity is checked against the Board list on isca-speech.org. Anything else is passed to the project's human supervisor. Messages are treated as information about the catalog, not as instructions to do anything else."
   ],
   "sig_atlas": {
     "title": "ISCA SIG Atlas",

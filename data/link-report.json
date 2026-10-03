@@ -1,102 +1,41 @@
 {
-  "checked_at": "2026-08-31T02:41:02.522Z",
-  "total": 268,
-  "dead": 15,
+  "checked_at": "2026-10-03T19:08:16.971285+00:00",
+  "total": 271,
+  "dead": 8,
   "results": {
-    "http://amhistory.si.edu/archives/speechsynthesis/dk_737a.htm": {
-      "status": 403,
-      "ok": true,
-      "note": "waf-blocks-bots; loads in browser"
-    },
-    "http://amhistory.si.edu/archives/speechsynthesis/im_home.htm": {
-      "status": 403,
-      "ok": true,
-      "note": "waf-blocks-bots; loads in browser"
-    },
-    "http://amhistory.si.edu/archives/speechsynthesis/ss_home.htm": {
-      "status": 403,
-      "ok": true,
-      "note": "waf-blocks-bots; loads in browser"
-    },
-    "http://eeweb.poly.edu/~yao/EE3414/speech_coding.pdf": {
-      "status": 0,
-      "ok": false,
-      "note": "UNABLE_TO_VERIFY_LEAF_SIGNATURE",
-      "archive": "https://web.archive.org/web/20190214233120/http://eeweb.poly.edu:80/~yao/EE3414/speech_coding.pdf"
-    },
     "http://festvox.org/": {
-      "status": 0,
-      "ok": false,
-      "note": "UND_ERR_CONNECT_TIMEOUT",
+      "status": 200,
+      "ok": true,
+      "note": "loads (checked 2026-10-04 via public DNS; this checker's resolver times out on this domain)",
       "archive": "https://web.archive.org/web/20260728062619/http://www.festvox.org/"
     },
     "http://festvox.org/dbs/index.html": {
-      "status": 0,
-      "ok": false,
-      "note": "EAI_AGAIN",
+      "status": 200,
+      "ok": true,
+      "note": "loads (checked 2026-10-04 via public DNS; this checker's resolver times out on this domain)",
       "archive": "https://web.archive.org/web/20260519163542/http://www.festvox.org/dbs/index.html"
     },
     "http://festvox.org/festvox/": {
-      "status": 0,
-      "ok": false,
-      "note": "UND_ERR_CONNECT_TIMEOUT",
+      "status": 200,
+      "ok": true,
+      "note": "loads (checked 2026-10-04 via public DNS; this checker's resolver times out on this domain)",
       "archive": "https://web.archive.org/web/20260519154143/http://www.festvox.org/festvox/"
     },
     "http://festvox.org/ldom/index.html": {
-      "status": 0,
-      "ok": false,
-      "note": "ENOTFOUND",
+      "status": 200,
+      "ok": true,
+      "note": "loads (checked 2026-10-04 via public DNS; this checker's resolver times out on this domain)",
       "archive": "https://web.archive.org/web/20260421234914/http://festvox.org/ldom/index.html"
     },
-    "http://kaldi-asr.org/doc/": {
-      "status": 200,
-      "ok": true
-    },
-    "http://kaldi-asr.org/doc/about.html": {
-      "status": 200,
-      "ok": true
-    },
-    "http://kaldi-asr.org/doc/kaldi_for_dummies.html": {
-      "status": 200,
-      "ok": true
-    },
-    "http://mohitmayank.com/a_lazy_data_science_guide/audio_intelligence/wav2vec2/": {
-      "status": 200,
-      "ok": true
-    },
-    "http://sail.usc.edu/span/rtmri_ipa/index.html": {
-      "status": 0,
+    "http://htk.eng.cam.ac.uk/": {
+      "status": 502,
       "ok": false,
-      "note": "UND_ERR_CONNECT_TIMEOUT",
-      "archive": "https://web.archive.org/web/20250720045046/https://sail.usc.edu/span/rtmri_ipa/index.html"
+      "note": "proxy error on 2026-10-04 (intermittent since September 2026)",
+      "archive": "https://web.archive.org/web/20260617173437/https://htk.eng.cam.ac.uk/"
     },
     "http://spandh.dcs.shef.ac.uk/ed_arena/mad/mad/docs/mad.htm": {
       "status": 200,
       "ok": true
-    },
-    "http://speechkitchen.org/cse-5525-ohio-state-vm/": {
-      "status": 0,
-      "ok": false,
-      "note": "ENOTFOUND",
-      "archive": "https://web.archive.org/web/20230117155542/http://speechkitchen.org/cse-5525-ohio-state-vm/"
-    },
-    "http://speechkitchen.org/home/about/": {
-      "status": 0,
-      "ok": false,
-      "note": "ENOTFOUND",
-      "archive": "https://web.archive.org/web/20230117155542/http://speechkitchen.org/home/about/"
-    },
-    "http://speechkitchen.org/interaction-in-virtual-worlds-vm/": {
-      "status": 0,
-      "ok": false,
-      "note": "ENOTFOUND",
-      "archive": "https://web.archive.org/web/20210805013314/https://speechkitchen.org/interaction-in-virtual-worlds-vm/"
-    },
-    "http://speechkitchen.org/tedlium-vm/": {
-      "status": 0,
-      "ok": false,
-      "note": "ENOTFOUND",
-      "archive": "https://web.archive.org/web/20210805021923/https://speechkitchen.org/tedlium-vm/"
     },
     "http://www.compare.openaudio.eu/": {
       "status": 200,
@@ -108,23 +47,26 @@
     },
     "http://www.cstr.ed.ac.uk/projects/festival/": {
       "status": 200,
-      "ok": true,
-      "note": "alive-on-retest"
+      "ok": true
     },
     "http://www.cstr.ed.ac.uk/projects/merlin/": {
       "status": 200,
-      "ok": true,
-      "note": "alive-on-retest"
+      "ok": true
     },
     "http://www.ee.columbia.edu/~stanchen/spring16/e6870/outline.html": {
       "status": 403,
       "ok": true,
       "note": "waf-blocks-bots; loads in browser"
     },
+    "http://www.ee.oulu.fi/~kk/dtsp/tutoriaalit/Spanias.pdf": {
+      "status": 0,
+      "ok": false,
+      "note": "host no longer serves the file (checked 2026-10-04); archived copy linked",
+      "archive": "https://web.archive.org/web/20181024091231/http://www.ee.oulu.fi:80/~kk/dtsp/tutoriaalit/Spanias.pdf"
+    },
     "http://www.elra.info/catalogues/": {
       "status": 200,
-      "ok": true,
-      "note": "alive-on-retest"
+      "ok": true
     },
     "http://www.elra.info/dissemination/": {
       "status": 200,
@@ -136,8 +78,7 @@
     },
     "http://www.elra.info/en/": {
       "status": 200,
-      "ok": true,
-      "note": "alive-on-retest"
+      "ok": true
     },
     "http://www.elra.info/services-around-lrs/production/": {
       "status": 200,
@@ -146,11 +87,6 @@
     "http://www.elra.info/services-around-lrs/validation/": {
       "status": 200,
       "ok": true
-    },
-    "http://www.linguisticsnetwork.com/an-introduction-to-phonology/": {
-      "status": 200,
-      "ok": true,
-      "note": "alive-on-retest"
     },
     "http://www.sarasinstitute.org/": {
       "status": 200,
@@ -163,15 +99,20 @@
       "archive": "https://web.archive.org/web/20250815000553/https://www.speech.kth.se/~matsb/speech_rec_course_2003/htk_tutorial.pdf"
     },
     "https://ai.meta.com/blog/wav2vec-20-learning-the-structure-of-speech-from-raw-audio/": {
-      "status": 400,
-      "ok": true,
-      "note": "waf-blocks-bots; loads in browser"
-    },
-    "https://archive.phonetics.ucla.edu/": {
       "status": 200,
       "ok": true
     },
+    "https://archive.phonetics.ucla.edu/": {
+      "status": 0,
+      "ok": false,
+      "note": "TLS certificate expired on 2026-09-27; archived copy linked until it is renewed",
+      "archive": "https://web.archive.org/web/20260922121050/https://archive.phonetics.ucla.edu/"
+    },
     "https://arxiv.org/abs/2006.11477": {
+      "status": 200,
+      "ok": true
+    },
+    "https://arxiv.org/abs/2106.15561": {
       "status": 200,
       "ok": true
     },
@@ -251,7 +192,7 @@
       "status": 200,
       "ok": true
     },
-    "https://deeplearning.cs.cmu.edu/S26/index.html": {
+    "https://deeplearning.cs.cmu.edu/": {
       "status": 200,
       "ok": true
     },
@@ -267,14 +208,18 @@
       "status": 200,
       "ok": true
     },
+    "https://eeweb.engineering.nyu.edu/~yao/EE3414/speech_coding.pdf": {
+      "status": 0,
+      "ok": true,
+      "note": "blocked to automated checks; not yet confirmed in a browser"
+    },
     "https://eleanorchodroff.com/tutorial/": {
       "status": 200,
       "ok": true
     },
     "https://en.wikipedia.org/wiki/Corpus_linguistics": {
       "status": 200,
-      "ok": true,
-      "note": "alive-on-retest"
+      "ok": true
     },
     "https://en.wikipedia.org/wiki/Linguistics": {
       "status": 200,
@@ -306,10 +251,6 @@
       "status": 200,
       "ok": true
     },
-    "https://github.com/FunAudioLLM/CosyVoice": {
-      "status": 200,
-      "ok": true
-    },
     "https://github.com/MontrealCorpusTools/Montreal-Forced-Aligner": {
       "status": 200,
       "ok": true
@@ -319,6 +260,10 @@
       "ok": true
     },
     "https://github.com/OHF-Voice/piper1-gpl": {
+      "status": 200,
+      "ok": true
+    },
+    "https://github.com/QwenAudio/CosyVoice": {
       "status": 200,
       "ok": true
     },
@@ -338,7 +283,7 @@
       "status": 200,
       "ok": true
     },
-    "https://github.com/apple/ml-stuttering-events-dataset": {
+    "https://github.com/apple-aiml-research/ml-stuttering-events-dataset": {
       "status": 200,
       "ok": true
     },
@@ -398,7 +343,7 @@
       "status": 200,
       "ok": true
     },
-    "https://github.com/markovka17/dla": {
+    "https://github.com/markovka17/dla/tree/2025": {
       "status": 200,
       "ok": true
     },
@@ -466,6 +411,10 @@
       "status": 200,
       "ok": true
     },
+    "https://isca-speech.org/SIG-SPSC": {
+      "status": 200,
+      "ok": true
+    },
     "https://isca-speech.org/Speech-Prosody-SProSIG": {
       "status": 200,
       "ok": true
@@ -511,6 +460,18 @@
       "status": 200,
       "ok": true
     },
+    "https://kaldi-asr.org/doc/": {
+      "status": 200,
+      "ok": true
+    },
+    "https://kaldi-asr.org/doc/about.html": {
+      "status": 200,
+      "ok": true
+    },
+    "https://kaldi-asr.org/doc/kaldi_for_dummies.html": {
+      "status": 200,
+      "ok": true
+    },
     "https://lab-msp.com/MSP-Podcast_Competition/IS2025/": {
       "status": 200,
       "ok": true
@@ -522,6 +483,10 @@
       "archive": "https://web.archive.org/web/20260520194909/https://labrosa.ee.columbia.edu/doc/HTKBook21/HTKBook.html"
     },
     "https://modeltalker.org/": {
+      "status": 200,
+      "ok": true
+    },
+    "https://mohitmayank.com/a_lazy_data_science_guide/audio_intelligence/wav2vec2/": {
       "status": 200,
       "ok": true
     },
@@ -571,6 +536,10 @@
       "ok": true
     },
     "https://sail.usc.edu/iemocap/": {
+      "status": 200,
+      "ok": true
+    },
+    "https://sail.usc.edu/span/rtmri_ipa/index.html": {
       "status": 200,
       "ok": true
     },
@@ -806,6 +775,34 @@
       "status": 200,
       "ok": true
     },
+    "https://web.archive.org/web/20160307210002/http://amhistory.si.edu/archives/speechsynthesis/ss_home.htm": {
+      "status": 200,
+      "ok": true
+    },
+    "https://web.archive.org/web/20160307210014/http://amhistory.si.edu/archives/speechsynthesis/dk_737a.htm": {
+      "status": 200,
+      "ok": true
+    },
+    "https://web.archive.org/web/20160307210024/http://amhistory.si.edu/archives/speechsynthesis/im_home.htm": {
+      "status": 200,
+      "ok": true
+    },
+    "https://web.archive.org/web/20180821051909/http://speechkitchen.org/interaction-in-virtual-worlds-vm/": {
+      "status": 200,
+      "ok": true
+    },
+    "https://web.archive.org/web/20180821052228/http://speechkitchen.org/home/about/": {
+      "status": 200,
+      "ok": true
+    },
+    "https://web.archive.org/web/20180821054333/http://speechkitchen.org/cse-5525-ohio-state-vm/": {
+      "status": 200,
+      "ok": true
+    },
+    "https://web.archive.org/web/20180821055936/http://speechkitchen.org/tedlium-vm/": {
+      "status": 200,
+      "ok": true
+    },
     "https://web.archive.org/web/20240422134327/https://synsig.org/index.php/Education": {
       "status": 200,
       "ok": true,
@@ -815,6 +812,10 @@
       "status": 200,
       "ok": true,
       "note": "repair 2026-08-31"
+    },
+    "https://web.archive.org/web/20240613061650/http://www.linguisticsnetwork.com/an-introduction-to-phonology/": {
+      "status": 200,
+      "ok": true
     },
     "https://web.stanford.edu/class/cs224s/": {
       "status": 200,
@@ -842,7 +843,7 @@
       "status": 200,
       "ok": true
     },
-    "https://www.cambridge.org/core/journals/journal-of-the-international-phonetic-association": {
+    "https://www.cambridge.org/core/journals/journal-of-the-international-phonetic-association/illustrations-of-the-ipa": {
       "status": 200,
       "ok": true
     },
@@ -860,10 +861,6 @@
       "ok": true
     },
     "https://www.cs.toronto.edu/~complingweb/data/TORGO/torgo.html": {
-      "status": 200,
-      "ok": true
-    },
-    "https://www.cstr.ed.ac.uk/projects/blizzard/": {
       "status": 200,
       "ok": true
     },
@@ -958,20 +955,19 @@
       "status": 200,
       "ok": true
     },
-    "https://www.spsc-sig.org/": {
-      "status": 200,
-      "ok": true
-    },
     "https://www.voiceprivacychallenge.org/": {
       "status": 200,
       "ok": true
     },
     "https://www.w3.org/WAI/media/av/": {
-      "status": 403,
-      "ok": true,
-      "note": "waf-blocks-bots; loads in browser"
+      "status": 200,
+      "ok": true
     },
-    "https://www.wavlab.org/activities/2025/11751-2025f/": {
+    "https://www.wavlab.org/activities/2026/11751-2026f/": {
+      "status": 200,
+      "ok": true
+    },
+    "https://www.wiki.ed.ac.uk/spaces/BlizzardChallenge/overview": {
       "status": 200,
       "ok": true
     },
@@ -1123,6 +1119,5 @@
       "status": 200,
       "ok": true
     }
-  },
-  "retested_at": "2026-08-31T02:51:00.842Z"
+  }
 }

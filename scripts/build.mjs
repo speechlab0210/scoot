@@ -18,6 +18,9 @@ const editorial = read('data/editorial.json');
 const changelog = read('data/changelog.json');
 let linkReport = { results: {} };
 try { linkReport = read('data/link-report.json'); } catch { /* optional */ }
+// Domains that were taken over by unrelated (gambling/spam) sites. They still answer
+// HTTP 200, so a status-code link check cannot catch them; link an archived copy instead.
+const blockedHosts = read('data/blocked-hosts.json').entries.map((b) => b.domain.toLowerCase());
 
 // ---------- sanity gates ----------
 if (!Array.isArray(resources.entries)) throw new Error('resources.json: entries must be an array');
@@ -26,6 +29,16 @@ for (const e of resources.entries) {
     if (!e[k]) throw new Error(`resources.json entry missing "${k}": ${JSON.stringify(e).slice(0, 120)}`);
   }
   if (!/^https?:\/\//.test(e.url)) throw new Error(`resources.json: non-http url: ${e.url}`);
+}
+function assertSafeHref(u, where) {
+  let x;
+  try { x = new URL(u); } catch { throw new Error(`${where}: unparseable url ${u}`); }
+  if (!/^https?:$/.test(x.protocol)) throw new Error(`${where}: non-http url ${u}`);
+  const host = decodeURIComponent(x.hostname).toLowerCase().replace(/\.+$/, '');
+  if (blockedHosts.some((d) => host === d || host.endsWith('.' + d))) throw new Error(`${where}: blocked (hijacked) domain must never be linked: ${u}`);
+}
+for (const [href, r] of Object.entries(linkReport.results ?? {})) {
+  if (r.archive && new URL(r.archive).hostname !== 'web.archive.org') throw new Error(`link-report: archive must be a web.archive.org URL: ${r.archive}`);
 }
 
 const esc = (s) => String(s ?? '').replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
@@ -41,6 +54,7 @@ function renderLinks(links) {
   if (!links?.length) return '';
   const parts = links.map((l) => {
     let out = `<a href="${esc(l.href)}" rel="noopener">${esc(l.label)}</a>`;
+    if (l.note) out += ` <span class="deadnote">(${esc(l.note)})</span>`;
     const d = deadInfo(l.href);
     if (d) {
       out += d.archive
@@ -99,7 +113,9 @@ function renderExtEntry(e) {
   return `<div class="ext-item" data-origin="extension" data-search="${search}">` +
     `<a class="et" href="${esc(e.url)}" rel="noopener">${esc(e.title)}</a>` +
     (e.org ? ` <span class="eo">— ${esc(e.org)}</span>` : '') +
-    (d ? ` <span class="deadnote">(link may be down)</span>` : '') +
+    (d ? (d.archive
+      ? ` <span class="archived">(link may be down · <a href="${esc(d.archive)}" rel="noopener">archived copy</a>)</span>`
+      : ` <span class="deadnote">(link may be down)</span>`) : '') +
     `<p class="ed">${esc(e.description)}</p>` +
     (meta ? `<div class="em">${meta}</div>` : '') +
     `</div>`;
@@ -127,15 +143,13 @@ function renderExtBlock(key) {
 }
 
 function renderIntro(section) {
-  let html = '';
-  if (section.intro?.length) {
-    html += '<div class="intro">' + section.intro.map((p) => `<p>${esc(p)}</p>`).join('') + '</div>';
-  }
+  // (the old version spliced "See also" into the intro's </div> and silently dropped it
+  // when a section had intro_links but no intro text)
+  const paras = (section.intro ?? []).map((p) => `<p>${esc(p)}</p>`);
   if (section.intro_links?.length) {
-    const seeAlso = `<p class="srcline">See also: ${section.intro_links.map((l) => `<a href="${esc(l.href)}" rel="noopener">${esc(l.label)}</a>`).join(' · ')}</p></div>`;
-    html = html.replace('</div>', () => seeAlso);
+    paras.push(`<p class="srcline">See also: ${section.intro_links.map((l) => `<a href="${esc(l.href)}" rel="noopener">${esc(l.label)}</a>`).join(' · ')}</p>`);
   }
-  return html;
+  return paras.length ? `<div class="intro">${paras.join('')}</div>` : '';
 }
 
 function renderSection(section, depth) {
@@ -163,22 +177,25 @@ if (sigUrl !== 'https://speechlab0210.github.io/isca-sig-directory/') throw new 
 let body = `<section class="start-here" id="welcome" aria-labelledby="welcome-title">
   <p class="eyebrow">THE LEARNING DIRECTORY</p><h2 id="welcome-title">What would you like to learn?</h2>
   <p class="start-intro">Start with a topic, or search for a course, tool, author or idea. Original resources and later additions are labeled separately.</p>
-  <div class="topic-grid">${original.sections.map((s, i) => `<a class="topic-card" href="#${esc(s.key)}"><span class="topic-number">${String(i + 1).padStart(2, '0')}</span><strong>${esc(s.title)}</strong><span>${countOriginal(s) + countExtensions(s)} resources <span aria-hidden="true">↗</span></span></a>`).join('')}</div>
+  <div class="topic-grid">${original.sections.map((s, i) => `<a class="topic-card" href="#${esc(s.key)}"><span class="topic-number">${String(i + 1).padStart(2, '0')}</span><strong>${esc(s.title)}</strong><span>${countOriginal(s) + countExtensions(s)} resources <span aria-hidden="true">↓</span></span></a>`).join('')}</div>
   <div class="extra-topics"><span>Also explore</span>${editorial.extended_topics.map((t) => `<a href="#${esc(t.key)}">${esc(t.title)}</a>`).join('')}</div>
   <details class="original-welcome"><summary>About the original SCOOT catalog</summary>${original.welcome.map((p) => `<p>${esc(p)}</p>`).join('')}<p class="srcline">Original wording from the ${esc(original.archived_at)} snapshot · <a href="${esc(editorial.original_home)}">Visit the original SCOOT</a></p></details>
 </section>
-<div class="related-sites" aria-label="Related directories">
-  <section class="related-card" id="sig-atlas"><p class="eyebrow">COMMUNITY &amp; EVENTS</p><h2><a href="${esc(sigUrl)}">ISCA SIG Atlas <span aria-hidden="true">↗</span></a></h2><p>SIGs, seminars, events and recordings now have their own website.</p><a class="text-link" href="${esc(sigUrl)}">Explore the SIG website →</a>${['series','upcoming','archives','directory','central','notes'].map((id) => `<span id="sig-${id}" class="legacy-anchor" aria-hidden="true"></span>`).join('')}</section>
-  <section class="related-card"><p class="eyebrow">SPOKEN LANGUAGE MODELS</p><h2><a href="${esc(editorial.benchmark_atlas.url)}">Benchmark Atlas <span aria-hidden="true">↗</span></a></h2><p>Explore evaluation tasks, benchmark coverage and reported results.</p><a class="text-link" href="${esc(editorial.benchmark_atlas.url)}">Explore the benchmarks →</a></section>
+<div class="empty-state" id="emptyState" hidden><h2>No resources match these filters.</h2><p>Try a shorter phrase or choose All resources. For SIGs and events, <a href="${esc(sigUrl)}">visit the SIG Atlas</a>; for spoken-LLM benchmarks, <a href="${esc(editorial.benchmark_atlas.url)}">visit the Spoken LLM Benchmark Atlas</a>.</p><button type="button" id="resetEmpty">Reset search and filters</button></div>
+<p class="sig-hint" id="sigHint" hidden>Looking for ISCA SIGs, seminars or events? They are on the <a href="${esc(sigUrl)}">ISCA SIG Atlas ↗</a>.</p>
+<p class="sig-hint" id="benchHint" hidden>Looking for spoken-LLM benchmarks or results? They are on the <a href="${esc(editorial.benchmark_atlas.url)}">Spoken LLM Benchmark Atlas ↗</a>.</p>
+<div class="related-sites" role="group" aria-label="Related directories">
+  <section class="related-card" id="sig-atlas"><p class="eyebrow">COMMUNITY &amp; EVENTS</p><h2><a href="${esc(sigUrl)}">ISCA SIG Atlas <span aria-hidden="true">↗</span></a></h2><p>SIGs, seminars, events and recordings, part of this page from 31 August to 3 October 2026, now have their own website.</p><a class="text-link" href="${esc(sigUrl)}">Explore the SIG website →</a>${['series','upcoming','archives','directory','central','notes'].map((id) => `<span id="sig-${id}" class="legacy-anchor" aria-hidden="true"></span>`).join('')}</section>
+  <section class="related-card"><p class="eyebrow">SPOKEN LANGUAGE MODELS</p><h2><a href="${esc(editorial.benchmark_atlas.url)}">Spoken LLM Benchmark Atlas <span aria-hidden="true">↗</span></a></h2><p>Explore evaluation tasks, benchmark coverage and reported results.</p><a class="text-link" href="${esc(editorial.benchmark_atlas.url)}">Explore the benchmarks →</a></section>
 </div>
 <div class="catalog-heading" id="catalog"><p class="eyebrow">BROWSE THE COLLECTION</p><h2>The resource catalog</h2><p>Original SCOOT entries <span class="legend-dot original-dot"></span> &nbsp; / &nbsp; SCOOT 2.0 extensions <span class="legend-dot extension-dot"></span></p></div>
-<div class="empty-state" id="emptyState" hidden><h2>No resources match these filters.</h2><p>Try a shorter phrase or choose All resources. For SIGs and events, <a href="${esc(sigUrl)}">visit the SIG Atlas</a>.</p><button type="button" id="resetEmpty">Reset search and filters</button></div>`;
+`;
 
 for (const s of original.sections) body += renderSection(s, 0);
 
-body += `<section class="extended-intro" id="extended"><h2>Beyond the original topics</h2><p>${esc(editorial.ext_blurb)} Three additional areas of speech communication.</p></section>`;
+body += `<section class="extended-intro" id="extended"><h2>Beyond the original topics</h2><p>Three areas of speech communication that the original SCOOT did not cover. ${esc(editorial.ext_blurb)}</p></section>`;
 for (const t of editorial.extended_topics) {
-  body += `<section class="topic" id="${esc(t.key)}"><h2>${esc(t.title)}</h2><div class="intro"><p>${esc(t.blurb)}</p></div>${renderExtBlock(t.key)}</section>`;
+  body += `<section class="topic" data-extended="1" id="${esc(t.key)}"><h2>${esc(t.title)}</h2><div class="intro"><p>${esc(t.blurb)}</p></div>${renderExtBlock(t.key)}</section>`;
 }
 
 // orphan gate: every curated topic must have been rendered somewhere
@@ -198,7 +215,7 @@ if (ba) {
     `<div class="atlas-stats">` +
     ba.stats.map((s, i) => `<div class="stat${i === 0 ? ' rec' : ''}"><b data-ba-stat="${esc(s.key)}">${esc(s.n)}</b>${esc(s.label)}</div>`).join('') +
     `</div>` +
-    `<p class="srcline">Counts from the <span data-ba-asof>${esc(ba.asof)}</span> build; counts refresh from the linked atlas when available.</p>` +
+    `<p class="srcline">Counts from the <span data-ba-asof>${esc(ba.asof)}</span> atlas build; refreshed from the live atlas when available.</p>` +
     `<p><a class="contact-btn" href="${esc(ba.url)}" rel="noopener">Open the Benchmark Atlas →</a> · <a href="${esc(ba.paper_url)}" rel="noopener">overview paper</a> · <a href="${esc(ba.repo_url)}" rel="noopener">data + scripts</a></p>` +
     `<p class="srcline">${esc(ba.maintained)}</p>` +
     `</div></section>`;
@@ -217,12 +234,12 @@ nav += `<div class="toc-head">Related directories</div><a href="${esc(sigUrl)}">
 if (editorial.benchmark_atlas) {
   nav += '<div class="toc-head">Benchmarks</div><a href="#benchmark-atlas">Spoken LLM Benchmark Atlas</a>';
 }
-nav += '<div class="toc-head">About</div><a href="#about">About this site</a><a href="#contribute">Suggest a resource</a><a href="#changelog">Changelog</a>';
+nav += '<div class="toc-head">About</div><a href="#about">About this site</a><a href="#contribute">Suggest a resource or correction</a><a href="#changelog">Changelog</a>';
 
 // ---------- footer ----------
 let footer = `<h2 id="about">About</h2>` + editorial.about.map((p) => `<p>${esc(p)}</p>`).join('');
 footer += `<h2>How this site is maintained</h2>` + editorial.how_it_works.map((p) => `<p>${esc(p)}</p>`).join('');
-footer += `<h2 id="contribute">Suggest a resource</h2>` + editorial.contribute.map((p) => `<p>${esc(p)}</p>`).join('');
+footer += `<h2 id="contribute">Suggest a resource or correction</h2>` + editorial.contribute.map((p) => `<p>${esc(p)}</p>`).join('');
 footer += `<p><a class="contact-btn" href="mailto:${esc(editorial.contact_email)}?subject=%5BSCOOT%5D%20suggestion">✉ Email a suggestion</a> · <a href="https://github.com/speechlab0210/scoot/issues" rel="noopener">Open a GitHub issue</a></p>`;
 footer += `<h2 id="changelog">Changelog</h2><ul class="changelog">` +
   [...changelog.entries].sort((a, b) => b.date.localeCompare(a.date)).map((c) => `<li><span class="cd">${esc(c.date)}</span> — ${esc(c.change)}</li>`).join('') + '</ul>';
@@ -234,9 +251,10 @@ const nOrig = (() => {
   return n;
 })();
 const linkCheckedAt = linkReport.retested_at ?? linkReport.checked_at;
-const linkCheckedLabel = linkCheckedAt?.replace('T', ' ').replace(/\.\d{3}Z$/, ' UTC');
-const linkStatus = linkCheckedAt
-  ? `${linkReport.total ?? Object.keys(linkReport.results ?? {}).length} unique catalog links; last checked ${linkCheckedLabel}`
+const linkCheckedLabel = linkCheckedAt && !Number.isNaN(Date.parse(linkCheckedAt))
+  ? new Date(linkCheckedAt).toISOString().slice(0, 16).replace('T', ' ') + ' UTC' : null;
+const linkStatus = linkCheckedLabel
+  ? `${linkReport.total ?? Object.keys(linkReport.results ?? {}).length} catalog links; last checked ${linkCheckedLabel}`
   : 'link-check time not recorded';
 footer += `<p class="built">${nOrig} original SCOOT entries (all preserved) + ${resources.entries.length} extension entries · ${esc(linkStatus)} · source data + build scripts: <a href="https://github.com/speechlab0210/scoot" rel="noopener">github.com/speechlab0210/scoot</a></p>`;
 
@@ -255,6 +273,12 @@ const html = template
   .replace('__SCOOT_NAV__', () => nav)
   .replace('__SCOOT_BODY__', () => body)
   .replace('__SCOOT_FOOTER__', () => footer);
+
+for (const m of html.matchAll(/href="([^"]+)"/g)) {
+  const h = m[1].replace(/&amp;/g, '&');
+  if (h.startsWith('#') || h.startsWith('mailto:')) continue;
+  assertSafeHref(h, 'generated page');
+}
 
 const outDir = process.argv.includes('--publish-output') ? ROOT : join(ROOT, 'site');
 mkdirSync(outDir, { recursive: true });

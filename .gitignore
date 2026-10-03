@@ -1,1 +1,9 @@
 site/
+logs/
+qa/
+*.bak
+.env
+.env.*
+data/papers-archive.jsonl
+node_modules/
+__pycache__/

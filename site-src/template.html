@@ -243,8 +243,11 @@ ul.orig > li { padding-bottom:.7rem; margin-bottom:.7rem; border-bottom:1px soli
 .ext-list { gap:.75rem; }
 .empty-state { border:1px dashed var(--muted); padding:1.5rem; margin:1rem 0 3rem; border-radius:7px; }
 .empty-state h2 { margin-top:0; font-size:1.5rem; }
-.filtering .start-here, .filtering .catalog-heading, .filtering #benchmark-atlas { display:none; }
-.filtering .related-sites { margin-top:0; }
+.filtering .start-here, .filtering .catalog-heading, .filtering #benchmark-atlas, .filtering section.topic .intro, .filtering section.topic > .srcline, .filtering section.subtopic > .srcline { display:none; }
+.filtering:not(.no-results) .related-sites { display:none; }
+.sig-hint { border-left:3px solid var(--ext-mark); padding:.5rem .8rem; margin:0 0 1.5rem; font-size:.9rem; background:var(--ext-bg); }
+nav.toc a.no-matches { color: var(--muted); }
+nav.toc a.no-matches::after { content: " · no matches"; font-size: .75em; }
 .footer-inner { max-width:1000px; padding:2rem 1.6rem; }
 .footer-inner h2 { margin-top:1.8rem; }
 .contact-btn { color:var(--bg) !important; }
@@ -260,7 +263,7 @@ ul.orig > li { padding-bottom:.7rem; margin-bottom:.7rem; border-bottom:1px soli
 <a class="skip-link" href="#main-content">Skip to content</a>
 <header class="masthead">
   <div class="masthead-inner">
-    <div class="brand-line"><p class="eyebrow">SPEECH COMMUNICATION / A LEARNING DIRECTORY</p><div class="header-links"><a href="https://speechlab0210.github.io/isca-sig-directory/">ISCA SIG Atlas ↗</a><a href="#about">About this project</a></div></div>
+    <div class="brand-line"><p class="eyebrow">SPEECH COMMUNICATION LEARNING DIRECTORY · NOT AN ISCA PUBLICATION</p><div class="header-links"><a href="https://speechlab0210.github.io/isca-sig-directory/">ISCA SIG Atlas ↗</a><a href="#about">About this site</a></div></div>
     <h1>SCOOT <span>2.0</span></h1>
     <p class="tagline">__TAGLINE__</p>
     <p class="catalog-counts">__CATALOG_COUNTS__</p>
@@ -320,20 +323,26 @@ __SCOOT_FOOTER__
       el.classList.toggle('hidden', !hit);
       if (hit) shown++;
     });
+    document.body.classList.toggle('no-results', active && shown === 0);
     sections.forEach(function (el) { el.classList.toggle('hidden', active && !el.querySelector('[data-origin]:not(.hidden)')); });
     headers.forEach(function (el) {
       var visible = false;
       var sibling = el.nextElementSibling;
-      while (sibling && !sibling.matches('.orig-head,.ext-head,.group-head,.extended-intro,section.subtopic')) {
+      var stopAt = el.classList.contains('orig-head') ? '.orig-head,.ext-head,.extended-intro,section.subtopic' : '.orig-head,.ext-head,.group-head,.extended-intro,section.subtopic';
+      while (sibling && !sibling.matches(stopAt)) {
         if (sibling.matches('[data-origin]:not(.hidden)') || sibling.querySelector('[data-origin]:not(.hidden)')) { visible = true; break; }
         sibling = sibling.nextElementSibling;
       }
-      if (el.classList.contains('extended-intro')) visible = ['paralinguistics','clinical','community'].some(function (id) { return !document.getElementById(id).classList.contains('hidden'); });
+      if (el.classList.contains('extended-intro')) visible = Array.from(document.querySelectorAll('section[data-extended]')).some(function (s) { return !s.classList.contains('hidden'); });
       el.classList.toggle('hidden', active && !visible);
     });
     sourceButtons.forEach(function (button) { button.setAttribute('aria-pressed', String(button.dataset.source === source)); });
     document.getElementById('emptyState').hidden = shown > 0;
     note.textContent = shown + ' of ' + items.length + ' resources' + (active ? ' match' : ' available');
+    var sigHint = document.getElementById('sigHint');
+    if (sigHint) sigHint.hidden = !/(^|\s)(sigs?|special interest groups?|seminars?|webinars?)(\s|$)/.test(normalize(input.value));
+    var benchHint = document.getElementById('benchHint');
+    if (benchHint) benchHint.hidden = !/(^|\s)(benchmarks?|leaderboards?|spoken llms?)(\s|$)/.test(normalize(input.value));
     topicNav.querySelectorAll('a[href^="#"]').forEach(function (link) {
       var section = document.getElementById(link.hash.slice(1));
       var hidden = section && section.classList.contains('hidden');
@@ -343,6 +352,8 @@ __SCOOT_FOOTER__
       var url = new URL(window.location.href);
       input.value.trim() ? url.searchParams.set('q', input.value.trim()) : url.searchParams.delete('q');
       source !== 'all' ? url.searchParams.set('source', source) : url.searchParams.delete('source');
+      var hashTarget = url.hash && document.getElementById(url.hash.slice(1));
+      if (hashTarget && hashTarget.closest('.hidden')) url.hash = '';
       history.replaceState(null, '', url);
     }
   }
