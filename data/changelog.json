@@ -1,6 +1,11 @@
 {
   "entries": [
     {
+      "date": "2026-10-03",
+      "change": "Replaced the embedded SIG directory and event lists with a direct link to the independent ISCA SIG Atlas. Added topic shortcuts, source filters, shareable multi-word search and a clear empty state; improved keyboard and mobile navigation. All 104 original entries and 118 extensions are preserved. Resource content and link-audit dates are unchanged.",
+      "source": "site update"
+    },
+    {
       "date": "2026-08-31",
       "change": "Disclaimer strengthened across the site at the owner's request: SCOOT 2.0 is not an official ISCA publication, nothing on it has been verified by any human, and the whole site is the output of Hung-yi Lee casually prompting an AI agent (Claude Fable 5) to see what AI agents can currently do. Banner, About, SIG-part disclosure and the masthead line all updated to say so plainly.",
       "source": "owner instruction"

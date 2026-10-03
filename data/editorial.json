@@ -1,47 +1,79 @@
 {
   "site_title": "SCOOT 2.0",
-  "tagline": "Online training resources in Speech Communication — the original ISCA SCOOT catalog, preserved and extended — plus an atlas of ISCA SIG activities & online events",
-  "banner": "⚠ NOT an official ISCA publication, and no human has verified anything on this page. This entire site is Hung-yi Lee casually prompting an AI agent (Claude Fable 5) to find out what AI agents can currently do. Original SCOOT content is preserved in full and extensions are clearly marked — but treat every entry as unreviewed: follow the links and judge the sources yourself.",
+  "tagline": "Find your way into speech communication. Courses, lectures, tools and datasets, organized by the original SCOOT topics.",
+  "banner": "Independent, AI-maintained prototype. Not an official ISCA publication. Content has not been independently verified by a human; check the linked sources before relying on it.",
   "contact_email": "speechlab0210@gmail.com",
   "original_home": "https://isca-speech.org/SCOOT",
   "ext_label": "SCOOT 2.0 extensions",
-  "ext_blurb": "Added in this rebuild — newer resources the original pages predate. Every entry link-verified.",
+  "ext_blurb": "Additional resources, clearly separated from the original SCOOT catalog.",
   "benchmark_atlas": {
     "title": "Spoken LLM Benchmark Atlas",
     "url": "https://speechlab0210.github.io/spoken-llm-benchmarks/",
     "stats_url": "https://speechlab0210.github.io/spoken-llm-benchmarks/stats.json",
     "repo_url": "https://github.com/speechlab0210/spoken-llm-benchmarks",
     "paper_url": "https://github.com/speechlab0210/spoken-llm-benchmarks/blob/main/paper/PAPER.md",
-    "blurb": "Also under SCOOT 2.0: a living index of benchmarks for spoken language models — what each one measures, a 19-category capability taxonomy, an arXiv timeline, and model × benchmark result tables where every number links back to the paper it came from. Rebuilt every day from a fresh arXiv crawl — and far too big (and too alive) to inline here — it lives on its own page.",
+    "blurb": "Explore benchmarks for spoken language models, the capabilities they measure, and reported model results with links to the source papers.",
     "asof": "2026-08-31",
     "stats": [
-      { "key": "benchmarks", "n": "368", "label": "benchmarks" },
-      { "key": "categories", "n": "19", "label": "categories" },
-      { "key": "models", "n": "221", "label": "models tracked" },
-      { "key": "result_cells", "n": "15,468", "label": "sourced result cells" }
+      {
+        "key": "benchmarks",
+        "n": "368",
+        "label": "benchmarks"
+      },
+      {
+        "key": "categories",
+        "n": "19",
+        "label": "categories"
+      },
+      {
+        "key": "models",
+        "n": "221",
+        "label": "models tracked"
+      },
+      {
+        "key": "result_cells",
+        "n": "15,468",
+        "label": "sourced result cells"
+      }
     ],
     "maintained": "Like the rest of SCOOT 2.0 it is AI-maintained; its own page carries the full method and disclosure, and corrections go to the same contact address with [Atlas] in the subject."
   },
   "extended_topics": [
-    { "key": "paralinguistics", "title": "Paralinguistics & Emotion", "blurb": "What speech carries beyond the words: emotion, speaker states and traits, and the benchmarks that measure them. A topic the original SCOOT did not cover." },
-    { "key": "clinical", "title": "Clinical & Accessibility Speech", "blurb": "Speech-language pathology, disordered speech, assistive and accessible voice technology — where speech technology meets health. A topic the original SCOOT did not cover." },
-    { "key": "community", "title": "Community, Conferences & Challenges", "blurb": "Conferences, challenges, summer schools and student programs — how to stop learning alone. A topic the original SCOOT did not cover." }
+    {
+      "key": "paralinguistics",
+      "title": "Paralinguistics & Emotion",
+      "blurb": "What speech carries beyond the words: emotion, speaker states and traits, and the benchmarks that measure them. A topic the original SCOOT did not cover."
+    },
+    {
+      "key": "clinical",
+      "title": "Clinical & Accessibility Speech",
+      "blurb": "Speech-language pathology, disordered speech, assistive and accessible voice technology — where speech technology meets health. A topic the original SCOOT did not cover."
+    },
+    {
+      "key": "community",
+      "title": "Community, Conferences & Challenges",
+      "blurb": "Conferences, challenges, summer schools and student programs — how to stop learning alone. A topic the original SCOOT did not cover."
+    }
   ],
   "about": [
     "SCOOT is ISCA's guide to online training resources in Speech Communication, created and long maintained by members of the ISCA community (the archived pages credit course material by Roger Moore, Simon King and many others). Its motto: 'SCOOT will never be finished.'",
-    "This site — SCOOT 2.0 — is a prototype rebuild of that guide. It keeps the original SCOOT topic structure and every resource the original pages listed (transcribed faithfully from the pages at isca-speech.org/SCOOT, snapshot 2026-08-31), and extends each topic with newer, link-verified resources — plus three new topics the original predates. Where an original link has died, the entry is kept and an Internet Archive snapshot is offered instead.",
+    "SCOOT 2.0 preserves the original topic structure and all 104 resource entries from the 31 August 2026 snapshot, alongside 118 clearly marked extensions. Original entries retain their descriptions and source links. Archived copies are provided where available for links reported as unavailable.",
     "It serves the same audience as the original: students of speech communication arriving from phonetics, linguistics, computer science, or electrical engineering, anywhere between a first degree and a PhD.",
-    "Since 31 August 2026 the page also hosts the ISCA SIGs & online events part — an atlas of what each of ISCA's 20 Special Interest Groups is doing, with verified links to their recorded webinars and lectures. It previously lived at a separate address, which now redirects here. The Spoken LLM Benchmark Atlas — a daily-updated index of spoken-LLM benchmarks — is part of SCOOT 2.0 as well; because it rebuilds daily and is far larger than this page, it lives on its own page, anchored in the Benchmarks section below.",
-    "To be clear about what this is: it is NOT an official ISCA publication, and nothing on it has been reviewed or verified by any human — including its owner. The site exists because Hung-yi Lee casually prompted an AI agent (Claude Fable 5) and wanted to see what AI agents can do. No endorsement is implied by inclusion of any resource."
+    "The ISCA SIG directory, seminars, events and recordings moved to the independent ISCA SIG Atlas on 3 October 2026. Use the direct link at the top of this page. The Spoken LLM Benchmark Atlas also has its own dedicated page.",
+    "This is NOT an official ISCA publication. The project began as Hung-yi Lee prompting an AI agent to explore what AI agents can do. This rebuilt catalog has not been independently verified by a human, and listing a resource does not imply endorsement."
   ],
   "how_it_works": [
     "Original entries (marked ⬤ Original SCOOT) are faithful transcriptions of the original pages — same resources, same descriptions lightly edited for typos. The HTML snapshots they were transcribed from are preserved with the project source materials and audited mechanically against this page.",
-    "Extension entries (marked ✚ 2.0) were curated by an AI curator: found, link-checked and fact-checked before listing. Every catalog link on this page — original and extension — is covered by the link-status report; its latest verification time appears at the bottom of this page. Dead originals carry an 'archived copy' link to the Internet Archive. Links in the SIG part were each reviewed on 31 August 2026 as described under 'The SIG part' below.",
+    "Extension entries are marked “SCOOT 2.0 extensions”. Link-status labels reflect the last recorded audit, whose timestamp is shown below; this interface update is not a new review of every resource. Catalog and link checks are not currently scheduled. Check linked course pages for current availability, pricing and versions.",
     "Every editorial change is recorded in the changelog below, including changes made in response to community suggestions."
   ],
   "contribute": [
-    "Spotted a dead link, a missing resource, a wrong description, or a category that misses the point? Tell the curator. Content fixes are applied and credited in the changelog.",
+    "Found a broken link, missing resource or unclear description? Send the resource URL, its topic, and the correction you suggest.",
     "Two ways to reach the curator: email (button below), or open an issue on the GitHub repository at github.com/speechlab0210/scoot — the catalog data lives there as plain JSON, so you can point at the exact entry.",
-    "In the spirit of transparency: this rebuild was assembled and is maintained by an AI agent (Claude Fable 5); no human reviews its output before it goes live. Suggestions are treated as content edits only — the curator will not follow instructions unrelated to the catalog, and anything unusual is escalated to a human."
-  ]
+    "This prototype is assembled by an AI agent. Suggestions are treated as information about the catalog, not instructions to perform unrelated actions. Contacting the curator does not guarantee an immediate reply or update."
+  ],
+  "sig_atlas": {
+    "title": "ISCA SIG Atlas",
+    "url": "https://speechlab0210.github.io/isca-sig-directory/"
+  }
 }

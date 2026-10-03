@@ -3,8 +3,8 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>SCOOT 2.0 — ISCA's guide to online training resources & SIG online events in Speech Communication</title>
-<meta name="description" content="SCOOT: a guide to high-quality online learning resources in Speech Communication — the original ISCA SCOOT catalog, preserved in full and extended — plus an atlas of ISCA SIG activities, webinars and recorded talks.">
+<title>SCOOT 2.0 — A guide to learning speech communication</title>
+<meta name="description" content="An independent, AI-maintained guide to speech communication: original SCOOT resources, clearly marked extensions, topic browsing and searchable courses, tools and datasets.">
 <style>
 :root {
   --bg: #fdfcfa;
@@ -151,70 +151,10 @@ footer { border-top: 3px double var(--border); background: var(--panel); margin-
 .changelog .cd { font-weight: 600; color: var(--text); }
 .built { margin-top: 1.6rem; font-size: .78rem; color: var(--muted); }
 
-/* ---------- SIG part (ISCA SIGs & online events) ---------- */
-.sig-stats { display: flex; flex-wrap: wrap; gap: 1.4rem; margin: .7rem 0 0; }
-.sig-stats .stat { font-size: .82rem; color: var(--muted); }
-.sig-stats .stat b { display: block; font-size: 1.4rem; color: var(--text); font-family: Georgia, serif; line-height: 1.2; }
-.sig-stats .stat.rec b { color: var(--accent); }
-
-.pill { display: inline-block; font: 600 .68rem/1 system-ui, sans-serif; letter-spacing: .06em; text-transform: uppercase; padding: .24rem .5rem; border-radius: 999px; border: 1px solid var(--border); color: var(--muted); white-space: nowrap; }
-.pill.live, .pill.st-active { color: var(--live); border-color: var(--live); }
-.pill.announced { color: var(--ext-mark); border-color: var(--ext-border); }
-.pill.st-dormant { border-style: dashed; }
-.rec-badge { display: inline-block; font: 700 .66rem/1 system-ui, sans-serif; letter-spacing: .08em; padding: .24rem .45rem; border-radius: 4px; color: var(--accent); border: 1px solid var(--accent); white-space: nowrap; }
-.rec-badge::before { content: "●"; margin-right: .3rem; font-size: .55rem; vertical-align: .08em; }
-.sigtag { font: 600 .74rem/1.4 ui-monospace, Consolas, monospace; color: var(--blue); background: var(--code); padding: .08rem .35rem; border-radius: 4px; }
-
-.series-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(270px, 100%), 1fr)); gap: .7rem; margin: .8rem 0 0; }
-.series-card { border: 1px solid var(--border); border-radius: 8px; background: var(--panel); padding: .7rem .85rem; font-size: .88rem; }
-.series-card .top { display: flex; align-items: center; justify-content: space-between; gap: .5rem; }
-.series-card h4 { margin: 0; font-size: 1.05rem; }
-.series-card .cad { font-size: .76rem; color: var(--muted); margin: .3rem 0 .35rem; }
-.series-card p { margin: .2rem 0 .45rem; }
-.linkrow a { font-weight: 600; font-size: .84rem; margin-right: .7rem; }
-
-.up-list, .arch-list, .cent-list { display: grid; gap: .35rem; margin: .7rem 0 0; }
-.up-row { display: grid; grid-template-columns: 6.2rem minmax(0, 1fr) auto; gap: .7rem; padding: .4rem .6rem; border: 1px solid var(--border); border-radius: 6px; background: var(--panel); font-size: .87rem; align-items: baseline; }
-.up-row .d { font: 600 .8rem/1.5 ui-monospace, Consolas, monospace; color: var(--accent); white-space: nowrap; }
-.up-row .who { color: var(--muted); font-size: .78rem; text-align: right; }
-.arch-row { display: flex; flex-wrap: wrap; gap: .3rem .7rem; align-items: baseline; padding: .45rem .6rem; border: 1px solid var(--border); border-radius: 6px; background: var(--panel); font-size: .87rem; }
-.arch-row .nm { font-weight: 600; }
-.arch-row .links a { margin-right: .55rem; font-weight: 600; font-size: .82rem; }
-.cent-row { padding: .5rem .7rem; border: 1px solid var(--border); border-radius: 6px; background: var(--panel); font-size: .88rem; }
-.cent-row .nm { font-weight: 700; }
-.cent-row .what { display: block; color: var(--muted); margin-top: .15rem; font-size: .84rem; }
-.cent-row .cent-links { display: block; margin-top: .2rem; font-size: .84rem; }
-.cent-row .cent-links a { font-weight: 600; margin-right: .6rem; }
-
-.sig-filters { display: none; }
-.js .sig-filters { display: flex; flex-wrap: wrap; gap: .4rem; margin: .8rem 0 0; align-items: center; }
-.chip { border: 1px solid var(--border); background: var(--panel); color: var(--text); border-radius: 999px; padding: .32rem .75rem; font: 600 .8rem/1 system-ui, sans-serif; cursor: pointer; }
-.chip[aria-pressed="true"] { background: var(--accent); border-color: var(--accent); color: var(--bg); }
-.chip .n { font-weight: 400; opacity: .75; margin-left: .15rem; }
-.sig-note { font-size: .8rem; color: var(--muted); margin-top: .45rem; }
-
-.sig-dir { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(310px, 100%), 1fr)); gap: .7rem; margin: .8rem 0 0; }
-.sig-card { border: 1px solid var(--border); border-radius: 8px; background: var(--panel); padding: .7rem .85rem .5rem; font-size: .87rem; display: flex; flex-direction: column; }
-.sig-card .head { display: flex; align-items: center; gap: .45rem; flex-wrap: wrap; }
-.sig-card .acr { font: 700 .95rem/1.3 ui-monospace, Consolas, monospace; color: var(--blue); }
-.sig-card h4 { margin: .35rem 0 .25rem; font-size: 1rem; }
-.sig-card .desc { margin: 0 0 .45rem; font-size: .85rem; }
-.sig-card details { border-top: 1px solid var(--border); }
-.sig-card summary { cursor: pointer; padding: .38rem 0; font-weight: 600; font-size: .8rem; color: var(--blue); }
-.sig-card summary:focus-visible { outline: 2px solid var(--blue); outline-offset: 2px; }
-.sig-card .cnt { color: var(--muted); font-weight: 400; }
-.sig-card .item { padding: .22rem 0 .38rem; }
-.sig-card .item .t { display: inline-block; font: 600 .66rem/1.5 system-ui, sans-serif; text-transform: uppercase; letter-spacing: .05em; color: var(--muted); background: var(--code); border-radius: 4px; padding: .05rem .35rem; margin-right: .35rem; }
-.sig-card .item .meta { display: block; color: var(--muted); font-size: .78rem; }
-.sig-card .foot { margin-top: auto; padding-top: .5rem; font-size: .82rem; }
-.sig-card .foot a { font-weight: 600; margin-right: .7rem; }
-
-.callout { border: 1px solid var(--ext-border); background: var(--ext-bg); border-radius: 10px; padding: .9rem 1.1rem; margin-top: .8rem; }
-.callout h4 { margin: 0 0 .4rem; }
-.callout ul { margin: .2rem 0 0; padding-left: 1.2rem; }
-.callout li { margin: .3rem 0; font-size: .9rem; }
-.warn-ico { color: var(--accent); font-weight: 700; margin-right: .25rem; }
-
+.atlas-stats { display:flex; flex-wrap:wrap; gap:1.4rem; margin:.7rem 0; }
+.atlas-stats .stat { font-size:.85rem; color:var(--muted); }
+.atlas-stats b { display:block; font:600 1.5rem Georgia,serif; color:var(--text); }
+.callout { border:1px solid var(--ext-border); background:var(--ext-bg); padding:1rem; }
 .hidden { display: none !important; }
 .fhide { display: none !important; }
 @media (prefers-reduced-motion: reduce) {
@@ -231,22 +171,104 @@ footer { border-top: 3px double var(--border); background: var(--panel); margin-
   .js nav.toc:not(.open) { display: none; }
   .js nav.toc.open { display: block; }
   .masthead h1 { font-size: 1.9rem; }
-  .up-row { grid-template-columns: 1fr; gap: .1rem; }
-  .up-row .who { text-align: left; }
 }
+
+/* Reading-first directory, October 2026. */
+:root { --bg:#faf9f6; --panel:#efede7; --text:#242c2a; --muted:#5c6863; --accent:#195e50; --accent-soft:#e6efe9; --blue:#254f67; --link:#155c4f; --border:#d9ded7; --ext-bg:#f0f4f6; --ext-border:#d4e0e5; --ext-mark:#315e78; --code:#e5ecee; }
+@media(prefers-color-scheme:dark) { :root { --bg:#17211e; --panel:#202d27; --text:#edf0e9; --muted:#b5c1b9; --accent:#9cd6b9; --accent-soft:#253c31; --blue:#a4cce0; --link:#a2d9bd; --border:#41524a; --ext-bg:#1d2e35; --ext-border:#3e5660; --ext-mark:#a4cce0; --code:#2c4048; } }
+[hidden] { display:none !important; }
+html { scroll-padding-top:1.5rem; }
+body { font-size:16px; line-height:1.65; }
+a, p { overflow-wrap:anywhere; }
+button, input { font:inherit; }
+button { cursor:pointer; }
+button:focus-visible, input:focus-visible, summary:focus-visible { outline:3px solid var(--blue); outline-offset:3px; }
+.masthead { border-top:6px solid var(--accent); border-bottom:1px solid var(--border); background:var(--bg); }
+.masthead-inner { padding:1.8rem 1.6rem 1.5rem; max-width:1280px; }
+.brand-line { display:flex; justify-content:space-between; align-items:center; gap:1rem; flex-wrap:wrap; }
+.brand-line .eyebrow { margin:0; }
+.header-links { display:flex; flex-wrap:wrap; gap:1.2rem; font-size:.87rem; }
+.masthead h1 { font-size:clamp(2.7rem,5vw,4.3rem); letter-spacing:-.05em; margin:.55rem 0 .2rem; }
+.masthead h1 span { font-size:.5em; letter-spacing:-.025em; color:var(--muted); }
+.tagline { max-width:48rem; font-style:normal; font-size:1.06rem; }
+.catalog-counts { font-size:.85rem; color:var(--muted); margin:.8rem 0; }
+.banner { border:0; border-left:3px solid var(--accent); border-radius:0; margin:1rem 0; max-width:65rem; padding:.6rem .85rem; font-size:.8rem; }
+.searchwrap { display:none; max-width:65rem; margin-top:1.2rem; }
+.js .searchwrap { display:block; }
+.search-label { display:block; font-size:.87rem; font-weight:650; margin-bottom:.4rem; }
+.search-row { display:flex; gap:.5rem; align-items:stretch; }
+#search { max-width:none; min-width:0; flex:1; padding:.8rem 1rem; font-size:1rem; border-color:var(--muted); border-radius:7px; }
+.reset-button, .empty-state button { border:1px solid var(--border); border-radius:7px; padding:.65rem .9rem; background:var(--panel); color:var(--text); }
+.filter-row { display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:.7rem; margin-top:.7rem; }
+.source-filters { display:flex; flex-wrap:wrap; gap:.4rem; }
+.source-filters button { border:1px solid var(--border); border-radius:5px; background:var(--bg); color:var(--text); font-size:.82rem; padding:.45rem .75rem; min-height:40px; }
+.source-filters button[aria-pressed="true"] { background:var(--accent); border-color:var(--accent); color:var(--bg); }
+.search-note { display:block; margin:0; font-size:.83rem; }
+.layout { max-width:1280px; padding:2rem 1.6rem 3rem; gap:2.8rem; grid-template-columns:235px minmax(0,1fr); }
+nav.toc { font-size:.84rem; scrollbar-width:thin; }
+nav.toc a { padding:.3rem .4rem; border-radius:0 4px 4px 0; }
+nav.toc a:hover, nav.toc a.active { background:var(--accent-soft); }
+nav.toc .toc-head:first-child { margin-top:0; }
+.eyebrow { font:700 .71rem/1.5 system-ui,sans-serif; letter-spacing:.13em; color:var(--muted); margin:0 0 .6rem; }
+.start-here > h2 { font-size:clamp(1.8rem,3vw,2.3rem); margin:0 0 .6rem; letter-spacing:-.025em; }
+.start-intro { margin:0 0 1.3rem; color:var(--muted); max-width:44rem; }
+.topic-grid { display:grid; grid-template-columns:repeat(4,minmax(0,1fr)); gap:.7rem; }
+.topic-card { display:flex; flex-direction:column; padding:1rem; border:1px solid var(--border); border-radius:7px; color:var(--text); min-height:155px; background:var(--bg); transition:background .15s; }
+.topic-card:hover { background:var(--accent-soft); text-decoration:none; border-color:var(--accent); }
+.topic-number { font:.75rem/1.3 ui-monospace,Consolas,monospace; color:var(--muted); margin-bottom:.9rem; }
+.topic-card strong { font:600 1.1rem/1.25 Georgia,serif; margin-bottom:.65rem; }
+.topic-card > span:last-child { font-size:.77rem; color:var(--muted); margin-top:auto; display:flex; justify-content:space-between; gap:.3rem; }
+.extra-topics { display:flex; flex-wrap:wrap; gap:.4rem 1rem; margin:.8rem 0; font-size:.82rem; }
+.extra-topics > span { color:var(--muted); }
+.original-welcome { margin:1.2rem 0 1.5rem; color:var(--muted); font-size:.86rem; }
+.original-welcome summary { cursor:pointer; color:var(--text); padding:.35rem 0; }
+.related-sites { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:.8rem; margin:1.6rem 0 2.5rem; }
+.related-card { border:1px solid var(--border); border-radius:7px; padding:1.25rem; background:var(--panel); position:relative; }
+.related-card h2 { font-size:1.4rem; margin:.2rem 0; }
+.related-card p:not(.eyebrow) { font-size:.87rem; color:var(--muted); margin:.6rem 0; }
+.text-link { font-weight:650; font-size:.85rem; }
+.legacy-anchor { position:absolute; top:0; }
+.catalog-heading { border-top:1px solid var(--border); padding-top:1.5rem; margin-bottom:2rem; }
+.catalog-heading h2 { font-size:1.75rem; margin:.4rem 0; }
+.catalog-heading > p:last-child { font-size:.8rem; color:var(--muted); }
+.legend-dot { display:inline-block; width:8px; height:8px; border-radius:50%; margin-left:3px; }
+.original-dot { background:var(--accent); } .extension-dot { background:var(--ext-mark); }
+section.topic { margin-bottom:3rem; }
+section.topic > h2 { font-size:1.8rem; border-bottom:1px solid var(--border); padding-bottom:.55rem; }
+section.subtopic { margin-top:2rem; }
+ul.orig > li { padding-bottom:.7rem; margin-bottom:.7rem; border-bottom:1px solid var(--border); }
+.ext-item { padding:1rem 1.15rem; border-radius:6px; }
+.ext-item .ed { margin:.4rem 0 .55rem; font-size:.9rem; }
+.ext-item .et { font-size:1rem; }
+.ext-list { gap:.75rem; }
+.empty-state { border:1px dashed var(--muted); padding:1.5rem; margin:1rem 0 3rem; border-radius:7px; }
+.empty-state h2 { margin-top:0; font-size:1.5rem; }
+.filtering .start-here, .filtering .catalog-heading, .filtering #benchmark-atlas { display:none; }
+.filtering .related-sites { margin-top:0; }
+.footer-inner { max-width:1000px; padding:2rem 1.6rem; }
+.footer-inner h2 { margin-top:1.8rem; }
+.contact-btn { color:var(--bg) !important; }
+.back-to-top { display:inline-block; margin-top:1rem; font-size:.85rem; }
+@media(max-width:1100px) { .topic-grid { grid-template-columns:repeat(2,minmax(0,1fr)); } .topic-card { min-height:125px; } }
+@media(max-width:860px) { .layout { grid-template-columns:minmax(0,1fr); gap:0; padding:1.2rem; } .masthead-inner { padding:1.2rem; } .topic-grid { grid-template-columns:repeat(4,minmax(0,1fr)); } .topic-card { padding:.8rem; } .js .toc-toggle { cursor:pointer; } }
+@media(max-width:650px) { .topic-grid { grid-template-columns:repeat(2,minmax(0,1fr)); } .related-sites { grid-template-columns:minmax(0,1fr); } .brand-line { gap:.6rem; } .header-links { font-size:.8rem; gap:.8rem; } .masthead-inner,.layout { padding-left:1rem; padding-right:1rem; } .search-row { flex-wrap:wrap; } #search { flex-basis:75%; } .source-filters button { padding:.45rem .55rem; } section.subtopic { padding-left:.65rem; } .ext-item { padding:.8rem; } }
+@media(prefers-reduced-motion:reduce) { .topic-card { transition:none; } }
+
 </style>
 </head>
-<body>
+<body id="top">
 <a class="skip-link" href="#main-content">Skip to content</a>
 <header class="masthead">
   <div class="masthead-inner">
-    <h1><span class="isca">Unofficial rebuild of ISCA's SCOOT — not an ISCA publication</span>SCOOT 2.0</h1>
+    <div class="brand-line"><p class="eyebrow">SPEECH COMMUNICATION / A LEARNING DIRECTORY</p><div class="header-links"><a href="https://speechlab0210.github.io/isca-sig-directory/">ISCA SIG Atlas ↗</a><a href="#about">About this project</a></div></div>
+    <h1>SCOOT <span>2.0</span></h1>
     <p class="tagline">__TAGLINE__</p>
-    <p class="motto"><strong>“SCOOT will never be finished.”</strong> — the original SCOOT</p>
-    <div class="banner">__BANNER__ · Original pages: <a href="__ORIGINAL_HOME__" rel="noopener">isca-speech.org/SCOOT</a></div>
-    <div class="searchwrap">
-      <input id="search" type="search" placeholder="Filter resources… (e.g. kaldi, prosody, wav2vec)" aria-label="Filter resources">
-      <div class="search-note" id="searchNote" role="status" aria-live="polite" aria-atomic="true"></div>
+    <p class="catalog-counts">__CATALOG_COUNTS__</p>
+    <div class="banner">__BANNER__ <a href="__ORIGINAL_HOME__" rel="noopener">Original ISCA SCOOT ↗</a></div>
+    <div class="searchwrap" role="search" aria-label="Resource catalog">
+      <label class="search-label" for="search">Search the catalog</label>
+      <div class="search-row"><input id="search" type="search" placeholder="Try phonetics, speech recognition, Praat…" autocomplete="off" aria-describedby="searchNote"><button type="button" id="clearSearch" class="reset-button">Reset</button></div>
+      <div class="filter-row"><div class="source-filters" role="group" aria-label="Resource source"><button type="button" data-source="all" aria-pressed="true">All resources</button><button type="button" data-source="original" aria-pressed="false">Original SCOOT</button><button type="button" data-source="extension" aria-pressed="false">2.0 extensions</button></div><div class="search-note" id="searchNote" role="status" aria-live="polite" aria-atomic="true"></div></div>
     </div>
   </div>
 </header>
@@ -264,6 +286,7 @@ __SCOOT_BODY__
 <footer>
   <div class="footer-inner">
 __SCOOT_FOOTER__
+    <a class="back-to-top" href="#top">Back to top ↑</a>
   </div>
 </footer>
 
@@ -272,106 +295,86 @@ __SCOOT_FOOTER__
   document.documentElement.classList.add('js');
   var input = document.getElementById('search');
   var note = document.getElementById('searchNote');
-  var items = Array.prototype.slice.call(document.querySelectorAll('ul.orig > li[data-search], .ext-item[data-search], .series-card[data-search], .up-row[data-search], .arch-row[data-search], .sig-card[data-search], .cent-row[data-search], .note-item[data-search], .ba-card[data-search]'));
-  var sections = Array.prototype.slice.call(document.querySelectorAll('section.topic, section.subtopic'));
-  var headers = Array.prototype.slice.call(document.querySelectorAll('.orig-head, .ext-head, .group-head, .extended-intro'));
+  var items = Array.from(document.querySelectorAll('[data-origin][data-search]'));
+  var sections = Array.from(document.querySelectorAll('section.topic, section.subtopic')).filter(function (el) { return el.id !== 'benchmark-atlas'; });
+  var headers = Array.from(document.querySelectorAll('.orig-head, .ext-head, .group-head, .extended-intro'));
+  var sourceButtons = Array.from(document.querySelectorAll('[data-source]'));
+  var source = 'all';
   var tocToggle = document.getElementById('tocToggle');
   var topicNav = document.getElementById('topicNav');
+  var normalize = function (value) { return value.normalize('NFKD').replace(/[\u0300-\u036f]/g, '').toLowerCase().replace(/[-–—/]/g, ' '); };
   function setTocOpen(open) {
     topicNav.classList.toggle('open', open);
     tocToggle.setAttribute('aria-expanded', String(open));
     tocToggle.textContent = open ? 'Hide topics' : 'Browse topics';
   }
-  tocToggle.addEventListener('click', function () {
-    setTocOpen(!topicNav.classList.contains('open'));
-  });
-  topicNav.addEventListener('click', function (event) {
-    if (event.target.closest('a') && window.matchMedia('(max-width: 860px)').matches) setTocOpen(false);
-  });
-  function applyFilter() {
-    var q = input.value.trim().toLowerCase();
-    if (!q) {
-      items.forEach(function (el) { el.classList.remove('hidden'); });
-      sections.forEach(function (el) { el.classList.remove('hidden'); });
-      headers.forEach(function (el) { el.classList.remove('hidden'); });
-      note.style.display = 'none';
-      return;
-    }
+  tocToggle.addEventListener('click', function () { setTocOpen(!topicNav.classList.contains('open')); });
+  function applyFilter(saveUrl) {
+    var words = normalize(input.value.trim()).split(/\s+/).filter(Boolean);
+    var active = words.length > 0 || source !== 'all';
     var shown = 0;
+    document.body.classList.toggle('filtering', active);
     items.forEach(function (el) {
-      var hit = el.getAttribute('data-search').indexOf(q) !== -1;
+      var haystack = normalize(el.getAttribute('data-search'));
+      var hit = (source === 'all' || el.dataset.origin === source) && words.every(function (word) { return haystack.includes(word); });
       el.classList.toggle('hidden', !hit);
       if (hit) shown++;
     });
-    sections.forEach(function (el) {
-      var any = el.querySelector('[data-search]:not(.hidden)');
-      el.classList.toggle('hidden', !any);
-    });
+    sections.forEach(function (el) { el.classList.toggle('hidden', active && !el.querySelector('[data-origin]:not(.hidden)')); });
     headers.forEach(function (el) {
-      var scope = el.parentElement;
-      var any = false;
-      var sib = el.nextElementSibling;
-      while (sib && !sib.classList.contains('orig-head') && !sib.classList.contains('ext-head') && !sib.classList.contains('group-head') && !sib.classList.contains('extended-intro')) {
-        if ((sib.hasAttribute && sib.hasAttribute('data-search') && !sib.classList.contains('hidden')) ||
-            (sib.querySelector && sib.querySelector('[data-search]:not(.hidden)'))) { any = true; break; }
-        sib = sib.nextElementSibling;
+      var visible = false;
+      var sibling = el.nextElementSibling;
+      while (sibling && !sibling.matches('.orig-head,.ext-head,.group-head,.extended-intro,section.subtopic')) {
+        if (sibling.matches('[data-origin]:not(.hidden)') || sibling.querySelector('[data-origin]:not(.hidden)')) { visible = true; break; }
+        sibling = sibling.nextElementSibling;
       }
-      el.classList.toggle('hidden', !any);
+      if (el.classList.contains('extended-intro')) visible = ['paralinguistics','clinical','community'].some(function (id) { return !document.getElementById(id).classList.contains('hidden'); });
+      el.classList.toggle('hidden', active && !visible);
     });
-    note.textContent = shown + ' matching resource' + (shown === 1 ? '' : 's');
-    note.style.display = 'block';
+    sourceButtons.forEach(function (button) { button.setAttribute('aria-pressed', String(button.dataset.source === source)); });
+    document.getElementById('emptyState').hidden = shown > 0;
+    note.textContent = shown + ' of ' + items.length + ' resources' + (active ? ' match' : ' available');
+    topicNav.querySelectorAll('a[href^="#"]').forEach(function (link) {
+      var section = document.getElementById(link.hash.slice(1));
+      var hidden = section && section.classList.contains('hidden');
+      link.classList.toggle('no-matches', !!hidden);
+    });
+    if (saveUrl) {
+      var url = new URL(window.location.href);
+      input.value.trim() ? url.searchParams.set('q', input.value.trim()) : url.searchParams.delete('q');
+      source !== 'all' ? url.searchParams.set('source', source) : url.searchParams.delete('source');
+      history.replaceState(null, '', url);
+    }
   }
-  input.addEventListener('input', applyFilter);
-
-  // scroll spy
-  var tocLinks = Array.prototype.slice.call(document.querySelectorAll('nav.toc a[href^="#"]'));
-  var byId = {};
-  tocLinks.forEach(function (a) { byId[a.getAttribute('href').slice(1)] = a; });
-  var observed = Array.prototype.slice.call(document.querySelectorAll('section[id]'));
+  function resetFilters(focus) { input.value = ''; source = 'all'; applyFilter(true); if (focus) input.focus(); }
+  input.addEventListener('input', function () { applyFilter(true); });
+  input.addEventListener('keydown', function (event) { if (event.key === 'Escape') { event.preventDefault(); resetFilters(true); } });
+  sourceButtons.forEach(function (button) { button.addEventListener('click', function () { source = button.dataset.source; applyFilter(true); }); });
+  document.getElementById('clearSearch').addEventListener('click', function () { resetFilters(true); });
+  document.getElementById('resetEmpty').addEventListener('click', function () { resetFilters(true); });
+  document.addEventListener('click', function (event) {
+    var link = event.target.closest('a[href^="#"]');
+    if (!link) return;
+    var target = document.getElementById(link.hash.slice(1));
+    if (target && (target.closest('.hidden') || target.id === 'welcome' || target.id === 'benchmark-atlas')) resetFilters(false);
+    if (topicNav.contains(link) && window.matchMedia('(max-width:860px)').matches) {
+      setTocOpen(false);
+      if (target) { target.setAttribute('tabindex', '-1'); target.focus({preventScroll:true}); }
+    }
+  });
+  var params = new URLSearchParams(window.location.search);
+  input.value = params.get('q') || '';
+  if (['original','extension'].includes(params.get('source'))) source = params.get('source');
+  applyFilter(false);
+  var tocLinks = Array.from(topicNav.querySelectorAll('a[href^="#"]'));
   if ('IntersectionObserver' in window) {
-    var current = null;
-    var io = new IntersectionObserver(function (entries) {
-      entries.forEach(function (en) {
-        if (en.isIntersecting) {
-          if (current) current.classList.remove('active');
-          var link = byId[en.target.id];
-          if (link) { link.classList.add('active'); current = link; }
-        }
+    var observer = new IntersectionObserver(function (entries) {
+      entries.forEach(function (entry) {
+        if (!entry.isIntersecting) return;
+        tocLinks.forEach(function (link) { var current = link.hash === '#' + entry.target.id; link.classList.toggle('active', current); if (current) link.setAttribute('aria-current','location'); else link.removeAttribute('aria-current'); });
       });
-    }, { rootMargin: '0px 0px -70% 0px' });
-    observed.forEach(function (s) { io.observe(s); });
-  }
-
-  // SIG directory filter chips (JS-only enhancement; composes with the global
-  // search — a card shows only if neither .hidden (search) nor .fhide (chip)).
-  var chips = Array.prototype.slice.call(document.querySelectorAll('.sig-filters .chip'));
-  var sigCards = Array.prototype.slice.call(document.querySelectorAll('.sig-card'));
-  var sigNote = document.getElementById('sigDirNote');
-  function applyChips() {
-    var mode = 'all';
-    chips.forEach(function (c) { if (c.getAttribute('aria-pressed') === 'true') mode = c.getAttribute('data-f'); });
-    var shown = 0;
-    sigCards.forEach(function (el) {
-      var ok = (mode === 'all') ||
-        (mode === 'rec' && el.getAttribute('data-rec') === '1') ||
-        (mode === 'live' && el.getAttribute('data-live') === '1') ||
-        (mode === 'topic' && el.getAttribute('data-kind') === 'topic') ||
-        (mode === 'language' && el.getAttribute('data-kind') === 'language');
-      el.classList.toggle('fhide', !ok);
-      if (ok && !el.classList.contains('hidden')) shown++;
-    });
-    if (sigNote) sigNote.textContent = 'Showing ' + shown + ' of ' + sigCards.length + ' SIGs.';
-  }
-  if (chips.length && sigCards.length) {
-    chips.forEach(function (c) {
-      c.addEventListener('click', function () {
-        chips.forEach(function (x) { x.setAttribute('aria-pressed', 'false'); });
-        c.setAttribute('aria-pressed', 'true');
-        applyChips();
-      });
-    });
-    input.addEventListener('input', applyChips);
-    applyChips();
+    }, { rootMargin:'0px 0px -70% 0px' });
+    document.querySelectorAll('section[id]').forEach(function (section) { observer.observe(section); });
   }
 
   // Benchmark Atlas card: refresh baked counts from the atlas's same-origin
