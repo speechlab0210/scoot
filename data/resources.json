@@ -2302,6 +2302,20 @@
       "why": "The benchmark of record for naturalistic SER, with ready-made baselines students can build on.",
       "legacy_category": "paralinguistics",
       "topic": "paralinguistics"
+    },
+    {
+      "title": "ASR: Automatic Speech Recognition (University of Edinburgh open course materials)",
+      "url": "https://opencourse.inf.ed.ac.uk/asr",
+      "org": "University of Edinburgh, School of Informatics (course organiser: Peter Bell)",
+      "type": "course",
+      "level": "advanced",
+      "topics": ["speech recognition", "HMMs", "WFST decoding", "neural acoustic models", "OpenFst"],
+      "year": "2026 (lectures from 12 January 2026), taught annually",
+      "cost": "free",
+      "description": "Public materials for Edinburgh's 18-lecture ASR course: speech signal analysis, HMMs and Gaussian mixture models, context-dependent phone modelling, large-vocabulary decoding with weighted finite-state transducers, and hybrid and neural acoustic models, with slides for each lecture plus reading lists, labs, and coursework. Labs use the open-source OpenFst toolkit with Python. Course materials are licensed CC BY-NC-SA; lecture recordings require a university login.",
+      "why": "A complete, openly licensed university ASR course that connects classical HMM/WFST systems to neural acoustic modelling.",
+      "legacy_category": "courses",
+      "topic": "speech-recognition"
     }
   ]
 }

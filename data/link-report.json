@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-10-04T21:42:29.017921+00:00",
+  "checked_at": "2026-10-05T21:42:53.340818+00:00",
   "total": 271,
   "dead": 8,
   "results": {
@@ -30,7 +30,7 @@
     "http://htk.eng.cam.ac.uk/": {
       "status": 502,
       "ok": false,
-      "note": "proxy error on 2026-10-04 (intermittent since September 2026)",
+      "note": "unreachable on 3 consecutive daily checks (http 502)",
       "archive": "https://web.archive.org/web/20260617173437/https://htk.eng.cam.ac.uk/"
     },
     "http://spandh.dcs.shef.ac.uk/ed_arena/mad/mad/docs/mad.htm": {
@@ -61,7 +61,7 @@
     "http://www.ee.oulu.fi/~kk/dtsp/tutoriaalit/Spanias.pdf": {
       "status": 0,
       "ok": false,
-      "note": "host no longer serves the file (checked 2026-10-04); archived copy linked",
+      "note": "unreachable on 3 consecutive daily checks (timed out)",
       "archive": "https://web.archive.org/web/20181024091231/http://www.ee.oulu.fi:80/~kk/dtsp/tutoriaalit/Spanias.pdf"
     },
     "http://www.elra.info/catalogues/": {
@@ -95,7 +95,7 @@
     "http://www.speech.kth.se/~matsb/speech_rec_course_2003/htk_tutorial.pdf": {
       "status": 404,
       "ok": false,
-      "note": "confirmed dead on retest",
+      "note": "unreachable on 3 consecutive daily checks (http 404)",
       "archive": "https://web.archive.org/web/20250815000553/https://www.speech.kth.se/~matsb/speech_rec_course_2003/htk_tutorial.pdf"
     },
     "https://ai.meta.com/blog/wav2vec-20-learning-the-structure-of-speech-from-raw-audio/": {
@@ -105,7 +105,7 @@
     "https://archive.phonetics.ucla.edu/": {
       "status": 0,
       "ok": false,
-      "note": "TLS certificate expired on 2026-09-27; archived copy linked until it is renewed",
+      "note": "unreachable on 3 consecutive daily checks (TLS certificate rejected: certificate has expired)",
       "archive": "https://web.archive.org/web/20260922121050/https://archive.phonetics.ucla.edu/"
     },
     "https://arxiv.org/abs/2006.11477": {
@@ -828,7 +828,7 @@
     "https://web.stanford.edu/class/cs224s/syllabus.html": {
       "status": 404,
       "ok": false,
-      "note": "confirmed dead on retest",
+      "note": "unreachable on 3 consecutive daily checks (http 404)",
       "archive": "https://web.archive.org/web/20200205000141/http://web.stanford.edu:80/class/cs224s/syllabus.html"
     },
     "https://www.amtoolbox.org/": {
@@ -879,7 +879,7 @@
     "https://www.edx.org/course/speech-recognition-systems-2": {
       "status": 404,
       "ok": false,
-      "note": "confirmed dead on retest",
+      "note": "unreachable on 3 consecutive daily checks (http 404)",
       "archive": "https://web.archive.org/web/20200804063447/https://www.edx.org/course/speech-recognition-systems-2"
     },
     "https://www.ee.columbia.edu/~dpwe/pubs/Ellis10-introspeech.pdf": {
