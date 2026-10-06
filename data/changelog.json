@@ -1,6 +1,11 @@
 {
   "entries": [
     {
+      "date": "2026-10-07",
+      "change": "Updated whisper.cpp to v1.9.5, noted the availability of VoicePrivacy 2026 results and system materials, and clarified the updated code for the Audio Signal Processing for Machine Learning course. Added Purdue ECE 538 Fall 2026 public DSP course materials.",
+      "source": "daily review"
+    },
+    {
       "date": "2026-10-06",
       "change": "Daily review: added the University of Edinburgh's openly licensed Automatic Speech Recognition course materials to Speech Recognition.",
       "source": "daily review"

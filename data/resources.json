@@ -429,7 +429,7 @@
       ],
       "year": "2020, still widely used",
       "cost": "free",
-      "description": "YouTube series of roughly 25 videos covering sound fundamentals, time- and frequency-domain features, Fourier and short-time Fourier transforms, mel spectrograms and MFCCs, each combining intuition, math and librosa implementations in Python. Code and slides are free on GitHub.",
+      "description": "YouTube series covering sound fundamentals, time- and frequency-domain features, Fourier and short-time Fourier transforms, mel spectrograms and MFCCs, combining intuition, math and librosa implementations in Python. Code and slides are free on GitHub; the updated v2 code targets current environments, while the legacy branch preserves the code used in the videos.",
       "why": "Widely used audio-DSP primer; ideal preparation before any speech technology course.",
       "legacy_category": "courses",
       "topic": "signal-processing"
@@ -605,9 +605,9 @@
         "quantization",
         "C/C++"
       ],
-      "year": "2026 (v1.9.4)",
+      "year": "2026 (v1.9.5)",
       "cost": "free",
-      "description": "Dependency-free C/C++ port of OpenAI's Whisper on the ggml tensor library: quantized CPU/GPU inference on laptops, phones, Raspberry Pi, and WebAssembly, no Python required, with bindings for many languages. v1.9.4 released September 2026; MIT.",
+      "description": "Dependency-free C/C++ port of OpenAI's Whisper on the ggml tensor library: quantized CPU/GPU inference on laptops, phones, Raspberry Pi, and WebAssembly, no Python required, with bindings for many languages. v1.9.5 released October 2026; MIT.",
       "why": "Easiest way to run serious ASR locally on modest hardware; ideal for on-device demos.",
       "legacy_category": "toolkits",
       "topic": "asr-toolkits"
@@ -1399,7 +1399,7 @@
       ],
       "year": "2026 edition (since 2020)",
       "cost": "free",
-      "description": "Biennial challenge benchmarking speaker anonymization: conceal speaker identity while preserving linguistic content and emotion. The fourth edition (2026) had English and multilingual tracks and concluded with a workshop at the SPSC Symposium co-located with Interspeech 2026 (26 September 2026); baselines, datasets, and evaluation code at github.com/Voice-Privacy-Challenge.",
+      "description": "Biennial challenge benchmarking speaker anonymization: conceal speaker identity while preserving linguistic content and emotion. The fourth edition (2026) had English and multilingual tracks and concluded with a workshop at the SPSC Symposium co-located with Interspeech 2026 (26 September 2026); baselines, datasets, and evaluation code at github.com/Voice-Privacy-Challenge. Results, system descriptions, and workshop presentation materials are now available on the official site.",
       "why": "The reference evaluation framework for voice-privacy research.",
       "legacy_category": "frontier",
       "topic": "community"
@@ -2316,6 +2316,28 @@
       "why": "A complete, openly licensed university ASR course that connects classical HMM/WFST systems to neural acoustic modelling.",
       "legacy_category": "courses",
       "topic": "speech-recognition"
+    },
+    {
+      "title": "Purdue ECE 538: Digital Signal Processing I",
+      "url": "https://engineering.purdue.edu/~ee538/",
+      "org": "Purdue University (Mike Zoltowski)",
+      "type": "course",
+      "level": "intermediate",
+      "topics": [
+        "DSP",
+        "convolution",
+        "Fourier analysis",
+        "digital filters",
+        "sampling",
+        "MATLAB",
+        "speech processing"
+      ],
+      "year": "Fall 2026",
+      "cost": "free",
+      "description": "Public course materials on discrete-time signals and systems, correlation, Fourier analysis, sampling, and digital filters, with applications including speech processing. The Fall 2026 course page provides lecture notes, MATLAB demonstrations, and speech waveform examples. Posted materials are free to access; course enrollment and assessment use Purdue systems.",
+      "why": "Connects DSP theory with worked MATLAB examples and speech signals for independent study.",
+      "legacy_category": "courses",
+      "topic": "signal-processing"
     }
   ]
 }
