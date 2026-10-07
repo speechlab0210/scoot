@@ -1,36 +1,32 @@
 {
-  "checked_at": "2026-10-06T21:32:30.468211+00:00",
+  "checked_at": "2026-10-07T21:33:18.199088+00:00",
   "total": 272,
   "dead": 8,
   "results": {
     "http://festvox.org/": {
       "status": 200,
       "ok": true,
-      "note": "loads (checked 2026-10-04 via public DNS; this checker's resolver times out on this domain)",
       "archive": "https://web.archive.org/web/20260728062619/http://www.festvox.org/"
     },
     "http://festvox.org/dbs/index.html": {
       "status": 200,
       "ok": true,
-      "note": "loads (checked 2026-10-04 via public DNS; this checker's resolver times out on this domain)",
       "archive": "https://web.archive.org/web/20260519163542/http://www.festvox.org/dbs/index.html"
     },
     "http://festvox.org/festvox/": {
       "status": 200,
       "ok": true,
-      "note": "loads (checked 2026-10-04 via public DNS; this checker's resolver times out on this domain)",
       "archive": "https://web.archive.org/web/20260519154143/http://www.festvox.org/festvox/"
     },
     "http://festvox.org/ldom/index.html": {
       "status": 200,
       "ok": true,
-      "note": "loads (checked 2026-10-04 via public DNS; this checker's resolver times out on this domain)",
       "archive": "https://web.archive.org/web/20260421234914/http://festvox.org/ldom/index.html"
     },
     "http://htk.eng.cam.ac.uk/": {
       "status": 502,
       "ok": false,
-      "note": "unreachable on 4 consecutive daily checks (http 502)",
+      "note": "unreachable on 5 consecutive daily checks (http 502)",
       "archive": "https://web.archive.org/web/20260617173437/https://htk.eng.cam.ac.uk/"
     },
     "http://spandh.dcs.shef.ac.uk/ed_arena/mad/mad/docs/mad.htm": {
@@ -61,7 +57,7 @@
     "http://www.ee.oulu.fi/~kk/dtsp/tutoriaalit/Spanias.pdf": {
       "status": 0,
       "ok": false,
-      "note": "unreachable on 4 consecutive daily checks (timed out)",
+      "note": "unreachable on 5 consecutive daily checks (timed out)",
       "archive": "https://web.archive.org/web/20181024091231/http://www.ee.oulu.fi:80/~kk/dtsp/tutoriaalit/Spanias.pdf"
     },
     "http://www.elra.info/catalogues/": {
@@ -95,7 +91,7 @@
     "http://www.speech.kth.se/~matsb/speech_rec_course_2003/htk_tutorial.pdf": {
       "status": 404,
       "ok": false,
-      "note": "unreachable on 4 consecutive daily checks (http 404)",
+      "note": "unreachable on 5 consecutive daily checks (http 404)",
       "archive": "https://web.archive.org/web/20250815000553/https://www.speech.kth.se/~matsb/speech_rec_course_2003/htk_tutorial.pdf"
     },
     "https://ai.meta.com/blog/wav2vec-20-learning-the-structure-of-speech-from-raw-audio/": {
@@ -105,7 +101,7 @@
     "https://archive.phonetics.ucla.edu/": {
       "status": 0,
       "ok": false,
-      "note": "unreachable on 4 consecutive daily checks (TLS certificate rejected: certificate has expired)",
+      "note": "unreachable on 5 consecutive daily checks (TLS certificate rejected: certificate has expired)",
       "archive": "https://web.archive.org/web/20260922121050/https://archive.phonetics.ucla.edu/"
     },
     "https://arxiv.org/abs/2006.11477": {
@@ -238,6 +234,10 @@
       "ok": false,
       "note": "confirmed dead on retest",
       "archive": "https://web.archive.org/web/20181129170426/https://engineering.jhu.edu/clsp/wp-content/uploads/sites/75/2016/06/Building-Speech-Recognition-Systems-with-the-Kaldi-Toolkit.pdf"
+    },
+    "https://engineering.purdue.edu/~ee538/": {
+      "status": 200,
+      "ok": true
     },
     "https://github.com/Agrover112/Kaldi-notes": {
       "status": 200,
@@ -379,10 +379,6 @@
       "status": 200,
       "ok": true
     },
-    "https://huggingface.co/datasets/espnet/yodas": {
-      "status": 200,
-      "ok": true
-    },
     "https://huggingface.co/datasets/facebook/multilingual_librispeech": {
       "status": 200,
       "ok": true
@@ -479,7 +475,7 @@
     "https://labrosa.ee.columbia.edu/doc/HTKBook21/HTKBook.html": {
       "status": 0,
       "ok": false,
-      "note": "unreachable on 3 consecutive daily checks (TLS certificate rejected: unable to get local issuer certifi)",
+      "note": "unreachable on 4 consecutive daily checks (TLS certificate rejected: unable to get local issuer certifi)",
       "archive": "https://web.archive.org/web/20260520194909/https://labrosa.ee.columbia.edu/doc/HTKBook21/HTKBook.html"
     },
     "https://modeltalker.org/": {
@@ -832,7 +828,7 @@
     "https://web.stanford.edu/class/cs224s/syllabus.html": {
       "status": 404,
       "ok": false,
-      "note": "unreachable on 4 consecutive daily checks (http 404)",
+      "note": "unreachable on 5 consecutive daily checks (http 404)",
       "archive": "https://web.archive.org/web/20200205000141/http://web.stanford.edu:80/class/cs224s/syllabus.html"
     },
     "https://www.amtoolbox.org/": {
@@ -883,7 +879,7 @@
     "https://www.edx.org/course/speech-recognition-systems-2": {
       "status": 404,
       "ok": false,
-      "note": "unreachable on 4 consecutive daily checks (http 404)",
+      "note": "unreachable on 5 consecutive daily checks (http 404)",
       "archive": "https://web.archive.org/web/20200804063447/https://www.edx.org/course/speech-recognition-systems-2"
     },
     "https://www.ee.columbia.edu/~dpwe/pubs/Ellis10-introspeech.pdf": {

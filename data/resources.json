@@ -914,8 +914,8 @@
       "topic": "databases"
     },
     {
-      "title": "YODAS",
-      "url": "https://huggingface.co/datasets/espnet/yodas",
+      "title": "YODAS v3",
+      "url": "https://huggingface.co/datasets/espnet/yodas3",
       "org": "WAVLab (CMU) / ESPnet",
       "type": "dataset",
       "level": "advanced",
@@ -925,10 +925,10 @@
         "web-scale data",
         "self-supervised learning"
       ],
-      "year": "2024",
+      "year": "2026 (v3)",
       "cost": "free",
-      "description": "About 370,000 hours of Creative-Commons YouTube speech with manual or automatic captions in 149 languages, CC BY 3.0. YODAS2 variant provides unsegmented 24 kHz audio. Downloadable from Hugging Face; used to train open Whisper-style models such as OWSM.",
-      "why": "The openly licensed answer to web-scale training data; basis of open Whisper reproductions.",
+      "description": "Over 1.1 million hours of multilingual web audio in 100+ languages, released under CC BY 3.0. The v3 release is distinct from YODAS v1 and v2. It includes transcripts and English translations where available, timing information, and audio-quality metadata; downloadable in WebDataset format.",
+      "why": "Supports multilingual ASR, speech synthesis, and audio representation learning with documented data and metadata.",
       "legacy_category": "data",
       "topic": "databases"
     },
@@ -2338,6 +2338,27 @@
       "why": "Connects DSP theory with worked MATLAB examples and speech signals for independent study.",
       "legacy_category": "courses",
       "topic": "signal-processing"
+    },
+    {
+      "title": "Computational Models of Conversational Grounding (ESSLLI 2026)",
+      "url": "https://people.ict.usc.edu/~traum/ESSLLI2026/",
+      "org": "David Traum and Kristiina Jokinen (ESSLLI)",
+      "type": "course",
+      "level": "advanced",
+      "topics": [
+        "common ground",
+        "spoken dialogue systems",
+        "feedback and repair",
+        "multimodal communication",
+        "pragmatics",
+        "large language models"
+      ],
+      "year": "2026",
+      "cost": "free",
+      "description": "Five publicly accessible lecture-note PDFs and a bibliography from an ESSLLI 2026 advanced course. Covers common ground, feedback and error handling in spoken dialogue, grounding in language models, multimodal interaction, and incremental and multiparty dialogue. Aimed primarily at PhD students; familiarity with dialogue and pragmatics is helpful. Posted learning materials are free to access.",
+      "why": "Connects theories of shared understanding with feedback, repair, and coordination in spoken dialogue systems.",
+      "legacy_category": "courses",
+      "topic": "speech-technology"
     }
   ]
 }
