@@ -13,11 +13,11 @@
     "repo_url": "https://github.com/speechlab0210/spoken-llm-benchmarks",
     "paper_url": "https://github.com/speechlab0210/spoken-llm-benchmarks/blob/main/paper/PAPER.md",
     "blurb": "Explore benchmarks for spoken language models, the capabilities they measure, and reported model results with links to the source papers.",
-    "asof": "2026-10-04",
+    "asof": "2026-10-07",
     "stats": [
       {
         "key": "benchmarks",
-        "n": "442",
+        "n": "444",
         "label": "benchmarks"
       },
       {
@@ -32,7 +32,7 @@
       },
       {
         "key": "result_cells",
-        "n": "17,082",
+        "n": "17,136",
         "label": "sourced result cells"
       }
     ],

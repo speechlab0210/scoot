@@ -407,7 +407,7 @@
         "STT-LLM-TTS pipelines",
         "latency"
       ],
-      "year": "2025",
+      "year": "2026 (updated July 17)",
       "cost": "freemium",
       "description": "One-hour short course (seven video lessons plus code examples) on production voice-agent architecture: modular STT-LLM-TTS pipelines versus realtime speech-to-speech APIs, latency budgeting, voice activity detection, turn management and handling interruptions. Free to watch (access currently free during the platform beta); the graded assignment requires paid membership.",
       "why": "Practical engineering view of deployed voice agents that academic courses rarely cover.",
@@ -756,9 +756,9 @@
         "corpus building",
         "G2P"
       ],
-      "year": "2026 (v3.4.2)",
+      "year": "2026 (v3.4.3)",
       "cost": "free",
-      "description": "Command-line forced aligner producing word- and phone-level time alignments from audio plus transcripts, with pretrained acoustic models and harmonized IPA dictionaries for dozens of languages, G2P, and model adaptation. v3.4.2 released August 2026; MIT.",
+      "description": "Command-line forced aligner producing word- and phone-level time alignments from audio plus transcripts, with pretrained acoustic models and harmonized IPA dictionaries for dozens of languages, G2P, and model adaptation. v3.4.3 released October 2026; MIT.",
       "why": "The most widely used aligner in phonetics and speech-corpus research.",
       "legacy_category": "toolkits",
       "topic": "acoustic-phonetics"
@@ -2237,7 +2237,7 @@
       ],
       "year": "2024",
       "cost": "free",
-      "description": "Multilingual SER toolkit and benchmark (INTERSPEECH 2024): data preparation plus SpeechBrain training recipes for 32 emotion corpora in 14 languages (294 hours total), with intra- and cross-corpus leaderboards comparing 10 pre-trained speech models. Code marked MIT in the README (no LICENSE file in the repository); corpora must be obtained separately.",
+      "description": "Multilingual SER toolkit and benchmark (INTERSPEECH 2024): data preparation plus SpeechBrain training recipes for 32 emotion corpora in 14 languages (294 hours total), with intra- and cross-corpus leaderboards comparing 10 pre-trained speech models. Code and processed metadata are public; some corpora require separate licenses or registration.",
       "why": "One-stop reproducible benchmark showing how pre-trained models compare across corpora and languages.",
       "legacy_category": "paralinguistics",
       "topic": "paralinguistics"
@@ -2277,7 +2277,7 @@
       ],
       "year": "2008, still distributed",
       "cost": "free",
-      "description": "Most-cited SER benchmark corpus: roughly 12 hours of dyadic acted and improvised English dialogue from 10 actors, with audio, video, motion capture and transcripts, annotated with categorical emotions and valence/arousal/dominance. Free for research after signing USC's electronic release form; no redistribution.",
+      "description": "Multimodal corpus of roughly 12 hours of dyadic acted and improvised English dialogue from 10 actors, with audio, video, motion capture and transcripts, annotated with categorical emotions and valence/arousal/dominance. Academic access requires a verified institutional email and acceptance of USC's release license; commercial use is not permitted.",
       "why": "The canonical corpus virtually every SER paper reports on; students need its access path.",
       "legacy_category": "paralinguistics",
       "topic": "paralinguistics"
@@ -2359,6 +2359,27 @@
       "why": "Connects theories of shared understanding with feedback, repair, and coordination in spoken dialogue systems.",
       "legacy_category": "courses",
       "topic": "speech-technology"
+    },
+    {
+      "title": "LRAC 2026 Data Preparation",
+      "url": "https://github.com/cisco-open/lrac_data_generation",
+      "org": "Cisco Open Source / LRAC Challenge",
+      "type": "tool",
+      "level": "advanced",
+      "topics": [
+        "neural speech coding",
+        "data preparation",
+        "noise and reverberation",
+        "reproducible evaluation",
+        "Kaldi",
+        "ESPnet"
+      ],
+      "year": "2026",
+      "cost": "free",
+      "description": "Official data preparation tools for the Low Resource Audio Codec Challenge. The 2026 pipeline builds 24 kHz speech, noise, and room-impulse-response releases with separate training, validation, and evaluation partitions, manifests, and Kaldi/ESPnet exports. Public code and instructions document the upstream datasets' access requirements and terms; Common Voice access requires a Mozilla Data Collective account. The historical 2025 recipe is available as an archived release.",
+      "why": "Provides a worked example of reproducible data preparation for neural speech codecs under realistic acoustic conditions.",
+      "legacy_category": "coding",
+      "topic": "speech-coding"
     }
   ]
 }

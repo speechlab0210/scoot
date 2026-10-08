@@ -1,6 +1,11 @@
 {
   "entries": [
     {
+      "date": "2026-10-09",
+      "change": "Updated Montreal Forced Aligner to v3.4.3 and the voice-agent course's update date. Clarified EmoBox and IEMOCAP access terms, and added the LRAC 2026 data preparation tools.",
+      "source": "daily review"
+    },
+    {
       "date": "2026-10-08",
       "change": "Updated YODAS to its v3 dataset release, including current language coverage, data size, and available metadata. Added the ESSLLI 2026 Computational Models of Conversational Grounding course with five public lecture-note PDFs.",
       "source": "daily review"
