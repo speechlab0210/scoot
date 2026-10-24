@@ -1,6 +1,11 @@
 {
   "entries": [
     {
+      "date": "2026-10-25",
+      "change": "Updated ESPnet, SpeechBrain and sherpa-onnx release notes, and clarified the dates and location of SSW14. Added MIT's Spring 2026 Introduction to Phonology course with public lecture notes and problem sets.",
+      "source": "daily review"
+    },
+    {
       "date": "2026-10-09",
       "change": "Updated Montreal Forced Aligner to v3.4.3 and the voice-agent course's update date. Clarified EmoBox and IEMOCAP access terms, and added the LRAC 2026 data preparation tools.",
       "source": "daily review"

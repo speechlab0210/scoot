@@ -527,9 +527,9 @@
         "diarization",
         "end-to-end"
       ],
-      "year": "2026 (release 202610.post2)",
+      "year": "2026 (release 202611)",
       "cost": "free",
-      "description": "PyTorch toolkit with Kaldi-style recipes for ASR, TTS, speech translation, enhancement, diarization, SSL, and singing synthesis across dozens of corpora, plus a pretrained model zoo. Apache-2.0; release 202610 shipped September 2026 (latest patch v.202610.post2, 24 Sep 2026).",
+      "description": "PyTorch toolkit with Kaldi-style recipes for ASR, TTS, speech translation, enhancement, diarization, SSL, and singing synthesis across dozens of corpora, plus a pretrained model zoo. Apache-2.0; release 202611 shipped on 23 October 2026.",
       "why": "The de facto academic end-to-end speech toolkit; reproducible recipes span nearly every speech task.",
       "legacy_category": "toolkits",
       "topic": "asr-toolkits"
@@ -547,9 +547,9 @@
         "source separation",
         "conversational AI"
       ],
-      "year": "2026 (v1.1.1)",
+      "year": "2026 (v1.1.2)",
       "cost": "free",
-      "description": "PyTorch conversational-AI toolkit with 200+ training recipes on 40+ datasets covering ASR, speaker recognition, enhancement, separation, and language modeling, plus pretrained HuggingFace models and extensive tutorials. v1.1.1 released August 2026; Apache-2.0. Also listed in the original SCOOT catalog under Deep Neural Networks › DNN Toolkits.",
+      "description": "PyTorch conversational-AI toolkit with 200+ training recipes on 40+ datasets covering ASR, speaker recognition, enhancement, separation, and language modeling, plus pretrained HuggingFace models and extensive tutorials. v1.1.2 released October 2026; Apache-2.0. Also listed in the original SCOOT catalog under Deep Neural Networks › DNN Toolkits.",
       "why": "Readable code and rich tutorials make it the friendliest full research toolkit for newcomers.",
       "legacy_category": "toolkits",
       "topic": "asr-toolkits"
@@ -644,7 +644,7 @@
         "diarization",
         "embedded systems"
       ],
-      "year": "2026 (v1.13.8)",
+      "year": "2026 (v2.0.0)",
       "cost": "free",
       "description": "Deployment toolkit running ASR, TTS, speaker diarization, VAD, and enhancement fully offline via onnxruntime. Supports Android, iOS, Raspberry Pi, RISC-V, and x86 servers, with APIs in 12 programming languages. Frequent releases through 2026; Apache-2.0.",
       "why": "One library takes models from the classroom to phones and embedded boards, no internet needed.",
@@ -1513,7 +1513,7 @@
       ],
       "year": "2025, next 2027",
       "cost": "paid",
-      "description": "ISCA's dedicated text-to-speech workshop series, an Interspeech satellite held since 1990 and biennial since 2019. SSW13 ran August 2025 in Leeuwarden, themed sustainable synthesis for language diversity, co-located with the Blizzard Challenge; SSW14 is set for Brazil, 2027. Proceedings are open in the ISCA Archive.",
+      "description": "ISCA's dedicated text-to-speech workshop series, an Interspeech satellite held since 1990 and biennial since 2019. SSW13 ran August 2025 in Leeuwarden, themed sustainable synthesis for language diversity, co-located with the Blizzard Challenge; SSW14 is scheduled for 6-8 September 2027 in Maceió, Brazil. Proceedings are open in the ISCA Archive.",
       "why": "The TTS community's own gathering; pairs directly with the Blizzard Challenge.",
       "legacy_category": "community",
       "topic": "speech-synthesis"
@@ -2380,6 +2380,26 @@
       "why": "Provides a worked example of reproducible data preparation for neural speech codecs under realistic acoustic conditions.",
       "legacy_category": "coding",
       "topic": "speech-coding"
+    },
+    {
+      "title": "Introduction to Phonology (MIT 24.901)",
+      "url": "https://ocw.mit.edu/courses/24-901-introduction-to-phonology-spring-2026/",
+      "org": "MIT OpenCourseWare (Donca Steriade)",
+      "type": "course",
+      "level": "intro",
+      "topics": [
+        "phonology",
+        "sound patterns",
+        "phonological representations",
+        "rule-based grammars",
+        "Optimality Theory"
+      ],
+      "year": "2026 (Spring)",
+      "cost": "free",
+      "description": "Undergraduate introduction to phonological analysis with freely available lecture-note PDFs, problem sets, and reading lists. Uses language data to study sound inventories, distributions, and alternations; compares rule-based and constraint-based grammars and examines interactions with morphology and syntax. Materials are from the Spring 2026 MIT course.",
+      "why": "Provides worked explanations and exercises for developing and comparing analyses of speech-sound patterns.",
+      "legacy_category": "courses",
+      "topic": "phonology"
     }
   ]
 }
