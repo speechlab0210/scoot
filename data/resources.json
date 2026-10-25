@@ -321,7 +321,7 @@
     },
     {
       "title": "11-751/18-781: Speech Recognition and Understanding",
-      "url": "https://www.wavlab.org/activities/2026/11751-2026f/",
+      "url": "https://popcornell.github.io/sru-f26.html",
       "org": "Carnegie Mellon University (WAVLab; Fall 2026: Samuele Cornell & Jee-weon Jung)",
       "type": "course",
       "level": "advanced",
@@ -333,7 +333,7 @@
       ],
       "year": "2026 (Fall offering), taught annually",
       "cost": "free",
-      "description": "CMU's graduate speech recognition course from Shinji Watanabe's WAVLab, spanning statistical foundations to end-to-end neural ASR and understanding, with ESPnet-based assignments. The Fall 2026 offering is taught by Samuele Cornell and Jee-weon Jung; the public page currently lists only logistics (instructors, time, room), and past offerings kept materials behind Piazza login.",
+      "description": "CMU's graduate speech recognition course from Shinji Watanabe's WAVLab, taught in Fall 2026 by Samuele Cornell and Jee-weon Jung. The public syllabus covers HMM, CTC, RNN-T and attention-based ASR, with a lecture schedule, ESPnet tutorials, coding assignments and a research project. Slides, recordings and assignments are distributed through Piazza; the syllabus page does not provide public downloads of those materials.",
       "why": "Annual course from the ESPnet lab; closest match to current ASR research practice.",
       "legacy_category": "courses",
       "topic": "speech-recognition"

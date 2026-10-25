@@ -1,6 +1,11 @@
 {
   "entries": [
     {
+      "date": "2026-10-26",
+      "change": "Linked CMU's Fall 2026 Speech Recognition and Understanding course to its detailed instructor-hosted syllabus, and clarified which course materials are distributed through Piazza.",
+      "source": "daily review"
+    },
+    {
       "date": "2026-10-25",
       "change": "Updated ESPnet, SpeechBrain and sherpa-onnx release notes, and clarified the dates and location of SSW14. Added MIT's Spring 2026 Introduction to Phonology course with public lecture notes and problem sets.",
       "source": "daily review"

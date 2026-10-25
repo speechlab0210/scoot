@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-10-24T21:33:04.665656+00:00",
+  "checked_at": "2026-10-25T21:28:35.325328+00:00",
   "total": 275,
   "dead": 8,
   "results": {
@@ -26,7 +26,7 @@
     "http://htk.eng.cam.ac.uk/": {
       "status": 502,
       "ok": false,
-      "note": "unreachable on 7 consecutive daily checks (http 502)",
+      "note": "unreachable on 8 consecutive daily checks (http 502)",
       "archive": "https://web.archive.org/web/20260617173437/https://htk.eng.cam.ac.uk/"
     },
     "http://spandh.dcs.shef.ac.uk/ed_arena/mad/mad/docs/mad.htm": {
@@ -57,7 +57,7 @@
     "http://www.ee.oulu.fi/~kk/dtsp/tutoriaalit/Spanias.pdf": {
       "status": 0,
       "ok": false,
-      "note": "unreachable on 7 consecutive daily checks (timed out)",
+      "note": "unreachable on 8 consecutive daily checks (timed out)",
       "archive": "https://web.archive.org/web/20181024091231/http://www.ee.oulu.fi:80/~kk/dtsp/tutoriaalit/Spanias.pdf"
     },
     "http://www.elra.info/catalogues/": {
@@ -91,7 +91,7 @@
     "http://www.speech.kth.se/~matsb/speech_rec_course_2003/htk_tutorial.pdf": {
       "status": 404,
       "ok": false,
-      "note": "unreachable on 7 consecutive daily checks (http 404)",
+      "note": "unreachable on 8 consecutive daily checks (http 404)",
       "archive": "https://web.archive.org/web/20250815000553/https://www.speech.kth.se/~matsb/speech_rec_course_2003/htk_tutorial.pdf"
     },
     "https://ai.meta.com/blog/wav2vec-20-learning-the-structure-of-speech-from-raw-audio/": {
@@ -101,7 +101,7 @@
     "https://archive.phonetics.ucla.edu/": {
       "status": 0,
       "ok": false,
-      "note": "unreachable on 7 consecutive daily checks (timed out)",
+      "note": "unreachable on 8 consecutive daily checks (timed out)",
       "archive": "https://web.archive.org/web/20260922121050/https://archive.phonetics.ucla.edu/"
     },
     "https://arxiv.org/abs/2006.11477": {
@@ -483,7 +483,7 @@
     "https://labrosa.ee.columbia.edu/doc/HTKBook21/HTKBook.html": {
       "status": 0,
       "ok": false,
-      "note": "unreachable on 6 consecutive daily checks (TLS certificate rejected: unable to get local issuer certifi)",
+      "note": "unreachable on 7 consecutive daily checks (TLS certificate rejected: unable to get local issuer certifi)",
       "archive": "https://web.archive.org/web/20260520194909/https://labrosa.ee.columbia.edu/doc/HTKBook21/HTKBook.html"
     },
     "https://modeltalker.org/": {
@@ -499,6 +499,10 @@
       "ok": true
     },
     "https://nigelward.com/prosody/": {
+      "status": 200,
+      "ok": true
+    },
+    "https://ocw.mit.edu/courses/24-901-introduction-to-phonology-spring-2026/": {
       "status": 200,
       "ok": true
     },
@@ -840,7 +844,7 @@
     "https://web.stanford.edu/class/cs224s/syllabus.html": {
       "status": 404,
       "ok": false,
-      "note": "unreachable on 7 consecutive daily checks (http 404)",
+      "note": "unreachable on 8 consecutive daily checks (http 404)",
       "archive": "https://web.archive.org/web/20200205000141/http://web.stanford.edu:80/class/cs224s/syllabus.html"
     },
     "https://www.amtoolbox.org/": {
@@ -891,7 +895,7 @@
     "https://www.edx.org/course/speech-recognition-systems-2": {
       "status": 404,
       "ok": false,
-      "note": "unreachable on 7 consecutive daily checks (http 404)",
+      "note": "unreachable on 8 consecutive daily checks (http 404)",
       "archive": "https://web.archive.org/web/20200804063447/https://www.edx.org/course/speech-recognition-systems-2"
     },
     "https://www.ee.columbia.edu/~dpwe/pubs/Ellis10-introspeech.pdf": {
@@ -972,10 +976,6 @@
       "ok": true
     },
     "https://www.w3.org/WAI/media/av/": {
-      "status": 200,
-      "ok": true
-    },
-    "https://www.wavlab.org/activities/2026/11751-2026f/": {
       "status": 200,
       "ok": true
     },
