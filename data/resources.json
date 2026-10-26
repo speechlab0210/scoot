@@ -58,7 +58,7 @@
       ],
       "year": "2018",
       "cost": "free",
-      "description": "Interactive IPA chart where each sound links to MRI video, ultrasound tongue imaging, and 2D midsagittal animations of the vocal tract, showing how consonants and vowels are articulated. Built by six Scottish universities. Free, Creative Commons licensed (CC BY-NC-ND).",
+      "description": "Interactive IPA chart where each sound links to MRI video, ultrasound tongue imaging, and 2D midsagittal animations of the vocal tract, showing how consonants and vowels are articulated. Built by six Scottish universities. Free, Creative Commons licensed (CC BY-NC-ND). The site requires prior written consent for AI training, machine learning and automated transformation of its content.",
       "why": "Best free window into articulation using real MRI and ultrasound imaging.",
       "legacy_category": "foundations",
       "topic": "articulatory-phonetics"
@@ -78,7 +78,7 @@
       ],
       "year": "2018",
       "cost": "free",
-      "description": "Articulatory accent corpus: synchronized ultrasound tongue and lip video with audio for a shared word list plus spontaneous speech from English speakers worldwide. Clickable accent map. Companion to Seeing Speech, built by six Scottish universities. Free for non-commercial use (CC BY-NC-ND).",
+      "description": "Articulatory accent corpus: synchronized ultrasound tongue and lip video with audio for a shared word list plus spontaneous speech from English speakers worldwide. Clickable accent map. Companion to Seeing Speech, built by six Scottish universities. Free for non-commercial use (CC BY-NC-ND). The site requires prior written consent for AI training, machine learning and automated transformation of its content.",
       "why": "Rare articulatory view of accent variation across world Englishes.",
       "legacy_category": "foundations",
       "topic": "articulatory-phonetics"
@@ -97,8 +97,8 @@
         "German"
       ],
       "year": "maintained (HTML5 site)",
-      "cost": "free",
-      "description": "University of Iowa resource with animated vocal-tract diagrams, step-by-step production descriptions, and audio/video for every consonant and vowel of American English, Spanish, and German. Free in a browser; optional paid mobile app (English only). Beginner phonetics self-study.",
+      "cost": "freemium",
+      "description": "University of Iowa resource with animated vocal-tract diagrams, production descriptions, and audio/video illustrating consonants and vowels. Spanish and German materials are free in the browser; American English materials are offered through the paid Sounds of Speech mobile app. Supports introductory phonetics and pronunciation study.",
       "why": "Clearest beginner articulation animations for phonetics self-study.",
       "legacy_category": "foundations",
       "topic": "articulatory-phonetics"
@@ -153,9 +153,9 @@
         "phonetic transcription",
         "cross-linguistic phonetics"
       ],
-      "year": "2007 launch, still online",
+      "year": "2007 launch; homepage currently a placeholder",
       "cost": "free",
-      "description": "Audio archive of field recordings from hundreds of languages with word lists, connected speech, and phonetic transcriptions, much of it from Peter Ladefoged's UCLA fieldwork. Primary source material for studying the world's speech-sound inventories. Open to everyone, free download.",
+      "description": "Audio archive of field recordings from hundreds of languages with word lists, connected speech, and phonetic transcriptions, much of it from Peter Ladefoged's UCLA fieldwork. The current homepage displays only a placeholder, with no recording or download links visible; access to the archive materials remains unverified.",
       "why": "Primary cross-linguistic phonetic data behind 'Sounds of the World's Languages.'",
       "legacy_category": "foundations",
       "topic": "phonetics"
@@ -644,7 +644,7 @@
         "diarization",
         "embedded systems"
       ],
-      "year": "2026 (v2.0.0)",
+      "year": "2026 (v2.0.1)",
       "cost": "free",
       "description": "Deployment toolkit running ASR, TTS, speaker diarization, VAD, and enhancement fully offline via onnxruntime. Supports Android, iOS, Raspberry Pi, RISC-V, and x86 servers, with APIs in 12 programming languages. Frequent releases through 2026; Apache-2.0.",
       "why": "One library takes models from the classroom to phones and embedded boards, no internet needed.",
