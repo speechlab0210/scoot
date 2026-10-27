@@ -1,6 +1,11 @@
 {
   "entries": [
     {
+      "date": "2026-10-28",
+      "change": "Added FAU's free Signal Processing Toolkit for guided practice with convolution, Fourier transforms, and related concepts. Updated the UCLA Phonetics Lab Archive note: its homepage is online, while access to recordings and downloads remains unverified.",
+      "source": "daily review"
+    },
+    {
       "date": "2026-10-27",
       "change": "Updated sherpa-onnx to v2.0.1, clarified Sounds of Speech's free browser languages and paid English app, and added the published reuse conditions for Seeing Speech and Dynamic Dialects. Noted that the UCLA Phonetics Lab Archive homepage currently shows a placeholder.",
       "source": "daily review"

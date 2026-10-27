@@ -153,9 +153,9 @@
         "phonetic transcription",
         "cross-linguistic phonetics"
       ],
-      "year": "2007 launch; homepage currently a placeholder",
+      "year": "2007 launch; archive access currently unverified",
       "cost": "free",
-      "description": "Audio archive of field recordings from hundreds of languages with word lists, connected speech, and phonetic transcriptions, much of it from Peter Ladefoged's UCLA fieldwork. The current homepage displays only a placeholder, with no recording or download links visible; access to the archive materials remains unverified.",
+      "description": "Audio archive of field recordings from hundreds of languages with word lists, connected speech, and phonetic transcriptions, much of it from Peter Ladefoged's UCLA fieldwork. The homepage is online, but access to the archive's recordings and downloads is currently unverified.",
       "why": "Primary cross-linguistic phonetic data behind 'Sounds of the World's Languages.'",
       "legacy_category": "foundations",
       "topic": "phonetics"
@@ -2400,6 +2400,26 @@
       "why": "Provides worked explanations and exercises for developing and comparing analyses of speech-sound patterns.",
       "legacy_category": "courses",
       "topic": "phonology"
+    },
+    {
+      "title": "Signal Processing Toolkit (FAU)",
+      "url": "https://lms-spt.e-technik.uni-erlangen.de/info/about",
+      "org": "Friedrich-Alexander-Universität Erlangen-Nürnberg, Chair of Multimedia Communication and Signal Processing",
+      "type": "tool",
+      "level": "intro",
+      "topics": [
+        "digital signal processing",
+        "convolution",
+        "Fourier transforms",
+        "autocorrelation",
+        "modulation"
+      ],
+      "year": "2026 (site v1.5.0)",
+      "cost": "free",
+      "description": "Free browser tools and guided demos from FAU's LMS chair for exploring signals, systems, and transforms. Includes continuous and discrete convolution, DFT magnitude and phase, autocorrelation, and modulation exercises. Provides visual practice with signal-processing concepts used in speech analysis; the main site lists version 1.5.0 dated September 2026.",
+      "why": "Connects equations for spectral analysis and filtering with adjustable signal examples for introductory speech-processing study.",
+      "legacy_category": "toolkits",
+      "topic": "toolkits"
     }
   ]
 }
