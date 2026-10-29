@@ -1,6 +1,11 @@
 {
   "entries": [
     {
+      "date": "2026-10-30",
+      "change": "Daily review: clarified the download requirements for pyannote.audio's community-1 pipeline and model-specific licensing in the Auditory Modeling Toolbox.",
+      "source": "daily review"
+    },
+    {
       "date": "2026-10-28",
       "change": "Added FAU's free Signal Processing Toolkit for guided practice with convolution, Fourier transforms, and related concepts. Updated the UCLA Phonetics Lab Archive note: its homepage is online, while access to recordings and downloads remains unverified.",
       "source": "daily review"

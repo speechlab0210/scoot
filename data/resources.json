@@ -795,7 +795,7 @@
       ],
       "year": "2026 (v4.0.7)",
       "cost": "free",
-      "description": "PyTorch toolkit for speaker diarization: voice activity detection, segmentation, speaker embeddings, and the open pretrained community-1 pipeline on Hugging Face; a paid precision-2 API also exists. v4.0.7 released June 2026; code MIT.",
+      "description": "PyTorch toolkit for speaker diarization: voice activity detection, segmentation, speaker embeddings, and the open pretrained community-1 pipeline on Hugging Face. Downloading community-1 weights requires a Hugging Face access token and acceptance of its user conditions; a paid precision-2 API also exists. v4.0.7 released June 2026; code MIT.",
       "why": "Best open speaker-diarization pipeline; two lines of code answer who spoke when.",
       "legacy_category": "toolkits",
       "topic": "asr-toolkits"
@@ -2092,7 +2092,7 @@
       ],
       "year": "2024 (v1.6.0), maintained",
       "cost": "free",
-      "description": "Open MATLAB/Octave toolbox (GPLv3) with 60+ peer-reviewed auditory models: gammatone/ERB filterbanks, cochlear and auditory-nerve models, loudness, modulation and binaural localization, with bundled data for reproduction. Maintained by ARI/OeAW. Used to build speech front-ends and predict perception.",
+      "description": "Open MATLAB/Octave toolbox (GPLv3, with some models under different licenses) with 60+ peer-reviewed auditory models: gammatone/ERB filterbanks, cochlear and auditory-nerve models, loudness, modulation and binaural localization, with bundled data for reproduction. Maintained by ARI/OeAW. Used to build speech front-ends and predict perception.",
       "why": "The community reference implementation of auditory models that feed modern speech front-ends.",
       "legacy_category": "hearing",
       "topic": "auditory-phonetics"
