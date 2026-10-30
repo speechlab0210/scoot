@@ -153,9 +153,9 @@
         "phonetic transcription",
         "cross-linguistic phonetics"
       ],
-      "year": "2007 launch; archive access currently unverified",
+      "year": "2007 launch",
       "cost": "free",
-      "description": "Audio archive of field recordings from hundreds of languages with word lists, connected speech, and phonetic transcriptions, much of it from Peter Ladefoged's UCLA fieldwork. The homepage is online, but access to the archive's recordings and downloads is currently unverified.",
+      "description": "The UCLA Phonetics Laboratory archive documents over 200 languages with recordings, phonetic transcriptions, and field notes. The language index and Abaza recording page are accessible. The WAV link for the 1970 Abaza word list currently returns a text pointer instead of playable audio.",
       "why": "Primary cross-linguistic phonetic data behind 'Sounds of the World's Languages.'",
       "legacy_category": "foundations",
       "topic": "phonetics"
@@ -664,7 +664,7 @@
       ],
       "year": "2026 (v1.8.0)",
       "cost": "free",
-      "description": "Fast local neural TTS (VITS-based) optimized for Raspberry Pi-class hardware, with pretrained voices in dozens of languages; powers Home Assistant voice. Successor repo to rhasspy/piper, archived October 2025. v1.8.0 released September 2026; GPL-3.0.",
+      "description": "Local neural speech synthesis with VITS-based voices in dozens of languages. The engine runs on Raspberry Pi-class hardware and powers Home Assistant voice. It succeeds rhasspy/piper, archived in October 2025. Version 1.8.0 was released in September 2026 under GPL-3.0. Each voice has a model card specifying its own license terms.",
       "why": "Simplest way to run offline TTS; a natural first synthesis tool for students.",
       "legacy_category": "toolkits",
       "topic": "synthesis-toolkits"
@@ -702,7 +702,7 @@
       ],
       "year": "2025 (Fun-CosyVoice 3.0)",
       "cost": "free",
-      "description": "LLM-based zero-shot TTS family (CosyVoice 2, Fun-CosyVoice 3) with full training, inference, and deployment stack, including streaming, vLLM, and TensorRT-LLM runtimes. Covers 9 languages plus 18 Chinese dialects. Fun-CosyVoice 3.0 open-sourced December 2025; Apache-2.0.",
+      "description": "CosyVoice 2 and Fun-CosyVoice 3 are language-model-based systems for zero-shot speech synthesis, with tools for training, inference, and streaming deployment. Runtimes include vLLM and TensorRT-LLM. Fun-CosyVoice 3.0 supports nine languages and at least 18 Chinese dialects and accents. It was open-sourced in December 2025 under Apache-2.0.",
       "why": "Full-stack production-grade TTS with top zero-shot quality and streaming support.",
       "legacy_category": "toolkits",
       "topic": "synthesis-toolkits"
@@ -2420,6 +2420,34 @@
       "why": "Connects equations for spectral analysis and filtering with adjustable signal examples for introductory speech-processing study.",
       "legacy_category": "toolkits",
       "topic": "toolkits"
+    },
+    {
+      "title": "PoLaR prosody annotation guide",
+      "url": "https://www.polarlabels.com/home",
+      "org": "PoLaR project",
+      "type": "tutorial",
+      "level": "intermediate",
+      "topics": ["prosody", "intonation", "pitch", "speech annotation", "Praat"],
+      "year": "2026 conference demo",
+      "cost": "free",
+      "description": "A worked example shows how to annotate phrase boundaries and prominence, mark turning points in a pitch contour, and label pitch levels relative to a speaker's local range. The project site also links to its annotation guidelines, Praat plugin, and Speech Prosody 2026 demonstration.",
+      "why": "Learners can follow one utterance across four annotation tiers to see how a change in pitch range affects the interpretation of pitch height.",
+      "legacy_category": "foundations",
+      "topic": "prosodics"
+    },
+    {
+      "title": "EveryVoice TTS Toolkit",
+      "url": "https://github.com/EveryVoiceTTS/EveryVoice",
+      "org": "EveryVoice project",
+      "type": "tool",
+      "level": "intermediate",
+      "topics": ["speech synthesis", "low-resource languages", "training data", "FastSpeech2", "StyleTTS2"],
+      "year": "2026 (v0.5.0)",
+      "cost": "free",
+      "description": "Speech synthesis toolkit used by the Speech Generation for Indigenous Language Education project. Its guides cover obtaining speaker permission, preparing recordings and transcripts, configuring a language project, and training a FastSpeech2 or StyleTTS2 model.",
+      "why": "The configuration wizard and training guides connect a collection of recorded utterances to a working voice for the learner's language.",
+      "legacy_category": "toolkits",
+      "topic": "synthesis-toolkits"
     }
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-10-29T21:34:50.231402+00:00",
+  "checked_at": "2026-10-30T21:35:39.809765+00:00",
   "total": 277,
   "dead": 8,
   "results": {
@@ -57,7 +57,7 @@
     "http://www.ee.oulu.fi/~kk/dtsp/tutoriaalit/Spanias.pdf": {
       "status": 0,
       "ok": false,
-      "note": "unreachable on 11 consecutive daily checks (timed out)",
+      "note": "unreachable on 12 consecutive daily checks (timed out)",
       "archive": "https://web.archive.org/web/20181024091231/http://www.ee.oulu.fi:80/~kk/dtsp/tutoriaalit/Spanias.pdf"
     },
     "http://www.elra.info/catalogues/": {
@@ -91,7 +91,7 @@
     "http://www.speech.kth.se/~matsb/speech_rec_course_2003/htk_tutorial.pdf": {
       "status": 404,
       "ok": false,
-      "note": "unreachable on 11 consecutive daily checks (http 404)",
+      "note": "unreachable on 12 consecutive daily checks (http 404)",
       "archive": "https://web.archive.org/web/20250815000553/https://www.speech.kth.se/~matsb/speech_rec_course_2003/htk_tutorial.pdf"
     },
     "https://ai.meta.com/blog/wav2vec-20-learning-the-structure-of-speech-from-raw-audio/": {
@@ -206,7 +206,8 @@
     "https://eeweb.engineering.nyu.edu/~yao/EE3414/speech_coding.pdf": {
       "status": 0,
       "ok": false,
-      "note": "unreachable on 3 consecutive daily checks (TLS certificate rejected: unable to get local issuer certifi)"
+      "note": "unreachable on 4 consecutive daily checks (TLS certificate rejected: unable to get local issuer certifi)",
+      "archive": "https://web.archive.org/web/20260518100017/https://eeweb.engineering.nyu.edu/~yao/EE3414/speech_coding.pdf"
     },
     "https://eleanorchodroff.com/tutorial/": {
       "status": 200,
@@ -482,7 +483,7 @@
     "https://labrosa.ee.columbia.edu/doc/HTKBook21/HTKBook.html": {
       "status": 0,
       "ok": false,
-      "note": "unreachable on 10 consecutive daily checks (TLS certificate rejected: unable to get local issuer certifi)",
+      "note": "unreachable on 11 consecutive daily checks (TLS certificate rejected: unable to get local issuer certifi)",
       "archive": "https://web.archive.org/web/20260520194909/https://labrosa.ee.columbia.edu/doc/HTKBook21/HTKBook.html"
     },
     "https://lms-spt.e-technik.uni-erlangen.de/info/about": {
@@ -851,7 +852,7 @@
     "https://web.stanford.edu/class/cs224s/syllabus.html": {
       "status": 404,
       "ok": false,
-      "note": "unreachable on 11 consecutive daily checks (http 404)",
+      "note": "unreachable on 12 consecutive daily checks (http 404)",
       "archive": "https://web.archive.org/web/20200205000141/http://web.stanford.edu:80/class/cs224s/syllabus.html"
     },
     "https://www.amtoolbox.org/": {
@@ -902,7 +903,7 @@
     "https://www.edx.org/course/speech-recognition-systems-2": {
       "status": 404,
       "ok": false,
-      "note": "unreachable on 11 consecutive daily checks (http 404)",
+      "note": "unreachable on 12 consecutive daily checks (http 404)",
       "archive": "https://web.archive.org/web/20200804063447/https://www.edx.org/course/speech-recognition-systems-2"
     },
     "https://www.ee.columbia.edu/~dpwe/pubs/Ellis10-introspeech.pdf": {

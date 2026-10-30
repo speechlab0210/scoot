@@ -1,6 +1,11 @@
 {
   "entries": [
     {
+      "date": "2026-10-31",
+      "change": "Added the PoLaR prosody annotation guide and the EveryVoice speech synthesis toolkit. Updated Piper voice licensing, Fun-CosyVoice language coverage, and access notes for the UCLA archive, and linked an archived copy of the NYU speech coding lecture.",
+      "source": "daily review"
+    },
+    {
       "date": "2026-10-30",
       "change": "Daily review: clarified the download requirements for pyannote.audio's community-1 pipeline and model-specific licensing in the Auditory Modeling Toolbox.",
       "source": "daily review"
