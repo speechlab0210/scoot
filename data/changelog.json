@@ -1,6 +1,11 @@
 {
   "entries": [
     {
+      "date": "2026-11-01",
+      "change": "Added Nanjing University's Fall 2026 Intelligent Speech Technology course. Clarified the GigaSpeech access-request requirements and the distinction between viewing Open ASR Leaderboard results and running hosted evaluations.",
+      "source": "daily review"
+    },
+    {
       "date": "2026-10-31",
       "change": "Added the PoLaR prosody annotation guide and the EveryVoice speech synthesis toolkit. Updated Piper voice licensing, Fun-CosyVoice language coverage, and access notes for the UCLA archive, and linked an archived copy of the NYU speech coding lecture.",
       "source": "daily review"

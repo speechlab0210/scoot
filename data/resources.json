@@ -889,7 +889,7 @@
       ],
       "year": "2021, still maintained",
       "cost": "free",
-      "description": "10,000 hours of transcribed English from audiobooks, podcasts and YouTube, in graded XS-XL training subsets plus dev/test. The GitHub tooling is Apache-2.0, but the audio is a gated Hugging Face dataset: SpeechColab's terms of access (accepted with a free account) restrict audio use to non-commercial research and education. Standard corpus for training and benchmarking large supervised ASR models.",
+      "description": "10,000 hours of transcribed English from audiobooks, podcasts and YouTube, in graded XS-XL training subsets plus dev/test. The GitHub tooling is Apache-2.0; SpeechColab's audio access terms restrict use to non-commercial research and education. Access requires a Hugging Face account, acceptance of the terms, and a separate request form linked from the dataset card.",
       "why": "The standard mid-scale multi-domain English corpus; its test set appears on major leaderboards.",
       "legacy_category": "data",
       "topic": "databases"
@@ -1094,7 +1094,7 @@
       ],
       "year": "2023, updated 2026",
       "cost": "free",
-      "description": "Continuously updated leaderboard ranking 80+ open and proprietary ASR systems by word error rate and inverse real-time factor across standard English test sets, plus multilingual and long-form tracks. Evaluation scripts open-sourced on GitHub (huggingface/open_asr_leaderboard); results updated continuously.",
+      "description": "Public leaderboard comparing ASR systems by word error rate and inverse real-time factor on English short-form, long-form, and multilingual test sets. Evaluation scripts are available on GitHub. Viewing the results is free; hosted evaluation runs incur compute charges, and local evaluation is also documented.",
       "why": "The practical answer to 'which ASR model should I use in 2026'.",
       "legacy_category": "data",
       "topic": "databases"
@@ -2448,6 +2448,20 @@
       "why": "The configuration wizard and training guides connect a collection of recorded utterances to a working voice for the learner's language.",
       "legacy_category": "toolkits",
       "topic": "synthesis-toolkits"
+    },
+    {
+      "title": "Intelligent Speech Technology (Nanjing University)",
+      "url": "https://sail-prlab.org/teaching/ist26fall.html",
+      "org": "Nanjing University (Shuai Wang)",
+      "type": "course",
+      "level": "intermediate",
+      "topics": ["speech recognition", "acoustic modeling", "decoding", "speech synthesis", "speech evaluation"],
+      "year": "2026 (Fall)",
+      "cost": "free",
+      "description": "Course page and Chinese-language lecture slides for a Fall 2026 speech-technology course. The published ASR foundation slides cover probabilistic decoding, HMM and GMM acoustic models, and worked word-error-rate examples. The syllabus also covers speaker modeling, synthesis, voice conversion, and speech agents. Some scheduled topics do not yet have linked slides.",
+      "why": "Connects mathematical ASR models with decoding and evaluation examples. Assumes basic mathematics, Python, and introductory machine learning.",
+      "legacy_category": "courses",
+      "topic": "speech-technology"
     }
   ]
 }
