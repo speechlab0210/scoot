@@ -1,6 +1,11 @@
 {
   "entries": [
     {
+      "date": "2026-11-02",
+      "change": "Added KuralHub's multilingual speech-emotion dataset catalog and benchmark. Clarified the Common Voice versions and download requirements used by the LRAC 2026 data preparation tools.",
+      "source": "daily review"
+    },
+    {
       "date": "2026-11-01",
       "change": "Added Nanjing University's Fall 2026 Intelligent Speech Technology course. Clarified the GigaSpeech access-request requirements and the distinction between viewing Open ASR Leaderboard results and running hosted evaluations.",
       "source": "daily review"

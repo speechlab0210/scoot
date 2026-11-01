@@ -2376,7 +2376,7 @@
       ],
       "year": "2026",
       "cost": "free",
-      "description": "Official data preparation tools for the Low Resource Audio Codec Challenge. The 2026 pipeline builds 24 kHz speech, noise, and room-impulse-response releases with separate training, validation, and evaluation partitions, manifests, and Kaldi/ESPnet exports. Public code and instructions document the upstream datasets' access requirements and terms; Common Voice access requires a Mozilla Data Collective account. The historical 2025 recipe is available as an archived release.",
+      "description": "Official data preparation tools for the Low Resource Audio Codec Challenge. The 2026 pipeline builds 24 kHz speech, noise, and room-impulse-response releases with separate training, validation, and evaluation partitions, manifests, and Kaldi/ESPnet exports. Common Voice 27.0 is the default; 26.0 is also accepted. Downloading it requires a Mozilla Data Collective account and API key, plus acceptance of the relevant terms (separately for each locale in 27.0). Other upstream datasets retain their own access requirements. The historical 2025 recipe is available as an archived release.",
       "why": "Provides a worked example of reproducible data preparation for neural speech codecs under realistic acoustic conditions.",
       "legacy_category": "coding",
       "topic": "speech-coding"
@@ -2462,6 +2462,20 @@
       "why": "Connects mathematical ASR models with decoding and evaluation examples. Assumes basic mathematics, Python, and introductory machine learning.",
       "legacy_category": "courses",
       "topic": "speech-technology"
+    },
+    {
+      "title": "KuralHub: multilingual speech emotion datasets and benchmark",
+      "url": "https://aaivu.github.io/KuralHub/",
+      "org": "University of Moratuwa (aaivu)",
+      "type": "benchmark",
+      "level": "intermediate",
+      "topics": ["speech emotion recognition", "multilingual datasets", "frozen speech encoders", "evaluation", "data access"],
+      "year": "2026 (Interspeech)",
+      "cost": "free",
+      "description": "A speech-emotion resource catalog documenting 90 datasets found across 45 of 70 surveyed languages, with language pages, corpus descriptions, and access links. Its benchmark trains classification heads on 11 frozen speech encoders across 33 datasets in 29 languages, providing results for 363 runs, code, and downloadable scores. Code and documentation use the MIT license; the underlying corpora retain their own licenses and access conditions.",
+      "why": "Helps learners compare emotion corpora across languages and inspect a shared evaluation protocol alongside its individual results.",
+      "legacy_category": "paralinguistics",
+      "topic": "paralinguistics"
     }
   ]
 }
