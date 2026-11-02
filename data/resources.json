@@ -1886,7 +1886,7 @@
       ],
       "year": "2025, ongoing releases",
       "cost": "free",
-      "description": "Large multi-etiology disordered-speech corpus (Parkinson's, ALS, cerebral palsy, stroke, Down syndrome, stuttering, hearing loss) for training accessible ASR. Access by proposal plus a signed data-use agreement. Backed by Amazon, Apple, Google, Meta and Microsoft; ongoing 2025 releases.",
+      "description": "Disordered-speech corpus for accessible ASR. The released package covers Parkinson's, ALS, cerebral palsy, stroke and Down syndrome; recruitment also includes stuttering and hearing loss. Access requires a one-page proposal and a data-use agreement signed separately by the researcher and an authorized organization representative, using organizational email addresses. Includes speech recordings, prompts, transcripts and some clinical annotations.",
       "why": "The field's largest current multi-condition disordered-speech dataset and central new accessibility resource.",
       "legacy_category": "clinical",
       "topic": "clinical"
@@ -1949,7 +1949,7 @@
       ],
       "year": "2025",
       "cost": "free",
-      "description": "Open-access (CC BY) Frontiers in Language Sciences paper (June 2025) on Google Project Euphonia's multilingual disordered-speech data collection (adding Spanish, French, Japanese, Hindi to English), SLP-based quality review, and a meaning-preservation ASR evaluation metric. Links to released open-source tooling.",
+      "description": "Open-access (CC BY) Frontiers in Language Sciences paper (June 2025) on Google Project Euphonia's multilingual disordered-speech data collection (adding Spanish, French, Japanese, Hindi to English), SLP-based quality review, and a meaning-preservation ASR evaluation metric. Links to released open-source tooling; the underlying Euphonia speech corpus is proprietary and restricted to Google researchers.",
       "why": "Current methods reference for collecting data and evaluating personalized ASR for impaired speech.",
       "legacy_category": "clinical",
       "topic": "clinical"
@@ -1970,7 +1970,7 @@
       ],
       "year": "2026, active",
       "cost": "freemium",
-      "description": "Web-based voice-banking pipeline: people with ALS/MND record a sentence inventory (a ~300-sentence Gen3 set or a longer 3,000+ set) to build a personalized synthetic TTS voice for AAC devices. $100 to download a completed voice (free for US ALS patients via Team Gleason); donors and clinicians register free.",
+      "description": "Web-based voice-banking pipeline: people with ALS/MND record a sentence inventory (a ~300-sentence Gen3 set or a longer 3,000+ set) to build a personalized synthetic TTS voice for AAC devices. Registration and recording are free; downloading an accepted voice costs USD 100. US residents with ALS can apply to Team Gleason for support, which may cover part or all of the fee after review.",
       "why": "Long-running, still-active service showing clinical personalized-TTS and AAC voice preservation in practice.",
       "legacy_category": "clinical",
       "topic": "clinical"
@@ -2476,6 +2476,20 @@
       "why": "Helps learners compare emotion corpora across languages and inspect a shared evaluation protocol alongside its individual results.",
       "legacy_category": "paralinguistics",
       "topic": "paralinguistics"
+    },
+    {
+      "title": "Speech Synthesis and Recognition (NTU HG4052)",
+      "url": "https://chenzixu.rbind.io/talk/speech_synthesis/",
+      "org": "Nanyang Technological University (Chenzi Xu)",
+      "type": "course",
+      "level": "intermediate",
+      "topics": ["speech synthesis", "speech recognition", "phonetic analysis", "unit selection", "neural vocoders", "evaluation"],
+      "year": "2026 (Semester 1, AY 2026/27)",
+      "cost": "free",
+      "description": "Public lecture slides and practical notebooks for a linguistics-oriented course on ASR and TTS. Covers acoustic features, dynamic time warping, HMMs, neural recognition, classical synthesis and neural vocoders, with examples from Singapore's multilingual speech environment. The classical TTS slides include formant synthesis and unit-selection exercises. Assumes phonetics and phonology; prior programming experience is not required. Some later syllabus topics do not yet have linked slides.",
+      "why": "Connects phonetic intuition to the stages of recognition and synthesis through visual explanations and scaffolded practical exercises.",
+      "legacy_category": "courses",
+      "topic": "speech-synthesis"
     }
   ]
 }
