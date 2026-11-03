@@ -1,6 +1,11 @@
 {
   "entries": [
     {
+      "date": "2026-11-04",
+      "change": "Added ESPnet's public speech demos and CMU course notebooks. Updated ICASSP and JSALT edition notes, clarified ISCA grant eligibility and SLTC newsletter wording, and confirmed that VoxCeleb is reachable again.",
+      "source": "daily review"
+    },
+    {
       "date": "2026-11-03",
       "change": "Added NTU HG4052's public speech synthesis and recognition course materials. Clarified SAP and Euphonia data access, corrected the ModelTalker support conditions, and added a verified archived copy for VoxCeleb.",
       "source": "daily review"
