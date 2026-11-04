@@ -1,6 +1,11 @@
 {
   "entries": [
     {
+      "date": "2026-11-05",
+      "change": "Added NINJAL's searchable MRI recordings of Japanese speech. Clarified the training data used in the wav2vec 2.0 ten-minute experiment, the languages SeamlessM4T can speak, the output of Ultravox and the publication history of a speech language model survey.",
+      "source": "daily review"
+    },
+    {
       "date": "2026-11-04",
       "change": "Added ESPnet's public speech demos and CMU course notebooks. Updated ICASSP and JSALT edition notes, clarified ISCA grant eligibility and SLTC newsletter wording, and confirmed that VoxCeleb is reachable again.",
       "source": "daily review"

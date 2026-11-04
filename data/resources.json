@@ -1207,8 +1207,8 @@
       ],
       "year": "2024, updated 2025",
       "cost": "free",
-      "description": "First comprehensive survey of end-to-end speech language models: tokenizers, architectures, training recipes, streaming and duplex interaction, capabilities, and evaluation metrics. Peer-reviewed at ACL 2025; companion paper list at github.com/dreamtheater123/Awesome-SpeechLM-Survey.",
-      "why": "Peer-reviewed survey; the standard first read on speech language models.",
+      "description": "Survey of end-to-end speech language models covering tokenization, architectures, training, streaming dialogue and evaluation. The linked preprint is the full survey. A shorter version appeared in the ACL 2025 proceedings. The authors also maintain a companion reading list.",
+      "why": "Helps readers compare how speech models are trained and which evaluations test their conversational abilities.",
       "legacy_category": "frontier",
       "topic": "ann"
     },
@@ -1285,8 +1285,8 @@
       ],
       "year": "2020",
       "cost": "free",
-      "description": "The canonical self-supervised speech paper: contrastive learning over masked, quantized latent speech yields representations that fine-tune to strong ASR from as little as ten minutes of labels. Read alongside HuBERT (arXiv 2106.07447) and WavLM (arXiv 2110.13900).",
-      "why": "The paper that started modern speech representation learning; assumed knowledge everywhere in the field.",
+      "description": "wav2vec 2.0 learns from unlabeled audio by masking spans of latent speech features and predicting quantized targets with a contrastive loss. In the paper's ten-minute experiment, the authors first pretrained on 53,000 hours of unlabeled speech, then fine-tuned on ten minutes of transcribed speech.",
+      "why": "Shows how the amount of transcribed speech needed for recognition depends on the unlabeled audio used for pretraining.",
       "legacy_category": "frontier",
       "topic": "ann"
     },
@@ -1342,8 +1342,8 @@
       ],
       "year": "2023",
       "cost": "free",
-      "description": "Canonical multilingual translation paper: one model performing speech-to-speech, speech-to-text, text-to-speech, and text translation plus ASR for roughly 100 languages, built on w2v-BERT 2.0 representations. Follow-up Seamless (arXiv 2312.05187) adds streaming and expressive translation.",
-      "why": "The standard reference for unified, massively multilingual speech translation.",
+      "description": "One model handles speech recognition and translation between speech and text. The original release accepts spoken input in nearly 100 languages and generates speech in English and 35 other languages. It uses w2v-BERT 2.0 speech representations. The later Seamless work (arXiv 2312.05187) adds streaming and expressive translation.",
+      "why": "Helps readers distinguish the languages a translation model can listen to from those it can speak.",
       "legacy_category": "frontier",
       "topic": "ann"
     },
@@ -1379,10 +1379,10 @@
         "multimodal projector",
         "open weights"
       ],
-      "year": "2024, still maintained",
+      "year": "2024 (first releases), v0.7 weights in 2025",
       "cost": "free",
-      "description": "Open-weight multimodal LLM for real-time voice: a trained projector feeds audio directly into open LLM backbones (Llama, Gemma, Qwen), skipping a separate ASR stage. Training and inference code public; v0.6/v0.7 releases (2025) cover 42 languages.",
-      "why": "Clean open codebase demonstrating how to bolt speech understanding onto any text LLM.",
+      "description": "An open-weight model for real-time voice input. A speech encoder and learned projector map audio into the language model's input space. The model accepts speech and text and streams its answer as text. The v0.7 model card lists 42 languages. The repository includes training and inference code.",
+      "why": "Shows how a voice application can pass speech directly to a language model and receive a text response.",
       "legacy_category": "frontier",
       "topic": "ann"
     },
@@ -2504,6 +2504,20 @@
       "why": "Provides inspectable examples linking data preparation, model configuration, training and inference, alongside clear limits on what automated checks establish.",
       "legacy_category": "courses",
       "topic": "speech-recognition"
+    },
+    {
+      "title": "Japanese speech articulation in real-time MRI (rtMRIDB)",
+      "url": "https://rtmridb.ninjal.ac.jp/",
+      "org": "National Institute for Japanese Language and Linguistics (NINJAL)",
+      "type": "dataset",
+      "level": "intermediate",
+      "topics": ["articulatory phonetics", "Japanese", "real-time MRI", "speech production", "vocal tract"],
+      "year": "2025 (version 2.1)",
+      "cost": "free",
+      "description": "Search 29,984 Japanese utterance samples from 25 speakers by phoneme, speaker or dialect. The videos show a side view through the middle of the vocal tract at about 14 or 27 frames per second, with accompanying audio. The English guide uses two speakers saying /ta/ to show how a teeth overlay reveals different tongue contact points. The database uses the CC BY-NC-SA license.",
+      "why": "Learners can compare how different speakers shape the same sound and relate visible tongue movement to what they hear.",
+      "legacy_category": "foundations",
+      "topic": "articulatory-phonetics"
     }
   ]
 }
