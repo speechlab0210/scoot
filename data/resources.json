@@ -38,7 +38,7 @@
       ],
       "year": "2015, updated 2023",
       "cost": "free",
-      "description": "Chaptered web tutorial on automating acoustic analysis: Praat scripting, Kaldi and the Montreal Forced Aligner for forced alignment, AutoVOT for voice-onset-time, and bash basics. Code-based, reproducible workflows for measuring large speech corpora. Free; also published as a 2018 arXiv paper.",
+      "description": "Chaptered web tutorial on automating acoustic analysis: Praat scripting, Kaldi and Montreal Forced Aligner v2 for forced alignment, AutoVOT for voice-onset-time, and bash basics. Older tutorials for MFA v1, FAVE-align and the Penn Phonetics Lab Forced Aligner are collected under Other Resources. Code-based workflows for measuring speech corpora. Free; also published as a 2018 arXiv paper.",
       "why": "Practical bridge from manual measurement to reproducible, large-scale corpus phonetics.",
       "legacy_category": "foundations",
       "topic": "acoustic-phonetics"
