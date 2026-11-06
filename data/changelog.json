@@ -1,6 +1,11 @@
 {
   "entries": [
     {
+      "date": "2026-11-07",
+      "change": "Added WEST with public speech-recognition and synthesis training recipes and their compute requirements. Clarified faster-whisper performance comparisons, jiwer evaluation of silent audio, and the purpose of STOI/PESQ metrics.",
+      "source": "daily review"
+    },
+    {
       "date": "2026-11-06",
       "change": "Clarified that the Corpus Phonetics Tutorial covers Montreal Forced Aligner v2 and keeps older aligner tutorials in its Other Resources section.",
       "source": "daily review"

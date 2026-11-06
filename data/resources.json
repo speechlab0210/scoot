@@ -626,8 +626,8 @@
       ],
       "year": "2025 (v1.2.1)",
       "cost": "free",
-      "description": "Python reimplementation of Whisper on the CTranslate2 inference engine: up to 4x faster than openai/whisper at equal accuracy, with 8-bit quantization, batched inference, and built-in VAD. Backbone of many open transcription apps. v1.2.1 released October 2025; MIT.",
-      "why": "The default choice for fast Whisper transcription inside Python pipelines.",
+      "description": "Python reimplementation of Whisper using CTranslate2, with 8-bit quantization, batched inference and voice activity detection. Reported speedups depend on the model, hardware, precision, batching and decoding settings; comparisons should match beam size and CPU thread count and check WER. v1.2.1 released October 2025; MIT.",
+      "why": "Provides Python transcription with configurable precision, batching and voice activity filtering.",
       "legacy_category": "toolkits",
       "topic": "asr-toolkits"
     },
@@ -813,8 +813,8 @@
       ],
       "year": "2025 (v4.0.0)",
       "cost": "free",
-      "description": "Small Python package computing WER, CER, MER, and WIL/WIP between reference and hypothesis transcripts, with composable text-normalization transforms and alignment visualization; fast RapidFuzz C++ backend. v4.0.0 released June 2025; Apache-2.0.",
-      "why": "The standard WER calculator cited in ASR papers and used in every tutorial.",
+      "description": "Python package computing WER, CER, MER and WIL/WIP between reference and hypothesis transcripts, with text-normalization transforms and alignment visualization. Version 4 accepts empty reference text to evaluate hallucinations on silent audio: an empty reference/hypothesis pair has zero WER, while words predicted against an empty reference count as insertions. Uses a RapidFuzz C++ backend. v4.0.0 released June 2025; Apache-2.0.",
+      "why": "Makes transcript normalization and word-level errors inspectable when comparing ASR systems.",
       "legacy_category": "toolkits",
       "topic": "asr-toolkits"
     },
@@ -2114,7 +2114,7 @@
       "year": "2023, maintained",
       "cost": "free",
       "description": "Open Python packages for perceptual speech-evaluation metrics: pystoi (STOI and extended STOI intelligibility) and pesq (ITU-T P.862 narrowband/wideband quality, MOS-LQO). pip-installable, operating on reference and degraded waveforms; widely used to evaluate speech enhancement and separation systems. pesq source: github.com/ludlows/PESQ (PyPI: pesq).",
-      "why": "STOI and PESQ are the metrics every speech-enhancement engineer must report; runnable in minutes.",
+      "why": "Compares estimated intelligibility and perceptual quality against clean reference recordings in speech-enhancement experiments.",
       "legacy_category": "hearing",
       "topic": "auditory-phonetics"
     },
@@ -2518,6 +2518,26 @@
       "why": "Learners can compare how different speakers shape the same sound and relate visible tongue movement to what they hear.",
       "legacy_category": "foundations",
       "topic": "articulatory-phonetics"
+    },
+    {
+      "title": "WEST: We Speech Toolkit",
+      "url": "https://github.com/wenet-e2e/west",
+      "org": "WeNet community",
+      "type": "tool",
+      "level": "advanced",
+      "topics": [
+        "speech recognition",
+        "speech synthesis",
+        "speech language models",
+        "training recipes",
+        "evaluation"
+      ],
+      "year": "2025 (paper; public training recipes)",
+      "cost": "free",
+      "description": "Open-source toolkit built around language models for speech recognition, synthesis, understanding and interaction. Public AISHELL and LibriTTS recipes show JSONL audio/transcript preparation, training and decoding; code is Apache-2.0. The published ASR examples use four or eight A800 GPUs, so reproducing those configurations requires substantial compute. The main task table lists interaction models without linked recipes.",
+      "why": "Connects speech encoders, language models and speech tokens through inspectable ASR and TTS training examples.",
+      "legacy_category": "toolkits",
+      "topic": "asr-toolkits"
     }
   ]
 }
