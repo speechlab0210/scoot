@@ -194,8 +194,8 @@
       ],
       "year": "2016; 2nd edition in progress",
       "cost": "free",
-      "description": "Free Python DSP textbook with a top-down, code-first approach: decomposing sounds into harmonics, spectra, the FFT, spectrograms, filtering, sampling, and LTI systems. Runnable Jupyter notebooks on GitHub. Free HTML and PDF, Creative Commons licensed; second edition in progress.",
-      "why": "Fastest hands-on route into spectral sound analysis for programmers.",
+      "description": "Free Python DSP textbook with a top-down, code-first approach: decomposing sounds into harmonics, spectra, the FFT, spectrograms, filtering, sampling, and LTI systems. Runnable Jupyter notebooks on GitHub. The first edition is available as HTML and PDF under Creative Commons Attribution-NonCommercial 3.0; attribution is required and commercial reuse is excluded. The second edition remains a work in progress.",
+      "why": "Introduces spectral sound analysis through Python programs that decompose, modify and generate sounds.",
       "legacy_category": "foundations",
       "topic": "signal-processing"
     },
@@ -2538,6 +2538,47 @@
       "why": "Connects speech encoders, language models and speech tokens through inspectable ASR and TTS training examples.",
       "legacy_category": "toolkits",
       "topic": "asr-toolkits"
+    },
+    {
+      "title": "Digital Signal Processing (Cambridge L314)",
+      "url": "https://www.cl.cam.ac.uk/teaching/2526/L314/materials.html",
+      "org": "University of Cambridge (Markus Kuhn)",
+      "type": "course",
+      "level": "intermediate",
+      "topics": [
+        "DSP",
+        "sampling",
+        "Fourier analysis",
+        "spectral estimation",
+        "digital filters",
+        "audio processing"
+      ],
+      "year": "2025 (Michaelmas; 2025-26 course materials)",
+      "cost": "free",
+      "description": "Public lecture slides on sampling, convolution, FFTs, spectral estimation, FIR/IIR filters, modulation and compression, including audio and voice examples. Numerical exercises use Julia, MATLAB or Python/NumPy. The materials page links to past exam questions and solution notes. Assumes basic linear algebra. Lecture slides are free to read; the Assignment 2 sheet requires university sign-in, and enrollment and assessment are separate.",
+      "why": "Connects frequency-domain theory to audio examples and numerical experiments, including sampling and spectral-estimation pitfalls.",
+      "legacy_category": "courses",
+      "topic": "signal-processing"
+    },
+    {
+      "title": "MOSS-TTS: synthesis models and fine-tuning guides",
+      "url": "https://github.com/OpenMOSS/MOSS-TTS",
+      "org": "OpenMOSS / MOSI.AI",
+      "type": "tool",
+      "level": "advanced",
+      "topics": [
+        "speech synthesis",
+        "multilingual TTS",
+        "streaming",
+        "fine-tuning",
+        "audio tokenization"
+      ],
+      "year": "2026 (MOSS-TTS-v1.5 and model family)",
+      "cost": "free",
+      "description": "Open model family for multilingual synthesis, multi-speaker dialogue, voice design and streaming speech. The repository provides inference examples and separate fine-tuning guides for its architectures. The MOSS-TTS-v1.5 guide covers JSONL data preparation, audio tokenization, supervised fine-tuning and checkpoint inference; for the 8B model it recommends sharding parameters across GPUs. Code and the released model family use Apache-2.0.",
+      "why": "Shows how waveform/text pairs become training examples and how to test the resulting synthesis checkpoint.",
+      "legacy_category": "toolkits",
+      "topic": "synthesis-toolkits"
     }
   ]
 }

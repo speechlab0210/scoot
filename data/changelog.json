@@ -1,6 +1,11 @@
 {
   "entries": [
     {
+      "date": "2026-11-08",
+      "change": "Added Cambridge's DSP lecture materials and MOSS-TTS synthesis models with fine-tuning guides, including assignment-access and training-compute notes. Clarified Think DSP's attribution and noncommercial reuse conditions.",
+      "source": "daily review"
+    },
+    {
       "date": "2026-11-07",
       "change": "Added WEST with public speech-recognition and synthesis training recipes and their compute requirements. Clarified faster-whisper performance comparisons, jiwer evaluation of silent audio, and the purpose of STOI/PESQ metrics.",
       "source": "daily review"
