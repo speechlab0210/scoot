@@ -1,6 +1,11 @@
 {
   "entries": [
     {
+      "date": "2026-11-09",
+      "change": "Added Granary-v2 with separate label and source-audio access and licensing notes. Updated Praat to 7.0.03, documented AudioBench's GPU example, and replaced broad adoption claims with concrete dataset uses.",
+      "source": "daily review"
+    },
+    {
       "date": "2026-11-08",
       "change": "Added Cambridge's DSP lecture materials and MOSS-TTS synthesis models with fine-tuning guides, including assignment-access and training-compute notes. Clarified Think DSP's attribution and noncommercial reuse conditions.",
       "source": "daily review"

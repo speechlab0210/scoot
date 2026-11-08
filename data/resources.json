@@ -16,7 +16,7 @@
         "annotation",
         "scripting"
       ],
-      "year": "2026 (v7.0.02, continuously updated)",
+      "year": "2026 (v7.0.03, continuously updated)",
       "cost": "free",
       "description": "Free open-source software for speech analysis and synthesis: waveforms, spectrograms, and formant, pitch, and intensity tracking, plus TextGrid annotation and a scripting language. Cross-platform (Windows/Mac/Linux). The standard tool for phonetic measurement and teaching; continuously updated.",
       "why": "De facto standard tool every speech researcher and student uses for acoustic analysis.",
@@ -851,8 +851,8 @@
       ],
       "year": "2015, still hosted",
       "cost": "free",
-      "description": "1,000 hours of 16 kHz read English audiobook speech from LibriVox, segmented and aligned, with standard clean/other train, dev and test splits. CC BY 4.0; direct tar.gz downloads with mirrors. The default first corpus for ASR coursework and baselines.",
-      "why": "Every toolkit ships a LibriSpeech recipe; still the universal ASR reference point.",
+      "description": "Approximately 1,000 hours of 16 kHz read English audiobook speech from LibriVox, segmented and aligned. Includes clean/other train, development and test splits, with acoustic-model and language-model links for ASR experiments. CC BY 4.0; direct tar.gz downloads with mirrors.",
+      "why": "Provides shared train, development and test splits for reproducible English ASR experiments.",
       "legacy_category": "data",
       "topic": "databases"
     },
@@ -947,7 +947,7 @@
       "year": "2024, Large 2025",
       "cost": "free",
       "description": "In-the-wild speech for generative models: 101k hours (Emilia, CC BY-NC 4.0) plus 114k hours Emilia-YODAS (CC BY 4.0) in Chinese, English, Japanese, French, German, Korean, with transcripts, WebDataset format. Gated Hugging Face access; check the split licenses carefully.",
-      "why": "Training source behind most recent open TTS and voice-cloning models.",
+      "why": "Provides multilingual speech-generation training data and a documented preprocessing pipeline; the component datasets have different licenses.",
       "legacy_category": "data",
       "topic": "databases"
     },
@@ -966,7 +966,7 @@
       "year": "2023",
       "cost": "free",
       "description": "Sound-quality-restored LibriTTS: 585 hours of 24 kHz English read speech from about 2,400 speakers with normalized text, CC BY 4.0, direct OpenSLR download (SLR141). The standard academic corpus for multi-speaker TTS training before scaling to web data.",
-      "why": "The cleanest free starting corpus for building a TTS system.",
+      "why": "Supports TTS experiments using the same utterances as LibriTTS with restored sound quality.",
       "legacy_category": "data",
       "topic": "databases"
     },
@@ -1113,8 +1113,8 @@
       ],
       "year": "2024, still extended",
       "cost": "free",
-      "description": "Evaluation suite for audio-capable large language models: 50+ datasets covering speech understanding, voice/accent/emotion paralinguistics and audio-scene tasks, with LLM-as-judge scoring (NAACL 2025). Open-source toolkit plus live Hugging Face leaderboard; includes Southeast-Asian language and Singlish extensions.",
-      "why": "First stop for evaluating the new wave of audio-LLM systems.",
+      "description": "Evaluation suite for audio-capable language models across 50+ speech, audio-scene and voice-understanding datasets, with evaluation scripts and a public leaderboard. Includes model-as-judge scoring and Southeast-Asian language and Singlish extensions. The documented judge example requires one 80 GB GPU, with model inference on a second GPU; requirements vary by evaluation setup.",
+      "why": "Provides shared evaluation scripts for comparing speech, voice and audio-scene capabilities across tasks.",
       "legacy_category": "data",
       "topic": "databases"
     },
@@ -2579,6 +2579,26 @@
       "why": "Shows how waveform/text pairs become training examples and how to test the resulting synthesis checkpoint.",
       "legacy_category": "toolkits",
       "topic": "synthesis-toolkits"
+    },
+    {
+      "title": "Granary-v2: multilingual speech labels and instruction data",
+      "url": "https://huggingface.co/datasets/nvidia/Granary-v2",
+      "org": "NVIDIA",
+      "type": "dataset",
+      "level": "advanced",
+      "topics": [
+        "ASR",
+        "speech translation",
+        "multilingual",
+        "synthetic labels",
+        "instruction tuning"
+      ],
+      "year": "2026 (v2; October release)",
+      "cost": "free",
+      "description": "Synthetic text labels and instruction pairs for 463,062 hours of source speech across 48 languages and 16 corpora. Public JSONL manifests include transcripts, translations and other speech targets, with loading examples and per-record quality fields. Audio must be obtained separately from source distributors, sometimes through access requests. Released manifests use OpenMDW-1.1 except the People_Speech subset, which uses CC BY-SA 4.0; source-audio terms remain separate.",
+      "why": "Illustrates how to load speech labels by language or corpus and check target availability before training or evaluation.",
+      "legacy_category": "data",
+      "topic": "databases"
     }
   ]
 }
