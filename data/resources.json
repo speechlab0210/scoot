@@ -2414,9 +2414,9 @@
         "autocorrelation",
         "modulation"
       ],
-      "year": "2026 (site v1.5.0)",
+      "year": "2026 (site v1.5.1)",
       "cost": "free",
-      "description": "Free browser tools and guided demos from FAU's LMS chair for exploring signals, systems, and transforms. Includes continuous and discrete convolution, DFT magnitude and phase, autocorrelation, and modulation exercises. Provides visual practice with signal-processing concepts used in speech analysis; the main site lists version 1.5.0 dated September 2026.",
+      "description": "Free browser tools and guided demos from FAU's LMS chair for exploring signals, systems, and transforms. Includes continuous and discrete convolution, DFT magnitude and phase, autocorrelation, and modulation exercises. Provides visual practice with signal-processing concepts used in speech analysis; the main site lists version 1.5.1 dated November 2026.",
       "why": "Connects equations for spectral analysis and filtering with adjustable signal examples for introductory speech-processing study.",
       "legacy_category": "toolkits",
       "topic": "toolkits"
@@ -2599,6 +2599,25 @@
       "why": "Illustrates how to load speech labels by language or corpus and check target availability before training or evaluation.",
       "legacy_category": "data",
       "topic": "databases"
+    },
+    {
+      "title": "Introduction to the Psychology of Language",
+      "url": "https://nptel.ac.in/courses/109104143",
+      "org": "Ark Verma, IIT Kanpur / NPTEL",
+      "type": "course",
+      "level": "intro",
+      "topics": [
+        "psycholinguistics",
+        "language acquisition",
+        "speech production",
+        "speech comprehension",
+        "bilingualism"
+      ],
+      "year": "2026 offering; public lecture archive",
+      "cost": "free",
+      "description": "Video course with 38 lecture links organized into eight weekly units. Covers language acquisition, speech production and comprehension, word and sentence processing, reading, the neural basis of language, and bilingualism. The public lecture archive can be used for self-study. Optional certification requires enrollment, assignments and a paid proctored exam during an active offering; the listed February-April 2026 run has ended.",
+      "why": "Connects the cognitive processes behind speaking and understanding with the speech signals studied in engineering courses.",
+      "topic": "psycholinguistics"
     }
   ]
 }

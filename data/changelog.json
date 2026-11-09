@@ -1,6 +1,11 @@
 {
   "entries": [
     {
+      "date": "2026-11-10",
+      "change": "Added IIT Kanpur's Introduction to the Psychology of Language lecture archive, with a distinction between public materials and optional paid certification. Updated the FAU Signal Processing Toolkit version note to 1.5.1.",
+      "source": "daily review"
+    },
+    {
       "date": "2026-11-09",
       "change": "Added Granary-v2 with separate label and source-audio access and licensing notes. Updated Praat to 7.0.03, documented AudioBench's GPU example, and replaced broad adoption claims with concrete dataset uses.",
       "source": "daily review"
