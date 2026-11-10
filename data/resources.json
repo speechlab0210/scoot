@@ -1363,7 +1363,7 @@
       "year": "2024, updated 2025",
       "cost": "free",
       "description": "Systematic survey of modern TTS: zero-shot voice cloning and control of emotion, timbre, and style via codec language models (VALL-E line, arXiv 2301.02111), diffusion, and flow matching, plus datasets and evaluation. Companion list at github.com/imxtx/awesome-controllable-speech-synthesis.",
-      "why": "The best current map of TTS techniques after the LLM and diffusion shift.",
+      "why": "Organizes controllable synthesis methods by architecture, control strategy and speech representation, with links to datasets and evaluation approaches.",
       "legacy_category": "frontier",
       "topic": "speech-synthesis"
     },
@@ -1845,7 +1845,7 @@
       "year": "2024, maintained",
       "cost": "free",
       "description": "Guidance resource on captions/subtitles, transcripts, audio description and sign language for media, with the WCAG requirements they satisfy and planning advice. Free, maintained (updated September 2024); defines what quality captioning for Deaf and hard-of-hearing users actually requires.",
-      "why": "Sets the accessibility and captioning-quality standards that ASR-driven live-captioning systems must meet.",
+      "why": "Helps readers plan captions, transcripts and audio description, and connect those choices to WCAG requirements.",
       "legacy_category": "clinical",
       "topic": "clinical"
     },
@@ -1886,8 +1886,8 @@
       ],
       "year": "2025, ongoing releases",
       "cost": "free",
-      "description": "Disordered-speech corpus for accessible ASR. The released package covers Parkinson's, ALS, cerebral palsy, stroke and Down syndrome; recruitment also includes stuttering and hearing loss. Access requires a one-page proposal and a data-use agreement signed separately by the researcher and an authorized organization representative, using organizational email addresses. Includes speech recordings, prompts, transcripts and some clinical annotations.",
-      "why": "The field's largest current multi-condition disordered-speech dataset and central new accessibility resource.",
+      "description": "Disordered-speech corpus for accessible ASR. The released package covers Parkinson's, ALS, cerebral palsy, stroke and Down syndrome; recruitment also includes stuttering and hearing loss. Access requires a one-page proposal and a data-use agreement signed separately by the researcher and an authorized organization representative, using organizational email addresses; agreements cannot exceed three years. Includes speech recordings, prompts, transcripts and some clinical annotations.",
+      "why": "Supports study of speech recognition across several disability-related speech patterns, with recordings, transcripts and selected clinical annotations.",
       "legacy_category": "clinical",
       "topic": "clinical"
     },
@@ -1929,7 +1929,7 @@
       "year": "2021, maintained",
       "cost": "free",
       "description": "Open dataset of ~28,000 three-second podcast clips (plus ~4,000 FluencyBank clips) labeled for five stuttering event types (blocks, prolongations, sound/word repetitions, interjections) by three annotators. Labels and metadata on GitHub (dataset CC BY-NC 4.0); audio must be re-downloaded from the original podcast URLs, and as of October 2026 the Stuttering Is Cool and Strong Voices URLs return 404 (about 6,300 of 28,177 clips), while FluencyBank media require a TalkBank login.",
-      "why": "The most widely used public stuttering-event label set for dysfluency detection, though part of its source audio can no longer be downloaded.",
+      "why": "Provides short-clip labels for studying stuttering-event detection and annotator agreement; audio availability depends on the original distributors.",
       "legacy_category": "clinical",
       "topic": "clinical"
     },
