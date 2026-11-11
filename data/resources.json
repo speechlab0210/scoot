@@ -117,7 +117,7 @@
       ],
       "year": "2018 chart, maintained",
       "cost": "free",
-      "description": "The International Phonetic Association's official clickable chart: click any symbol to hear it (recordings by Esling, House, Ladefoged, Wells) and see its phonetic description, IPA number, and Unicode value. Covers the full consonant, vowel, and diacritic inventory. Free.",
+      "description": "The International Phonetic Association's clickable chart combines IPA symbols with recordings by Esling, House, Ladefoged and Wells, plus phonetic descriptions, IPA numbers and Unicode values. Includes a field for entering transcriptions by clicking symbols, terminology in over 30 chart languages, and downloadable chart PDFs.",
       "why": "Authoritative, audio-backed reference for the sound-to-symbol inventory.",
       "legacy_category": "foundations",
       "topic": "phonetics"
@@ -334,7 +334,7 @@
       "year": "2026 (Fall offering), taught annually",
       "cost": "free",
       "description": "CMU's graduate speech recognition course from Shinji Watanabe's WAVLab, taught in Fall 2026 by Samuele Cornell and Jee-weon Jung. The public syllabus covers HMM, CTC, RNN-T and attention-based ASR, with a lecture schedule, ESPnet tutorials, coding assignments and a research project. Slides, recordings and assignments are distributed through Piazza; the syllabus page does not provide public downloads of those materials.",
-      "why": "Annual course from the ESPnet lab; closest match to current ASR research practice.",
+      "why": "Outlines a progression from HMM algorithms to end-to-end ASR, with implementation objectives and a group research project.",
       "legacy_category": "courses",
       "topic": "speech-recognition"
     },
@@ -646,7 +646,7 @@
       ],
       "year": "2026 (v2.0.1)",
       "cost": "free",
-      "description": "Deployment toolkit running ASR, TTS, speaker diarization, VAD, and enhancement fully offline via onnxruntime. Supports Android, iOS, Raspberry Pi, RISC-V, and x86 servers, with APIs in 12 programming languages. Frequent releases through 2026; Apache-2.0.",
+      "description": "Deployment toolkit running ASR, TTS, speaker diarization, VAD, and enhancement fully offline via onnxruntime. Supports Android, iOS, Raspberry Pi, RISC-V, and x86 servers, with APIs in 12 programming languages. Toolkit code is Apache-2.0. A separate forced-alignment release provides Chinese acoustic models and pronunciation dictionaries; each model retains its original license.",
       "why": "One library takes models from the classroom to phones and embedded boards, no internet needed.",
       "legacy_category": "toolkits",
       "topic": "asr-toolkits"
@@ -1458,7 +1458,7 @@
       "year": "2026, next 2027",
       "cost": "paid",
       "description": "IEEE's annual flagship signal processing conference; speech and audio are among its largest tracks. ICASSP 2026 was held in Barcelona (4-8 May). The next edition takes place in Toronto, Canada, 16-21 May 2027, with calls for tutorials, short courses, satellite workshops and SP Grand Challenges. ICASSP 2028 is planned for Tokyo. Student rates available.",
-      "why": "The other must-attend venue; its Grand Challenges are student-accessible entry points.",
+      "why": "Provides technical sessions, tutorials and workshops for following signal-processing research, including speech and audio.",
       "legacy_category": "community",
       "topic": "community"
     },
@@ -1476,8 +1476,8 @@
       ],
       "year": "2026",
       "cost": "paid",
-      "description": "Two biennial single-track IEEE workshops that alternate yearly: ASRU (2025 edition in Honolulu drew a record 447 submissions) and SLT 2026 (Palermo, 13-16 December). Cover ASR, spoken language understanding, dialog, and speech foundation models. Small scale means posters get real senior-researcher traffic.",
-      "why": "Single-track workshops where students actually converse with leading researchers, unlike mega-conferences.",
+      "description": "Two biennial single-track IEEE workshops that alternate yearly: ASRU (2025 edition in Honolulu drew a record 447 submissions) and SLT 2026 (Palermo, 13-16 December). Cover ASR, spoken language understanding, dialog, and speech foundation models. The SLT 2026 site provides a public program, tutorial list and invited-talk information.",
+      "why": "Provides focused venues for presenting speech research and following tutorial, invited-talk and challenge programs.",
       "legacy_category": "community",
       "topic": "community"
     },
@@ -1568,8 +1568,8 @@
       ],
       "year": "2026, ongoing",
       "cost": "free",
-      "description": "Grants for students and early-career researchers attending ISCA-organized or ISCA-supported conferences, workshops, and training schools; cover early registration and possibly accommodation. Applicants are normally expected to have an accepted paper, document other funding sought, and have no prior ISCA grant. Applications that do not meet every criterion may still be considered; awards depend on the available budget. Researchers from low-income countries or special situations may also apply.",
-      "why": "Real conference money many students never learn exists; previous ISCA grant holders are normally not funded again, so apply strategically.",
+      "description": "Grants for students and early-career researchers attending ISCA-organized or ISCA-supported conferences, workshops, and training schools; cover early registration and possibly accommodation. Travel expenses are covered only exceptionally. Applicants are normally expected to have an accepted paper, document other funding sought, and have no prior ISCA grant. Applications that do not meet every criterion may still be considered; awards depend on the available budget. Researchers from low-income countries or special situations may also apply.",
+      "why": "Explains eligibility, funding priorities and application timing for attending ISCA-supported events.",
       "legacy_category": "community",
       "topic": "community"
     },
@@ -1624,7 +1624,7 @@
       "year": "2026 (ICASSP 2026 edition, ended May 2026)",
       "cost": "free",
       "description": "Third iteration, run as an ICASSP 2026 SP Grand Challenge (September 2025–May 2026; final rankings posted) on universal, robust, generalizable speech enhancement. Track 1: one unified system across diverse distortions, domains, and formats, with a 700-hour curated training set; Track 2: speech quality assessment. Data, baselines and leaderboards remain online; the next URGENT round runs as CHiME-10 Task 2 (opens February 2027).",
-      "why": "Beginner-feasible: provided data, baselines and leaderboard; the next round (CHiME-10 Task 2) offers a path to a challenge paper.",
+      "why": "Pairs enhancement and perceptual-quality tasks with training data, baseline code and explicit evaluation metrics.",
       "legacy_category": "community",
       "topic": "community"
     },
@@ -1642,7 +1642,7 @@
       "year": "annual (2026 held; 2027 announced)",
       "cost": "free",
       "description": "Annual residential summer program at Johns Hopkins (since 1995): a 2-week summer school followed by a 6-week team research workshop where international researchers tackle speech and language problems. JSALT 2026 (the 12th Frederick Jelinek Memorial Workshop) ran 15 June-7 August 2026. The official site now lists the 2027 edition as the current workshop. Teams include funded positions for graduate and undergraduate students.",
-      "why": "Eight funded weeks doing real research beside field leaders; career-making for many.",
+      "why": "Combines a preparatory summer school with collaborative research teams, hands-on labs and guest lectures.",
       "legacy_category": "community",
       "topic": "community"
     },

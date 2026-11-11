@@ -1,6 +1,11 @@
 {
   "entries": [
     {
+      "date": "2026-11-12",
+      "change": "Expanded the IPA chart's transcription and multilingual features, documented sherpa-onnx forced-alignment models and their separate licenses, and clarified ISCA grant coverage. Replaced broad course and event recommendations with concrete learning uses.",
+      "source": "daily review"
+    },
+    {
       "date": "2026-11-11",
       "change": "Clarified the Speech Accessibility Project's data-use duration and described concrete learning uses for four synthesis and accessibility resources.",
       "source": "daily review"
