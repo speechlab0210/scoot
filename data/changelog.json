@@ -1,6 +1,11 @@
 {
   "entries": [
     {
+      "date": "2026-11-15",
+      "change": "Updated the librosa version note to 1.0.1. Clarified learning uses for Seeing Speech and five speech-language-model resources, replacing broad recommendation claims with specific topics and methods.",
+      "source": "daily review"
+    },
+    {
       "date": "2026-11-12",
       "change": "Expanded the IPA chart's transcription and multilingual features, documented sherpa-onnx forced-alignment models and their separate licenses, and clarified ISCA grant coverage. Replaced broad course and event recommendations with concrete learning uses.",
       "source": "daily review"

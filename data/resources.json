@@ -59,7 +59,7 @@
       "year": "2018",
       "cost": "free",
       "description": "Interactive IPA chart where each sound links to MRI video, ultrasound tongue imaging, and 2D midsagittal animations of the vocal tract, showing how consonants and vowels are articulated. Built by six Scottish universities. Free, Creative Commons licensed (CC BY-NC-ND). The site requires prior written consent for AI training, machine learning and automated transformation of its content.",
-      "why": "Best free window into articulation using real MRI and ultrasound imaging.",
+      "why": "Connects IPA symbols with visible tongue and vocal-tract movements in ultrasound, MRI and animations.",
       "legacy_category": "foundations",
       "topic": "articulatory-phonetics"
     },
@@ -775,7 +775,7 @@
         "Python",
         "signal processing"
       ],
-      "year": "2026 (v1.0.0)",
+      "year": "2026 (v1.0.1)",
       "cost": "free",
       "description": "Python library for audio and music analysis: loading, spectrograms, mel features, MFCCs, pitch tracking, beat detection, and visualization utilities. The foundation of countless speech feature-extraction tutorials. v1.0.0 (first stable-API release) released August 2026; ISC license.",
       "why": "The first library most students touch for audio feature extraction in Python.",
@@ -1171,7 +1171,7 @@
       "year": "2023, still maintained",
       "cost": "free",
       "description": "Curated, regularly updated reading list covering the three pillars of speech LLMs: self-supervised representation models, neural audio codecs (EnCodec, DAC, Mimi), and speech/audio language models, plus benchmarks and tutorial links. Hundreds of papers; updates through 2026.",
-      "why": "A living map of the speech-LLM literature, maintained by leading researchers in the area.",
+      "why": "Organizes papers by speech representations, neural codecs and language models, with links to related surveys.",
       "legacy_category": "frontier",
       "topic": "ann"
     },
@@ -1228,7 +1228,7 @@
       "year": "2025, updated 2026",
       "cost": "free",
       "description": "Survey organizing the whole spoken-LM space — purely speech-trained models, speech-plus-text hybrids, and speech-aware text LLMs — by architecture, training stages, and evaluation choices, with open problems. Authored across CMU, NTU, TTIC, Meta; published in TMLR, revised April 2026.",
-      "why": "The most authoritative taxonomy of the field, written by many of its leading researchers.",
+      "why": "Organizes spoken language models by architecture, training and evaluation choices to support comparisons across approaches.",
       "legacy_category": "frontier",
       "topic": "ann"
     },
@@ -1247,8 +1247,8 @@
       ],
       "year": "2025",
       "cost": "free",
-      "description": "Systematic review of discrete speech tokens: acoustic codec tokens (EnCodec, DAC, Mimi line) versus semantic tokens from self-supervised models, with taxonomy, design trade-offs, and controlled experimental comparisons across token types. Accepted to IEEE TPAMI; the key reference on audio tokenization for speech LLMs.",
-      "why": "Clearest explanation of codec versus semantic tokens, the core abstraction underlying speech LLMs.",
+      "description": "Systematic review of discrete speech tokens: acoustic codec tokens (EnCodec, DAC, Mimi line) versus semantic tokens from self-supervised models, with taxonomy, design trade-offs, and controlled experimental comparisons across token types. Accepted to IEEE TPAMI.",
+      "why": "Compares acoustic and semantic token designs, including their strengths, limitations and experimental trade-offs.",
       "legacy_category": "frontier",
       "topic": "ann"
     },
@@ -1305,7 +1305,7 @@
       "year": "2024",
       "cost": "free",
       "description": "Canonical paper for real-time full-duplex spoken dialogue: a 7B speech-text foundation model using the streaming Mimi neural codec and Inner Monologue text-token prefixing, reaching about 200 ms practical latency. Open code and weights at github.com/kyutai-labs/moshi.",
-      "why": "The defining open system for real-time full-duplex voice AI, with fully reproducible code.",
+      "why": "Shows how parallel speech streams and text-token conditioning support simultaneous listening and speaking.",
       "legacy_category": "frontier",
       "topic": "ann"
     },
@@ -1324,7 +1324,7 @@
       "year": "2024",
       "cost": "free",
       "description": "Technical report for a widely used open audio-language model handling speech, sound, and music inputs, with voice-chat and audio-analysis modes. Representative of the audio-understanding LLM family alongside SALMONN (arXiv 2310.13289). Code and weights at github.com/QwenLM/Qwen2-Audio.",
-      "why": "Canonical open audio-understanding LLM; a baseline in most 2024-2026 evaluations.",
+      "why": "Contrasts spoken-instruction interaction with audio analysis guided by audio and text inputs.",
       "legacy_category": "frontier",
       "topic": "ann"
     },
