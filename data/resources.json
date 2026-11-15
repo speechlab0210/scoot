@@ -18,8 +18,8 @@
       ],
       "year": "2026 (v7.0.03, continuously updated)",
       "cost": "free",
-      "description": "Free open-source software for speech analysis and synthesis: waveforms, spectrograms, and formant, pitch, and intensity tracking, plus TextGrid annotation and a scripting language. Cross-platform (Windows/Mac/Linux). The standard tool for phonetic measurement and teaching; continuously updated.",
-      "why": "De facto standard tool every speech researcher and student uses for acoustic analysis.",
+      "description": "Free open-source software for speech analysis and synthesis: waveforms, spectrograms, and formant, pitch, and intensity tracking, plus TextGrid annotation and a scripting language. Cross-platform (Windows/Mac/Linux). Includes manuals and tutorials for phonetic measurement and scripting.",
+      "why": "Connects spectrogram, pitch and formant analysis with time-aligned annotations and repeatable scripts.",
       "legacy_category": "foundations",
       "topic": "acoustic-phonetics"
     },
@@ -509,7 +509,7 @@
       "year": "2010-2022 recordings, page still online",
       "cost": "free",
       "description": "ISCA's official archive of recorded conference content: Interspeech sessions from 2010-2022, Odyssey speaker and language recognition workshops (2010-2016) and invited lectures, streamed free via SuperLectures and YouTube, many with downloadable slides. Coverage currently stops around 2022.",
-      "why": "Primary free source for conference tutorials and keynotes by field leaders.",
+      "why": "Provides conference recordings and invited lectures for studying speech research methods and historical developments.",
       "legacy_category": "courses",
       "topic": "overviews"
     },
@@ -759,7 +759,7 @@
       "year": "2026 (v3.4.3)",
       "cost": "free",
       "description": "Command-line forced aligner producing word- and phone-level time alignments from audio plus transcripts, with pretrained acoustic models and harmonized IPA dictionaries for dozens of languages, G2P, and model adaptation. v3.4.3 released October 2026; MIT.",
-      "why": "The most widely used aligner in phonetics and speech-corpus research.",
+      "why": "Supports creating time-aligned speech corpora through a command-line forced-alignment workflow.",
       "legacy_category": "toolkits",
       "topic": "acoustic-phonetics"
     },
@@ -1532,7 +1532,7 @@
       "year": "2026, continuously updated",
       "cost": "free",
       "description": "Open-access repository of about 42,000 papers from some 400 ISCA conferences and workshops (1970-2026), including all Interspeech and Eurospeech proceedings plus SSW, Odyssey, SPSC, and Blizzard papers. Searchable by author and topic, with DOIs and BibTeX export.",
-      "why": "Free, paywall-less access to nearly the entire speech-communication literature.",
+      "why": "Supports literature searches by author, conference and topic, with direct access to proceedings.",
       "legacy_category": "community",
       "topic": "overviews"
     },
@@ -2618,6 +2618,25 @@
       "description": "Video course with 38 lecture links organized into eight weekly units. Covers language acquisition, speech production and comprehension, word and sentence processing, reading, the neural basis of language, and bilingualism. The public lecture archive can be used for self-study. Optional certification requires enrollment, assignments and a paid proctored exam during an active offering; the listed February-April 2026 run has ended.",
       "why": "Connects the cognitive processes behind speaking and understanding with the speech signals studied in engineering courses.",
       "topic": "psycholinguistics"
+    },
+    {
+      "title": "Speech 101: Introduction to Speech Processing — Study Guide",
+      "url": "https://www.kamperh.com/notes/speech101.pdf",
+      "org": "Herman Kamper, Stellenbosch University",
+      "type": "course",
+      "level": "intro",
+      "topics": [
+        "speech processing",
+        "self-study",
+        "machine learning",
+        "language modelling",
+        "speech recognition"
+      ],
+      "year": "2026 (March study guide)",
+      "cost": "free",
+      "description": "Five-page self-study guide organizing readings, videos and a Praat practical into a path from speech features and machine learning to language modelling, CTC, HuBERT, wav2vec 2.0 and introductory speech synthesis. The guide is licensed CC BY-SA 4.0; linked materials have their own access and licensing terms. Primarily a study roadmap rather than a standalone textbook.",
+      "why": "Provides an ordered route from signal-processing and neural-network prerequisites to contemporary speech-recognition papers.",
+      "topic": "overviews"
     }
   ]
 }

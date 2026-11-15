@@ -1,6 +1,11 @@
 {
   "entries": [
     {
+      "date": "2026-11-16",
+      "change": "Added a March 2026 Speech 101 self-study guide connecting speech fundamentals with modern recognition methods. Clarified the learning uses of Praat, Montreal Forced Aligner and the ISCA paper and video archives.",
+      "source": "daily review"
+    },
+    {
       "date": "2026-11-15",
       "change": "Updated the librosa version note to 1.0.1. Clarified learning uses for Seeing Speech and five speech-language-model resources, replacing broad recommendation claims with specific topics and methods.",
       "source": "daily review"
