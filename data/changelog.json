@@ -1,6 +1,11 @@
 {
   "entries": [
     {
+      "date": "2026-11-18",
+      "change": "Updated Montreal Forced Aligner to v3.4.4 and pyannote.audio to v4.1.0, including its Python 3.11 minimum and older tutorial compatibility notes. Clarified learning uses for auditory demonstrations and speech toolkits.",
+      "source": "daily review"
+    },
+    {
       "date": "2026-11-16",
       "change": "Added a March 2026 Speech 101 self-study guide connecting speech fundamentals with modern recognition methods. Clarified the learning uses of Praat, Montreal Forced Aligner and the ISCA paper and video archives.",
       "source": "daily review"
