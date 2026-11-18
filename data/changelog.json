@@ -1,6 +1,11 @@
 {
   "entries": [
     {
+      "date": "2026-11-19",
+      "change": "Distinguished the F5-TTS v1 model from package release 1.1.22. Replaced broad recommendation claims with concrete learning uses for DSP materials, prosody research and speech-synthesis tools.",
+      "source": "daily review"
+    },
+    {
       "date": "2026-11-18",
       "change": "Updated Montreal Forced Aligner to v3.4.4 and pyannote.audio to v4.1.0, including its Python 3.11 minimum and older tutorial compatibility notes. Clarified learning uses for auditory demonstrations and speech toolkits.",
       "source": "daily review"

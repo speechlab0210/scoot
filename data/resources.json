@@ -214,8 +214,8 @@
       ],
       "year": "1997–2011, free online",
       "cost": "free",
-      "description": "Steven Smith's 640-page DSP reference, free online in full: sampling, convolution, the DFT/FFT, and FIR/IIR digital filters, with low-math, intuitive explanations and 500+ figures. Browse chapters or download PDFs. Widely used practical reference.",
-      "why": "The intuition-first DSP reference, complete and entirely free.",
+      "description": "Steven Smith's 640-page DSP reference, free online in full: sampling, convolution, the DFT/FFT, and FIR/IIR digital filters, with low-math, intuitive explanations and 500+ figures. Browse chapters or download PDFs.",
+      "why": "Explains convolution, Fourier analysis and digital filters through worked examples and illustrations.",
       "legacy_category": "foundations",
       "topic": "signal-processing"
     },
@@ -235,7 +235,7 @@
       "year": "Fall 2011",
       "cost": "free",
       "description": "MIT OpenCourseWare course on signal and system analysis: discrete- and continuous-time LTI systems, Fourier series and transforms, Laplace and z-transforms, sampling, and feedback. Full video lectures, notes, and problem sets with solutions. CC BY-NC-SA. Undergraduate core course.",
-      "why": "Rigorous signals-and-systems foundation underpinning all speech DSP.",
+      "why": "Explains linear systems, transforms and sampling with lecture videos and worked problem sets.",
       "legacy_category": "foundations",
       "topic": "signal-processing"
     },
@@ -665,7 +665,7 @@
       "year": "2026 (v1.8.0)",
       "cost": "free",
       "description": "Local neural speech synthesis with VITS-based voices in dozens of languages. The engine runs on Raspberry Pi-class hardware and powers Home Assistant voice. It succeeds rhasspy/piper, archived in October 2025. Version 1.8.0 was released in September 2026 under GPL-3.0. Each voice has a model card specifying its own license terms.",
-      "why": "Simplest way to run offline TTS; a natural first synthesis tool for students.",
+      "why": "Provides a local speech-synthesis engine with command-line and Python interfaces and guides for training voices.",
       "legacy_category": "toolkits",
       "topic": "synthesis-toolkits"
     },
@@ -681,10 +681,10 @@
         "flow matching",
         "diffusion transformer"
       ],
-      "year": "2025 (v1 model), repo active 2026",
+      "year": "2025 (v1 model); package 1.1.22 in 2026",
       "cost": "free",
       "description": "Zero-shot voice-cloning TTS using flow matching with a Diffusion Transformer, trained on 100k hours of multilingual data (Emilia). Provides training, fine-tuning, CLI, and Gradio inference. v1 base model released March 2025; code MIT, checkpoints CC-BY-NC.",
-      "why": "Accessible state-of-the-art open voice cloning; a widely used baseline in 2025-26 TTS research.",
+      "why": "Provides inference examples and training and fine-tuning guides for flow-matching speech synthesis.",
       "legacy_category": "toolkits",
       "topic": "synthesis-toolkits"
     },
@@ -703,7 +703,7 @@
       "year": "2025 (Fun-CosyVoice 3.0)",
       "cost": "free",
       "description": "CosyVoice 2 and Fun-CosyVoice 3 are language-model-based systems for zero-shot speech synthesis, with tools for training, inference, and streaming deployment. Runtimes include vLLM and TensorRT-LLM. Fun-CosyVoice 3.0 supports nine languages and at least 18 Chinese dialects and accents. It was open-sourced in December 2025 under Apache-2.0.",
-      "why": "Full-stack production-grade TTS with top zero-shot quality and streaming support.",
+      "why": "Includes examples for zero-shot synthesis, model training and streaming deployment.",
       "legacy_category": "toolkits",
       "topic": "synthesis-toolkits"
     },
@@ -777,8 +777,8 @@
       ],
       "year": "2026 (v1.0.1)",
       "cost": "free",
-      "description": "Python library for audio and music analysis: loading, spectrograms, mel features, MFCCs, pitch tracking, beat detection, and visualization utilities. The foundation of countless speech feature-extraction tutorials. v1.0.0 (first stable-API release) released August 2026; ISC license.",
-      "why": "The first library most students touch for audio feature extraction in Python.",
+      "description": "Python library for audio and music analysis: loading, spectrograms, mel features, MFCCs, pitch tracking, beat detection, and visualization utilities. v1.0.0 (first stable-API release) released August 2026; ISC license.",
+      "why": "Provides Python audio-analysis functions alongside tutorials and an API reference.",
       "legacy_category": "toolkits",
       "topic": "signal-processing"
     },
@@ -1495,8 +1495,8 @@
       ],
       "year": "2026",
       "cost": "paid",
-      "description": "Biennial conference of ISCA's prosody SIG and the only recurring international meeting covering linguistic, psychological, social, and technological aspects of prosody; about 300 attendees. Speech Prosody 2026 (13th edition) took place 26-29 May 2026 at the University of Pennsylvania, Philadelphia; the conference meets in even-numbered years.",
-      "why": "The home venue for phonetics- and linguistics-leaning speech students; small and welcoming.",
+      "description": "Biennial conference of ISCA's prosody SIG covering linguistic, psychological, social, and technological aspects of prosody; about 300 attendees. Speech Prosody 2026 (13th edition) took place 26-29 May 2026 at the University of Pennsylvania, Philadelphia; the conference meets in even-numbered years.",
+      "why": "Connects prosody research across linguistics, psychology and speech technology.",
       "legacy_category": "community",
       "topic": "prosodics"
     },
