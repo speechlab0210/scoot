@@ -644,7 +644,7 @@
         "diarization",
         "embedded systems"
       ],
-      "year": "2026 (v2.0.1)",
+      "year": "2026 (v2.0.2)",
       "cost": "free",
       "description": "Deployment toolkit running ASR, TTS, speaker diarization, VAD, and enhancement fully offline via onnxruntime. Supports Android, iOS, Raspberry Pi, RISC-V, and x86 servers, with APIs in 12 programming languages. Toolkit code is Apache-2.0. A separate forced-alignment release provides Chinese acoustic models and pronunciation dictionaries; each model retains its original license.",
       "why": "One library takes models from the classroom to phones and embedded boards, no internet needed.",
@@ -793,9 +793,9 @@
         "voice activity detection",
         "speaker embedding"
       ],
-      "year": "2026 (v4.1.0)",
+      "year": "2026 (v4.1.1)",
       "cost": "free",
-      "description": "PyTorch toolkit for speaker diarization: voice activity detection, segmentation, speaker embeddings, and the open pretrained community-1 pipeline on Hugging Face. Downloading community-1 weights requires a Hugging Face access token and acceptance of its user conditions; a paid precision-2 API also exists. v4.1.0 released November 2026 and requires Python 3.11 or newer; code MIT. Most older tutorial notebooks target earlier APIs and may need updates.",
+      "description": "PyTorch toolkit for speaker diarization: voice activity detection, segmentation, speaker embeddings, and the open pretrained community-1 pipeline on Hugging Face. Downloading community-1 weights requires a Hugging Face access token and acceptance of its user conditions; a paid precision-2 API also exists. v4.1.1 released November 2026 and requires Python 3.11 or newer; code MIT. Most older tutorial notebooks target earlier APIs and may need updates.",
       "why": "Provides speaker-diarization components and pretrained pipelines that can be adapted to a target dataset.",
       "legacy_category": "toolkits",
       "topic": "asr-toolkits"
@@ -2593,9 +2593,9 @@
         "synthetic labels",
         "instruction tuning"
       ],
-      "year": "2026 (v2; October release)",
+      "year": "2026 (v2; November data cleanup)",
       "cost": "free",
-      "description": "Synthetic text labels and instruction pairs for 463,062 hours of source speech across 48 languages and 16 corpora. Public JSONL manifests include transcripts, translations and other speech targets, with loading examples and per-record quality fields. Audio must be obtained separately from source distributors, sometimes through access requests. Released manifests use OpenMDW-1.1 except the People_Speech subset, which uses CC BY-SA 4.0; source-audio terms remain separate.",
+      "description": "Synthetic text labels and instruction pairs for 419,974 hours of source speech across 48 languages and 16 corpora. The November 2026 cleanup removed 43,088 hours flagged by the processing pipeline. Public JSONL manifests include transcripts, translations and other speech targets, with loading examples and per-record quality fields. Audio must be obtained separately from source distributors, sometimes through access requests. Released manifests use OpenMDW-1.1 except the People_Speech subset, which uses CC BY-SA 4.0; source-audio terms remain separate.",
       "why": "Illustrates how to load speech labels by language or corpus and check target availability before training or evaluation.",
       "legacy_category": "data",
       "topic": "databases"

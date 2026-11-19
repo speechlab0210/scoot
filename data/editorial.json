@@ -17,7 +17,7 @@
     "stats": [
       {
         "key": "benchmarks",
-        "n": "488",
+        "n": "489",
         "label": "benchmarks"
       },
       {
@@ -32,7 +32,7 @@
       },
       {
         "key": "result_cells",
-        "n": "18,819",
+        "n": "18,835",
         "label": "sourced result cells"
       }
     ],

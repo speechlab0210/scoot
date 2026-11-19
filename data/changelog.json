@@ -1,6 +1,11 @@
 {
   "entries": [
     {
+      "date": "2026-11-20",
+      "change": "Updated sherpa-onnx to v2.0.2 and pyannote.audio to v4.1.1. Updated Granary-v2 to its November cleaned release, with labels for 419,974 hours of source speech and a note about the removed data.",
+      "source": "daily review"
+    },
+    {
       "date": "2026-11-19",
       "change": "Distinguished the F5-TTS v1 model from package release 1.1.22. Replaced broad recommendation claims with concrete learning uses for DSP materials, prosody research and speech-synthesis tools.",
       "source": "daily review"
