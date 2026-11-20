@@ -2154,7 +2154,7 @@
       ],
       "year": "2013",
       "cost": "paid",
-      "description": "Field-defining Wiley textbook (344 pages) on automatically recognizing speaker states and traits — emotion, personality, age, health, intoxication — from speech and language. Covers the taxonomy of paralinguistics, corpora, acoustic features, machine learning and evaluation, with a tutorial on the openEAR toolkit lineage.",
+      "description": "Wiley textbook (344 pages) on automatically recognizing speaker states and traits — emotion, personality, age, health, intoxication — from speech and language. Covers the taxonomy of paralinguistics, corpora, acoustic features, machine learning and evaluation, with a tutorial on the openEAR toolkit lineage.",
       "why": "The standard reference that framed computational paralinguistics as a field; still the canonical entry point.",
       "legacy_category": "paralinguistics",
       "topic": "paralinguistics"
@@ -2196,7 +2196,7 @@
       ],
       "year": "2010, still maintained (v3.0.2, 2023)",
       "cost": "free",
-      "description": "C++ audio feature extractor, the de facto standard in paralinguistics: computes the ComParE 2016 (6,373 features) and GeMAPS/eGeMAPS acoustic parameter sets used across the challenge literature. pip-installable Python wrapper (opensmile-python). Free for private, research and educational use; commercial use requires a license.",
+      "description": "C++ audio feature extractor for speech and music analysis: computes the ComParE 2016 (6,373 features) and GeMAPS/eGeMAPS acoustic parameter sets used across the challenge literature. pip-installable Python wrapper (opensmile-python). Free for private, research and educational use; commercial use requires a license.",
       "why": "The feature sets behind nearly all classic SER baselines; still the reproducibility workhorse.",
       "legacy_category": "paralinguistics",
       "topic": "paralinguistics"
@@ -2216,7 +2216,7 @@
       ],
       "year": "2022, model and paper 2023",
       "cost": "free",
-      "description": "Notebook tutorial for audEERING's public wav2vec 2.0 model predicting arousal, dominance and valence, fine-tuned on MSP-Podcast v1.7; weights on Hugging Face and Zenodo (CC BY-NC-SA 4.0, non-commercial). Companion TPAMI 2023 paper analyses transformer-based SER, cross-corpus generalisation and fairness (arXiv:2203.07378).",
+      "description": "Notebook tutorial using the ONNX export of audEERING's 12-layer wav2vec 2.0 model to predict arousal, dominance and valence. The model was fine-tuned on MSP-Podcast v1.7; weights are available on Hugging Face and Zenodo under CC BY-NC-SA 4.0 for non-commercial use. Companion TPAMI 2023 paper analyses transformer-based SER, cross-corpus generalisation and fairness (arXiv:2203.07378).",
       "why": "Runnable state-of-practice dimensional SER in minutes, paired with a rigorous peer-reviewed analysis.",
       "legacy_category": "paralinguistics",
       "topic": "paralinguistics"
@@ -2637,6 +2637,25 @@
       "description": "Five-page self-study guide organizing readings, videos and a Praat practical into a path from speech features and machine learning to language modelling, CTC, HuBERT, wav2vec 2.0 and introductory speech synthesis. The guide is licensed CC BY-SA 4.0; linked materials have their own access and licensing terms. Primarily a study roadmap rather than a standalone textbook.",
       "why": "Provides an ordered route from signal-processing and neural-network prerequisites to contemporary speech-recognition papers.",
       "topic": "overviews"
+    },
+    {
+      "title": "UMUTeam speech-emotion: audio, text and fusion examples",
+      "url": "https://github.com/NLP-UMUTeam/umuteam-speech-emotion",
+      "org": "UMUTeam, University of Murcia",
+      "type": "tool",
+      "level": "intermediate",
+      "topics": [
+        "speech emotion recognition",
+        "multimodal fusion",
+        "Spanish",
+        "English",
+        "inference examples"
+      ],
+      "year": "2026 (SoftwareX paper)",
+      "cost": "free",
+      "description": "Python toolkit with public command-line and API examples for emotion classification from Spanish or English audio, text, or both. Supports concatenation, mean and attention-based fusion, with pretrained model links and six Spanish or seven English labels. Code is MIT-licensed; individual model cards and source-corpus terms remain separate. Its English fusion model card describes predictions as context-dependent estimates that may degrade with noise or domain shift.",
+      "why": "Lets learners compare audio-only, text-only and multimodal inference using one API.",
+      "topic": "paralinguistics"
     }
   ]
 }

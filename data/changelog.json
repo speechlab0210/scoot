@@ -1,6 +1,11 @@
 {
   "entries": [
     {
+      "date": "2026-11-21",
+      "change": "Added UMUTeam speech-emotion examples for Spanish and English audio, text and multimodal inference. Clarified the ONNX model used in the audEERING emotion tutorial and replaced broad claims in two paralinguistics descriptions with factual wording.",
+      "source": "daily review"
+    },
+    {
       "date": "2026-11-20",
       "change": "Updated sherpa-onnx to v2.0.2 and pyannote.audio to v4.1.1. Updated Granary-v2 to its November cleaned release, with labels for 419,974 hours of source speech and a note about the removed data.",
       "source": "daily review"
